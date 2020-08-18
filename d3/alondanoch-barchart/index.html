@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Alon Danoch Barchart</title>
+    <link rel="stylesheet" href="assets/stylesheet.css">
+    <script src='https://d3js.org/d3.v4.min.js'></script>
+</head>
+<body>
+    <svg width="100%" height="500px"></svg>
+<script>
+var harvestedColor = '#f8f9fb',
+    regularBarColor = '#74ba54',
+    overBarColor = '#ff7342',
+    borderColor = '#29313d',
+    zeroColor = 'rgb(212,217,211)';
+
+// SETUP
+var svg = d3.select("svg"),
+    margin = {
+        top: 20,
+        right: 20,
+        bottom: 30,
+        left: 40
+    },
+    x = d3.scaleBand().padding(0.3),
+    y = d3.scaleLinear(),
+    maxlabelWidth,
+    defZeroHeight = 30,
+    maxCap = undefined,
+    harvestedDate = undefined,
+    selectedWeek = undefined,
+    theData = undefined;
+
+var g = svg.append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+// DRAWING
+
+function draw() {
+
+    var bounds = svg.node().getBoundingClientRect(),
+        width = bounds.width - margin.left - margin.right,
+        height = bounds.height - margin.top - margin.bottom;
+
+    x.rangeRound([0, width]);
+    // xDate.rangeRound([0, width]);
+    y.rangeRound([height, 0]);
+        
+    // draw two backgrounds
+    g.append('rect').attr('x',0).attr('width', x(harvestedDate)+x.step()*0.85).attr('y', 0).attr('height',height).attr('fill',harvestedColor);
+
+    // draw rects
+    var bar_g = g.selectAll(".bar_g")
+        .data(theData).enter().append('g').attr('class', function(d){
+            if(d.week == selectedWeek){                
+                return 'bar_g selected';
+            }
+            return 'bar_g';
+        });
+
+    bar_g.append('rect').attr('class','blackrect')
+        .attr("x", function(d) {
+            return x(d.week) - 8;
+        })
+        .attr("y", function(d) {
+            if(d.tons == 0){
+                return y(0) - defZeroHeight - 8;
+            }
+            return y(d.tons) - 8;
+        })
+        .attr("width", x.bandwidth()+16)
+        .attr("height", function(d) {
+            if(d.tons == 0 || d.tons == undefined){
+                return defZeroHeight + 16;
+            }
+            return height - y(d.tons) + 16;
+        })
+        .attr('rx',8)        
+        .attr('ry',8)        
+        .attr('fill', borderColor);
+
+    bar_g.append('rect').attr('class','whiterect')
+        .attr("x", function(d) {
+            return x(d.week) - 3;
+        })
+        .attr("y", function(d) {
+            if(d.tons == 0){
+                return y(0) - defZeroHeight - 3;
+            }
+            return y(d.tons) - 3;
+        })
+        .attr("width", x.bandwidth()+6)
+        .attr("height", function(d) {
+            if(d.tons == 0 || d.tons == undefined){
+                return defZeroHeight + 6;
+            }
+            return height - y(d.tons) + 6;
+        })
+        .attr('rx',5)        
+        .attr('ry',5)        
+        .attr('fill', 'white');
+
+    bar_g.append('path').attr('class','triange').attr('d', function(d){
+        var startX = x(d.week)+x.bandwidth()/2 - 5;
+        return 'M '+startX + ', ' + (y(0)+8) + ' H ' + (startX + 10)+ ' L ' + (x(d.week)+x.bandwidth()/2) + ', ' + (height+15) + ' L ' + startX + ', ' + (y(0)+8) + ' Z';
+    }).attr('fill',borderColor);
+    // ENTER
+    bar_g.append("rect")
+        .attr("class", "bar")
+        .attr("x", function(d) {
+            return x(d.week);
+        })
+        .attr("y", function(d) {
+            if(d.tons == 0){
+                return y(0) - defZeroHeight;
+            }
+            return y(d.tons);
+        })
+        .attr("width", x.bandwidth())
+        .attr("height", function(d) {
+            if(d.tons == 0 || d.tons == undefined){
+                return defZeroHeight;
+            }
+            return height - y(d.tons);
+        })
+        .attr('fill', function(d) {
+            if (d.tons == 0 || d.tons == undefined || d.tons == null) {
+                return zeroColor;
+            }
+            return regularBarColor;
+        });
+
+    // draw orange rects
+    bar_g.append("rect")
+        .attr("class", "overbar")
+        .attr("x", function(d) {
+            return x(d.week);
+        })
+        .attr("y", function(d) {
+            if(d.tons > maxCap){
+                return y(d.tons);
+            }
+            return 0;
+        })
+        .attr("width", x.bandwidth())
+        .attr("height", function(d) {
+            if(d.tons > maxCap){
+                return height - y(d.tons - maxCap);
+            }
+            return 0;
+        })
+        .attr('fill', function(d) {
+            return overBarColor;
+        });
+
+    // UPDATE
+    // bar_g.attr("x", function(d) {
+    //         return x(d.week);
+    //     })
+    //     .attr("y", function(d) {
+    //         return y(d.tons);
+    //     })
+    //     .attr("width", x.bandwidth())
+    //     .attr("height", function(d) {
+    //         return height - y(d.tons);
+    //     });
+
+    // // EXIT
+    // bar_g.exit()
+    //     .remove();
+
+    bar_g.append('text').attr('x', d=>x(d.week)+x.bandwidth()/2).attr('y', function(d){
+        if(d.tons == 0){
+            return y(0) - defZeroHeight - 10;
+        }
+        return y(d.tons) - 10;
+    }).attr('text-anchor', 'middle').text(d=>d.tons + ' ton');
+
+
+    bar_g.append('text').attr('class', 'week-label').attr('x', d=>x(d.week)+x.bandwidth()/2).attr('y', y(0) - 10).attr('text-anchor', 'middle').text(d=>d.week);
+
+    // add transparent rect to trigger click event
+    bar_g.append("rect")
+        .attr("class", "transparentbar")
+        .attr("x", function(d) {
+            return x(d.week) - 8;
+        })
+        .attr("y", function(d) {
+            if(d.tons == 0){
+                return y(0) - defZeroHeight - 8;
+            }
+            return y(d.tons) - 8;
+        })
+        .attr("width", x.bandwidth() + 16)
+        .attr("height", function(d) {
+            if(d.tons == 0 || d.tons == undefined){
+                return defZeroHeight + 16;
+            }
+            return height - y(d.tons) + 16;
+        })
+        .attr('fill','transparent')
+        .on('click',function(d){
+            d3.selectAll('.selected').attr('class','bar_g');
+            d3.select(this.parentNode).classed('selected',true);
+        })
+
+    // draw max-cap line and text
+    g.append('line').attr('x1',0).attr('y1', y(maxCap)).attr('x2', width).attr('y2', y(maxCap)).attr('fill', overBarColor).attr('stroke', overBarColor);
+
+    var textNode = g.append('g').attr('class','max-label');
+    textNode.append('text').attr('x', width - 5).attr('y',y(maxCap) - 15)
+    .attr('font-family','geomanistregular').classed("hide",true)
+    .attr('fill', overBarColor).attr('text-anchor','end').text("Max weekly capacity: " + maxCap + ' ton').call(getBB);   
+
+    function getBB(selection) {
+        setTimeout(function(){
+            selection.each(function(d){maxlabelWidth = this.getBBox();})
+
+            textNode.insert("rect","text")
+            .attr('x',function(){
+                return width-maxlabelWidth.width - 10;
+            })
+            .attr('y',y(maxCap) - maxlabelWidth.height - 15)
+            .attr("width", function(d){return maxlabelWidth.width + 20})
+            .attr("height", function(d){return maxlabelWidth.height + 10})
+            .style("fill", "white");
+
+            textNode.select('text').classed('hide',false); 
+        }, 500);            
+    }
+    // "Harvested" lhs text
+    g.append("text")
+        .attr('x',10)
+        .attr("y", 10)
+        .attr("dy", "0.71em")
+        .attr("text-anchor", "start")
+        .text("Harvested");
+}
+
+// START!  
+d3.json('data.json', function(err, data) {
+    theData = data.weeks;
+    maxCap = data['max-cap'];
+    harvestedDate = formatDate(new Date(data['hervested']));
+    selectedWeek = formatDate(new Date(data['selected-week']));
+
+    // xDate.domain(d3.extent(theData.map(function(d){return new Date(d.week)})));
+
+    theData.forEach(function(d){
+        d.week = formatDate(new Date(d.week));
+    })
+
+
+    x.domain(theData.map(function(d) {
+        return d.week;
+    }));    
+
+    y.domain([0, d3.max(theData, function(d) {
+        return d.tons;
+    })]).nice();
+
+    draw();
+});
+
+// reformat week info
+function formatDate(date) {
+  var monthNames = ["Jan", "Feb", "Mar","Apr", "May", "Jun", "Jul","Aug", "Sep", "Oct","Nov", "Dec"];
+
+  var day = date.getDate();
+  var monthIndex = date.getMonth();
+  var year = date.getFullYear();
+
+  return monthNames[monthIndex] + ' ' + day;
+}
+
+</script>
+</body>
+</html>

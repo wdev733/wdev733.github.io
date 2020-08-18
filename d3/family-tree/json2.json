@@ -1,0 +1,59 @@
+{
+    "name": "You", "gender": "male",
+    "children": [
+        {
+            "name": "Father", "gender": "male",
+            "children": [
+                {
+                    "name": "GrandFather", "gender": "male",
+                    "children": [
+                        {
+                            "name": "GreatGrandFather", "gender": "male"
+                          },
+                        {
+                            "name": "GreatGrandMother", "gender": "female"
+                        }
+                    ]
+                  },
+                {
+                    "name": "GrandMother", "gender": "female",
+                    "children": [
+                        {
+                            "name": "GreatGrandFather", "gender": "male"
+                          },
+                        {
+                            "name": "GreatGrandMother", "gender": "female"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Mother",
+            "children": [
+                {
+                    "name": "GrandFather", "gender": "male",
+                    "children": [
+                        {
+                            "name": "GreatGrandFather", "gender": "male"
+                          },
+                        {
+                            "name": "GreatGrandMother", "gender": "female"
+                        }
+                    ]
+                },
+                {
+                    "name": "GrandMother", "gender": "female",
+                    "children": [
+                        {
+                            "name": "GreatGrandFather", "gender": "male"
+                          },
+                        {
+                            "name": "GreatGrandMother", "gender": "female"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

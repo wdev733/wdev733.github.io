@@ -1,0 +1,25 @@
+- Bars
+- Bar Colors
+ x Color overrides
+ x Color by categories 
+ + overlay svg images 
+- Labels
+- Images
+ x Rectangle / Circle
+ + Original
+- Time counter & totalizer
+- Captions
+- Legend
+ x ADD DATA COLORS TO HEADER AND CAPTION TEXT
+- Axis
+ + minimum selector
+x Annotations
+- Timeline and animation
+ x Graph
+- Number formatting
+ Prefix and Suffix only
+- Layouts
+ x Layout Order
+ x Border
+ + Background video
+

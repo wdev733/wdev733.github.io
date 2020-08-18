@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Bubble Chart</title>        
+    <link rel="stylesheet" href="assets/styles.css">    
+    <style>
+        #chart-wrapper{
+            max-width: 700px;
+            margin: 0 auto;
+        }
+    </style>
+
+</head>
+
+<body>
+  <div id="chart-wrapper">
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script type="text/javascript">
+var width = 932,
+    height = width;
+var format = d3.format(",d");
+
+var div = d3.select("body").append("div")
+    .attr("class", "tooltip")
+    .style("opacity", 0);
+
+var data = [{"__metadata":{"id":"6fa8f3ea-6263-4f06-b7b9-0ed48f8c9cbb","uri":"https://xxxx/_api/Web/Lists(guid49dceecd-ada5-4ae7-8d24-0a6b8db1dce7)/Items(14308)","etag":"5","type":"SP.Data.SitesListItem"},"xxxLead":{"__deferred":{"uri":"https://xxxx/_api/Web/Lists(guid49dceecd-ada5-4ae7-8d24-0a6b8db1dce7)/Items(14308)/xxxLead"}},"CustomerLead":{"__deferred":{"uri":"https://xxxx/_api/Web/Lists(guid49dceecd-ada5-4ae7-8d24-0a6b8db1dce7)/Items(14308)/CustomerLead"}},"Title":"https://xxxxx/weekly","Storage":157.98},{"__metadata":{"id":"1ca6611a-82e6-478c-9a4b-baafc27eb72d","uri":"https://xxxx/_api/Web/Lists(guid49dceecd-ada5-4ae7-8d24-0a6b8db1dce7)/Items(14309)","etag":"5","type":"SP.Data.SitesListItem"},"xxxLead":{"__deferred":{"uri":"https://xxxx/_api/Web/Lists(guid49dceecd-ada5-4ae7-8d24-0a6b8db1dce7)/Items(14309)/xxxLead"}},"CustomerLead":{"__deferred":{"uri":"https://xxxx/_api/Web/Lists(guid49dceecd-ada5-4ae7-8d24-0a6b8db1dce7)/Items(14309)/CustomerLead"}},"Title":"https://xxxx/VOIP","Storage":157.98}];
+
+// d3.json('assets/bubble2.json').then(function(data) {
+    pack = data => d3.pack()
+        .size([width - 2, height - 2])
+        .padding(3)
+        (d3.hierarchy({
+                children: data
+            })
+            .sum(d => d.Storage))
+
+    var color = d3.scaleOrdinal(data.map(d => d.Title), d3.schemeCategory10);
+
+    const root = pack(data);
+
+    const svg = d3.select('#chart-wrapper').append("svg")
+        .attr("viewBox", [0, 0, width, height])
+        .attr("font-size", 10)
+        .attr("font-family", "sans-serif")
+        .attr("text-anchor", "middle");
+
+    const leaf = svg.selectAll("g")
+        .data(root.leaves())
+        .join("g")
+        .attr("transform", d => `translate(${d.x + 1},${d.y + 1})`);
+
+    leaf.append("circle")
+        .attr("id", d => ('circle_' + d.depth + '_' + d.data.Title))
+        .attr("r", d => d.r)
+        .attr("fill-opacity", 0.7)
+        .attr("fill", d => color(d.data.Title))
+        .on('mousemove', function(d) {
+            var tooltipContent = "<p>"+d.data.Title + "/ " +d.data.Storage +"</p>";
+            let direction = "left";
+            if (d3.event.pageX + 100 < width) {
+                direction = "left";
+            } else {
+                direction = "right";
+            }
+            tooltipContent += '<div class="arrow-' + direction + '"></div>';
+
+            div.transition()
+                .duration(200)
+                .style("opacity", .9);
+            div.html(tooltipContent)
+                .style("left", function() {
+                    if (direction == "right") {
+                        return (d3.event.pageX) - 100 + "px";
+                    } else {
+                        return (d3.event.pageX) + "px";
+                    }
+                })
+
+                .style("top", (d3.event.pageY - 30) + "px");
+        })
+        .on('mouseout', function() {
+            div.transition()
+                .duration(500)
+                .style("opacity", 0);
+        })
+
+    leaf.append("clipPath")
+        .attr("id", d => ('clip_circle_' + d.depth + '_' + d.data.Title))
+        .append("use")
+        .attr("xlink:href", d => ('#circle_' + d.depth + '_' + d.data.Title));
+
+    leaf.append("text")
+        .attr("clip-path", d => ("url(#clip_circle_" + d.depth + '_' + d.data.Title))
+        .selectAll("tspan")
+        .data(d => d.data.Title.split(/(?=[A-Z][a-z])|\s+/g))
+        .join("tspan")
+        .attr("x", 0)
+        .attr("y", (d, i, nodes) => `${i - nodes.length / 2 + 0.8}em`)
+        .text(d => d);
+
+    // leaf.append("title")
+    //     .text(d => `${d.data.title}\n${format(d.value)}`);
+// })
+</script>    
+    </body>
+
+</html>

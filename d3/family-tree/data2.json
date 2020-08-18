@@ -1,0 +1,231 @@
+{
+  "first": "André",
+  "last": "T'Seyen",
+  "birth": "1957 Herentals",
+  "parents": {
+    "married": "1956 Langdorp",
+    "mother": {
+      "first": "1Anna Wellens",
+      "last": "Wellens",
+      "birth": "1937 Langdorp",
+      "parents": {
+        "married": "1956 Langdorp",
+        "mother": {
+          "first": "2Anna Wellens",
+          "last": "Wellens",
+          "birth": "1937 Langdorp",
+          "parents": {
+            "married": "1956 Langdorp",
+            "mother": {
+              "first": "2Anna Wellens",
+              "last": "Wellens",
+              "birth": "1937 Langdorp",
+              "parents": {
+                "married": "1956 Langdorp",
+                "mother": {
+                  "first": "2Anna Wellens",
+                  "last": "Wellens",
+                  "birth": "1937 Langdorp",
+                  "parents": {}
+                },
+                "father": {
+                  "first": "2Jules",
+                  "last": "T'Seyen",
+                  "birth": "1937 Langdorp",
+                  "death": "2017 Aarschot",
+                  "parents": {}
+                }
+              }
+            },
+            "father": {
+              "first": "2Jules",
+              "last": "T'Seyen",
+              "birth": "1937 Langdorp",
+              "death": "2017 Aarschot",
+              "parents": {
+                "married": "1956 Langdorp",
+                "mother": {
+                  "first": "2Anna Wellens",
+                  "last": "Wellens",
+                  "birth": "1937 Langdorp",
+                  "parents": {}
+                },
+                "father": {
+                  "first": "2Jules",
+                  "last": "T'Seyen",
+                  "birth": "1937 Langdorp",
+                  "death": "2017 Aarschot",
+                  "parents": {}
+                }
+              }
+            }
+          }
+        },
+        "father": {
+          "first": "2Jules",
+          "last": "T'Seyen",
+          "birth": "1937 Langdorp",
+          "death": "2017 Aarschot",
+          "parents": {
+            "married": "1956 Langdorp",
+            "mother": {
+              "first": "2Anna Wellens",
+              "last": "Wellens",
+              "birth": "1937 Langdorp",
+              "parents": {
+                "married": "1956 Langdorp",
+                "mother": {
+                  "first": "2Anna Wellens",
+                  "last": "Wellens",
+                  "birth": "1937 Langdorp",
+                  "parents": {}
+                },
+                "father": {
+                  "first": "2Jules",
+                  "last": "T'Seyen",
+                  "birth": "1937 Langdorp",
+                  "death": "2017 Aarschot",
+                  "parents": {}
+                }
+              }
+            },
+            "father": {
+              "first": "2Jules",
+              "last": "T'Seyen",
+              "birth": "1937 Langdorp",
+              "death": "2017 Aarschot",
+              "parents": {
+                "married": "1956 Langdorp",
+                "mother": {
+                  "first": "2Anna Wellens",
+                  "last": "Wellens",
+                  "birth": "1937 Langdorp",
+                  "parents": {}
+                },
+                "father": {
+                  "first": "2Jules",
+                  "last": "T'Seyen",
+                  "birth": "1937 Langdorp",
+                  "death": "2017 Aarschot",
+                  "parents": {}
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "father": {
+      "first": "1Jules",
+      "last": "T'Seyen",
+      "birth": "1937 Langdorp",
+      "death": "2017 Aarschot",
+      "parents": {
+        "married": "1956 Langdorp",
+        "mother": {
+          "first": "2Anna Wellens",
+          "last": "Wellens",
+          "birth": "1937 Langdorp",
+          "parents": {
+            "married": "1956 Langdorp",
+            "mother": {
+              "first": "2Anna Wellens",
+              "last": "Wellens",
+              "birth": "1937 Langdorp",
+              "parents": {
+                "married": "1956 Langdorp",
+                "mother": {
+                  "first": "2Anna Wellens",
+                  "last": "Wellens",
+                  "birth": "1937 Langdorp",
+                  "parents": {}
+                },
+                "father": {
+                  "first": "2Jules",
+                  "last": "T'Seyen",
+                  "birth": "1937 Langdorp",
+                  "death": "2017 Aarschot",
+                  "parents": {}
+                }
+              }
+            },
+            "father": {
+              "first": "2Jules",
+              "last": "T'Seyen",
+              "birth": "1937 Langdorp",
+              "death": "2017 Aarschot",
+              "parents": {
+                "married": "1956 Langdorp",
+                "mother": {
+                  "first": "2Anna Wellens",
+                  "last": "Wellens",
+                  "birth": "1937 Langdorp",
+                  "parents": {}
+                },
+                "father": {
+                  "first": "2Jules",
+                  "last": "T'Seyen",
+                  "birth": "1937 Langdorp",
+                  "death": "2017 Aarschot",
+                  "parents": {}
+                }
+              }
+            }
+          }
+        },
+        "father": {
+          "first": "2Jules",
+          "last": "T'Seyen",
+          "birth": "1937 Langdorp",
+          "death": "2017 Aarschot",
+          "parents": {
+            "married": "1956 Langdorp",
+            "mother": {
+              "first": "2Anna Wellens",
+              "last": "Wellens",
+              "birth": "1937 Langdorp",
+              "parents": {
+                "married": "1956 Langdorp",
+                "mother": {
+                  "first": "2Anna Wellens",
+                  "last": "Wellens",
+                  "birth": "1937 Langdorp",
+                  "parents": {}
+                },
+                "father": {
+                  "first": "2Jules",
+                  "last": "T'Seyen",
+                  "birth": "1937 Langdorp",
+                  "death": "2017 Aarschot",
+                  "parents": {}
+                }
+              }
+            },
+            "father": {
+              "first": "2Jules",
+              "last": "T'Seyen",
+              "birth": "1937 Langdorp",
+              "death": "2017 Aarschot",
+              "parents": {
+                "married": "1956 Langdorp",
+                "mother": {
+                  "first": "2Anna Wellens",
+                  "last": "Wellens",
+                  "birth": "1937 Langdorp",
+                  "parents": {}
+                },
+                "father": {
+                  "first": "2Jules",
+                  "last": "T'Seyen",
+                  "birth": "1937 Langdorp",
+                  "death": "2017 Aarschot",
+                  "parents": {}
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

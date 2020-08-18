@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      <title>Cancer Today</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+      <link rel="stylesheet" href="assets/css/bootstrap-slider.css">
+      <link rel="stylesheet" href="assets/css/styles.css">
+      <link rel="stylesheet" href="assets/css/viz4_2.css">
+      <link id="favicon" rel="shortcut icon" type="image/png" href="assets/imgs/favicon.ico" />
+   </head>
+   <body>
+      <div class="header">
+         <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="#"><img id="logo1" src="assets/imgs/IARC_Logo.png"></a>
+            <a href="/" id="new-icon" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Global Cancer Observatory"> <img id="logo-gco" src="assets/imgs/GCO-White-60.png"> </a>
+            <a href="/today/home" id="new-logo"> <img id="logo" src="assets/imgs/CancerToday-White-60.png"> </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+               <ul class="navbar-nav">
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">ABOUT</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">DATA & METHODS</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">FACT SHEETS</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">EXPLORE</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">HELP</a>
+                  </li>
+               </ul>
+            </div>
+         </nav>
+      </div>
+      <div class="main-content">
+         <nav class="sub-nav navbar-inverse navbar-expand-lg" role="navigation" aria-hidden="false">
+            <div class="navbar-header">
+            </div>
+            <div id="sub-nav" class="navbar-collapse collapse">
+               <ul class="nav">
+                  <li>
+                     <a href="#" title="Comparisons"><img src="assets/imgs/comparison.png"></a>
+                  </li>
+                  <li>
+                     <a href="#" title="Proportion"><img src="assets/imgs/proportion.png"></a>            
+                  </li>
+                  <li>
+                     <a href="#" title="Geography"><img src="assets/imgs/geography.png"></a>
+                  </li>
+                  <li>
+                     <a href="#" title="Proportions"><img src="assets/imgs/hierarchy.png">
+                     </a>
+                  </li>
+               </ul>
+            </div>
+         </nav>
+         <div class="wrapper">
+            <!-- Sidebar -->
+            <nav id="sidebar">
+               <div class="sidebar-content">
+                  <div class="control_container">
+                     <h3 class="border-hidden"> Compare across</h3>
+                     <div class="input_wrapper">
+                        <select id="groupbyselect">
+                           <option value="agegrp"> Age Group </option>                   
+                           <option value="cancer_site"> Cancer Site </option>                                   
+                           <option value="country" selected="selected"> Country </option>                           
+                           <option value="sex"> Gender </option>                           
+                           <option value="sub_region"> Registry </option>                           
+                        </select>
+                     </div>
+                  </div>
+                  <div class="control_container" id="cancer_site_wrapper">
+                     <h3> Cancer sites</h3>
+                     <div class="input_wrapper">
+                        <select id="cancer_sites">
+                           <!-- <option value="All" selected> All</option> -->
+                        </select>
+                     </div>
+                  </div>
+                  <div class="control_container hide" id="country_wrapper">
+                     <h3> Country</h3>
+                     <div class="input_wrapper">
+                        <select id="country_select">
+                           
+                        </select>
+                     </div>
+                  </div>
+                  <div class="control_container" id="agegroup_wrapper">
+                     <h3> Age Group</h3>
+                     <div class="input_wrapper">
+                        <select id="agegroup_select">
+                           
+                        </select>
+                     </div>
+                  </div>
+                  <div class="control_container" id="gender_wrapper">
+                     <h3> Gender</h3>
+                     <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="gender" id="gender_male" value="Males" checked="checked">
+                        <label class="form-check-label" for="inlineRadio2">Male</label>
+                     </div>
+                     <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="gender" id="gender_female" value="Females">
+                        <label class="form-check-label" for="inlineRadio2">Female</label>
+                     </div>
+                  </div>
+                  <div class="control_container" id="time_wrapper">
+                     <h3> Time</h3>
+                        <div class="input_wrapper">
+                        <select id="time_select">
+                           
+                        </select>
+                     </div>
+                  </div>
+                  <div class="control_container">
+                     <h3>Calculation Period</h3>
+                     <div class="input_wrapper">
+                        <select id="period_select">
+                        </select>
+                     </div>
+                  </div>
+
+                  <div class="control_container" id="checkboxes_wrapper">
+                     <h3></h3>
+                     <div class="input_wrapper">                     
+                     </div>
+                  </div>
+               </div>
+               <div class="controls"></div>
+            </nav>
+            <button class="md-primary" id="toggle-left-bar">
+            <i class="fa fa-arrow-circle-o-left"></i>
+            </button>
+            <!-- Page Content -->
+            <div id="content">
+               <!-- <h2 class="chart-title">Estimated  number of new cases in 2018, worldwide,  all cancers, both sexes, all ages</h2> -->
+               <div id="chart_container">
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="rightsidepanel">
+         <ul class="dataviz_tool group-3">
+            <li>
+               <ul class="sub-group download">
+                  <li ng-hide="" aria-hidden="false" class="">
+                     <a href="javascript:void(0);" id="link-print-png">
+                     <span class="fiv-viv fiv-icon-png"></span>
+                     <span class="hd">HD</span>
+                     </a>
+                  </li>
+                  <li ng-hide="" aria-hidden="false" class="">
+                     <a href="javascript:void(0);" id="link-print-pdf">
+                     <span class="fiv-viv fiv-icon-pdf"></span>
+                     <span class="hd">HD</span>
+                     </a>
+                  </li>
+                  <li ng-hide="" aria-hidden="false" class="">
+                     <a href="javascript:void(0);" id="link-print-pptx" aria-label="Download chart as a PPTX file">
+                     <span class="fiv-viv fiv-icon-ppt"></span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="javascript:void(0);" id="link-print-svg" onclick="printGraph('svg')" aria-label="Download chart in a SVG file">
+                     <span class="fiv-viv fiv-icon-svg"></span>                  
+                     </a>
+                  </li>
+               </ul>
+            </li>
+            <li>
+               <ul class="sub-group data">
+                  <li>
+                     <a href="data:text/json;charset=utf-8,%5B%7B%22Cancer%22%3A%22Lung%22%2C%22Cases%22%3A%222%C2%A0093%C2%A0876%22%7D%2C%7B%22Cancer%22%3A%22Breast%22%2C%22Cases%22%3A%222%C2%A0088%C2%A0849%22%7D%2C%7B%22Cancer%22%3A%22Colorectum%22%2C%22Cases%22%3A%221%C2%A0849%C2%A0518%22%7D%2C%7B%22Cancer%22%3A%22Prostate%22%2C%22Cases%22%3A%221%C2%A0276%C2%A0106%22%7D%2C%7B%22Cancer%22%3A%22Stomach%22%2C%22Cases%22%3A%221%C2%A0033%C2%A0701%22%7D%2C%7B%22Cancer%22%3A%22Liver%22%2C%22Cases%22%3A%22841%C2%A0080%22%7D%2C%7B%22Cancer%22%3A%22Oesophagus%22%2C%22Cases%22%3A%22572%C2%A0034%22%7D%2C%7B%22Cancer%22%3A%22Other%20cancers%22%2C%22Cases%22%3A%228%C2%A0323%C2%A0793%22%7D%5D" download="data.json" name="btn_download_json" id="btn_download_json" aria-label="Download data in a json file">
+                     <span class="fiv-viv fiv-icon-json"></span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="javascript:callCSVDownload()" aria-label="Download data in csv file">
+                     <span class="fiv-viv fiv-icon-csv"></span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#" class="btn_download btn_permalink" aria-label="Copy permalink">
+                     <i class="fa fa-link"></i>
+                     </a>
+                  </li>
+               </ul>
+            </li>
+            <li>
+               <ul class="sub-group share">
+                  <li>
+                     <a target="_blank" ng-click="shareTwitter()" class="twitter-share-button" aria-label="Share chart on Twitter">
+                     <i class="fa fa-twitter-square" aria-hidden="true" style="color:#4AB3F4;"></i>
+                     </a>
+                  </li>
+                  <li>
+                     <a target="_blank" ng-click="shareLinkedin()" aria-label="Send chart on linkedin">
+                     <i class="fa fa-linkedin-square" aria-hidden="true" style="color:#006097;"></i>
+                     </a>
+                  </li>
+               </ul>
+            </li>
+         </ul>
+      </div>
+      <footer class="footer">
+         <div class="container">
+            <p class="smaller"> Cancer Today - IARC, 150 Cours Albert Thomas, 69372 Lyon CEDEX 08, France - Tel: +33 (0)4 72 73 84 85  - powered by <a href="http://globocan.iarc.fr/" target="_blank" class="white ng-binding">GLOBOCAN 2018</a></p>
+         </div>
+      </footer>
+      <script src="https://d3js.org/d3.v4.min.js"></script>
+      <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>  
+      <script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+      <script src="assets/js/bootstrap-slider.js"></script>
+      <script src="assets/js/viz4_2_script.js"></script>      
+   </body>
+</html>

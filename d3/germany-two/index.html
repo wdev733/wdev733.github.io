@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Slava two custom charts</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src='https://d3js.org/d3.v4.min.js'></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/numeral.min.js"></script>
+    <style>
+        div.tooltip {   
+            position: absolute;                     
+            text-align: left;
+            width: 185px;
+            height: 100px;
+            padding: 10px;            
+            font: 12px sans-serif;      
+            background: black; 
+            border: 0px;        
+            border-radius: 8px;         
+            pointer-events: none;    
+            color: white;       
+        }
+
+        rect.bar{
+            stroke: darkgray;
+        }
+        span.circle{
+            width:10px;
+            height:10px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+
+        span.white{
+            background:white;
+        }
+
+        span.gray{
+            background-color: gray;
+        }
+
+        span.green{
+            background-color: green;
+        }
+
+        span.red{
+            background-color: red;
+        }
+
+        .tooltip label{
+            font-weight: bold;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .tooltip table td{
+            padding:2px;
+        }
+
+        line.overall-dpl-line{
+            stroke-width: 3px;
+        }
+        text{
+            font-size: 10px;
+        }
+
+        .ac-line,.pl-line{
+            stroke: #cccccc;
+            opacity: 0.8;
+        }
+
+        .lowopacity{
+            opacity: 0.5;
+        }
+
+        .highlighted{
+            opacity: 1;
+        }    
+
+        text.label{
+            text-transform: uppercase;
+        }
+
+        .overall-dpl-text{
+            text-transform: uppercase;
+        }
+
+        .arrow-left{
+            width: 0; 
+            height: 0; 
+            border-top: 10px solid transparent;
+            border-bottom: 10px solid transparent;           
+            border-right:10px solid black;             
+            position: absolute;
+            left: -10px;
+            bottom: 20px;
+        }
+
+        .arrow-right{
+            width: 0; 
+            height: 0; 
+            border-top: 10px solid transparent;
+            border-bottom: 10px solid transparent;            
+            border-left: 10px solid black;
+            position: absolute;
+            right: -10px;
+            bottom: 20px
+        }
+    </style>
+</head>
+<body>
+<script>
+var margin = {
+        top: 20,
+        right: 80,
+        bottom: 30,
+        left: 70
+    },
+    width = 960 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom;
+
+// label type will have one of these values ["absolute","percent","both"]
+var labeltype = "absolute",
+    overalllabeltype = "absolute";
+// set the ranges
+var x = d3.scaleBand()
+    .range([0, width])
+    .padding(0.1);
+var y = d3.scaleLinear()
+    .range([height, 0]);
+
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+    .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+
+function marker(color) {
+    var defs = svg.append("defs")
+
+    defs.append("marker")
+        .attr("id", color.replace("#", ""))
+        .attr("viewBox", "0 -5 10 10")
+        .attr("refX", 5)
+        .attr("refY", 0)
+        .attr("markerWidth", 3)
+        .attr("markerHeight", 3)
+        .attr("orient", "auto")
+
+        .append("path")
+        .attr("d", "M0,-5L10,0L0,5")
+        .attr("class", "arrowHead")
+        .style("fill", color);
+
+    return "url(#" + color + ")";
+}
+
+function numberFormatMK(n) {
+    return numeral(n).format('0.0a');
+}
+// Define the div for the tooltip
+var div = d3.select("body").append("div")
+    .attr("class", "tooltip")
+    .style("opacity", 0);
+
+let yMax = 0,
+    yPl = 0,
+    yAc = 0,
+    yAcData = {},
+    textClicked = 0,
+    highlighted = false,
+    rectClicked = "",
+    overall_textClicked = 0;
+d3.csv('data.csv', function(error, data) {
+    if (error) throw error;
+
+    // format the data
+    data.forEach(function(d) {
+        d['This Year Sales Ziel'] = d['This Year Sales Ziel'].substring(1);
+        d['This Year Sales'] = d['This Year Sales'].substring(1);
+    });
+
+
+    let chart_data = makeChartData(data);
+    // Scale the range of the data in the domains
+    let xDomain = [];
+    xDomain.push('PL');
+    let fiscalMonths = data.map(function(d) {
+        return d['FiscalMonth']
+    });
+    xDomain = xDomain.concat(fiscalMonths);
+    xDomain.push('AC');
+
+    x.domain(xDomain);
+    y.domain([0, yMax]);
+
+    svg.append('rect').attr('x', 0).attr('y', 0).attr('width', width).attr('height', height).attr('fill', 'white').on('click', function(d) {
+        highlightElement("", true);
+    });
+    //draw parallel lines
+    svg.append('line').attr('class', 'ac-line').attr('x1', x(0)).attr('x2', width).attr('y1', y(yAc)).attr('y2', y(yAc));
+    svg.append('line').attr('class', 'pl-line').attr('x1', x(0)).attr('x2', width).attr('y1', y(yPl)).attr('y2', y(yPl));
+    var g_wrapper = svg.selectAll(".g_wrapper")
+        .data(chart_data)
+        .enter().append("g").attr('class', 'g_wrapper').attr('xdata', (d) => d.x)
+        .on('click', function(d) {
+            if (d3.select(this).attr('xdata') != rectClicked) {
+                highlightElement(this, false);
+                rectClicked = d3.select(this).attr('xdata');
+            } else {
+                highlightElement(this, true);
+            }
+        });
+
+    g_wrapper.append('rect')
+        .attr("class", "bar")
+        .attr("x", function(d) {
+            return x(d['x']);
+        })
+        .attr("width", x.bandwidth())
+        .attr('fill', function(d) {
+            if (d.type == "month") {
+                if (d.color == "positive") {
+                    return "green";
+                } else if (d.color == "negative") {
+                    return "red";
+                }
+            } else {
+                if (d.x == "PL")
+                    return "#eaeaea";
+                else if (d.x == "AC")
+                    return "gray";
+            }
+        })
+        .attr("y", function(d) {
+            if (d.type == "month") {
+                return y(Math.max(yPl, (yPl + d.y)));
+            }
+            return y(Math.abs(d['y']));
+        })
+        .attr("height", function(d) {
+            if (d.type == "month") {
+                return height - y(Math.abs(d['y']));
+            }
+            return height - y(Math.abs(d['y']));
+        })
+        .on("mousemove", function(d) {
+            if (rectClicked == "") {
+                highlightElement(this.parentNode, false);
+            }
+            let tooltipContent = "";
+            tooltipContent += "<label>" + d.x + "</label>";
+            tooltipContent += "<table>";
+            if (d.type == "month") {
+                tooltipContent += "<tr><td><span class='gray circle'></span></td>";
+                tooltipContent += "<td style='text-align:right'>This Year Sales</td>";
+                tooltipContent += "<td style='text-transform:uppercase'>" + numberFormatMK(d.sales) + "</td></tr>";
+
+                tooltipContent += "<tr><td><span class='white circle'></span></td>";
+                tooltipContent += "<td style='text-align:right'>This Year Sales Ziel</td>";
+                tooltipContent += "<td style='text-transform:uppercase'>" + numberFormatMK(d.target) + "</td></tr>";
+
+                if (d.color == "positive") {
+                    tooltipContent += "<tr><td><span class='green circle'></span></td>";
+                } else {
+                    tooltipContent += "<tr><td><span class='red circle'></span></td>";
+                }
+                tooltipContent += "<td style='text-align:right'>ΔPL</td>";
+                tooltipContent += "<td style='text-transform:uppercase'>" + numberFormatMK(d.y) + "</td></tr>";
+
+                tooltipContent += "<tr><td></td>";
+                tooltipContent += "<td style='text-align:right'>ΔPL%</td>";
+                tooltipContent += "<td style='text-transform:uppercase'>" + d.dplpercent.toFixed(1) + "%</td></tr>";
+            } else if (d.type == "PL") {
+                tooltipContent += "<tr><td><span class='white circle'></span></td>";
+                tooltipContent += "<td style='text-align:right'>This Year Sales Ziel</td>";
+                tooltipContent += "<td style='text-transform:uppercase'>" + numberFormatMK(d.y) + "</td></tr>";
+            } else if (d.type == "AC") {
+                tooltipContent += "<tr><td><span class='gray circle'></span></td>";
+                tooltipContent += "<td style='text-align:right'>This Year Sales</td>";
+                tooltipContent += "<td style='text-transform:uppercase'>" + numberFormatMK(d.y) + "</td></tr>";
+
+                if (d.color == "positive") {
+                    tooltipContent += "<tr><td><span class='green circle'></span></td>";
+                } else {
+                    tooltipContent += "<tr><td><span class='red circle'></span></td>";
+                }
+                tooltipContent += "<td style='text-align:right'>ΔPL</td>";
+                tooltipContent += "<td style='text-transform:uppercase'>" + numberFormatMK(d.y) + "</td></tr>";
+
+                tooltipContent += "<tr><td></td>";
+                tooltipContent += "<td style='text-align:right'>ΔPL%</td>";
+                tooltipContent += "<td>" + d.dplpercent.toFixed(1) + "%</td></tr>";
+            }
+
+            tooltipContent += "</table>";
+            let direction = "left";
+            if (d3.event.pageX + 185 < width) {
+                direction = "left";
+            } else {
+                direction = "right";
+            }
+            tooltipContent += '<div class="arrow-' + direction + '"></div>';
+
+            div.transition()
+                .duration(200)
+                .style("opacity", .9);
+            div.html(tooltipContent)
+                .style("left", function() {
+                    if (direction == "right") {
+                        return (d3.event.pageX) - 185 + "px";
+                    } else {
+                        return (d3.event.pageX) + "px";
+                    }
+                })
+
+                .style("top", (d3.event.pageY - 30) + "px");
+        })
+        .on("mouseout", function(d) {
+            if (rectClicked == "") {
+                highlightElement('', true);
+            }
+            div.transition()
+                .duration(500)
+                .style("opacity", 0);
+        });
+
+    // add the labels to bars
+    updatetextLabels(g_wrapper, chart_data);
+    overallDiff();
+    // add the x Axis
+    svg.append("g")
+        .attr("transform", "translate(0," + height + ")")
+        .call(d3.axisBottom(x));
+
+    // add the y Axis
+    svg.append("g")
+        .call(d3.axisLeft(y).ticks(20, "s"));
+
+    // overall dPL line chart
+    svg.append('line').attr('class', 'overall-dpl-line')
+        .attr("marker-end", function() {
+            if (yAcData.dplpercent > 0) {
+                return marker("green");
+            } else {
+                return marker("red");
+            }
+        })
+        .attr('stroke', function() {
+            if (yAcData.dplpercent > 0) {
+                return "green";
+            } else {
+                return "red";
+            }
+        })
+        .attr('x1', width).attr('y1', y(yPl)).attr('x2', width).attr('y2', y(yAc));
+
+});
+
+function updatetextLabels(g_wrapper, chart_data) {
+    g_wrapper.selectAll('.label').remove();
+
+    g_wrapper.append("text")
+        .attr('class', "label")
+        .attr('text-anchor', 'middle')
+        .attr('x', (d) => x(d.x) + x.bandwidth() / 2)
+        .attr('y', function(d) {
+            if (d.type != "month") {
+                return y(d.y) - 5;
+            } else {
+                if (d.color == "positive") {
+                    return y(yPl + d.y) - 5;
+                } else {
+                    return y(yPl + d.y) + 10;
+                }
+            }
+        })
+        .text(function(d) {
+            if (d.type == "month") {
+                if (labeltype == "absolute") {
+                    return numberFormatMK(d.y);
+                } else if (labeltype == "percent") {
+                    return d.dplpercent.toFixed(1) + "%";
+                } else if (labeltype == "both") {
+                    return numberFormatMK(d.y) + " ( " + d.dplpercent.toFixed(1) + "% )";
+                }
+            } else {
+                return numberFormatMK(d.y);
+            }
+        })
+        .on('click', function(d) {
+            textClicked++;
+            if (textClicked > 0) {
+                updateLabelType(textClicked);
+                updatetextLabels(g_wrapper, chart_data);
+            }
+        });
+}
+
+function overallDiff() {
+    svg.select('.overall-dpl-text').remove();
+    //overall dPL line legend
+    svg.append('text').attr('class', 'overall-dpl-text')
+        .attr('x', width + 5).attr('y', (y(yPl) + y(yAc)) / 2 + 5)
+        .text(function(d) {
+            if (overalllabeltype == "absolute") {
+                return numberFormatMK(yAc - yPl);
+            } else if (overalllabeltype == "percent") {
+                return yAcData.dplpercent.toFixed(1) + "%";
+            } else if (overalllabeltype == "both") {
+                return numberFormatMK(yAc - yPl) + " ( " + yAcData.dplpercent.toFixed(1) + "% )";
+            }
+        })
+        .on('click', function() {
+            overall_textClicked++;
+            if (overall_textClicked > 0) {
+                updateOverallLabelType(overall_textClicked);
+                overallDiff();
+            }
+        });
+}
+
+function updateLabelType(textClicked) {
+    if (textClicked % 3 == 1) {
+        labeltype = "percent";
+    } else if (textClicked % 3 == 2) {
+        labeltype = "both";
+    } else if (textClicked % 3 == 0) {
+        labeltype = "absolute";
+    }
+}
+
+function updateOverallLabelType(overall_textClicked) {
+    if (overall_textClicked % 3 == 1) {
+        overalllabeltype = "percent";
+    } else if (overall_textClicked % 3 == 2) {
+        overalllabeltype = "both";
+    } else if (overall_textClicked % 3 == 0) {
+        overalllabeltype = "absolute";
+    }
+}
+
+function makeChartData(data) {
+    let res = [];
+    let tmp = {};
+
+    let dPL = [];
+    yPl = d3.sum(data.map(function(d) {
+        return d['This Year Sales Ziel']
+    }));
+    yAc = d3.sum(data.map(function(d) {
+        return d['This Year Sales']
+    }));
+
+    tmp['x'] = "PL";
+    tmp['y'] = yPl;
+    tmp['type'] = 'PL';
+    res.push(tmp);
+
+    tmp = {};
+    tmp['x'] = "AC";
+    tmp['y'] = yAc;
+    tmp['type'] = 'AC';
+
+    tmp['dplpercent'] = yAc * 100 / yPl - 100;
+    if (tmp['dplpercent'] > 0) {
+        tmp['color'] = 'positive';
+    } else {
+        tmp['color'] = 'negative';
+    }
+    yAcData = tmp;
+    res.push(tmp);
+
+    data.forEach(function(d) {
+        tmp = {};
+        tmp['x'] = d['FiscalMonth'];
+        tmp['y'] = parseInt(d['This Year Sales']) - parseInt(d['This Year Sales Ziel']);
+        if (tmp['y'] > 0) {
+            tmp['color'] = 'positive';
+        } else {
+            tmp['color'] = 'negative';
+        }
+        tmp['sales'] = parseInt(d['This Year Sales']);
+        tmp['target'] = parseInt(d['This Year Sales Ziel']);
+        tmp['dplpercent'] = tmp['sales'] * 100 / tmp['target'] - 100;
+
+        tmp['type'] = 'month';
+        dPL.push(Math.abs(tmp['y']));
+        res.push(tmp);
+    })
+
+    yMax = d3.max([yPl, yAc]) + d3.max(dPL);
+
+    return res;
+}
+
+function highlightElement(item, highlighted) {
+    if (highlighted == false) {
+        d3.selectAll('.bar').classed('lowopacity', true);
+        d3.selectAll('.label').classed('lowopacity', true);
+        d3.select(item).selectAll('*').classed('lowopacity', false);
+        d3.select(item).classed('highlighted', true);
+        d3.selectAll('.tick text').classed('lowopacity', true);
+        d3.selectAll('.tick text').filter(function(d) {
+            return d == d3.select(item).attr('xdata');
+        }).classed('lowopacity', false);
+    } else {
+        d3.selectAll('.lowopacity').classed('lowopacity', false);
+        d3.selectAll('.tick text').classed('lowopacity', false);
+        d3.selectAll('.g_wrapper').classed('highlighted', false);
+        rectClicked = "";
+    }
+}
+</script>
+</body>
+</html>

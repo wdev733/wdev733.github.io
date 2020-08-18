@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Bubble Chart</title>        
+    <link rel="stylesheet" href="assets/styles.css">    
+    <style>
+        #chart-wrapper{
+            max-width: 700px;
+            margin: 0 auto;
+        }
+    </style>
+
+</head>
+
+<body>
+  <div id="chart-wrapper">
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script type="text/javascript">
+var width = 932,
+    height = width;
+var format = d3.format(",d");
+
+var div = d3.select("body").append("div")
+    .attr("class", "tooltip")
+    .style("opacity", 0);
+
+d3.json('assets/bubble.json').then(function(data) {
+    pack = data => d3.pack()
+        .size([width - 2, height - 2])
+        .padding(3)
+        (d3.hierarchy({
+                children: data
+            })
+            .sum(d => d.value))
+
+    var color = d3.scaleOrdinal(data.map(d => d.group), d3.schemeCategory10);
+
+    const root = pack(data);
+
+    const svg = d3.select('#chart-wrapper').append("svg")
+        .attr("viewBox", [0, 0, width, height])
+        .attr("font-size", 10)
+        .attr("font-family", "sans-serif")
+        .attr("text-anchor", "middle");
+
+    const leaf = svg.selectAll("g")
+        .data(root.leaves())
+        .join("g")
+        .attr("transform", d => `translate(${d.x + 1},${d.y + 1})`);
+
+    leaf.append("circle")
+        .attr("id", d => ('circle_' + d.depth + '_' + d.data.group + '_' + d.data.name))
+        .attr("r", d => d.r)
+        .attr("fill-opacity", 0.7)
+        .attr("fill", d => color(d.data.group))
+        .on('mousemove', function(d) {
+            var tooltipContent = "<p>"+d.data.group + "/ " + d.data.name+ ' / ' +d.value +"</p>";
+            let direction = "left";
+            if (d3.event.pageX + 100 < width) {
+                direction = "left";
+            } else {
+                direction = "right";
+            }
+            tooltipContent += '<div class="arrow-' + direction + '"></div>';
+
+            div.transition()
+                .duration(200)
+                .style("opacity", .9);
+            div.html(tooltipContent)
+                .style("left", function() {
+                    if (direction == "right") {
+                        return (d3.event.pageX) - 100 + "px";
+                    } else {
+                        return (d3.event.pageX) + "px";
+                    }
+                })
+
+                .style("top", (d3.event.pageY - 30) + "px");
+        })
+        .on('mouseout', function() {
+            div.transition()
+                .duration(500)
+                .style("opacity", 0);
+        })
+
+    leaf.append("clipPath")
+        .attr("id", d => ('clip_circle_' + d.depth + '_' + d.data.group + '_' + d.data.name))
+        .append("use")
+        .attr("xlink:href", d => ('#circle_' + d.depth + '_' + d.data.group + '_' + d.data.name));
+
+    leaf.append("text")
+        .attr("clip-path", d => ("url(#clip_circle_" + d.depth + '_' + d.data.group + '_' + d.data.name))
+        .selectAll("tspan")
+        .data(d => d.data.name.split(/(?=[A-Z][a-z])|\s+/g))
+        .join("tspan")
+        .attr("x", 0)
+        .attr("y", (d, i, nodes) => `${i - nodes.length / 2 + 0.8}em`)
+        .text(d => d);
+
+    // leaf.append("title")
+    //     .text(d => `${d.data.title}\n${format(d.value)}`);
+})
+</script>    
+    </body>
+
+</html>

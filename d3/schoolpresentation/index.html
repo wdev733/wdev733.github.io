@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<title>School Presentation</title>
+<meta charset="utf-8">
+<style> /* set the CSS */
+
+.bar { fill: steelblue; }
+.toolTip {
+  position: absolute;
+  display: none;
+  min-width: 80px;
+  height: auto;
+  background: none repeat scroll 0 0 #ffffff;
+  border: 1px solid #6F257F;
+  padding: 14px;
+  text-align: center;
+}
+svg{
+  overflow: visible;
+}
+rect{
+  stroke:black;
+}
+
+.labels text{
+  text-anchor: middle;
+}
+</style>
+<body>
+Select District: <select id="districtSelector"></select>
+<div id="chart"></div>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+<script src="//d3js.org/d3.v4.min.js"></script>
+<script src="//d3js.org/d3-scale-chromatic.v0.3.min.js"></script>
+<script>
+var tooltip = d3.select("body").append("div").attr("class", "toolTip");
+var selectedDistrict;
+var jsonData;
+var rectWidth = 160, rectHeight = 50;
+var paddingLeft = 10, paddingTop = 3; 
+
+var firstKey,secondKey,thirdKey;
+var drag = d3.drag()
+    .on("start", dragstarted)
+    .on("drag", dragged)
+    .on("end", dragended);
+
+var drag1 = d3.drag()
+    .on("start", dragstarted1)
+    .on("drag", dragged1)
+    .on("end", dragended1);
+
+var firstPos = rectWidth/2, secPos = (rectWidth + paddingLeft + rectWidth/2), thirdPos = 2 * (rectWidth + paddingLeft);
+firstKey = "Acct";
+secondKey = "Object";
+thirdKey  = "Desc";
+var numberFormat = d3.format(",.0f");
+
+var color= d3.scaleSequential(d3["interpolateBlues"])
+        .domain([0, width]);
+// set the dimensions and margins of the graph
+var margin = {top: 50, right: 20, bottom: 30, left: 40},
+    width = 960 - margin.left - margin.right,
+    height = 800 - margin.top - margin.bottom;
+          
+// append the svg object to the body of the page
+// append a 'group' element to 'svg'
+// moves the 'group' element to the top left margin
+var svg = d3.select("#chart").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", 
+          "translate(" + margin.left + "," + margin.top + ")");
+
+var accountRectYScale = d3.scaleLinear().range([0,height]);
+
+var rectYScale = d3.scaleLinear().range([0, rectHeight]).domain([0,1]);
+// get the data
+d3.json("data.json", function(error, data) {
+  if (error) throw error;
+  jsonData = data;
+
+  //delete all rows which Object field is "900"
+  jsonData = jsonData.filter(function(d){return d.Object!='900'});
+
+  //delete all rows which amount is "0"
+  jsonData = jsonData.filter(function(d){return d.Amount!='0'});  
+
+  var expensesByName = d3.nest()
+  .key(function(d) { return d.DistNum; })
+  .entries(data);
+
+  var districts = expensesByName.map(function(d){return d.key});  
+
+  //initalize selectedDistrict as first district
+  selectedDistrict = districts[0];
+  districts.forEach(function(district){    
+    $('#districtSelector').append('<option value="'+district+'">'+district+'</option>');
+  })
+  
+  drawChart(selectedDistrict);
+});
+
+function drawChart(selectedDistrict){
+  var chartData = jsonData.filter(function(d){return d.DistNum == selectedDistrict});
+
+  //Account Block
+  var acctData = d3.nest()
+  .key(function(d) { return d[firstKey]; })
+  .rollup(function(v) { return d3.sum(v, function(d) { return d.Amount; }); })
+  .entries(chartData);
+  
+  d3.select('svg').attr('height',function(){return height + acctData.length * paddingTop + margin.top + 50});
+  
+  acctData.sort(function(x,y){ return d3.descending(x.value,y.value)});
+
+  var total = d3.sum(acctData.map(function(d){return d.value}));
+  acctData.forEach(function(data,i){
+    if(i==0){
+      data.per0 = 0;
+      data.per = data.value / total;
+    }else{
+      data.per0 = acctData[i-1].per;
+      data.per = data.per0 + data.value / total;
+    }
+  })
+  
+  accountRectYScale.domain([0, 1]);
+
+  color.domain([0, d3.max(acctData.map(function(d){return d.value}))]);
+  
+  var rows = svg.selectAll('.row').data(acctData).enter().append('g').attr('class','row')
+  .attr('transform',function(d,i){return "translate("+0 + ',' + (accountRectYScale(d.per0) + (i-1)*paddingTop) + ')'})
+  .attr('rect-height',(d)=>accountRectYScale(d.per-d.per0))
+  .attr('data-account',(d)=>d.key)
+  
+
+  var accounts = rows.selectAll('.firstkey')
+    .data(function(d){
+      var acctKey = d.key;
+      return acctData.filter(function(datum){return d.key==datum.key})
+    }).enter().append('rect').attr('x',0).attr('width',rectWidth).attr('y',0).attr('orgY',0)
+    .attr('height',function(d){return accountRectYScale(d.per-d.per0)})
+    .attr('class','firstkey')
+    .attr('fill',(d)=>color(d.value))
+    .on("mousemove", function(d){        
+      tooltip
+        .style("left", d3.event.pageX - 50 + "px")
+        .style("top", d3.event.pageY - 70 + "px")
+        .style("display", "inline-block")
+        .html(firstKey + ": "+(d.key) + "<br>" + "Amount:" + numberFormat(d.value));
+    })
+    .on("mouseout", function(d){ tooltip.style("display", "none");})
+    .call(drag1); 
+
+  // Object Block
+  var objData = d3.nest().key(function(d){return d[firstKey];}).key(function(d) { return d[secondKey]; }).rollup(function(v){return d3.sum(v,function(d){return d.Amount;})}).entries(chartData);
+    
+  objData.forEach(function(obj){
+    var sum = d3.sum(obj.values.map(function(val){return val.value;}));
+    obj.values.sort(function(x,y){return d3.descending(x.value,y.value)});
+    obj.values.forEach(function(val,i){      
+      if(i==0){
+        val.per0 = 0;
+        val.sum = sum;
+        val.per = val.value / sum;
+      }else{        
+        val.per0 = obj.values[i-1].per;
+        val.sum = sum;
+        val.per = val.per0 + val.value / sum;
+      }      
+      if(sum == 0){
+        val.per = 1;
+      }
+    })
+  })
+    
+  var object_g = rows.selectAll('.object_g').data(function(d){    
+    return objData.filter(function(obj){return d.key == obj.key})
+  }).enter().append('g').attr('class','object_g').attr('transform',function(d,i){
+    return 'translate(' + (rectWidth + paddingLeft) +',0)';
+  })
+
+  color.domain([0, 1]);
+
+  object_g.selectAll('.secondkey').data(function(d){
+    var data = d.values;
+    data.sort(function(x,y){ return d3.descending(x.value,y.value)});    
+    return data;
+  }).enter().append('rect').attr('class',function(d){return 'secondkey'})
+  .attr('x',0)
+  .attr('y',function(datum){
+    var maxHeight = $(this).parents('.row').attr('rect-height');    
+    rectYScale.range([0,maxHeight]);
+    return rectYScale(datum.per0);
+  })
+  .attr('orgY',function(datum){
+    var maxHeight = $(this).parents('.row').attr('rect-height');    
+    rectYScale.range([0,maxHeight]);
+    return rectYScale(datum.per0);
+  })
+  .attr('width',rectWidth)
+  .attr('height',function(datum){
+    var maxHeight = $(this).parents('.row').attr('rect-height');    
+    rectYScale.range([0,maxHeight]);
+    return rectYScale(datum.per)-rectYScale(datum.per0)}
+  ).attr('fill',function(d){return color(d.per - d.per0)})
+  .on("mousemove", function(d){            
+      tooltip
+        .style("left", d3.event.pageX - 50 + "px")
+        .style("top", d3.event.pageY - 90 + "px")
+        .style("display", "inline-block")
+        .html(secondKey+":"+(d.key) + "<br>" + "Amount:" + numberFormat(d.value) + '<br>' + "Percent:" + ((d.per - d.per0) * 100).toFixed(2) +'%');
+  })
+  .on("mouseout", function(d){ tooltip.style("display", "none");})
+  .call(drag1); 
+
+  // Description Block
+  var descData = d3.nest().key(function(d){return d[firstKey];}).key(function(d){return d[secondKey]}).entries(chartData);
+  
+  descData.sort(function(x,y){
+    return d3.ascending(x.Object, y.Object);
+  })
+  
+  var descValueData = [];
+  var sum = 0;
+  descData.forEach(function(obj){      
+    var accSum = d3.sum(obj.values.map(function(v){return d3.sum(v.values.map(function(val){return val.Amount}))}));
+    obj.values.sort(function(x,y){return d3.descending(x.value, y.value)});
+
+    obj.values.forEach(function(val,i){            
+      sum = d3.sum(val.values.map(function(v){return v.Amount}));     
+      if(i==0){
+        val.per0 = 0        
+        val.per = sum / accSum;  
+        if(accSum==0){
+          val.per = 1;
+        }
+      }else{
+        val.per0 = obj.values[i-1].per;
+        val.per = val.per0 + sum/accSum;
+      }
+      
+      val.values.sort(function(x,y){return d3.descending(x.Amount,y.Amount)});
+
+      val.values.forEach(function(v,j){
+        if(j==0){
+          v.per0 = val.per0;
+          v.sum = accSum;
+          v.per = v.per0 + v.Amount / accSum;
+        }else{        
+          v.per0 = val.values[j-1].per;
+          v.sum = accSum;
+          v.per = v.per0 + v.Amount / accSum;
+        }      
+        if(sum == 0){
+          v.per = 1;
+        }
+      })      
+    })
+  })
+    
+  descData.forEach((data)=>{
+    var tmp = new Object;
+    tmp['key'] = data.key;  
+    tmp['values'] = [];
+    data.values.forEach(function(val){
+      val.values.forEach(function(v){        
+        tmp['values'].push(v);
+      })
+    })
+    descValueData.push(tmp);
+  })
+    
+  descValueData.sort(function(x,y){return d3.descending(x.Amount,y.Amount)});
+
+  var desc_g = rows.selectAll('.desc_g').data(function(d){    
+    return descValueData.filter(function(val){
+      return d.key==val.key      
+    })
+  }).enter().append('g').attr('class','desc_g').attr('transform',function(d,i){
+    return 'translate(' + 2*(rectWidth + paddingLeft) +',' + i*(rectHeight+paddingTop) +')';
+  });
+
+  color.domain([0, 1]);
+
+  desc_g.selectAll('.thirdkey').data(function(d){
+    var data = d.values;
+    data.sort(function(x,y){return d3.descending(x.Amount,y.Amount)});
+    console.log(data);
+    return data;
+  }).enter().append('rect').attr('class',function(d){return 'thirdkey'})
+  .attr('x',0).attr('y',function(datum){
+    var maxHeight = $(this).parents('.row').attr('rect-height');    
+    rectYScale.range([0,maxHeight]);  
+    return rectYScale(datum.per0);
+  }).attr('orgY',function(datum){
+    var maxHeight = $(this).parents('.row').attr('rect-height');    
+    rectYScale.range([0,maxHeight]);  
+    return rectYScale(datum.per0);
+  })
+  .attr('width',rectWidth).attr('height',function(datum){
+      var maxHeight = $(this).parents('.row').attr('rect-height');    
+      rectYScale.range([0,maxHeight]);    
+    return rectYScale(datum.per)-rectYScale(datum.per0)}
+    ).attr('fill',function(d){return color(d.per - d.per0)})
+  .on("mousemove", function(d){            
+      tooltip
+        .style("left", d3.event.pageX - 50 + "px")
+        .style("top", d3.event.pageY - 90 + "px")
+        .style("display", "inline-block")
+        .html(thirdKey+":"+(d[thirdKey]) + "<br>" + "Amount:" + numberFormat(d.Amount) + '<br>' + "Percent:" + ((d.per - d.per0) * 100).toFixed(2) +'%');
+    })
+    .on("mouseout", function(d){ tooltip.style("display", "none");})
+    .call(drag1); 
+
+  var labels = svg.append('g').attr('class','labels');
+  labels.append('g').attr('class','firstkey').append('text').attr('x',rectWidth/2).attr('y',-20).attr('orgX',rectWidth/2).text(firstKey).call(drag);
+  labels.append('g').attr('class','secondkey').append('text').attr('x',rectWidth + paddingLeft + rectWidth/2).attr('orgX',rectWidth + paddingLeft + rectWidth/2).attr('y',-20).text(secondKey).call(drag);
+  labels.append('g').attr('class','thirdkey').append('text').attr('x',2 * rectWidth + 2*paddingLeft + rectWidth/2).attr('orgX',2 * rectWidth + 2*paddingLeft + rectWidth/2).attr('y',-20).text(thirdKey).call(drag);
+}
+
+$('#districtSelector').change(function(){
+  selectedDistrict = this.value;
+  svg.selectAll('*').remove();
+  drawChart(selectedDistrict);  
+})
+
+function dragstarted(d){
+
+}
+function dragged(d) {    
+  d3.select(this)      
+    .attr("x", d3.event.x)
+    .attr("y", d3.event.y)
+  var currentNth = d3.select(this.parentNode).attr('class');
+  d3.selectAll('rect.'+currentNth).attr('x',function(d){
+    var s = d3.select(this.parentNode).attr('transform').substr(10);    
+    return d3.event.x - parseInt(s.substr(0,s.lastIndexOf(','))) - rectWidth/2;
+  })
+  .attr('y',function(d){return (d3.event.y + parseInt(d3.select(this).attr('orgY')))+20;});  
+}
+function dragended(d){
+  var first, second, third;  
+  var currentNth;
+  if(d==undefined){
+    currentNth = d3.select(this.parentNode).attr('class');
+  }  
+  var cuX = d3.event.x;  
+  if(currentNth=='thirdkey'){
+    if(cuX < firstPos){
+      first = thirdKey;
+      second = firstKey;
+      third = secondKey;      
+    }else if(cuX < secPos){
+      first = firstKey;
+      second = thirdKey;
+      third = secondKey;      
+    }else{
+      first = firstKey;
+      second = secondKey;
+      third = thirdKey;      
+    }
+  }else if(currentNth=='secondkey'){
+    if(cuX < firstPos){
+      first = secondKey;
+      second = firstKey;
+      third = thirdKey;
+    }else if(cuX > thirdPos){
+      first = firstKey;
+      second = thirdKey;
+      third = secondKey;
+    }else{
+      first = firstKey;
+      second = secondKey;
+      third = thirdKey; 
+    }
+  }else if(currentNth=='firstkey'){
+   if(cuX>thirdPos){
+      first = secondKey;
+      second = thirdKey;
+      third = firstKey;
+    }else if(cuX>secPos){
+      first = secondKey;
+      second = firstKey;
+      third = thirdKey;
+    }else{
+      first = firstKey;
+      second = secondKey;
+      third = thirdKey;
+    }
+  }
+  
+  updateKeys(first,second,third);  
+}
+
+
+function dragstarted1(d){
+
+}
+function dragged1(d) {    
+  d3.select(this)      
+    .attr("x", d3.event.x)
+    .attr("y", d3.event.y)
+  var currentNth = d3.select(this).attr('class');
+  d3.selectAll('rect.'+currentNth).attr('x',d3.event.x).attr('y',function(d){return (d3.event.y + parseInt(d3.select(this).attr('orgY')));});
+  var tSelector = '.'+currentNth +' text';
+  d3.select(tSelector).attr('x',function(){return d3.event.x + parseInt(d3.select(this).attr('orgX'))}).attr('y',d3.event.y-20);
+}
+function dragended1(d){
+  var first, second, third;  
+  var currentNth = d3.select(this).attr('class');  
+  var cuX = d3.event.x;  
+  var s = d3.select(this.parentNode).attr('transform').substr(10);
+  cuX += parseInt(s.substr(0,s.lastIndexOf(',')));
+  if(currentNth=='thirdkey'){
+    if(cuX < firstPos - rectWidth / 2){
+      first = thirdKey;
+      second = firstKey;
+      third = secondKey;      
+    }else if(cuX < secPos - rectWidth / 2){          
+      first = firstKey;
+      second = thirdKey;
+      third = secondKey;      
+    }else{      
+      first = firstKey;
+      second = secondKey;
+      third = thirdKey;      
+    }
+  }else if(currentNth=='secondkey'){
+    if(cuX < firstPos - rectWidth / 2){
+      first = secondKey;
+      second = firstKey;
+      third = thirdKey;
+    }else if(cuX > thirdPos - rectWidth / 2){
+      first = firstKey;
+      second = thirdKey;
+      third = secondKey;
+    }else{
+      first = firstKey;
+      second = secondKey;
+      third = thirdKey; 
+    }
+  }else if(currentNth=='firstkey'){
+   if(cuX>thirdPos - rectWidth / 2){
+      first = secondKey;
+      second = thirdKey;
+      third = firstKey;
+    }else if(cuX>secPos - rectWidth / 2){
+      first = secondKey;
+      second = firstKey;
+      third = thirdKey;
+    }else{
+      first = firstKey;
+      second = secondKey;
+      third = thirdKey;
+    }
+  }
+  
+  updateKeys(first,second,third);  
+}
+
+function updateKeys(first,second,third){
+  firstKey = first;
+  secondKey = second;
+  thirdKey = third;
+  svg.selectAll('*').remove();
+  drawChart(selectedDistrict);
+};
+</script>
+</body>

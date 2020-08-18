@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">   
+    
+    <title>Bubble Chart | Ralph Welborn</title>
+    <style>
+        h2{
+            text-align: center;
+        }
+
+        #chart_wrapper svg{
+            margin: 0 auto;
+            display: block;
+        }
+        #chart_wrapper{
+            min-height: 800px;
+            width: 100%;
+            position: relative;
+        }        
+
+        .description{
+            position: absolute;
+            top: 30px;
+            left: 70px;
+            width: 300px;
+        }
+
+        .place_title{
+            font-size: 20px;
+        }
+        path.link{
+            fill: none;
+        }
+
+        circle,text{
+            cursor: pointer;
+        }
+
+        circle{
+            fill-opacity:0.8;
+        }
+
+        .hide{
+            display: none;
+        }
+
+        .yoption_span, .roption_span{
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        button{
+            margin-right: 30px;
+        }
+    </style>    
+</head>
+
+<body>
+    <h2>Bubble</h2>    
+    <button id="swap_btn">Change</button>
+    <div id="chart_wrapper">    
+        <div class="description">    
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    </center>
+</body>
+
+</html>

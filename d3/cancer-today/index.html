@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Cancer Today</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link id="favicon" rel="shortcut icon" type="image/png" href="assets/images/favicon.ico" />
+</head>
+<body>
+<div class="header">
+<nav class="navbar navbar-expand-lg">  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">ABOUT</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">DATA & METHODS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">FACT SHEETS</a>
+      </li> 
+      <li class="nav-item">
+        <a class="nav-link" href="#">EXPLORE</a>
+      </li> 
+      <li class="nav-item">
+        <a class="nav-link" href="#">HELP</a>
+      </li>       
+    </ul>
+  </div>
+</nav>
+</div>
+<div class="main-content">
+  <nav class="sub-nav navbar-inverse navbar-expand-lg" role="navigation" aria-hidden="false">
+      <div class="navbar-header">
+      </div>
+
+      <div id="sub-nav" class="navbar-collapse collapse">
+        <ul class="nav">
+          <li>
+            <a href="#" title="Comparisons"><img src="assets/imgs/comparison.png"></a>
+          </li>
+          <li>
+            <a href="#" title="Proportion"><img src="assets/imgs/proportion.png"></a>            
+          </li>
+          <li>
+            <a href="#" title="Geography"><img src="assets/imgs/geography.png"></a>
+          </li>
+          <li>
+            <a href="#" title="Proportions"><img src="assets/imgs/hierarchy.png">
+            </a>
+          </li>   
+          </ul>                       
+      </div>
+  </nav>
+  <div class="wrapper">
+
+    <!-- Sidebar -->
+    <nav id="sidebar">        
+      <div class="sidebar-content">        
+        <button id="updateData"> Update Chart Data</button> 
+      </div>
+    </nav>
+<button class="md-primary" id="toggle-left-bar">
+    <i class="fa fa-arrow-circle-o-left"></i>
+</button>
+    
+    <!-- Page Content -->
+    <div id="content">                   
+      <h2 class="chart-title">Estimated  number of new cases in 2018, worldwide,  all cancers, both sexes, all ages</h2>
+      <div id="chart_container">
+      </div>
+    </div>
+
+</div>      
+</div>
+<div class="rightsidepanel">
+  <ul class="dataviz_tool group-3">
+        <li>
+            <ul class="sub-group download">
+              <li ng-hide="" aria-hidden="false" class="">
+                <a href="javascript:void(0);" id="link-print-png">
+                <span class="fiv-viv fiv-icon-png"></span>
+                <span class="hd">HD</span>
+                
+              </a>
+              </li>
+              <li ng-hide="" aria-hidden="false" class="">
+                <a href="javascript:void(0);" id="link-print-pdf">
+                  <span class="fiv-viv fiv-icon-pdf"></span>
+                  <span class="hd">HD</span>
+                  
+                </a>
+              </li>
+
+              <li ng-hide="" aria-hidden="false" class="">
+                <a href="javascript:void(0);" id="link-print-pptx" aria-label="Download chart as a PPTX file">
+                  <span class="fiv-viv fiv-icon-ppt"></span>
+                  
+                </a>
+              </li>
+
+              <li>
+                <a href="javascript:void(0);" id="link-print-svg" onclick="printGraph('svg')" aria-label="Download chart in a SVG file">
+                  <span class="fiv-viv fiv-icon-svg"></span>                  
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <ul class="sub-group data">
+              <li>
+                <a href="data:text/json;charset=utf-8,%5B%7B%22Cancer%22%3A%22Lung%22%2C%22Cases%22%3A%222%C2%A0093%C2%A0876%22%7D%2C%7B%22Cancer%22%3A%22Breast%22%2C%22Cases%22%3A%222%C2%A0088%C2%A0849%22%7D%2C%7B%22Cancer%22%3A%22Colorectum%22%2C%22Cases%22%3A%221%C2%A0849%C2%A0518%22%7D%2C%7B%22Cancer%22%3A%22Prostate%22%2C%22Cases%22%3A%221%C2%A0276%C2%A0106%22%7D%2C%7B%22Cancer%22%3A%22Stomach%22%2C%22Cases%22%3A%221%C2%A0033%C2%A0701%22%7D%2C%7B%22Cancer%22%3A%22Liver%22%2C%22Cases%22%3A%22841%C2%A0080%22%7D%2C%7B%22Cancer%22%3A%22Oesophagus%22%2C%22Cases%22%3A%22572%C2%A0034%22%7D%2C%7B%22Cancer%22%3A%22Other%20cancers%22%2C%22Cases%22%3A%228%C2%A0323%C2%A0793%22%7D%5D" download="data.json" name="btn_download_json" id="btn_download_json" aria-label="Download data in a json file">
+                  <span class="fiv-viv fiv-icon-json"></span>
+                    
+                </a>
+              </li>
+              <li>
+                <a href="javascript:callCSVDownload()" aria-label="Download data in csv file">
+                  <span class="fiv-viv fiv-icon-csv"></span>
+                    
+                </a>
+              </li>
+              <li>
+                <a href="#" class="btn_download btn_permalink" aria-label="Copy permalink">
+                  <i class="fa fa-link"></i>
+                    
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <ul class="sub-group share">
+              <li>
+                <a target="_blank" ng-click="shareTwitter()" class="twitter-share-button" aria-label="Share chart on Twitter">
+                <i class="fa fa-twitter-square" aria-hidden="true" style="color:#4AB3F4;"></i>
+                  
+                </a>
+              </li>
+              <li>
+                <a target="_blank" ng-click="shareLinkedin()" aria-label="Send chart on linkedin">
+                  <i class="fa fa-linkedin-square" aria-hidden="true" style="color:#006097;"></i>
+                  
+                </a>
+              </li>            
+            </ul>
+          </li>
+      </ul>
+  </div>
+  <footer class="footer">
+    <div class="container">        
+      <p class="smaller"> &nbsp;</p>
+    </div>
+  </footer>
+  
+  <script src="https://d3js.org/d3.v3.min.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="assets/js/script.js"></script>
+  <script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+
+<script>
+// $(function(){
+// 	// Check the initial Poistion of the Sticky Header
+// 	var stickyHeaderTop = $('#header').height() - 50;
+
+// 	$(window).scroll(function(){
+// 	    if( $(window).scrollTop() > stickyHeaderTop ) {
+// 	            $('#main_nav').css('background', 'rgba(0,135,206,0.8');
+// 	            $('#main_nav').css('margin-top', 0);
+// 	    } else {
+// 	            $('#main_nav').css('background', 'none');
+// 	            $('#main_nav').css('margin-top', 40);
+// 	    }
+// 	});
+
+// 	$('a[href^="#"]').on('click',function (e) {
+// 	    e.preventDefault();
+
+// 	    var target = this.hash;
+// 	    var $target = $(target);
+
+// 	    $('html, body').stop().animate({
+// 	        'scrollTop': $target.offset().top
+// 	    }, 900, 'swing', function () {
+// 	        window.location.hash = target;
+// 	    });
+// 	});
+// });
+$(document).ready(function () {
+
+    $('#toggle-left-bar').on('click', function () {
+        $('#sidebar').toggleClass('active');
+        $(this).toggleClass('closed');
+        $('#toggle-left-bar i').toggleClass('fa-arrow-circle-o-right');
+        $('#toggle-left-bar i').toggleClass('fa-arrow-circle-o-left');
+    });
+
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,112 @@
+gvkey,date,user_id,location,city,state,country,geo_loc
+1,2013-03-18 00:00:00,1173,"PDX, SF, LA",nan,nan,nan,
+1,2014-10-15 00:00:00,1766,"Seattle, WA",Seattle,WA,US,"{lat: 47.6062095, long: -122.3320708}"
+1,2013-04-22 00:00:00,2539,USA,nan,nan,US,"{lat: 37.0902, long: -95.7129}"
+1,2012-06-12 00:00:00,2677,Berkshires of Massachusetts,nan,nan,nan,
+1,2015-03-06 00:00:00,6631,"southern coastal region, new york ",nan,nan,nan,
+1,2015-01-04 00:00:00,10362,Greenwich CT +6 countries,Greenwich,CT,US,"{lat: 41.0340436, long: -73.5996472}"
+1,2016-01-09 00:00:00,13263,"Los Angeles, CA",Los Angeles,CA,US,"{lat: 34.0522342, long: -118.2436849}"
+1,2012-12-30 00:00:00,17913,"Garment District, NYC",nan,nan,nan,
+1,2013-03-21 00:00:00,49423,"New York, NY",New York,NY,US,"{lat: 40.7143528, long: -74.0059731}"
+1,2012-01-25 00:00:00,58363,Automation Alley,nan,nan,nan,"{lat: 33.588475, long: -102.42738}"
+1,2012-09-19 00:00:00,687333,"Chattanooga, TN",Chattanooga,TN,US,"{lat: 35.0456297, long: -85.3096801}"
+1,2012-12-24 00:00:00,721913,"Bellevue, WA",Bellevue,WA,US,"{lat: 47.610377, long: -122.2006786}"
+1,2012-01-04 00:00:00,741803,"Portland, OR",Portland,OR,US,"{lat: 45.5234515, long: -122.6762071}"
+1,2014-10-27 00:00:00,756245,"Orange County, CA, USA",Orange County,CA,US,"{lat: 33.7174708, long: -117.8311428}"
+1,2013-01-23 00:00:00,795649,"San Francisco, CA",San Francisco,CA,US,"{lat: 37.7749295, long: -122.4194155}"
+1,2012-05-01 00:00:00,802209,Northern Appalachia,nan,nan,nan,
+1,2015-12-23 00:00:00,811522,"Cambridge, MA",Cambridge,MA,US,"{lat: 42.3736158, long: -71.1097335}"
+1,2016-06-21 00:00:00,816538,Idaho,Idaho Falls,ID,US,"{lat: 43.4916514, long: -112.0339645}"
+1,2012-03-10 00:00:00,818071,Toronto,Toronto,Ontario,CA,"{lat: 43.653226, long: -79.3831843}"
+1,2012-06-14 00:00:00,819274,"Irvine, CA",Irvine,CA,US,"{lat: 33.6839473, long: -117.7946942}"
+1,2013-06-24 00:00:00,819375,"DFW, Texas",Houston,TX,US,"{lat: 29.7601927, long: -95.3693896}"
+1,2016-02-24 00:00:00,819772,Laniakea Supercluster,nan,nan,nan,
+1,2012-10-19 00:00:00,822640,\xc3\xb0\xc2\x9f\xc2\x8f\xc2\x96\xc3\xaf\xc2\xb8\xc2\x8f,nan,nan,nan,
+1,2016-01-25 00:00:00,916481,"San Francisco, CA",San Francisco,CA,US,"{lat: 37.7749295, long: -122.4194155}"
+1,2012-09-06 00:00:00,965651,"San Francisco, CA",San Francisco,CA,US,"{lat: 37.7749295, long: -122.4194155}"
+1,2012-08-24 00:00:00,1147491,Philippines,Manila,National Capital Region,PH,"{lat: 14.5995124, long: 120.9842195}"
+1,2013-08-06 00:00:00,1386531,"Bend, OR",Bend,OR,US,"{lat: 44.0581728, long: -121.3153096}"
+1,2012-09-06 00:00:00,1455861,"Montgomery Township, NJ    USA",Montgomery Township,NJ,US,"{lat: 40.4308333, long: -74.6677778}"
+1,2016-04-07 00:00:00,1467621,"Bend, OR",Bend,OR,US,"{lat: 44.0581728, long: -121.3153096}"
+1,2016-01-29 00:00:00,1472271,Texas,nan,Texas,US,"{lat: 31.9685988, long: -99.9018131}"
+1,2012-01-25 00:00:00,1473431,"Bend, Oregon",nan,OR,US,"{lat: 43.8041334, long: -120.5542012}"
+1,2012-01-06 00:00:00,1475291,"San Francisco, CA",San Francisco,CA,US,"{lat: 37.7749295, long: -122.4194155}"
+1,2012-04-27 00:00:00,1832181,07030,nan,nan,nan,
+1,2016-01-16 00:00:00,2136001,Eric Decker. Great Lakes.,nan,nan,nan,
+1,2012-08-31 00:00:00,2200781,"Woodside, CA",Woodside,CA,US,"{lat: 37.4299388, long: -122.2538557}"
+1,2015-02-05 00:00:00,2522211,"Buffalo, NY, USA",Buffalo,NY,US,"{lat: 42.8864468, long: -78.8783689}"
+1,2012-11-13 00:00:00,2530431,"Miami, FL",Miami,FL,US,"{lat: 25.7889689, long: -80.2264393}"
+1,2013-01-09 00:00:00,2570001,"New York, NY",New York,NY,US,"{lat: 40.7143528, long: -74.0059731}"
+1,2016-11-21 00:00:00,2868981,"London, England",London,nan,GB,"{lat: 51.5112139, long: -0.1198244}"
+1,2012-10-18 00:00:00,3168141,"Houston, TX",Houston,TX,US,"{lat: 29.7601927, long: -95.3693896}"
+1,2015-10-14 00:00:00,3404331,Hong Kong,Hong Kong,nan,HK,"{lat: 22.396428, long: 114.109497}"
+1,2015-08-24 00:00:00,3468111,US \xc3\xa2\xc2\x87\xc2\x86 Bahrain \xc3\xa2\xc2\x87\xc2\x86 India,nan,nan,nan,
+1,2015-06-29 00:00:00,3641461,Submarine capital of world,nan,nan,nan,
+1,2012-09-06 00:00:00,4029531,New York City,New York City,NY,US,"{lat: 40.7143528, long: -74.0059731}"
+1,2013-01-04 00:00:00,4120961,Kobol,nan,nan,nan,"{lat: 59.9798376, long: 18.403476}"
+1,2016-04-20 00:00:00,4281151,Dallas,Dallas,TX,US,"{lat: 32.7801399, long: -96.8004511}"
+1,2014-02-12 00:00:00,4419831,"Galway, Ireland",Galway,Galway,IE,"{lat: 53.2705588, long: -9.0566677}"
+1,2012-04-10 00:00:00,4534291,"Washington, DC",Washington,DC,US,"{lat: 38.9072309, long: -77.0364641}"
+1,2012-11-07 00:00:00,4587771,"Leicester, UK",Leicester,England,GB,"{lat: 52.6368778, long: -1.1397592}"
+1,2015-07-16 00:00:00,4937571,"Moss Beach, CA",Moss Beach,CA,US,"{lat: 37.5274401, long: -122.5133117}"
+1,2014-09-23 00:00:00,5062691,"Madison, WI",Madison,WI,US,"{lat: 43.0730517, long: -89.4012302}"
+1,2012-01-05 00:00:00,5640242,"Nashville, TN",Nashville,TN,US,"{lat: 36.1666667, long: -86.7833333}"
+1,2012-07-25 00:00:00,5693062,"Oregon, USA",nan,OR,US,"{lat: 43.8041334, long: -120.5542012}"
+1,2012-06-08 00:00:00,5723472,"Maitland, FL",Maitland,FL,US,"{lat: 28.6277767, long: -81.3631244}"
+1,2013-06-04 00:00:00,5768622,London/Bali,nan,nan,nan,
+1,2012-01-03 00:00:00,5768632,New Jersey,nan,NJ,US,"{lat: 40.0583238, long: -74.4056612}"
+1,2012-10-05 00:00:00,5805962,"San Francisco, CA",San Francisco,CA,US,"{lat: 37.7749295, long: -122.4194155}"
+1,2012-02-08 00:00:00,5829482,"Austin, Texas",Houston,TX,US,"{lat: 29.7601927, long: -95.3693896}"
+1,2012-01-17 00:00:00,5831802,"Tiburon, California",Los Angeles,CA,US,"{lat: 34.0522342, long: -118.2436849}"
+1,2012-01-20 00:00:00,5848722,"CHAPPAQUA, NEW YORK",Chappaqua,NY,US,"{lat: 41.1595399, long: -73.764855}"
+1,2012-02-27 00:00:00,5933862,"Calgary, AB Canada",Calgary,Alberta,CA,"{lat: 51.0453246, long: -114.0581012}"
+1,2013-04-16 00:00:00,5950272,Texas,nan,Texas,US,"{lat: 31.9685988, long: -99.9018131}"
+1,2012-01-06 00:00:00,5965432,"boulder, co",Boulder,CO,US,"{lat: 40.0149856, long: -105.2705456}"
+1,2012-01-22 00:00:00,6008592,WNY - Great Lakes,nan,nan,nan,
+1,2015-08-25 00:00:00,6033382,"Boulder, CO",Boulder,CO,US,"{lat: 40.0149856, long: -105.2705456}"
+1,2012-03-24 00:00:00,6144332,Sacramento,Sacramento,CA,US,"{lat: 38.5815719, long: -121.4943996}"
+1,2015-07-01 00:00:00,6146532,"40.575892,-73.997201",nan,nan,nan,
+1,2015-06-17 00:00:00,6172452,"Windermere, Florida, USA",nan,FL,US,"{lat: 27.6648274, long: -81.5157535}"
+1,2015-03-01 00:00:00,6317842,"Montr\xc3\x83\xc2\xa9al, Qu\xc3\x83\xc2\xa9bec",Montr\xc3\x83\xc2\xa9al,Qu\xc3\x83\xc2\xa9bec,CA,"{lat: 45.5086699, long: -73.5539925}"
+1,2012-05-17 00:00:00,6361512,"Washington, DC",Washington,DC,US,"{lat: 38.9072309, long: -77.0364641}"
+1,2014-07-08 00:00:00,6424622,"Palm Beach Gardens, FL",Palm Beach Gardens,FL,US,"{lat: 26.8233946, long: -80.1386547}"
+1,2016-06-24 00:00:00,6443392,Rome - Italy,nan,nan,nan,
+1,2012-09-24 00:00:00,6529402,venezuela,Caracas,Distrito Capital,VE,"{lat: 10.491016, long: -66.902061}"
+1,2012-08-16 00:00:00,6571412,Maryland / Florida,nan,nan,nan,
+1,2012-10-11 00:00:00,6703252,"Boston, MA & Atlanta, GA",nan,nan,nan,
+1,2012-11-23 00:00:00,6730222,New York,New York,NY,US,"{lat: 40.7143528, long: -74.0059731}"
+1,2012-05-23 00:00:00,6744912,"iPhone: 21.603173,-83.162384",nan,nan,nan,
+1,2012-08-31 00:00:00,6781652,DTLA,nan,nan,nan,
+1,2016-06-27 00:00:00,6782762,"TX, LA, DC",nan,nan,nan,
+1,2012-05-16 00:00:00,6823402,"Princeton, New Jersey",nan,NJ,US,"{lat: 40.0583238, long: -74.4056612}"
+1,2016-02-04 00:00:00,6857232,nomadic,nan,nan,nan,
+1,2012-06-19 00:00:00,6865392,"London, England",London,nan,GB,"{lat: 51.5112139, long: -0.1198244}"
+1,2014-02-14 00:00:00,7044802,The little red dot,nan,nan,nan,
+1,2014-08-20 00:00:00,7204172,Chicago,Chicago,IL,US,"{lat: 41.8781136, long: -87.6297982}"
+1,2012-05-09 00:00:00,7236202,"San Francisco, CA",San Francisco,CA,US,"{lat: 37.7749295, long: -122.4194155}"
+1,2012-06-05 00:00:00,7349842,"Beijing, China",Beijing,\xc3\xa5\xc2\x8c\xc2\x97\xc3\xa4\xc2\xba\xc2\xac\xc3\xa5\xc2\xb8\xc2\x82,CN,"{lat: 39.92147, long: 116.443108}"
+1,2015-10-02 00:00:00,7351942,LA,LA,CA,US,"{lat: 34.0522342, long: -118.2436849}"
+1,2012-02-14 00:00:00,7455352,Chicago,Chicago,IL,US,"{lat: 41.8781136, long: -87.6297982}"
+1,2012-03-28 00:00:00,7479182,"Ottawa, Canada",Ottawa,ON,CA,"{lat: 45.4215296, long: -75.6971931}"
+1,2014-04-27 00:00:00,7491032,"36.108978,-115.150674",nan,nan,nan,
+1,2012-08-02 00:00:00,7508402,Caracas,Caracas,Distrito Capital,VE,"{lat: 10.491016, long: -66.902061}"
+1,2014-04-15 00:00:00,7520262,"New Canaan, CT",New Canaan,CT,US,"{lat: 41.146763, long: -73.4948445}"
+1,2012-08-02 00:00:00,7530552,USA,nan,nan,US,"{lat: 37.0902, long: -95.7129}"
+1,2012-06-08 00:00:00,7557352,Minneapolis,Minneapolis,MN,US,"{lat: 44.983334, long: -93.26667}"
+1,2016-12-17 00:00:00,7560662,Sri Lanka,Colombo,\xc3\x90\xc2\x97\xc3\x90\xc2\xb0\xc3\x90\xc2\xbf\xc3\x90\xc2\xb0\xc3\x90\xc2\xb4\xc3\x90\xc2\xbd\xc3\x90\xc2\xb0 \xc3\x90\xc2\xbf\xc3\x91\xc2\x80\xc3\x90\xc2\xbe\xc3\x90\xc2\xb2\xc3\x90\xc2\xb8\xc3\x90\xc2\xbd\xc3\x91\xc2\x86\xc3\x90\xc2\xb8\xc3\x91\xc2\x8f,LK,"{lat: 6.9270786, long: 79.861243}"
+1,2012-01-10 00:00:00,7564182,"Chino Hills, CA, US",Chino Hills,CA,US,"{lat: 33.9898188, long: -117.7325848}"
+1,2015-02-16 00:00:00,7640782,London,London,nan,GB,"{lat: 51.5112139, long: -0.1198244}"
+1,2012-01-24 00:00:00,7746792,Hermosa Beach,Hermosa Beach,CA,US,"{lat: 33.8622366, long: -118.3995194}"
+1,2012-08-15 00:00:00,7750492,Florida,nan,FL,US,"{lat: 27.6648274, long: -81.5157535}"
+1,2012-09-26 00:00:00,7808262,Boston ,Boston,MA,US,"{lat: 42.3584308, long: -71.0597732}"
+1,2012-07-20 00:00:00,7836182,"Lafayette, LA",Lafayette,LA,US,"{lat: 30.2240897, long: -92.0198427}"
+1,2012-11-04 00:00:00,7841402,Silicon Valey,nan,nan,nan,
+1,2012-06-08 00:00:00,7966542,"Arlington Heights, IL",Arlington Heights,IL,US,"{lat: 42.0883603, long: -87.9806265}"
+1,2012-08-09 00:00:00,7993232,38\xc3\x82\xc2\xb058\xc3\xa2\xc2\x80\xc2\xb256\xc3\xa2\xc2\x80\xc2\xb3N  94\xc3\x82\xc2\xb040\xc3\xa2\xc2\x80\xc2\xb215\xc3\xa2\xc2\x80\xc2\xb3W,nan,nan,nan,
+1,2013-10-22 00:00:00,8013712,U.S.,nan,nan,US,"{lat: 37.0902, long: -95.7129}"
+1,2012-06-02 00:00:00,8029902,"30.453625,-97.762168",nan,nan,nan,
+1,2015-11-20 00:00:00,8065502,Williamsburg - Brooklyn,nan,nan,nan,
+1,2012-01-06 00:00:00,8256132,Exondys 51 works y'all. Deal.,nan,nan,nan,
+1,2012-09-21 00:00:00,8309752,"Minneapolis, MN",Minneapolis,MN,US,"{lat: 44.983334, long: -93.26667}"
+1,2014-10-23 00:00:00,8317872,"Sausalito, CA",Sausalito,CA,US,"{lat: 37.8590937, long: -122.4852507}"
+1,2012-02-01 00:00:00,8524892,NY,New York,NY,US,"{lat: 40.7143528, long: -74.0059731}"

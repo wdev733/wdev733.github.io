@@ -1,0 +1,4428 @@
+{
+   "paths":{
+      "d028ddb0258323cc5bda091dc5adb4c8":[
+         {
+            "type":"event",
+            "label":"Introduction : What would you like to do next? : What would you like to do next?",
+            "pageid":"1d1122d4d3b86a7927ba3053583482d6"
+         },
+         {
+            "type":"action",
+            "label":"Let's go to the exit page.",
+            "decisionid":"0cc363815f6c71c767eef023303817c3"
+         },
+         {
+            "type":"event",
+            "label":"Exit Page : Do you want to exit Sharelook? : Do you want to exit Sharelook?",
+            "pageid":"4cec33d802594efcd754548a3ca150c3"
+         },
+         {
+            "type":"event",
+            "label":"Introduction",
+            "pageid":"1d1122d4d3b86a7927ba3053583482d6"
+         },
+         {
+            "type":"action",
+            "label":"No",
+            "decisionid":"7fe0d0a53c54c590af0235ec5537419a"
+         },
+         {
+            "type":"event",
+            "label":"Introduction",
+            "pageid":"1d1122d4d3b86a7927ba3053583482d6"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page000",
+            "pageid":"c749ab51e5a0396415058978b52073fc"
+         },
+         {
+            "type":"action",
+            "label":"Let's expireance DONN TELECOMMUNICATION (DT) SALES TACTICS.",
+            "decisionid":"e3c3bae56052bed51865dee8d43961a3"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page001",
+            "pageid":"03a8289a32370d451d2b449300a298fe"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page002",
+            "pageid":"8ce05bea8507aa525e855c455cea73ff"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page003",
+            "pageid":"ae5dc258da15875f653ec54f7e68266a"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page004",
+            "pageid":"4134c99a89ea3d9c27e40afc70e9f7d8"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page005",
+            "pageid":"ac840016fa392b3ff2c57c921ad28ce8"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page006",
+            "pageid":"3f618bd8670cb4358bd27bb79286a551"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page007",
+            "pageid":"cd898f6321efc728515c6be5b183c05d"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page008",
+            "pageid":"0b9298062a35216fe7100608fda458fb"
+         },
+         {
+            "type":"action",
+            "label":"A. Do further research on California Pacific Airline ",
+            "decisionid":"8cd2ac024b31a518f0ccc17377eecb26"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page027 : Whom do you think {name} should see?  : Whom do you think {name} should see? ",
+            "pageid":"201a61c2b2dccba6d55f76e36b0824c9"
+         },
+         {
+            "type":"action",
+            "label":"A. Brighthub Technonologies then Mr. Vallas.\n\n",
+            "decisionid":"256f856894da953208435872d9b3579a"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page073 : Which way do you think is the best for {name} to gain way into Brighthub Technologies?  : Which way do you think is the best for {name} to gain way into Brighthub Technologies? ",
+            "pageid":"7ad5b8c3173bc19fc9d2fe5da4a236e4"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page056",
+            "pageid":"d45efdcabd759c20d4fc159df38aa790"
+         },
+         {
+            "type":"action",
+            "label":"A. Make a call to Brighthub Technlogies and book an appointment immediately.",
+            "decisionid":"ba9a33d7fde1cf6e054601233d93f8f5"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page056 : What do you think {name} should do now? : What do you think {name} should do now?",
+            "pageid":"d45efdcabd759c20d4fc159df38aa790"
+         },
+         {
+            "type":"action",
+            "label":"A. Call back on Friday and book an appointment as soon as possible.",
+            "decisionid":"50e3a1fde7579d01c8f0579746897698"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page108",
+            "pageid":"4de2f319e8675b517d072b5e8fdb21a8"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page027 : Whom do you think {name} should see?  : Whom do you think {name} should see? ",
+            "pageid":"201a61c2b2dccba6d55f76e36b0824c9"
+         },
+         {
+            "type":"action",
+            "label":"D. Mr. Vallas only.",
+            "decisionid":"108a7c499566880383b8a84fe6561761"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page066 : what advice can you give to {name} on the best way of reaching Mr. Vallas? : what advice can you give to {name} on the best way of reaching Mr. Vallas?",
+            "pageid":"49d0718abc22e10c880a3b37a0c54c59"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page063",
+            "pageid":"a3270f1ec303ada6089a950b873a2453"
+         },
+         {
+            "type":"action",
+            "label":"C. Use some other devious way. : what advice can you give to {name} on the best way of reaching Mr. Vallas? : what advice can you give to {name} on the best way of reaching Mr. Vallas?",
+            "decisionid":"66a09c6bad38da69cf0f0954525383c0"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page063",
+            "pageid":"a3270f1ec303ada6089a950b873a2453"
+         },
+         {
+            "type":"action",
+            "label":"C. Use some other devious way. : what advice can you give to {name} on the best way of reaching Mr. Vallas? : what advice can you give to {name} on the best way of reaching Mr. Vallas?",
+            "decisionid":"66a09c6bad38da69cf0f0954525383c0"
+         },
+         {
+            "type":"action",
+            "label":"A. Call and book an appointment immediately.",
+            "decisionid":"f39f6067e929386a5f64fc1742d9778d"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page136 : What do you think {name} should answer this question? : What do you think {name} should answer this question?",
+            "pageid":"c436904f1ce506eee0a4af242bee0747"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page021",
+            "pageid":"24aacb573dc76de38c16d6392a81c7b2"
+         },
+         {
+            "type":"action",
+            "label":"A. \"It is about saving in his internet connectivity and communication costs.\"",
+            "decisionid":"f4ef3c3099319c99c8de1fc8c55d17d5"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page021 : What do you think {name} ought to do now? \n : What do you think {name} ought to do now? \n",
+            "pageid":"24aacb573dc76de38c16d6392a81c7b2"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page112",
+            "pageid":"ca6e922994bb0a64186c70c0a1258d45"
+         },
+         {
+            "type":"action",
+            "label":"A. Give up on meeting Mr. Vallas and call Brighthub Technologies to get an appointment.\n",
+            "decisionid":"3e12bda9d411b0ae7c1f6eff44d56d9c"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page112 : What do you think {name} should do now?\n\n\n\n : What do you think {name} should do now?\n\n\n\n",
+            "pageid":"ca6e922994bb0a64186c70c0a1258d45"
+         },
+         {
+            "type":"action",
+            "label":"B. Make a cold call to Mr. Blake on Friday?",
+            "decisionid":"d708221da85e4cd50a5b1b9181349511"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page138",
+            "pageid":"8d0fea2d9d1fe41b41739ed7137542d0"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page139",
+            "pageid":"d86df819436d662276e3686b43792d44"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page027 : Whom do you think {name} should see?  : Whom do you think {name} should see? ",
+            "pageid":"201a61c2b2dccba6d55f76e36b0824c9"
+         },
+         {
+            "type":"action",
+            "label":"B. Mr. Vallas then Brighthub Technologies.",
+            "decisionid":"2f5ef98d429d885e60a7603d567c531b"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page143 : what advice can you give to {name} on the best way of reaching Mr. Vallas?  : what advice can you give to {name} on the best way of reaching Mr. Vallas? ",
+            "pageid":"c78b7d51d0bb310c6058cdfcbae68171"
+         },
+         {
+            "type":"action",
+            "label":"B. Make a cold call on Mr. Vallas.",
+            "decisionid":"7407956f6400e3ac2ad050c68f97da78"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page090 : Which of the following answers would you choose?\n : Which of the following answers would you choose?\n",
+            "pageid":"a08702c4e6ce6b9474c519302ba22904"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page119",
+            "pageid":"2c953c8d73f2946c1ade4c4bb58018ef"
+         },
+         {
+            "type":"action",
+            "label":"C. \"Good Morning Madam. Is Mr. Vallas in please?\"",
+            "decisionid":"3a1ad7e91d6318a8d923f20cff856a3f"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page119 : What do you think {name} should do now? : What do you think {name} should do now?",
+            "pageid":"2c953c8d73f2946c1ade4c4bb58018ef"
+         },
+         {
+            "type":"action",
+            "label":"D. Give up on California Pacific Airline as a prospect.",
+            "decisionid":"fd2321d6d926b8ddf22152c5d7f1d0ae"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page120",
+            "pageid":"52c10fa6355cb2037571aaa188f21f04"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page143 : what advice can you give to {name} on the best way of reaching Mr. Vallas?  : what advice can you give to {name} on the best way of reaching Mr. Vallas? ",
+            "pageid":"c78b7d51d0bb310c6058cdfcbae68171"
+         },
+         {
+            "type":"action",
+            "label":"A. Call and book an appointment immediately.",
+            "decisionid":"004c54195996ad7d88bc0f73ac03d6c1"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page133 : What do you think {name} should answer this question? : What do you think {name} should answer this question?",
+            "pageid":"7b1d884f82a9825c9b45334faeef1df7"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page031",
+            "pageid":"a7e0a677df8f786bbfc6b3e282da7b89"
+         },
+         {
+            "type":"action",
+            "label":"D. \"It is about new cost-effective ways of communication through the internet and fixed lines reliably in your offices.\"",
+            "decisionid":"ec54328c8a8f6ca78061fad169b620c0"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page031",
+            "pageid":"a7e0a677df8f786bbfc6b3e282da7b89"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page032 : Please help him decide. : Please help him decide.",
+            "pageid":"109f498da388a0fe058072e86f06e639"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page141",
+            "pageid":"a109e7b7e7df3327961401ccafb5fd46"
+         },
+         {
+            "type":"action",
+            "label":"D. \"Customers and customer documents are very key to your business, and reliable communication system and stable internet connectivity sits at the heart of this. DT offers you cost-effective and reliable telecommunication services to ensure the safety of your customers' documents and smooth communication.\"",
+            "decisionid":"12d5c451b111035172e09cb3c7829438"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page141 : What do you think {name} should respond? : What do you think {name} should respond?",
+            "pageid":"a109e7b7e7df3327961401ccafb5fd46"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page058",
+            "pageid":"22784bbef8fa47ed042e1b28ca42d5ac"
+         },
+         {
+            "type":"action",
+            "label":"A. \"Yes, but tracking customer information over the internet at any time of the day, and having a smooth communication system is very important to our customers.\"",
+            "decisionid":"e5ae6dc33dda28c396b6a836f6ca931e"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page058",
+            "pageid":"22784bbef8fa47ed042e1b28ca42d5ac"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page032 : Please help him decide. : Please help him decide.",
+            "pageid":"109f498da388a0fe058072e86f06e639"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page076",
+            "pageid":"7969e821592ed4c1b818bb37ca2a2f12"
+         },
+         {
+            "type":"action",
+            "label":"B. \"Allow me to show you some research reports that show that DT is the most reliable.\"",
+            "decisionid":"f030395488b50df396af0d8b9712946a"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page076 : What do you think {name} should do next? : What do you think {name} should do next?",
+            "pageid":"7969e821592ed4c1b818bb37ca2a2f12"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page047",
+            "pageid":"c9c36711a0cf847e06933442712930a9"
+         },
+         {
+            "type":"action",
+            "label":"A. Keep quiet",
+            "decisionid":"3c120b112b70bbc8d62338e821f1a58b"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page047 : What do you think {name} should say? \n : What do you think {name} should say? \n",
+            "pageid":"c9c36711a0cf847e06933442712930a9"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page125",
+            "pageid":"0a971704a0f34cc894cb4438173d0d10"
+         },
+         {
+            "type":"action",
+            "label":"A. \"DT is an old company. It was the first telecom company formed 30 years ago. We have vast experience.\"\n",
+            "decisionid":"ce6d5e1f6a84c64971abd36843b26d89"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page125 : What do you think he should say? : What do you think he should say?",
+            "pageid":"0a971704a0f34cc894cb4438173d0d10"
+         },
+         {
+            "type":"action",
+            "label":"A. \"We have the strongest network coverage, fast internet connectivity, 50,000 trained employees, operating in over 50 countries, and over 150 million subscribers worldwide.\"",
+            "decisionid":"6936699609247a38c3e44bd61548d566"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page145",
+            "pageid":"91f2adbdbf33816344ecc2d55eb08dd0"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page047 : What do you think {name} should say? \n : What do you think {name} should say? \n",
+            "pageid":"c9c36711a0cf847e06933442712930a9"
+         },
+         {
+            "type":"action",
+            "label":"A. \"DT is an old company. It was the first telecom company formed 30 years ago. We have vast experience.\"\n",
+            "decisionid":"ce6d5e1f6a84c64971abd36843b26d89"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page125 : What do you think he should say? : What do you think he should say?",
+            "pageid":"0a971704a0f34cc894cb4438173d0d10"
+         },
+         {
+            "type":"action",
+            "label":"A. \"We have the strongest network coverage, fast internet connectivity, 50,000 trained employees, operating in over 50 countries, and over 150 million subscribers worldwide.\"",
+            "decisionid":"6936699609247a38c3e44bd61548d566"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page145",
+            "pageid":"91f2adbdbf33816344ecc2d55eb08dd0"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page047 : What do you think {name} should say? \n : What do you think {name} should say? \n",
+            "pageid":"c9c36711a0cf847e06933442712930a9"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page059",
+            "pageid":"e6ff8aa157e73b616918e62f4e22aa45"
+         },
+         {
+            "type":"action",
+            "label":"C. \"Because we have the strongest network coverage, we have more control in the market. We can offer you data security, fast internet connectivity to reach your demanding customers, and reliability that gives you peace of mind.\"",
+            "decisionid":"9063bc7568b8c5a254e914db97e112ac"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page059",
+            "pageid":"e6ff8aa157e73b616918e62f4e22aa45"
+         },
+         {
+            "type":"exit",
+            "endstatus":0,
+            "highlight":false
+         }
+      ],
+      "a26e420f0bc4e5750a2e7742aa402ca8":[
+         {
+            "type":"event",
+            "label":"Introduction : What would you like to do next? : What would you like to do next?",
+            "pageid":"1d1122d4d3b86a7927ba3053583482d6"
+         },
+         {
+            "type":"action",
+            "label":"Let's go to the exit page.",
+            "decisionid":"0cc363815f6c71c767eef023303817c3"
+         },
+         {
+            "type":"exit",
+            "endstatus":"3"
+         }
+      ],
+      "c445af31c8a7a98bcc01df6bcd6c6a80":[
+         {
+            "type":"event",
+            "label":"Introduction : What would you like to do next? : What would you like to do next?",
+            "pageid":"1d1122d4d3b86a7927ba3053583482d6"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page000",
+            "pageid":"c749ab51e5a0396415058978b52073fc"
+         },
+         {
+            "type":"action",
+            "label":"Let's expireance DONN TELECOMMUNICATION (DT) SALES TACTICS.",
+            "decisionid":"e3c3bae56052bed51865dee8d43961a3"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page001",
+            "pageid":"03a8289a32370d451d2b449300a298fe"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page002",
+            "pageid":"8ce05bea8507aa525e855c455cea73ff"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page003",
+            "pageid":"ae5dc258da15875f653ec54f7e68266a"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page004",
+            "pageid":"4134c99a89ea3d9c27e40afc70e9f7d8"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page005",
+            "pageid":"ac840016fa392b3ff2c57c921ad28ce8"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page006",
+            "pageid":"3f618bd8670cb4358bd27bb79286a551"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page007",
+            "pageid":"cd898f6321efc728515c6be5b183c05d"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page008",
+            "pageid":"0b9298062a35216fe7100608fda458fb"
+         },
+         {
+            "type":"action",
+            "label":"A. Do further research on California Pacific Airline ",
+            "decisionid":"8cd2ac024b31a518f0ccc17377eecb26"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page027 : Whom do you think {name} should see?  : Whom do you think {name} should see? ",
+            "pageid":"201a61c2b2dccba6d55f76e36b0824c9"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page101",
+            "pageid":"4e735d3a52bd81adb22562fc5cfb5bb7"
+         },
+         {
+            "type":"action",
+            "label":"C. Brighthub Technologies only.\n",
+            "decisionid":"9fe8747bdd82d049bc09e88f1a5163ee"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page101",
+            "pageid":"4e735d3a52bd81adb22562fc5cfb5bb7"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page112",
+            "pageid":"ca6e922994bb0a64186c70c0a1258d45"
+         },
+         {
+            "type":"action",
+            "label":"A. Call and book an appointment immediately",
+            "decisionid":"681c0633a8564c037d304f8a63bca9e9"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page112 : What do you think {name} should do now?\n\n\n\n : What do you think {name} should do now?\n\n\n\n",
+            "pageid":"ca6e922994bb0a64186c70c0a1258d45"
+         },
+         {
+            "type":"action",
+            "label":"B. Make a cold call to Mr. Blake on Friday?",
+            "decisionid":"d708221da85e4cd50a5b1b9181349511"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page138",
+            "pageid":"8d0fea2d9d1fe41b41739ed7137542d0"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page139",
+            "pageid":"d86df819436d662276e3686b43792d44"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page027 : Whom do you think {name} should see?  : Whom do you think {name} should see? ",
+            "pageid":"201a61c2b2dccba6d55f76e36b0824c9"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page143",
+            "pageid":"c78b7d51d0bb310c6058cdfcbae68171"
+         },
+         {
+            "type":"action",
+            "label":"B. Mr. Vallas then Brighthub Technologies.",
+            "decisionid":"2f5ef98d429d885e60a7603d567c531b"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page143",
+            "pageid":"c78b7d51d0bb310c6058cdfcbae68171"
+         },
+         {
+            "type":"action",
+            "label":"A. Call and book an appointment immediately.",
+            "decisionid":"004c54195996ad7d88bc0f73ac03d6c1"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page133 : What do you think {name} should answer this question? : What do you think {name} should answer this question?",
+            "pageid":"7b1d884f82a9825c9b45334faeef1df7"
+         },
+         {
+            "type":"action",
+            "label":"C. \"Sorry Madam, but it's a very involving matter. It would be better if I talk to Mr. Ryan's secretary, please. Kindly, put me through.\"",
+            "decisionid":"504b3a067273c45c24b23889a1eb6863"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page122 : What do you think {name} should say?  : What do you think {name} should say? ",
+            "pageid":"9b5a48b116286908dfbeb2148e9a741b"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page072",
+            "pageid":"5ece6a9b77d5ce84c5b0e355c41aaa1c"
+         },
+         {
+            "type":"action",
+            "label":"A. \"It is about a convenient, reliable and cost-effective way of getting internet connectivity in your office.\"\n",
+            "decisionid":"beec2f5145bf2b8626b60f323ba23aa8"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page072 : What do you think should be the next step for {name}? : What do you think should be the next step for {name}?",
+            "pageid":"5ece6a9b77d5ce84c5b0e355c41aaa1c"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page082",
+            "pageid":"01d895b16da669ff2427d1bea972dacb"
+         },
+         {
+            "type":"action",
+            "label":"B. Give up on meeting Mr. Vallas and make a cold call on Brighthub Technologies",
+            "decisionid":"09a177b28e559b0fb3237df3c0c4ed56"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page082",
+            "pageid":"01d895b16da669ff2427d1bea972dacb"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page116",
+            "pageid":"e2f89ec55a6c7195b1fad131a1baee3e"
+         },
+         {
+            "type":"action",
+            "label":"B. \"Good morning madam. Is Mr. Blake in today?\"\n\n",
+            "decisionid":"ab4e2f4f5256ed4ffd8a45a20ebb8a16"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page116 : What do you think {name} should do now?\n\n : What do you think {name} should do now?\n\n",
+            "pageid":"e2f89ec55a6c7195b1fad131a1baee3e"
+         },
+         {
+            "type":"action",
+            "label":"A. Call back on Friday and book an appointment as soon as possible.\n\n",
+            "decisionid":"1f90d1bd031a69fd66a4169db65099a1"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page061",
+            "pageid":"d197ad630340a59ffcb48a05b06eeb2a"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page027 : Whom do you think {name} should see?  : Whom do you think {name} should see? ",
+            "pageid":"201a61c2b2dccba6d55f76e36b0824c9"
+         },
+         {
+            "type":"action",
+            "label":"C. Brighthub Technologies only.\n",
+            "decisionid":"9fe8747bdd82d049bc09e88f1a5163ee"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page101 : What do you think is the best way {name} can use to get to Brighthub Technologies? : What do you think is the best way {name} can use to get to Brighthub Technologies?",
+            "pageid":"4e735d3a52bd81adb22562fc5cfb5bb7"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page082",
+            "pageid":"01d895b16da669ff2427d1bea972dacb"
+         },
+         {
+            "type":"action",
+            "label":"B. Make a cold call",
+            "decisionid":"143ff57066739651242415d9b738dea5"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page082",
+            "pageid":"01d895b16da669ff2427d1bea972dacb"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page116",
+            "pageid":"e2f89ec55a6c7195b1fad131a1baee3e"
+         },
+         {
+            "type":"action",
+            "label":"B. \"Good morning madam. Is Mr. Blake in today?\"\n\n",
+            "decisionid":"ab4e2f4f5256ed4ffd8a45a20ebb8a16"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page116 : What do you think {name} should do now?\n\n : What do you think {name} should do now?\n\n",
+            "pageid":"e2f89ec55a6c7195b1fad131a1baee3e"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page061",
+            "pageid":"d197ad630340a59ffcb48a05b06eeb2a"
+         },
+         {
+            "type":"action",
+            "label":"A. Call back on Friday and book an appointment as soon as possible.\n\n",
+            "decisionid":"1f90d1bd031a69fd66a4169db65099a1"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page061",
+            "pageid":"d197ad630340a59ffcb48a05b06eeb2a"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page027 : Whom do you think {name} should see?  : Whom do you think {name} should see? ",
+            "pageid":"201a61c2b2dccba6d55f76e36b0824c9"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page101",
+            "pageid":"4e735d3a52bd81adb22562fc5cfb5bb7"
+         },
+         {
+            "type":"action",
+            "label":"C. Brighthub Technologies only.\n",
+            "decisionid":"9fe8747bdd82d049bc09e88f1a5163ee"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page101",
+            "pageid":"4e735d3a52bd81adb22562fc5cfb5bb7"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page112",
+            "pageid":"ca6e922994bb0a64186c70c0a1258d45"
+         },
+         {
+            "type":"action",
+            "label":"A. Call and book an appointment immediately",
+            "decisionid":"681c0633a8564c037d304f8a63bca9e9"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page112 : What do you think {name} should do now?\n\n\n\n : What do you think {name} should do now?\n\n\n\n",
+            "pageid":"ca6e922994bb0a64186c70c0a1258d45"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page138",
+            "pageid":"8d0fea2d9d1fe41b41739ed7137542d0"
+         },
+         {
+            "type":"action",
+            "label":"B. Make a cold call to Mr. Blake on Friday?",
+            "decisionid":"d708221da85e4cd50a5b1b9181349511"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page138",
+            "pageid":"8d0fea2d9d1fe41b41739ed7137542d0"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page139",
+            "pageid":"d86df819436d662276e3686b43792d44"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page027 : Whom do you think {name} should see?  : Whom do you think {name} should see? ",
+            "pageid":"201a61c2b2dccba6d55f76e36b0824c9"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page143",
+            "pageid":"c78b7d51d0bb310c6058cdfcbae68171"
+         },
+         {
+            "type":"action",
+            "label":"B. Mr. Vallas then Brighthub Technologies.",
+            "decisionid":"2f5ef98d429d885e60a7603d567c531b"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page143",
+            "pageid":"c78b7d51d0bb310c6058cdfcbae68171"
+         },
+         {
+            "type":"action",
+            "label":"B. Make a cold call on Mr. Vallas.",
+            "decisionid":"7407956f6400e3ac2ad050c68f97da78"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page090 : Which of the following answers would you choose?\n : Which of the following answers would you choose?\n",
+            "pageid":"a08702c4e6ce6b9474c519302ba22904"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page119",
+            "pageid":"2c953c8d73f2946c1ade4c4bb58018ef"
+         },
+         {
+            "type":"action",
+            "label":"C. \"Good Morning Madam. Is Mr. Vallas in please?\"",
+            "decisionid":"3a1ad7e91d6318a8d923f20cff856a3f"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page119 : What do you think {name} should do now? : What do you think {name} should do now?",
+            "pageid":"2c953c8d73f2946c1ade4c4bb58018ef"
+         },
+         {
+            "type":"action",
+            "label":"C. Call Mr. Vallas to book an appointment.\n",
+            "decisionid":"5eb9f9293fea31ad60165c74952af3f0"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page133 : What do you think {name} should answer this question? : What do you think {name} should answer this question?",
+            "pageid":"7b1d884f82a9825c9b45334faeef1df7"
+         },
+         {
+            "type":"action",
+            "label":"A. \"It is about saving in his internet connectivity and communication costs.\"",
+            "decisionid":"e31447dd01fc5de0d8b140992f4a209b"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page072 : What do you think should be the next step for {name}? : What do you think should be the next step for {name}?",
+            "pageid":"5ece6a9b77d5ce84c5b0e355c41aaa1c"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page112",
+            "pageid":"ca6e922994bb0a64186c70c0a1258d45"
+         },
+         {
+            "type":"action",
+            "label":"A. Give up on meeting Mr. Vallas and call Brighthub Technologies to get an appointment\n",
+            "decisionid":"42d0f3872fe1472185968c634d6da52c"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page112 : What do you think {name} should do now?\n\n\n\n : What do you think {name} should do now?\n\n\n\n",
+            "pageid":"ca6e922994bb0a64186c70c0a1258d45"
+         },
+         {
+            "type":"action",
+            "label":"A. Call back on Friday and book an appointment as soon as possible.",
+            "decisionid":"d03cdfd80ae38ec34a7ebfd789d547c9"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page061",
+            "pageid":"d197ad630340a59ffcb48a05b06eeb2a"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page027 : Whom do you think {name} should see?  : Whom do you think {name} should see? ",
+            "pageid":"201a61c2b2dccba6d55f76e36b0824c9"
+         },
+         {
+            "type":"action",
+            "label":"C. Brighthub Technologies only.\n",
+            "decisionid":"9fe8747bdd82d049bc09e88f1a5163ee"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page101 : What do you think is the best way {name} can use to get to Brighthub Technologies? : What do you think is the best way {name} can use to get to Brighthub Technologies?",
+            "pageid":"4e735d3a52bd81adb22562fc5cfb5bb7"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page082",
+            "pageid":"01d895b16da669ff2427d1bea972dacb"
+         },
+         {
+            "type":"action",
+            "label":"B. Make a cold call",
+            "decisionid":"143ff57066739651242415d9b738dea5"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page082",
+            "pageid":"01d895b16da669ff2427d1bea972dacb"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page116",
+            "pageid":"e2f89ec55a6c7195b1fad131a1baee3e"
+         },
+         {
+            "type":"action",
+            "label":"B. \"Good morning madam. Is Mr. Blake in today?\"\n\n",
+            "decisionid":"ab4e2f4f5256ed4ffd8a45a20ebb8a16"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page116 : What do you think {name} should do now?\n\n : What do you think {name} should do now?\n\n",
+            "pageid":"e2f89ec55a6c7195b1fad131a1baee3e"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page061",
+            "pageid":"d197ad630340a59ffcb48a05b06eeb2a"
+         },
+         {
+            "type":"action",
+            "label":"A. Call back on Friday and book an appointment as soon as possible.\n\n",
+            "decisionid":"1f90d1bd031a69fd66a4169db65099a1"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page061",
+            "pageid":"d197ad630340a59ffcb48a05b06eeb2a"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page027 : Whom do you think {name} should see?  : Whom do you think {name} should see? ",
+            "pageid":"201a61c2b2dccba6d55f76e36b0824c9"
+         },
+         {
+            "type":"action",
+            "label":"D. Mr. Vallas only.",
+            "decisionid":"108a7c499566880383b8a84fe6561761"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page066 : what advice can you give to {name} on the best way of reaching Mr. Vallas? : what advice can you give to {name} on the best way of reaching Mr. Vallas?",
+            "pageid":"49d0718abc22e10c880a3b37a0c54c59"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page114",
+            "pageid":"8bce5821fbfb8c04585ea52345f85299"
+         },
+         {
+            "type":"action",
+            "label":"B. Make a cold call on Mr. Vallas.",
+            "decisionid":"4eda43fa2c479dc15f03f3b75ec48c9f"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page114",
+            "pageid":"8bce5821fbfb8c04585ea52345f85299"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page119",
+            "pageid":"2c953c8d73f2946c1ade4c4bb58018ef"
+         },
+         {
+            "type":"action",
+            "label":"C. \"Good Morning Madam. Is Mr. Vallas in please?\" (missing page)",
+            "decisionid":"ef8f3cab278f285890340152582f0efd"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page119 : What do you think {name} should do now? : What do you think {name} should do now?",
+            "pageid":"2c953c8d73f2946c1ade4c4bb58018ef"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page112",
+            "pageid":"ca6e922994bb0a64186c70c0a1258d45"
+         },
+         {
+            "type":"action",
+            "label":"A. Give up on meeting Mr. Vallas and call Brighthub Technologies to get an appointment.\n",
+            "decisionid":"59f439ce236b1f61651ade537ff63df0"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page112 : What do you think {name} should do now?\n\n\n\n : What do you think {name} should do now?\n\n\n\n",
+            "pageid":"ca6e922994bb0a64186c70c0a1258d45"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page138",
+            "pageid":"8d0fea2d9d1fe41b41739ed7137542d0"
+         },
+         {
+            "type":"action",
+            "label":"B. Make a cold call to Mr. Blake on Friday?",
+            "decisionid":"d708221da85e4cd50a5b1b9181349511"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page138",
+            "pageid":"8d0fea2d9d1fe41b41739ed7137542d0"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page139",
+            "pageid":"d86df819436d662276e3686b43792d44"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page027 : Whom do you think {name} should see?  : Whom do you think {name} should see? ",
+            "pageid":"201a61c2b2dccba6d55f76e36b0824c9"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page143",
+            "pageid":"c78b7d51d0bb310c6058cdfcbae68171"
+         },
+         {
+            "type":"action",
+            "label":"B. Mr. Vallas then Brighthub Technologies.",
+            "decisionid":"2f5ef98d429d885e60a7603d567c531b"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page143",
+            "pageid":"c78b7d51d0bb310c6058cdfcbae68171"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page133",
+            "pageid":"7b1d884f82a9825c9b45334faeef1df7"
+         },
+         {
+            "type":"action",
+            "label":"A. Call and book an appointment immediately.",
+            "decisionid":"004c54195996ad7d88bc0f73ac03d6c1"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page133 : What do you think {name} should answer this question? : What do you think {name} should answer this question?",
+            "pageid":"7b1d884f82a9825c9b45334faeef1df7"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page013",
+            "pageid":"c110f684cfe05b0866e4eca45a163ef6"
+         },
+         {
+            "type":"action",
+            "label":"B. \"It's Something I need to discuss with Mr. Vallas at a personal level.\"",
+            "decisionid":"bd8fafbe3924b5b8787af01f29ebdacf"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page013",
+            "pageid":"c110f684cfe05b0866e4eca45a163ef6"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page133 : What do you think {name} should answer this question? : What do you think {name} should answer this question?",
+            "pageid":"7b1d884f82a9825c9b45334faeef1df7"
+         },
+         {
+            "type":"action",
+            "label":"D. \"It is about new cost-effective ways of communication through the internet and fixed lines reliably in your offices.\"",
+            "decisionid":"ec54328c8a8f6ca78061fad169b620c0"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page031",
+            "pageid":"a7e0a677df8f786bbfc6b3e282da7b89"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page032 : Please help him decide. : Please help him decide.",
+            "pageid":"109f498da388a0fe058072e86f06e639"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page141",
+            "pageid":"a109e7b7e7df3327961401ccafb5fd46"
+         },
+         {
+            "type":"action",
+            "label":"D. \"Customers and customer documents are very key to your business, and reliable communication system and stable internet connectivity sits at the heart of this. DT offers you cost-effective and reliable telecommunication services to ensure the safety of your customers' documents and smooth communication.\"",
+            "decisionid":"12d5c451b111035172e09cb3c7829438"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page141 : What do you think {name} should respond? : What do you think {name} should respond?",
+            "pageid":"a109e7b7e7df3327961401ccafb5fd46"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page058",
+            "pageid":"22784bbef8fa47ed042e1b28ca42d5ac"
+         },
+         {
+            "type":"action",
+            "label":"A. \"Yes, but tracking customer information over the internet at any time of the day, and having a smooth communication system is very important to our customers.\"",
+            "decisionid":"e5ae6dc33dda28c396b6a836f6ca931e"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page058",
+            "pageid":"22784bbef8fa47ed042e1b28ca42d5ac"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page032 : Please help him decide. : Please help him decide.",
+            "pageid":"109f498da388a0fe058072e86f06e639"
+         },
+         {
+            "type":"action",
+            "label":"C. \"When choosing a telecommunication company for your business, what are the key factors that you look out for?\"",
+            "decisionid":"98d1afae0cf7f1d1379a6e455741d4a0"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page064 : What do you think {name} should now? : What do you think {name} should now?",
+            "pageid":"2a2df26269eda260d0deb0a3c9bd1205"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page047",
+            "pageid":"c9c36711a0cf847e06933442712930a9"
+         },
+         {
+            "type":"action",
+            "label":"A. Keep quiet.\n\n",
+            "decisionid":"0198e5310689c0069db68b58434b18fe"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page047 : What do you think {name} should say? \n : What do you think {name} should say? \n",
+            "pageid":"c9c36711a0cf847e06933442712930a9"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page125",
+            "pageid":"0a971704a0f34cc894cb4438173d0d10"
+         },
+         {
+            "type":"action",
+            "label":"A. \"DT is an old company. It was the first telecom company formed 30 years ago. We have vast experience.\"\n",
+            "decisionid":"ce6d5e1f6a84c64971abd36843b26d89"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page125 : What do you think he should say? : What do you think he should say?",
+            "pageid":"0a971704a0f34cc894cb4438173d0d10"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page059",
+            "pageid":"e6ff8aa157e73b616918e62f4e22aa45"
+         },
+         {
+            "type":"action",
+            "label":"B. \"Because we have the strongest network coverage, we have more control over the market. We can offer you data security, fast internet connectivity to reach your demanding customers, and reliability that gives you peace of mind.\"",
+            "decisionid":"a840bd481620840ce5a0ef3378780a56"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page059 : What is the best answer? : What is the best answer?",
+            "pageid":"e6ff8aa157e73b616918e62f4e22aa45"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page103",
+            "pageid":"056b209be9b345fa5dd08584ece817e1"
+         },
+         {
+            "type":"action",
+            "label":"A. \"Mr. Vallas, at first the price may look high but I can explain this to you. Because our network is the strongest, as I had told you earlier, you get more data security, better reliability and flexibility around your needs. And that’s why this additional value attracts extra few coins per plan.\"",
+            "decisionid":"6abdb333de352b6587d18cbf272a75ea"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page103 : what do you think? Should {name} close the deal? \n\n\n\n : what do you think? Should {name} close the deal? \n\n\n\n",
+            "pageid":"056b209be9b345fa5dd08584ece817e1"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page010",
+            "pageid":"0bbaacfae996339d68ce6d120fb4fbd8"
+         },
+         {
+            "type":"action",
+            "label":"B. No, {name} should not close the deal yet",
+            "decisionid":"ae6f7903014661612d0979c9349b3b6c"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page050 : Do you think {name} should accept? : Do you think {name} should accept?",
+            "pageid":"34f8555903c6e2ec40c17ee5c3a0ba32"
+         },
+         {
+            "type":"action",
+            "label":"A. Yes, there is no problem.\n",
+            "decisionid":"424172bd6e14703656ffe9d7d8ea567c"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page084",
+            "pageid":"1785ab1846064965d393931270cf98f3"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page023 : Please help him decide. : Please help him decide.",
+            "pageid":"5769d7aa771e5bd06ccb03db4f57891c"
+         },
+         {
+            "type":"action",
+            "label":"C. Chat with California Pacific Airline's receptionist?",
+            "decisionid":"e971480c4224d3eb2fb891b205fffd74"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page060",
+            "pageid":"1850efd433066bdf7d4a07e59c5c54dc"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page121 : How should {name} respond? : How should {name} respond?",
+            "pageid":"e4cad01e85330dd4097ec65476fa2d4a"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page147",
+            "pageid":"e3c17a6a910dc5f40288d5e5d0aaf953"
+         },
+         {
+            "type":"action",
+            "label":"B. \"Sure, Mr. Blake. There are also advantages that cut down your cost.\"",
+            "decisionid":"799be48b98e14b64054a87df0e914d92"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page147 : How should {name} recover the situation?\n : How should {name} recover the situation?\n",
+            "pageid":"e3c17a6a910dc5f40288d5e5d0aaf953"
+         },
+         {
+            "type":"action",
+            "label":"B.  \"Mr. Blake, it’s not only saving on your costs but also we can supply you with special plans that come with unlimited data, texts, and call services exclusive for our customers. We also have a variety of telephones that use the latest technology and can tap into our new spectrum to work 5 times faster inside buildings. I am sure this will give you peace of mind.\"",
+            "decisionid":"58e858cbe5a82234e389d84adf2b57af"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page093 : What do you think? Is there anything else to say before leaving? : What do you think? Is there anything else to say before leaving?",
+            "pageid":"c8b3e9e600c12c9ab1961787affe38e4"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page137",
+            "pageid":"1c7b697ba1c42836117dbf8a5eca7118"
+         },
+         {
+            "type":"action",
+            "label":"B. He hasn’t yet finished the deal. He should stay.",
+            "decisionid":"ad43391f2f48d3f29bee8e1d39d4749e"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page137",
+            "pageid":"1c7b697ba1c42836117dbf8a5eca7118"
+         },
+         {
+            "type":"event",
+            "label":"Exit Page : Do you want to exit Sharelook? : Do you want to exit Sharelook?",
+            "pageid":"4cec33d802594efcd754548a3ca150c3"
+         },
+         {
+            "type":"exit",
+            "endstatus":"1"
+         },
+         {
+            "type":"action",
+            "label":"Yes",
+            "decisionid":"334f00d53a9a700953339e5285ab0ee7"
+         }
+      ],
+      "9781999419a417b756ad5f5549df6f3e":[
+         {
+            "type":"event",
+            "label":"Introduction : What would you like to do next? : What would you like to do next?",
+            "pageid":"1d1122d4d3b86a7927ba3053583482d6"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page000",
+            "pageid":"c749ab51e5a0396415058978b52073fc"
+         },
+         {
+            "type":"action",
+            "label":"Let's expireance DONN TELECOMMUNICATION (DT) SALES TACTICS.",
+            "decisionid":"e3c3bae56052bed51865dee8d43961a3"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page001",
+            "pageid":"03a8289a32370d451d2b449300a298fe"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page002",
+            "pageid":"8ce05bea8507aa525e855c455cea73ff"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page003",
+            "pageid":"ae5dc258da15875f653ec54f7e68266a"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page004",
+            "pageid":"4134c99a89ea3d9c27e40afc70e9f7d8"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page005",
+            "pageid":"ac840016fa392b3ff2c57c921ad28ce8"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page006",
+            "pageid":"3f618bd8670cb4358bd27bb79286a551"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page007",
+            "pageid":"cd898f6321efc728515c6be5b183c05d"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page008",
+            "pageid":"0b9298062a35216fe7100608fda458fb"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page041",
+            "pageid":"5d0980146763df0a7185d01d1731538b"
+         },
+         {
+            "type":"action",
+            "label":"B. Call Mr. Ryan to book an appointment immediately.",
+            "decisionid":"fa7e66276ac74845d309ad45de7929ea"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page041 : What do you think {name} should answer this question? : What do you think {name} should answer this question?",
+            "pageid":"5d0980146763df0a7185d01d1731538b"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page016",
+            "pageid":"7a9b8e852ceef0edc1543a3f0a991029"
+         },
+         {
+            "type":"action",
+            "label":"B. \"It's Something I need to discuss with Mr. Ryan at a personal level.\"\n",
+            "decisionid":"9b7b1bab95ab868f4bf8498a4abc1f06"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page016",
+            "pageid":"7a9b8e852ceef0edc1543a3f0a991029"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page041 : What do you think {name} should answer this question? : What do you think {name} should answer this question?",
+            "pageid":"5d0980146763df0a7185d01d1731538b"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page039",
+            "pageid":"59fe75ee48346c860dd59b72e1be47d2"
+         },
+         {
+            "type":"action",
+            "label":"D. \"Sorry Madam, but it's a very involving matter. It would be better if I talk to Mr. Ryan's secretary, please. Kindly, put me through.\"",
+            "decisionid":"ca0e1c5d48d27e291c9431aaccf456cc"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page039",
+            "pageid":"59fe75ee48346c860dd59b72e1be47d2"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page029 : What would you advice {name} to do next?    : What would you advice {name} to do next?   ",
+            "pageid":"517b95d2e5aad68d0d6f569f7de0c117"
+         },
+         {
+            "type":"action",
+            "label":"B. Give up on CPA as a prospect\n",
+            "decisionid":"480cf99346923754237793968da7f46e"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page078",
+            "pageid":"70f2e90818811da8db1f1ffc43e1fc33"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page027 : Whom do you think {name} should see?  : Whom do you think {name} should see? ",
+            "pageid":"201a61c2b2dccba6d55f76e36b0824c9"
+         },
+         {
+            "type":"action",
+            "label":"C. Brighthub Technologies only.\n",
+            "decisionid":"9fe8747bdd82d049bc09e88f1a5163ee"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page101 : What do you think is the best way {name} can use to get to Brighthub Technologies? : What do you think is the best way {name} can use to get to Brighthub Technologies?",
+            "pageid":"4e735d3a52bd81adb22562fc5cfb5bb7"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page082",
+            "pageid":"01d895b16da669ff2427d1bea972dacb"
+         },
+         {
+            "type":"action",
+            "label":"B. Make a cold call",
+            "decisionid":"143ff57066739651242415d9b738dea5"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page082",
+            "pageid":"01d895b16da669ff2427d1bea972dacb"
+         },
+         {
+            "type":"action",
+            "label":"B. \"Good morning madam. Is Mr. Blake in today?\"\n\n",
+            "decisionid":"ab4e2f4f5256ed4ffd8a45a20ebb8a16"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page116 : What do you think {name} should do now?\n\n : What do you think {name} should do now?\n\n",
+            "pageid":"e2f89ec55a6c7195b1fad131a1baee3e"
+         },
+         {
+            "type":"action",
+            "label":"A. Call back on Friday and book an appointment as soon as possible.\n\n",
+            "decisionid":"1f90d1bd031a69fd66a4169db65099a1"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page061",
+            "pageid":"d197ad630340a59ffcb48a05b06eeb2a"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page027 : Whom do you think {name} should see?  : Whom do you think {name} should see? ",
+            "pageid":"201a61c2b2dccba6d55f76e36b0824c9"
+         },
+         {
+            "type":"action",
+            "label":"B. Mr. Vallas then Brighthub Technologies.",
+            "decisionid":"2f5ef98d429d885e60a7603d567c531b"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page143 : what advice can you give to {name} on the best way of reaching Mr. Vallas?  : what advice can you give to {name} on the best way of reaching Mr. Vallas? ",
+            "pageid":"c78b7d51d0bb310c6058cdfcbae68171"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page133",
+            "pageid":"7b1d884f82a9825c9b45334faeef1df7"
+         },
+         {
+            "type":"action",
+            "label":"A. Call and book an appointment immediately.",
+            "decisionid":"004c54195996ad7d88bc0f73ac03d6c1"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page133 : What do you think {name} should answer this question? : What do you think {name} should answer this question?",
+            "pageid":"7b1d884f82a9825c9b45334faeef1df7"
+         },
+         {
+            "type":"action",
+            "label":"B. \"It's Something I need to discuss with Mr. Vallas at a personal level.\"",
+            "decisionid":"bd8fafbe3924b5b8787af01f29ebdacf"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page013",
+            "pageid":"c110f684cfe05b0866e4eca45a163ef6"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page133 : What do you think {name} should answer this question? : What do you think {name} should answer this question?",
+            "pageid":"7b1d884f82a9825c9b45334faeef1df7"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page031",
+            "pageid":"a7e0a677df8f786bbfc6b3e282da7b89"
+         },
+         {
+            "type":"action",
+            "label":"D. \"It is about new cost-effective ways of communication through the internet and fixed lines reliably in your offices.\"",
+            "decisionid":"ec54328c8a8f6ca78061fad169b620c0"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page031",
+            "pageid":"a7e0a677df8f786bbfc6b3e282da7b89"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page032 : Please help him decide. : Please help him decide.",
+            "pageid":"109f498da388a0fe058072e86f06e639"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page015",
+            "pageid":"b8cc9e9fb12151b1011c61e98a99d3ea"
+         },
+         {
+            "type":"action",
+            "label":"A. \"Because we have the largest network coverage in USA, and serve over 50 countries, we are the best.\"",
+            "decisionid":"8ac53a38f931e1ae5e3d20a52dced6f4"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page015",
+            "pageid":"b8cc9e9fb12151b1011c61e98a99d3ea"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page032 : Please help him decide. : Please help him decide.",
+            "pageid":"109f498da388a0fe058072e86f06e639"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page064",
+            "pageid":"2a2df26269eda260d0deb0a3c9bd1205"
+         },
+         {
+            "type":"action",
+            "label":"C. \"When choosing a telecommunication company for your business, what are the key factors that you look out for?\"",
+            "decisionid":"98d1afae0cf7f1d1379a6e455741d4a0"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page064 : What do you think {name} should now? : What do you think {name} should now?",
+            "pageid":"2a2df26269eda260d0deb0a3c9bd1205"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page017",
+            "pageid":"b46d4c20fbe33d49c83c4d8ab5026ba5"
+         },
+         {
+            "type":"action",
+            "label":"B. \"How do you like that?\"\n\n",
+            "decisionid":"fe26654d6631b68f7b3924de3caccf46"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page047 : What do you think {name} should say? \n : What do you think {name} should say? \n",
+            "pageid":"c9c36711a0cf847e06933442712930a9"
+         },
+         {
+            "type":"action",
+            "label":"B. \"We have the strongest network coverage, fast internet connectivity, 50,000 trained employees, operating in over 50 countries, and over 150 million subscribers world-wide.\"\n",
+            "decisionid":"376193e9ac4013d3a65cabdc0b54aa54"
+         },
+         {
+            "type":"exit",
+            "endstatus":"3"
+         }
+      ],
+      "04d7d176d8ddf9b86415c5899bff4104":[
+         {
+            "type":"event",
+            "label":"Introduction : What would you like to do next? : What would you like to do next?",
+            "pageid":"1d1122d4d3b86a7927ba3053583482d6"
+         },
+         {
+            "type":"action",
+            "label":"Let's expireance DONN TELECOMMUNICATION (DT) SALES TACTICS.",
+            "decisionid":"e3c3bae56052bed51865dee8d43961a3"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page000",
+            "pageid":"c749ab51e5a0396415058978b52073fc"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page001",
+            "pageid":"03a8289a32370d451d2b449300a298fe"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page002",
+            "pageid":"8ce05bea8507aa525e855c455cea73ff"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page003",
+            "pageid":"ae5dc258da15875f653ec54f7e68266a"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page004",
+            "pageid":"4134c99a89ea3d9c27e40afc70e9f7d8"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page005",
+            "pageid":"ac840016fa392b3ff2c57c921ad28ce8"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page006",
+            "pageid":"3f618bd8670cb4358bd27bb79286a551"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page007",
+            "pageid":"cd898f6321efc728515c6be5b183c05d"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page008",
+            "pageid":"0b9298062a35216fe7100608fda458fb"
+         },
+         {
+            "type":"action",
+            "label":"B. Call Mr. Ryan to book an appointment immediately.",
+            "decisionid":"fa7e66276ac74845d309ad45de7929ea"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page041 : What do you think {name} should answer this question? : What do you think {name} should answer this question?",
+            "pageid":"5d0980146763df0a7185d01d1731538b"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page039",
+            "pageid":"59fe75ee48346c860dd59b72e1be47d2"
+         },
+         {
+            "type":"action",
+            "label":"D. \"Sorry Madam, but it's a very involving matter. It would be better if I talk to Mr. Ryan's secretary, please. Kindly, put me through.\"",
+            "decisionid":"ca0e1c5d48d27e291c9431aaccf456cc"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page039",
+            "pageid":"59fe75ee48346c860dd59b72e1be47d2"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page029 : What would you advice {name} to do next?    : What would you advice {name} to do next?   ",
+            "pageid":"517b95d2e5aad68d0d6f569f7de0c117"
+         },
+         {
+            "type":"action",
+            "label":"B. Give up on CPA as a prospect\n",
+            "decisionid":"480cf99346923754237793968da7f46e"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page078",
+            "pageid":"70f2e90818811da8db1f1ffc43e1fc33"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page027 : Whom do you think {name} should see?  : Whom do you think {name} should see? ",
+            "pageid":"201a61c2b2dccba6d55f76e36b0824c9"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page143",
+            "pageid":"c78b7d51d0bb310c6058cdfcbae68171"
+         },
+         {
+            "type":"action",
+            "label":"B. Mr. Vallas then Brighthub Technologies.",
+            "decisionid":"2f5ef98d429d885e60a7603d567c531b"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page143",
+            "pageid":"c78b7d51d0bb310c6058cdfcbae68171"
+         },
+         {
+            "type":"action",
+            "label":"C. Use some other devious way.",
+            "decisionid":"7c7a02eef80e3e90e358105dc34e61fc"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page118",
+            "pageid":"3de5d3eb036cc04c0b5d5ce1a146dab5"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page143 : what advice can you give to {name} on the best way of reaching Mr. Vallas?  : what advice can you give to {name} on the best way of reaching Mr. Vallas? ",
+            "pageid":"c78b7d51d0bb310c6058cdfcbae68171"
+         },
+         {
+            "type":"action",
+            "label":"A. Call and book an appointment immediately.",
+            "decisionid":"004c54195996ad7d88bc0f73ac03d6c1"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page133 : What do you think {name} should answer this question? : What do you think {name} should answer this question?",
+            "pageid":"7b1d884f82a9825c9b45334faeef1df7"
+         },
+         {
+            "type":"action",
+            "label":"B. \"It's Something I need to discuss with Mr. Vallas at a personal level.\"",
+            "decisionid":"bd8fafbe3924b5b8787af01f29ebdacf"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page013",
+            "pageid":"c110f684cfe05b0866e4eca45a163ef6"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page133 : What do you think {name} should answer this question? : What do you think {name} should answer this question?",
+            "pageid":"7b1d884f82a9825c9b45334faeef1df7"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page031",
+            "pageid":"a7e0a677df8f786bbfc6b3e282da7b89"
+         },
+         {
+            "type":"action",
+            "label":"D. \"It is about new cost-effective ways of communication through the internet and fixed lines reliably in your offices.\"",
+            "decisionid":"ec54328c8a8f6ca78061fad169b620c0"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page031",
+            "pageid":"a7e0a677df8f786bbfc6b3e282da7b89"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page032 : Please help him decide. : Please help him decide.",
+            "pageid":"109f498da388a0fe058072e86f06e639"
+         },
+         {
+            "type":"action",
+            "label":"D. \"Customers and customer documents are very key to your business, and reliable communication system and stable internet connectivity sits at the heart of this. DT offers you cost-effective and reliable telecommunication services to ensure the safety of your customers' documents and smooth communication.\"",
+            "decisionid":"12d5c451b111035172e09cb3c7829438"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page141 : What do you think {name} should respond? : What do you think {name} should respond?",
+            "pageid":"a109e7b7e7df3327961401ccafb5fd46"
+         },
+         {
+            "type":"action",
+            "label":"C. \"Mr. Vallas, I understand your point. But, isn't the 'peace of mind' due to the fact that your customer data is safe, not important to you?\"",
+            "decisionid":"b1351246396415cd2fcf859ecedb2507"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page132",
+            "pageid":"27d0e893b03fbaf7c24b9b83445227d5"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page032 : Please help him decide. : Please help him decide.",
+            "pageid":"109f498da388a0fe058072e86f06e639"
+         },
+         {
+            "type":"action",
+            "label":"B. \"Allow me to show you some research reports that show that DT is the most reliable.\"",
+            "decisionid":"f030395488b50df396af0d8b9712946a"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page076 : What do you think {name} should do next? : What do you think {name} should do next?",
+            "pageid":"7969e821592ed4c1b818bb37ca2a2f12"
+         },
+         {
+            "type":"action",
+            "label":"A. Keep quiet",
+            "decisionid":"3c120b112b70bbc8d62338e821f1a58b"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page047 : What do you think {name} should say? \n : What do you think {name} should say? \n",
+            "pageid":"c9c36711a0cf847e06933442712930a9"
+         },
+         {
+            "type":"action",
+            "label":"B. \"We have the strongest network coverage, fast internet connectivity, 50,000 trained employees, operating in over 50 countries, and over 150 million subscribers world-wide.\"\n",
+            "decisionid":"376193e9ac4013d3a65cabdc0b54aa54"
+         },
+         {
+            "type":"exit",
+            "endstatus":"3"
+         }
+      ],
+      "bc2765a0e224ec519ee2e81d612e4d90":[
+         {
+            "type":"event",
+            "label":"Introduction : What would you like to do next? : What would you like to do next?",
+            "pageid":"1d1122d4d3b86a7927ba3053583482d6"
+         },
+         {
+            "type":"action",
+            "label":"Let's expireance DONN TELECOMMUNICATION (DT) SALES TACTICS.",
+            "decisionid":"e3c3bae56052bed51865dee8d43961a3"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page000",
+            "pageid":"c749ab51e5a0396415058978b52073fc"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page001",
+            "pageid":"03a8289a32370d451d2b449300a298fe"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page002",
+            "pageid":"8ce05bea8507aa525e855c455cea73ff"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page003",
+            "pageid":"ae5dc258da15875f653ec54f7e68266a"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page004",
+            "pageid":"4134c99a89ea3d9c27e40afc70e9f7d8"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page005",
+            "pageid":"ac840016fa392b3ff2c57c921ad28ce8"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page006",
+            "pageid":"3f618bd8670cb4358bd27bb79286a551"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page007",
+            "pageid":"cd898f6321efc728515c6be5b183c05d"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page008",
+            "pageid":"0b9298062a35216fe7100608fda458fb"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page011",
+            "pageid":"3dca47c76c6828dbc2102c84eba89d3c"
+         },
+         {
+            "type":"action",
+            "label":"C. Just make a cold call on Mr. Ryan.",
+            "decisionid":"be36bf4294e584215cc6db6ad6d2e1ae"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page011 : If you were in {name}'s position, which of the following would you choose? : If you were in {name}'s position, which of the following would you choose?",
+            "pageid":"3dca47c76c6828dbc2102c84eba89d3c"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page086",
+            "pageid":"13e271b0eb3f1fac2e6e0858b466a466"
+         },
+         {
+            "type":"action",
+            "label":"A. \"Good Morning Madam. I have come with some valuable information on DT to share with Mr. Ryan\".",
+            "decisionid":"72f334767de7a90965fe32f7be26b1eb"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page086 : Now, what do you think {name} should do? : Now, what do you think {name} should do?",
+            "pageid":"13e271b0eb3f1fac2e6e0858b466a466"
+         },
+         {
+            "type":"action",
+            "label":"C. Do a bit of research on California Pacific Airline",
+            "decisionid":"f30c6e362459083917fa19b87e82b2da"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page027 : Whom do you think {name} should see?  : Whom do you think {name} should see? ",
+            "pageid":"201a61c2b2dccba6d55f76e36b0824c9"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page073",
+            "pageid":"7ad5b8c3173bc19fc9d2fe5da4a236e4"
+         },
+         {
+            "type":"action",
+            "label":"A. Brighthub Technonologies then Mr. Vallas.\n\n",
+            "decisionid":"256f856894da953208435872d9b3579a"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page073",
+            "pageid":"7ad5b8c3173bc19fc9d2fe5da4a236e4"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page056",
+            "pageid":"d45efdcabd759c20d4fc159df38aa790"
+         },
+         {
+            "type":"action",
+            "label":"A. Make a call to Brighthub Technlogies and book an appointment immediately.",
+            "decisionid":"ba9a33d7fde1cf6e054601233d93f8f5"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page056 : What do you think {name} should do now? : What do you think {name} should do now?",
+            "pageid":"d45efdcabd759c20d4fc159df38aa790"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page036",
+            "pageid":"adea53bcf9d5fcfa1623e56d547226dd"
+         },
+         {
+            "type":"action",
+            "label":"B. Make a cold call to Mr. Blake on Friday?",
+            "decisionid":"4a50ecb036fa33f45e0a628bcf2f5e9b"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page036",
+            "pageid":"adea53bcf9d5fcfa1623e56d547226dd"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page037",
+            "pageid":"0eb27b61ed811bdd5ab3e88cb82d165a"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page027 : Whom do you think {name} should see?  : Whom do you think {name} should see? ",
+            "pageid":"201a61c2b2dccba6d55f76e36b0824c9"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page066",
+            "pageid":"49d0718abc22e10c880a3b37a0c54c59"
+         },
+         {
+            "type":"action",
+            "label":"D. Mr. Vallas only.",
+            "decisionid":"108a7c499566880383b8a84fe6561761"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page066",
+            "pageid":"49d0718abc22e10c880a3b37a0c54c59"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page114",
+            "pageid":"8bce5821fbfb8c04585ea52345f85299"
+         },
+         {
+            "type":"action",
+            "label":"B. Make a cold call on Mr. Vallas.",
+            "decisionid":"4eda43fa2c479dc15f03f3b75ec48c9f"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page114",
+            "pageid":"8bce5821fbfb8c04585ea52345f85299"
+         },
+         {
+            "type":"action",
+            "label":"C. \"Good Morning Madam. Is Mr. Vallas in please?\" (missing page)",
+            "decisionid":"ef8f3cab278f285890340152582f0efd"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page119 : What do you think {name} should do now? : What do you think {name} should do now?",
+            "pageid":"2c953c8d73f2946c1ade4c4bb58018ef"
+         },
+         {
+            "type":"action",
+            "label":"D. Give up on California Pacific Airline as a prospect.",
+            "decisionid":"fd2321d6d926b8ddf22152c5d7f1d0ae"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page120",
+            "pageid":"52c10fa6355cb2037571aaa188f21f04"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page143 : what advice can you give to {name} on the best way of reaching Mr. Vallas?  : what advice can you give to {name} on the best way of reaching Mr. Vallas? ",
+            "pageid":"c78b7d51d0bb310c6058cdfcbae68171"
+         },
+         {
+            "type":"action",
+            "label":"B. Make a cold call on Mr. Vallas.",
+            "decisionid":"7407956f6400e3ac2ad050c68f97da78"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page090 : Which of the following answers would you choose?\n : Which of the following answers would you choose?\n",
+            "pageid":"a08702c4e6ce6b9474c519302ba22904"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page127",
+            "pageid":"08d6c0b15a0d6a1539d63bf87b64a8c5"
+         },
+         {
+            "type":"action",
+            "label":"B. \"Good morning Madam. Please tell Mr. Vallas that {name} Stuart is here to see him.\"\n\n",
+            "decisionid":"7ce0e25b0ec2cce9cd976a183c69f799"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page127",
+            "pageid":"08d6c0b15a0d6a1539d63bf87b64a8c5"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page070 : What do you think {name} should say next? : What do you think {name} should say next?",
+            "pageid":"83db730fc3141ea98741b8acc88bce91"
+         },
+         {
+            "type":"action",
+            "label":"C. \"You can now see how DT has demonstrated data security and reliability.\"\n",
+            "decisionid":"df2c9048f0b345625b962563fea66481"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page106",
+            "pageid":"b84bbd0fc2c3d54380b223c8a7615b4e"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page014 : Please help {name} answer that question. : Please help {name} answer that question.",
+            "pageid":"c093e87782257f8e3bb601e418abf413"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page113",
+            "pageid":"599c2c5d14e0e3584e9e9117c129c9cb"
+         },
+         {
+            "type":"action",
+            "label":"C. \"For sure, with our unquestionably fast LTE network and the fact that we are paving way for our 5G network, we have been in control over the years, something which gives us greater flexibility to pass on customers like California Pacific Airline. Furthermore, our network stability, coverage, and reliability give you a greater advantage when connecting your business with the right customers.\"",
+            "decisionid":"77349d553904517b71250fa84836e002"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page113 : What will be the is the best answer? : What will be the is the best answer?",
+            "pageid":"599c2c5d14e0e3584e9e9117c129c9cb"
+         },
+         {
+            "type":"action",
+            "label":"C. \"How much do you think it should be priced, Mr. Vallas?\"\n",
+            "decisionid":"b20eece9d41b4fd676855de47a9640cd"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page126 : What do you think he should say to recover the situation? : What do you think he should say to recover the situation?",
+            "pageid":"1200a6204ba8bb3c93c2c69b95045809"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page055",
+            "pageid":"37805c20e1a9e1d01683679eb750f141"
+         },
+         {
+            "type":"action",
+            "label":"A. \"Mr. Vallas, at first the price may look high but I can explain this to you. Because our network is the strongest, as I had told you earlier, you get more data security, better reliability and flexibility around your needs. And that’s why this additional value attracts extra few coins per plan.\"        55 \n",
+            "decisionid":"e037ad33a508fcc7cd2cb3e9e005bd36"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page055 : What do you think? : What do you think?",
+            "pageid":"37805c20e1a9e1d01683679eb750f141"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page104",
+            "pageid":"b25538fe7e6eae5f4cd18d86d09dfbbe"
+         },
+         {
+            "type":"action",
+            "label":"A. YES, it is time to close the deal.\n",
+            "decisionid":"a234cad5782ae662d6c652666f857c68"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page104 : Do you think {name} should accept? : Do you think {name} should accept?",
+            "pageid":"b25538fe7e6eae5f4cd18d86d09dfbbe"
+         },
+         {
+            "type":"action",
+            "label":"A. Yes, there is no problem",
+            "decisionid":"9b38b516b99ae3e856f04953b5f4c7d9"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page091",
+            "pageid":"2c319ec7f533825f82ac13989d1ddece"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page129 : Please help him decide what to do next... : Please help him decide what to do next...",
+            "pageid":"0a23290cf2fe34dc8626974ec3ba5cce"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page146",
+            "pageid":"d71805a464bf1f0a0196d0ea6c091f33"
+         },
+         {
+            "type":"action",
+            "label":"B. Go back to DT office?\n\n",
+            "decisionid":"b13da76ae58b43fe067dc75449ad642f"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page146 : What do you think {name} should do now? : What do you think {name} should do now?",
+            "pageid":"d71805a464bf1f0a0196d0ea6c091f33"
+         },
+         {
+            "type":"action",
+            "label":"A. Call back on Friday and book an appointment as soon as possible.",
+            "decisionid":"507523aae69845bc8ca884da13482e7f"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page080",
+            "pageid":"3533042a9095a2cdfa6d327575abe196"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page121 : How should {name} respond? : How should {name} respond?",
+            "pageid":"e4cad01e85330dd4097ec65476fa2d4a"
+         },
+         {
+            "type":"action",
+            "label":"C. \"Sure, Mr. Blake. I think Mr. Vallas has made a wise choice that considers not only him, but you too.\"",
+            "decisionid":"577d6c10ef0730f5ff3ca6e36b0455e3"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page053 : What about you? \n : What about you? \n",
+            "pageid":"5474977899084932b3ef52f53726b7a0"
+         },
+         {
+            "type":"action",
+            "label":"D. The above 3.",
+            "decisionid":"d2581afd6b6dd2d4e3374816b166ce5f"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page081 : What do you think? Is there anything else to say before leaving? : What do you think? Is there anything else to say before leaving?",
+            "pageid":"106c0468c42fc9477954bbf414fa1e59"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page137",
+            "pageid":"1c7b697ba1c42836117dbf8a5eca7118"
+         },
+         {
+            "type":"action",
+            "label":"B. He hasn’t yet finished the deal. He should stay",
+            "decisionid":"639b044eb8c052ad763771c49fcd6202"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page137",
+            "pageid":"1c7b697ba1c42836117dbf8a5eca7118"
+         },
+         {
+            "type":"event",
+            "label":"Exit Page : Do you want to exit Sharelook? : Do you want to exit Sharelook?",
+            "pageid":"4cec33d802594efcd754548a3ca150c3"
+         },
+         {
+            "type":"exit",
+            "endstatus":"1"
+         },
+         {
+            "type":"action",
+            "label":"Yes",
+            "decisionid":"334f00d53a9a700953339e5285ab0ee7"
+         }
+      ],
+      "ff42ae06b7f77a07ce4526593340c59b":[
+         {
+            "type":"event",
+            "label":"Introduction : What would you like to do next? : What would you like to do next?",
+            "pageid":"1d1122d4d3b86a7927ba3053583482d6"
+         },
+         {
+            "type":"action",
+            "label":"Let's expireance DONN TELECOMMUNICATION (DT) SALES TACTICS.",
+            "decisionid":"e3c3bae56052bed51865dee8d43961a3"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page000",
+            "pageid":"c749ab51e5a0396415058978b52073fc"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page001",
+            "pageid":"03a8289a32370d451d2b449300a298fe"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page002",
+            "pageid":"8ce05bea8507aa525e855c455cea73ff"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page003",
+            "pageid":"ae5dc258da15875f653ec54f7e68266a"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page004",
+            "pageid":"4134c99a89ea3d9c27e40afc70e9f7d8"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page005",
+            "pageid":"ac840016fa392b3ff2c57c921ad28ce8"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page006",
+            "pageid":"3f618bd8670cb4358bd27bb79286a551"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page007",
+            "pageid":"cd898f6321efc728515c6be5b183c05d"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page008",
+            "pageid":"0b9298062a35216fe7100608fda458fb"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page027",
+            "pageid":"201a61c2b2dccba6d55f76e36b0824c9"
+         },
+         {
+            "type":"action",
+            "label":"A. Do further research on California Pacific Airline ",
+            "decisionid":"8cd2ac024b31a518f0ccc17377eecb26"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page027 : Whom do you think {name} should see?  : Whom do you think {name} should see? ",
+            "pageid":"201a61c2b2dccba6d55f76e36b0824c9"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page101",
+            "pageid":"4e735d3a52bd81adb22562fc5cfb5bb7"
+         },
+         {
+            "type":"action",
+            "label":"C. Brighthub Technologies only.\n",
+            "decisionid":"9fe8747bdd82d049bc09e88f1a5163ee"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page101",
+            "pageid":"4e735d3a52bd81adb22562fc5cfb5bb7"
+         },
+         {
+            "type":"action",
+            "label":"A. Call and book an appointment immediately",
+            "decisionid":"681c0633a8564c037d304f8a63bca9e9"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page112 : What do you think {name} should do now?\n\n\n\n : What do you think {name} should do now?\n\n\n\n",
+            "pageid":"ca6e922994bb0a64186c70c0a1258d45"
+         },
+         {
+            "type":"action",
+            "label":"A. Call back on Friday and book an appointment as soon as possible.",
+            "decisionid":"d03cdfd80ae38ec34a7ebfd789d547c9"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page061",
+            "pageid":"d197ad630340a59ffcb48a05b06eeb2a"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page027 : Whom do you think {name} should see?  : Whom do you think {name} should see? ",
+            "pageid":"201a61c2b2dccba6d55f76e36b0824c9"
+         },
+         {
+            "type":"action",
+            "label":"D. Mr. Vallas only.",
+            "decisionid":"108a7c499566880383b8a84fe6561761"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page066 : what advice can you give to {name} on the best way of reaching Mr. Vallas? : what advice can you give to {name} on the best way of reaching Mr. Vallas?",
+            "pageid":"49d0718abc22e10c880a3b37a0c54c59"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page136",
+            "pageid":"c436904f1ce506eee0a4af242bee0747"
+         },
+         {
+            "type":"action",
+            "label":"A. Call and book an appointment immediately.",
+            "decisionid":"f39f6067e929386a5f64fc1742d9778d"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page136 : What do you think {name} should answer this question? : What do you think {name} should answer this question?",
+            "pageid":"c436904f1ce506eee0a4af242bee0747"
+         },
+         {
+            "type":"action",
+            "label":"B. \"It's Something I need to discuss with Mr. Vallas at a personal level.\"",
+            "decisionid":"077dbdbfe37e48161ee591b1476dd884"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page110",
+            "pageid":"bd76e04928d5a00507de9681d7f9c82a"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page136 : What do you think {name} should answer this question? : What do you think {name} should answer this question?",
+            "pageid":"c436904f1ce506eee0a4af242bee0747"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page021",
+            "pageid":"24aacb573dc76de38c16d6392a81c7b2"
+         },
+         {
+            "type":"action",
+            "label":"A. \"It is about saving in his internet connectivity and communication costs.\"",
+            "decisionid":"f4ef3c3099319c99c8de1fc8c55d17d5"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page021 : What do you think {name} ought to do now? \n : What do you think {name} ought to do now? \n",
+            "pageid":"24aacb573dc76de38c16d6392a81c7b2"
+         },
+         {
+            "type":"action",
+            "label":"B. Give up on meeting Mr. Vallas and make a cold call on Brighthub Technologies.",
+            "decisionid":"222d43cacca80f2c9e1aa6c2423a452c"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page082 : Which of the following would you advice {name} to use? : Which of the following would you advice {name} to use?",
+            "pageid":"01d895b16da669ff2427d1bea972dacb"
+         },
+         {
+            "type":"action",
+            "label":"B. \"Good morning madam. Is Mr. Blake in today?\"\n\n",
+            "decisionid":"ab4e2f4f5256ed4ffd8a45a20ebb8a16"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page116 : What do you think {name} should do now?\n\n : What do you think {name} should do now?\n\n",
+            "pageid":"e2f89ec55a6c7195b1fad131a1baee3e"
+         },
+         {
+            "type":"action",
+            "label":"B. Make a cold call to Mr. Blake on Friday?",
+            "decisionid":"743808c4bee72adfa51b86b9c7bc7fa5"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page138",
+            "pageid":"8d0fea2d9d1fe41b41739ed7137542d0"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page139",
+            "pageid":"d86df819436d662276e3686b43792d44"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page027 : Whom do you think {name} should see?  : Whom do you think {name} should see? ",
+            "pageid":"201a61c2b2dccba6d55f76e36b0824c9"
+         },
+         {
+            "type":"action",
+            "label":"B. Mr. Vallas then Brighthub Technologies.",
+            "decisionid":"2f5ef98d429d885e60a7603d567c531b"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page143 : what advice can you give to {name} on the best way of reaching Mr. Vallas?  : what advice can you give to {name} on the best way of reaching Mr. Vallas? ",
+            "pageid":"c78b7d51d0bb310c6058cdfcbae68171"
+         },
+         {
+            "type":"action",
+            "label":"A. Call and book an appointment immediately.",
+            "decisionid":"004c54195996ad7d88bc0f73ac03d6c1"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page133 : What do you think {name} should answer this question? : What do you think {name} should answer this question?",
+            "pageid":"7b1d884f82a9825c9b45334faeef1df7"
+         },
+         {
+            "type":"action",
+            "label":"A. \"It is about saving in his internet connectivity and communication costs.\"",
+            "decisionid":"e31447dd01fc5de0d8b140992f4a209b"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page072 : What do you think should be the next step for {name}? : What do you think should be the next step for {name}?",
+            "pageid":"5ece6a9b77d5ce84c5b0e355c41aaa1c"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page120",
+            "pageid":"52c10fa6355cb2037571aaa188f21f04"
+         },
+         {
+            "type":"action",
+            "label":"D. Give up on California Pacific Airline as a prospect",
+            "decisionid":"d4795184ca9d226f061132db6345c6db"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page143 : what advice can you give to {name} on the best way of reaching Mr. Vallas?  : what advice can you give to {name} on the best way of reaching Mr. Vallas? ",
+            "pageid":"c78b7d51d0bb310c6058cdfcbae68171"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page090",
+            "pageid":"a08702c4e6ce6b9474c519302ba22904"
+         },
+         {
+            "type":"action",
+            "label":"B. Make a cold call on Mr. Vallas.",
+            "decisionid":"7407956f6400e3ac2ad050c68f97da78"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page090",
+            "pageid":"a08702c4e6ce6b9474c519302ba22904"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page127",
+            "pageid":"08d6c0b15a0d6a1539d63bf87b64a8c5"
+         },
+         {
+            "type":"action",
+            "label":"B. \"Good morning Madam. Please tell Mr. Vallas that {name} Stuart is here to see him.\"\n\n",
+            "decisionid":"7ce0e25b0ec2cce9cd976a183c69f799"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page127",
+            "pageid":"08d6c0b15a0d6a1539d63bf87b64a8c5"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page070 : What do you think {name} should say next? : What do you think {name} should say next?",
+            "pageid":"83db730fc3141ea98741b8acc88bce91"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page014",
+            "pageid":"c093e87782257f8e3bb601e418abf413"
+         },
+         {
+            "type":"action",
+            "label":"A. Keep quiet.\n",
+            "decisionid":"cb5c6a3bca9f0dfdc3db9812400ad0d4"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page014",
+            "pageid":"c093e87782257f8e3bb601e418abf413"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page131",
+            "pageid":"5c50187abf32c6be58690f9f6f277452"
+         },
+         {
+            "type":"action",
+            "label":"B. \"DT has been in the market for the last 30 years, so you should be confident with us, Mr. Vallas\"",
+            "decisionid":"0f8f9b118e08f39f562f6cc50298993e"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page131",
+            "pageid":"5c50187abf32c6be58690f9f6f277452"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page014 : Please help {name} answer that question. : Please help {name} answer that question.",
+            "pageid":"c093e87782257f8e3bb601e418abf413"
+         },
+         {
+            "type":"action",
+            "label":"A. \"DT has many years' experience in this region in what we do best - bringing people and businesses together through our telecommunication products and services.\"",
+            "decisionid":"35d4c4a6af57cbc8a919ccf58636559a"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page042 : What do you think he should say? : What do you think he should say?",
+            "pageid":"18837b775145e839260ee537898e3365"
+         },
+         {
+            "type":"action",
+            "label":"A. \"Okay, Mr. Vallas, we have the strongest network coverage in the United States, we have over 50,000 qualified staff, and more than 150 million subscribers in over 50 countries.\"\n",
+            "decisionid":"25cfb4dd05be22bcc83a929ded4424dc"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page131",
+            "pageid":"5c50187abf32c6be58690f9f6f277452"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page014 : Please help {name} answer that question. : Please help {name} answer that question.",
+            "pageid":"c093e87782257f8e3bb601e418abf413"
+         },
+         {
+            "type":"action",
+            "label":"A. \"DT has many years' experience in this region in what we do best - bringing people and businesses together through our telecommunication products and services.\"",
+            "decisionid":"35d4c4a6af57cbc8a919ccf58636559a"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page042 : What do you think he should say? : What do you think he should say?",
+            "pageid":"18837b775145e839260ee537898e3365"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page131",
+            "pageid":"5c50187abf32c6be58690f9f6f277452"
+         },
+         {
+            "type":"action",
+            "label":"A. \"Okay, Mr. Vallas, we have the strongest network coverage in the United States, we have over 50,000 qualified staff, and more than 150 million subscribers in over 50 countries.\"\n",
+            "decisionid":"25cfb4dd05be22bcc83a929ded4424dc"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page131",
+            "pageid":"5c50187abf32c6be58690f9f6f277452"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page014 : Please help {name} answer that question. : Please help {name} answer that question.",
+            "pageid":"c093e87782257f8e3bb601e418abf413"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page113",
+            "pageid":"599c2c5d14e0e3584e9e9117c129c9cb"
+         },
+         {
+            "type":"action",
+            "label":"C. \"For sure, with our unquestionably fast LTE network and the fact that we are paving way for our 5G network, we have been in control over the years, something which gives us greater flexibility to pass on customers like California Pacific Airline. Furthermore, our network stability, coverage, and reliability give you a greater advantage when connecting your business with the right customers.\"",
+            "decisionid":"77349d553904517b71250fa84836e002"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page113 : What will be the is the best answer? : What will be the is the best answer?",
+            "pageid":"599c2c5d14e0e3584e9e9117c129c9cb"
+         },
+         {
+            "type":"action",
+            "label":"A. \"Mr. Vallas, at first the price may look high but I can explain this to you. Because our network is the strongest, as I had told you earlier, you get more data security, better reliability and flexibility around your needs. And that’s why this additional value attracts extra few coins per plan.\"\n",
+            "decisionid":"dd6870d128e86e2b4ebe889ededbae04"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page055 : What do you think? : What do you think?",
+            "pageid":"37805c20e1a9e1d01683679eb750f141"
+         },
+         {
+            "type":"action",
+            "label":"A. YES, it is time to close the deal.\n",
+            "decisionid":"a234cad5782ae662d6c652666f857c68"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page104 : Do you think {name} should accept? : Do you think {name} should accept?",
+            "pageid":"b25538fe7e6eae5f4cd18d86d09dfbbe"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page091",
+            "pageid":"2c319ec7f533825f82ac13989d1ddece"
+         },
+         {
+            "type":"action",
+            "label":"A. Yes, there is no problem",
+            "decisionid":"9b38b516b99ae3e856f04953b5f4c7d9"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page129 : Please help him decide what to do next... : Please help him decide what to do next...",
+            "pageid":"0a23290cf2fe34dc8626974ec3ba5cce"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page060",
+            "pageid":"1850efd433066bdf7d4a07e59c5c54dc"
+         },
+         {
+            "type":"action",
+            "label":"C. Chat with California Pacific Airline's receptionist?",
+            "decisionid":"7639dbe2358382c4ca32f6ab42369e18"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page121 : How should {name} respond? : How should {name} respond?",
+            "pageid":"e4cad01e85330dd4097ec65476fa2d4a"
+         },
+         {
+            "type":"action",
+            "label":"C. \"Sure, Mr. Blake. I think Mr. Vallas has made a wise choice that considers not only him, but you too.\"",
+            "decisionid":"577d6c10ef0730f5ff3ca6e36b0455e3"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page053 : What about you? \n : What about you? \n",
+            "pageid":"5474977899084932b3ef52f53726b7a0"
+         },
+         {
+            "type":"action",
+            "label":"E. Other combination of advantages.",
+            "decisionid":"5fa9425998bda04fb87999a5841838fb"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page048",
+            "pageid":"4ff3e41e10db7f9694da4df8c327e6e2"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page053 : What about you? \n : What about you? \n",
+            "pageid":"5474977899084932b3ef52f53726b7a0"
+         },
+         {
+            "type":"action",
+            "label":"A. Better value for your money.",
+            "decisionid":"29830fcb90b0dc51322eb7fd2f6980b6"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page115 : So, how should {name} recover the situation? : So, how should {name} recover the situation?",
+            "pageid":"7a0c9ea477a14aa14fb68384cc7c15ec"
+         },
+         {
+            "type":"action",
+            "label":"A. \"Mr. Blake, it’s not only saving on your costs but also we can supply you with other benefits that make easier for you.\"",
+            "decisionid":"7eb2c9d411ef667ebc318dc0a84f3659"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page079 : Now, what next for {name}? : Now, what next for {name}?",
+            "pageid":"75b2b07a37061dec43af7f720a6aa0e0"
+         },
+         {
+            "type":"action",
+            "label":"A. \"We can offer documentation on different tariffs and plans, advice you on the best plan for you, and lots more advice.\"\n",
+            "decisionid":"5285257556fdbee13454d80cb85b98b2"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page117",
+            "pageid":"6ec09ec4e9f168e5e77a77799e7bbea3"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page079 : Now, what next for {name}? : Now, what next for {name}?",
+            "pageid":"75b2b07a37061dec43af7f720a6aa0e0"
+         },
+         {
+            "type":"action",
+            "label":"B. \"The main advantage of DT is that we own the strongest network coverage, giving you and Mr. Vallas maximum data security and reliable communication.\"",
+            "decisionid":"2190d76cad42863832bf37ee04562f0d"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page085 : What do you think? Is there anything else to say before leaving? : What do you think? Is there anything else to say before leaving?",
+            "pageid":"cc07456f371b2014662d5e2d39b27554"
+         },
+         {
+            "type":"action",
+            "label":"A. No. He should get out of Mr. Blake's office with confidence.",
+            "decisionid":"eed237ac7fb2a4446f6e1c46d8278b4c"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page030",
+            "pageid":"77e0f8b171fb5191d240b169d203ea58"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page137",
+            "pageid":"1c7b697ba1c42836117dbf8a5eca7118"
+         },
+         {
+            "type":"event",
+            "label":"Exit Page : Do you want to exit Sharelook? : Do you want to exit Sharelook?",
+            "pageid":"4cec33d802594efcd754548a3ca150c3"
+         },
+         {
+            "type":"event",
+            "label":"Introduction",
+            "pageid":"1d1122d4d3b86a7927ba3053583482d6"
+         },
+         {
+            "type":"action",
+            "label":"No",
+            "decisionid":"7fe0d0a53c54c590af0235ec5537419a"
+         },
+         {
+            "type":"event",
+            "label":"Introduction",
+            "pageid":"1d1122d4d3b86a7927ba3053583482d6"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page000",
+            "pageid":"c749ab51e5a0396415058978b52073fc"
+         },
+         {
+            "type":"action",
+            "label":"Let's expireance DONN TELECOMMUNICATION (DT) SALES TACTICS.",
+            "decisionid":"e3c3bae56052bed51865dee8d43961a3"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page001",
+            "pageid":"03a8289a32370d451d2b449300a298fe"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page002",
+            "pageid":"8ce05bea8507aa525e855c455cea73ff"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page003",
+            "pageid":"ae5dc258da15875f653ec54f7e68266a"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page004",
+            "pageid":"4134c99a89ea3d9c27e40afc70e9f7d8"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page005",
+            "pageid":"ac840016fa392b3ff2c57c921ad28ce8"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page006",
+            "pageid":"3f618bd8670cb4358bd27bb79286a551"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page007",
+            "pageid":"cd898f6321efc728515c6be5b183c05d"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page008",
+            "pageid":"0b9298062a35216fe7100608fda458fb"
+         },
+         {
+            "type":"action",
+            "label":"C. Just make a cold call on Mr. Ryan.",
+            "decisionid":"be36bf4294e584215cc6db6ad6d2e1ae"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page011 : If you were in {name}'s position, which of the following would you choose? : If you were in {name}'s position, which of the following would you choose?",
+            "pageid":"3dca47c76c6828dbc2102c84eba89d3c"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page024",
+            "pageid":"a9249f83dc4fe467d8c4f0fbc252f564"
+         },
+         {
+            "type":"action",
+            "label":"B. \"Good Morning Madam. Kindly let Mr. Ryan know that I, {name}, is here to see him\".",
+            "decisionid":"a82c3f3d553ed24239f5f67706a2e184"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page024",
+            "pageid":"a9249f83dc4fe467d8c4f0fbc252f564"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page029 : What would you advice {name} to do next?    : What would you advice {name} to do next?   ",
+            "pageid":"517b95d2e5aad68d0d6f569f7de0c117"
+         },
+         {
+            "type":"action",
+            "label":"A. Go back and research more\n\n",
+            "decisionid":"ff8bb4cf522e3f8ef3b74a0c42fc480d"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page027 : Whom do you think {name} should see?  : Whom do you think {name} should see? ",
+            "pageid":"201a61c2b2dccba6d55f76e36b0824c9"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page066",
+            "pageid":"49d0718abc22e10c880a3b37a0c54c59"
+         },
+         {
+            "type":"action",
+            "label":"D. Mr. Vallas only.",
+            "decisionid":"108a7c499566880383b8a84fe6561761"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page066",
+            "pageid":"49d0718abc22e10c880a3b37a0c54c59"
+         },
+         {
+            "type":"action",
+            "label":"B. Make a cold call on Mr. Vallas.",
+            "decisionid":"4eda43fa2c479dc15f03f3b75ec48c9f"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page114 : If you were in {name}'s position, which of the following would you choose? : If you were in {name}'s position, which of the following would you choose?",
+            "pageid":"8bce5821fbfb8c04585ea52345f85299"
+         },
+         {
+            "type":"action",
+            "label":"C. \"Good Morning Madam. Is Mr. Vallas in please?\" (missing page)",
+            "decisionid":"ef8f3cab278f285890340152582f0efd"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page119 : What do you think {name} should do now? : What do you think {name} should do now?",
+            "pageid":"2c953c8d73f2946c1ade4c4bb58018ef"
+         },
+         {
+            "type":"action",
+            "label":"C. Call Mr. Vallas to book an appointment.\n",
+            "decisionid":"5eb9f9293fea31ad60165c74952af3f0"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page133 : What do you think {name} should answer this question? : What do you think {name} should answer this question?",
+            "pageid":"7b1d884f82a9825c9b45334faeef1df7"
+         },
+         {
+            "type":"action",
+            "label":"B. \"It's Something I need to discuss with Mr. Vallas at a personal level.\"",
+            "decisionid":"bd8fafbe3924b5b8787af01f29ebdacf"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page013",
+            "pageid":"c110f684cfe05b0866e4eca45a163ef6"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page133 : What do you think {name} should answer this question? : What do you think {name} should answer this question?",
+            "pageid":"7b1d884f82a9825c9b45334faeef1df7"
+         },
+         {
+            "type":"action",
+            "label":"D. \"It is about new cost-effective ways of communication through the internet and fixed lines reliably in your offices.\"",
+            "decisionid":"ec54328c8a8f6ca78061fad169b620c0"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page031",
+            "pageid":"a7e0a677df8f786bbfc6b3e282da7b89"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page032 : Please help him decide. : Please help him decide.",
+            "pageid":"109f498da388a0fe058072e86f06e639"
+         },
+         {
+            "type":"action",
+            "label":"A. \"Because we have the largest network coverage in USA, and serve over 50 countries, we are the best.\"",
+            "decisionid":"8ac53a38f931e1ae5e3d20a52dced6f4"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page015",
+            "pageid":"b8cc9e9fb12151b1011c61e98a99d3ea"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page032 : Please help him decide. : Please help him decide.",
+            "pageid":"109f498da388a0fe058072e86f06e639"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page076",
+            "pageid":"7969e821592ed4c1b818bb37ca2a2f12"
+         },
+         {
+            "type":"action",
+            "label":"B. \"Allow me to show you some research reports that show that DT is the most reliable.\"",
+            "decisionid":"f030395488b50df396af0d8b9712946a"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page076 : What do you think {name} should do next? : What do you think {name} should do next?",
+            "pageid":"7969e821592ed4c1b818bb37ca2a2f12"
+         },
+         {
+            "type":"action",
+            "label":"D. \"With a network coverage of 60 percent in the United States, you can see how DT has maintained a leading position in the market compared to others.\"",
+            "decisionid":"8f81764f2026d1a673afb40d291649a8"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page088",
+            "pageid":"a45b8d63e57522aa45046395db13c425"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page047 : What do you think {name} should say? \n : What do you think {name} should say? \n",
+            "pageid":"c9c36711a0cf847e06933442712930a9"
+         },
+         {
+            "type":"action",
+            "label":"C. \"Because we have the strongest network coverage, we have more control in the market. We can offer you data security, fast internet connectivity to reach your demanding customers, and reliability that gives you peace of mind.\"",
+            "decisionid":"9063bc7568b8c5a254e914db97e112ac"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page059 : What is the best answer? : What is the best answer?",
+            "pageid":"e6ff8aa157e73b616918e62f4e22aa45"
+         },
+         {
+            "type":"action",
+            "label":"C. \"How much do you think it should be priced, Mr. Vallas?\"",
+            "decisionid":"29f7f4330769f7bc8aacef4b899ea051"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page134 : What do you think he should respond now? : What do you think he should respond now?",
+            "pageid":"b4d3c2b32fdcfc434240005c0b447e2d"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page123",
+            "pageid":"727f025c8faf27044a9de4437eedc113"
+         },
+         {
+            "type":"action",
+            "label":"C. \"Allow me to show you how inexpensive DT is.\"",
+            "decisionid":"f559bc434c57983151e4554726a7ea48"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page123",
+            "pageid":"727f025c8faf27044a9de4437eedc113"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page059 : What is the best answer? : What is the best answer?",
+            "pageid":"e6ff8aa157e73b616918e62f4e22aa45"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page092",
+            "pageid":"9aa95df669bff21feb568600c9daba7d"
+         },
+         {
+            "type":"action",
+            "label":"B. \"Yes, but there is so much saving in terms of money as there is no network failure\"",
+            "decisionid":"3d59fefeccb3ec6b50540cf78f914afa"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page092 : Please help {name} to recover the situation. : Please help {name} to recover the situation.",
+            "pageid":"9aa95df669bff21feb568600c9daba7d"
+         },
+         {
+            "type":"action",
+            "label":"A. \"Mr. Vallas, at first the price may look high but I can explain this to you. Because our network is the strongest, as I had told you earlier, you get more data security, better reliability and flexibility around your needs. And that’s why this additional value attracts extra few coins per plan.\"",
+            "decisionid":"bb26bf53e64ffbbe024dbdf2d26ce255"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page074 : What about you? What do you think? : What about you? What do you think?",
+            "pageid":"f8f46e63ddeddddbd7d9f08742c96fcd"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page050",
+            "pageid":"34f8555903c6e2ec40c17ee5c3a0ba32"
+         },
+         {
+            "type":"action",
+            "label":"A. YES, {name} can close the deal.\n",
+            "decisionid":"aaeee24f1ba30d6c97758820ee57f43e"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page050 : Do you think {name} should accept? : Do you think {name} should accept?",
+            "pageid":"34f8555903c6e2ec40c17ee5c3a0ba32"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page023",
+            "pageid":"5769d7aa771e5bd06ccb03db4f57891c"
+         },
+         {
+            "type":"action",
+            "label":"B. No, he shouldn't accept.",
+            "decisionid":"d36f96830fbe4f3211a756d46187f760"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page023 : Please help him decide. : Please help him decide.",
+            "pageid":"5769d7aa771e5bd06ccb03db4f57891c"
+         },
+         {
+            "type":"exit",
+            "endstatus":"3"
+         },
+         {
+            "type":"action",
+            "label":"B. Go back to DT's office?",
+            "decisionid":"04ffb80625cf3d04ac3c8b13305f60c0"
+         }
+      ],
+      "4e7ec8509d2daef319903e85a10516c9":[
+         {
+            "type":"event",
+            "label":"Introduction : What would you like to do next? : What would you like to do next?",
+            "pageid":"1d1122d4d3b86a7927ba3053583482d6"
+         },
+         {
+            "type":"event",
+            "label":"Exit Page",
+            "pageid":"4cec33d802594efcd754548a3ca150c3"
+         },
+         {
+            "type":"action",
+            "label":"Let's go to the exit page.",
+            "decisionid":"0cc363815f6c71c767eef023303817c3"
+         },
+         {
+            "type":"event",
+            "label":"Exit Page",
+            "pageid":"4cec33d802594efcd754548a3ca150c3"
+         },
+         {
+            "type":"exit",
+            "endstatus":"1"
+         },
+         {
+            "type":"action",
+            "label":"Yes",
+            "decisionid":"334f00d53a9a700953339e5285ab0ee7"
+         }
+      ],
+      "2a6110e9e6284cf634d4aa5007655104":[
+         {
+            "type":"event",
+            "label":"Introduction : What would you like to do next? : What would you like to do next?",
+            "pageid":"1d1122d4d3b86a7927ba3053583482d6"
+         },
+         {
+            "type":"action",
+            "label":"Let's go to the exit page.",
+            "decisionid":"0cc363815f6c71c767eef023303817c3"
+         },
+         {
+            "type":"event",
+            "label":"Exit Page : Do you want to exit Sharelook? : Do you want to exit Sharelook?",
+            "pageid":"4cec33d802594efcd754548a3ca150c3"
+         },
+         {
+            "type":"action",
+            "label":"No",
+            "decisionid":"7fe0d0a53c54c590af0235ec5537419a"
+         },
+         {
+            "type":"event",
+            "label":"Introduction : What would you like to do next? : What would you like to do next?",
+            "pageid":"1d1122d4d3b86a7927ba3053583482d6"
+         },
+         {
+            "type":"action",
+            "label":"Let's go to the exit page.",
+            "decisionid":"0cc363815f6c71c767eef023303817c3"
+         },
+         {
+            "type":"event",
+            "label":"Exit Page : Do you want to exit Sharelook? : Do you want to exit Sharelook?",
+            "pageid":"4cec33d802594efcd754548a3ca150c3"
+         },
+         {
+            "type":"event",
+            "label":"Introduction",
+            "pageid":"1d1122d4d3b86a7927ba3053583482d6"
+         },
+         {
+            "type":"action",
+            "label":"No",
+            "decisionid":"7fe0d0a53c54c590af0235ec5537419a"
+         },
+         {
+            "type":"event",
+            "label":"Introduction",
+            "pageid":"1d1122d4d3b86a7927ba3053583482d6"
+         },
+         {
+            "type":"action",
+            "label":"Let's go to the exit page.",
+            "decisionid":"0cc363815f6c71c767eef023303817c3"
+         },
+         {
+            "type":"event",
+            "label":"Exit Page : Do you want to exit Sharelook? : Do you want to exit Sharelook?",
+            "pageid":"4cec33d802594efcd754548a3ca150c3"
+         },
+         {
+            "type":"exit",
+            "endstatus":"1"
+         },
+         {
+            "type":"action",
+            "label":"Yes",
+            "decisionid":"334f00d53a9a700953339e5285ab0ee7"
+         }
+      ],
+      "b820078dc0a45dd7b9bd8f8efbd08d95":[
+         {
+            "type":"event",
+            "label":"Introduction : What would you like to do next? : What would you like to do next?",
+            "pageid":"1d1122d4d3b86a7927ba3053583482d6"
+         },
+         {
+            "type":"action",
+            "label":"Let's go to the exit page.",
+            "decisionid":"0cc363815f6c71c767eef023303817c3"
+         },
+         {
+            "type":"event",
+            "label":"Exit Page : Do you want to exit Sharelook? : Do you want to exit Sharelook?",
+            "pageid":"4cec33d802594efcd754548a3ca150c3"
+         },
+         {
+            "type":"action",
+            "label":"Yes",
+            "decisionid":"334f00d53a9a700953339e5285ab0ee7"
+         },
+         {
+            "type":"exit",
+            "endstatus":"1"
+         }
+      ],
+      "c06c2ed1f0e9b43c2d8a13454c19121f":[
+         {
+            "type":"event",
+            "label":"Introduction : What would you like to do next? : What would you like to do next?",
+            "pageid":"1d1122d4d3b86a7927ba3053583482d6"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page000",
+            "pageid":"c749ab51e5a0396415058978b52073fc"
+         },
+         {
+            "type":"action",
+            "label":"Let's expireance DONN TELECOMMUNICATION (DT) SALES TACTICS.",
+            "decisionid":"e3c3bae56052bed51865dee8d43961a3"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page001",
+            "pageid":"03a8289a32370d451d2b449300a298fe"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page002",
+            "pageid":"8ce05bea8507aa525e855c455cea73ff"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page003",
+            "pageid":"ae5dc258da15875f653ec54f7e68266a"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page004",
+            "pageid":"4134c99a89ea3d9c27e40afc70e9f7d8"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page005",
+            "pageid":"ac840016fa392b3ff2c57c921ad28ce8"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page006",
+            "pageid":"3f618bd8670cb4358bd27bb79286a551"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page007",
+            "pageid":"cd898f6321efc728515c6be5b183c05d"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page008",
+            "pageid":"0b9298062a35216fe7100608fda458fb"
+         },
+         {
+            "type":"action",
+            "label":"A. Do further research on California Pacific Airline ",
+            "decisionid":"8cd2ac024b31a518f0ccc17377eecb26"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page027 : Whom do you think {name} should see?  : Whom do you think {name} should see? ",
+            "pageid":"201a61c2b2dccba6d55f76e36b0824c9"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page101",
+            "pageid":"4e735d3a52bd81adb22562fc5cfb5bb7"
+         },
+         {
+            "type":"action",
+            "label":"C. Brighthub Technologies only.\n",
+            "decisionid":"9fe8747bdd82d049bc09e88f1a5163ee"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page101",
+            "pageid":"4e735d3a52bd81adb22562fc5cfb5bb7"
+         },
+         {
+            "type":"action",
+            "label":"B. Make a cold call",
+            "decisionid":"143ff57066739651242415d9b738dea5"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page082 : Which of the following would you advice {name} to use? : Which of the following would you advice {name} to use?",
+            "pageid":"01d895b16da669ff2427d1bea972dacb"
+         },
+         {
+            "type":"action",
+            "label":"C. \"Good Morning, Madam. Please tell Mr. Blake that {name} is here to see him.\"",
+            "decisionid":"5344ee0dc55e9a337a58ef452ce1d16c"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page135 : What do you think {name} should do now? : What do you think {name} should do now?",
+            "pageid":"35a738092fc1810cf5f13c371064c708"
+         },
+         {
+            "type":"action",
+            "label":"B. Make a cold call to Mr. Blake on Friday.",
+            "decisionid":"aa59ac294e8171c89a37ce8728dd2d5a"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page138",
+            "pageid":"8d0fea2d9d1fe41b41739ed7137542d0"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page139",
+            "pageid":"d86df819436d662276e3686b43792d44"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page027 : Whom do you think {name} should see?  : Whom do you think {name} should see? ",
+            "pageid":"201a61c2b2dccba6d55f76e36b0824c9"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page073",
+            "pageid":"7ad5b8c3173bc19fc9d2fe5da4a236e4"
+         },
+         {
+            "type":"action",
+            "label":"A. Brighthub Technonologies then Mr. Vallas.\n\n",
+            "decisionid":"256f856894da953208435872d9b3579a"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page073",
+            "pageid":"7ad5b8c3173bc19fc9d2fe5da4a236e4"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page056",
+            "pageid":"d45efdcabd759c20d4fc159df38aa790"
+         },
+         {
+            "type":"action",
+            "label":"A. Make a call to Brighthub Technlogies and book an appointment immediately.",
+            "decisionid":"ba9a33d7fde1cf6e054601233d93f8f5"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page056 : What do you think {name} should do now? : What do you think {name} should do now?",
+            "pageid":"d45efdcabd759c20d4fc159df38aa790"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page036",
+            "pageid":"adea53bcf9d5fcfa1623e56d547226dd"
+         },
+         {
+            "type":"action",
+            "label":"B. Make a cold call to Mr. Blake on Friday?",
+            "decisionid":"4a50ecb036fa33f45e0a628bcf2f5e9b"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page036",
+            "pageid":"adea53bcf9d5fcfa1623e56d547226dd"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page037",
+            "pageid":"0eb27b61ed811bdd5ab3e88cb82d165a"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page027 : Whom do you think {name} should see?  : Whom do you think {name} should see? ",
+            "pageid":"201a61c2b2dccba6d55f76e36b0824c9"
+         },
+         {
+            "type":"action",
+            "label":"A. Brighthub Technonologies then Mr. Vallas.\n\n",
+            "decisionid":"256f856894da953208435872d9b3579a"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page073 : Which way do you think is the best for {name} to gain way into Brighthub Technologies?  : Which way do you think is the best for {name} to gain way into Brighthub Technologies? ",
+            "pageid":"7ad5b8c3173bc19fc9d2fe5da4a236e4"
+         },
+         {
+            "type":"action",
+            "label":"A. Make a call to Brighthub Technlogies and book an appointment immediately.",
+            "decisionid":"ba9a33d7fde1cf6e054601233d93f8f5"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page056 : What do you think {name} should do now? : What do you think {name} should do now?",
+            "pageid":"d45efdcabd759c20d4fc159df38aa790"
+         },
+         {
+            "type":"action",
+            "label":"A. Call back on Friday and book an appointment as soon as possible.",
+            "decisionid":"50e3a1fde7579d01c8f0579746897698"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page108",
+            "pageid":"4de2f319e8675b517d072b5e8fdb21a8"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page027 : Whom do you think {name} should see?  : Whom do you think {name} should see? ",
+            "pageid":"201a61c2b2dccba6d55f76e36b0824c9"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page101",
+            "pageid":"4e735d3a52bd81adb22562fc5cfb5bb7"
+         },
+         {
+            "type":"action",
+            "label":"C. Brighthub Technologies only.\n",
+            "decisionid":"9fe8747bdd82d049bc09e88f1a5163ee"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page101",
+            "pageid":"4e735d3a52bd81adb22562fc5cfb5bb7"
+         },
+         {
+            "type":"action",
+            "label":"A. Call and book an appointment immediately",
+            "decisionid":"681c0633a8564c037d304f8a63bca9e9"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page112 : What do you think {name} should do now?\n\n\n\n : What do you think {name} should do now?\n\n\n\n",
+            "pageid":"ca6e922994bb0a64186c70c0a1258d45"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page061",
+            "pageid":"d197ad630340a59ffcb48a05b06eeb2a"
+         },
+         {
+            "type":"action",
+            "label":"A. Call back on Friday and book an appointment as soon as possible.",
+            "decisionid":"d03cdfd80ae38ec34a7ebfd789d547c9"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page061",
+            "pageid":"d197ad630340a59ffcb48a05b06eeb2a"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page027 : Whom do you think {name} should see?  : Whom do you think {name} should see? ",
+            "pageid":"201a61c2b2dccba6d55f76e36b0824c9"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page101",
+            "pageid":"4e735d3a52bd81adb22562fc5cfb5bb7"
+         },
+         {
+            "type":"action",
+            "label":"C. Brighthub Technologies only.\n",
+            "decisionid":"9fe8747bdd82d049bc09e88f1a5163ee"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page101",
+            "pageid":"4e735d3a52bd81adb22562fc5cfb5bb7"
+         },
+         {
+            "type":"action",
+            "label":"A. Call and book an appointment immediately",
+            "decisionid":"681c0633a8564c037d304f8a63bca9e9"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page112 : What do you think {name} should do now?\n\n\n\n : What do you think {name} should do now?\n\n\n\n",
+            "pageid":"ca6e922994bb0a64186c70c0a1258d45"
+         },
+         {
+            "type":"action",
+            "label":"A. Call back on Friday and book an appointment as soon as possible.",
+            "decisionid":"d03cdfd80ae38ec34a7ebfd789d547c9"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page061",
+            "pageid":"d197ad630340a59ffcb48a05b06eeb2a"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page027 : Whom do you think {name} should see?  : Whom do you think {name} should see? ",
+            "pageid":"201a61c2b2dccba6d55f76e36b0824c9"
+         },
+         {
+            "type":"action",
+            "label":"B. Mr. Vallas then Brighthub Technologies.",
+            "decisionid":"2f5ef98d429d885e60a7603d567c531b"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page143 : what advice can you give to {name} on the best way of reaching Mr. Vallas?  : what advice can you give to {name} on the best way of reaching Mr. Vallas? ",
+            "pageid":"c78b7d51d0bb310c6058cdfcbae68171"
+         },
+         {
+            "type":"action",
+            "label":"C. Use some other devious way.",
+            "decisionid":"7c7a02eef80e3e90e358105dc34e61fc"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page118",
+            "pageid":"3de5d3eb036cc04c0b5d5ce1a146dab5"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page143 : what advice can you give to {name} on the best way of reaching Mr. Vallas?  : what advice can you give to {name} on the best way of reaching Mr. Vallas? ",
+            "pageid":"c78b7d51d0bb310c6058cdfcbae68171"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page090",
+            "pageid":"a08702c4e6ce6b9474c519302ba22904"
+         },
+         {
+            "type":"action",
+            "label":"B. Make a cold call on Mr. Vallas.",
+            "decisionid":"7407956f6400e3ac2ad050c68f97da78"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page090",
+            "pageid":"a08702c4e6ce6b9474c519302ba22904"
+         },
+         {
+            "type":"action",
+            "label":"A. \"Good Morning Madam. I have come with some details on DT, the international telecommunication company to share with Mr. Vallas\"\n",
+            "decisionid":"8cc6dd04f3c8d327d605c4bd8d5c91cc"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page097 : What do you think {name} should do now? : What do you think {name} should do now?",
+            "pageid":"2ab8a240086508a3e0664a183ebac461"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page120",
+            "pageid":"52c10fa6355cb2037571aaa188f21f04"
+         },
+         {
+            "type":"action",
+            "label":"D. Give up on California Pacific Airline as a prospect",
+            "decisionid":"da7375d4e5db5c47cdaa80d118b5d8f5"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page143 : what advice can you give to {name} on the best way of reaching Mr. Vallas?  : what advice can you give to {name} on the best way of reaching Mr. Vallas? ",
+            "pageid":"c78b7d51d0bb310c6058cdfcbae68171"
+         },
+         {
+            "type":"action",
+            "label":"A. Call and book an appointment immediately.",
+            "decisionid":"004c54195996ad7d88bc0f73ac03d6c1"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page133 : What do you think {name} should answer this question? : What do you think {name} should answer this question?",
+            "pageid":"7b1d884f82a9825c9b45334faeef1df7"
+         },
+         {
+            "type":"action",
+            "label":"C. \"Sorry Madam, but it's a very involving matter. It would be better if I talk to Mr. Ryan's secretary, please. Kindly, put me through.\"",
+            "decisionid":"504b3a067273c45c24b23889a1eb6863"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page122 : What do you think {name} should say?  : What do you think {name} should say? ",
+            "pageid":"9b5a48b116286908dfbeb2148e9a741b"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page072",
+            "pageid":"5ece6a9b77d5ce84c5b0e355c41aaa1c"
+         },
+         {
+            "type":"action",
+            "label":"A. \"It is about a convenient, reliable and cost-effective way of getting internet connectivity in your office.\"\n",
+            "decisionid":"beec2f5145bf2b8626b60f323ba23aa8"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page072 : What do you think should be the next step for {name}? : What do you think should be the next step for {name}?",
+            "pageid":"5ece6a9b77d5ce84c5b0e355c41aaa1c"
+         },
+         {
+            "type":"action",
+            "label":"A. Give up on meeting Mr. Vallas and call Brighthub Technologies to get an appointment\n",
+            "decisionid":"42d0f3872fe1472185968c634d6da52c"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page112 : What do you think {name} should do now?\n\n\n\n : What do you think {name} should do now?\n\n\n\n",
+            "pageid":"ca6e922994bb0a64186c70c0a1258d45"
+         },
+         {
+            "type":"action",
+            "label":"B. Make a cold call to Mr. Blake on Friday?",
+            "decisionid":"d708221da85e4cd50a5b1b9181349511"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page138",
+            "pageid":"8d0fea2d9d1fe41b41739ed7137542d0"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page139",
+            "pageid":"d86df819436d662276e3686b43792d44"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page027 : Whom do you think {name} should see?  : Whom do you think {name} should see? ",
+            "pageid":"201a61c2b2dccba6d55f76e36b0824c9"
+         },
+         {
+            "type":"action",
+            "label":"C. Brighthub Technologies only.\n",
+            "decisionid":"9fe8747bdd82d049bc09e88f1a5163ee"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page101 : What do you think is the best way {name} can use to get to Brighthub Technologies? : What do you think is the best way {name} can use to get to Brighthub Technologies?",
+            "pageid":"4e735d3a52bd81adb22562fc5cfb5bb7"
+         },
+         {
+            "type":"action",
+            "label":"A. Call and book an appointment immediately",
+            "decisionid":"681c0633a8564c037d304f8a63bca9e9"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page112 : What do you think {name} should do now?\n\n\n\n : What do you think {name} should do now?\n\n\n\n",
+            "pageid":"ca6e922994bb0a64186c70c0a1258d45"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page061",
+            "pageid":"d197ad630340a59ffcb48a05b06eeb2a"
+         },
+         {
+            "type":"action",
+            "label":"A. Call back on Friday and book an appointment as soon as possible.",
+            "decisionid":"d03cdfd80ae38ec34a7ebfd789d547c9"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page061",
+            "pageid":"d197ad630340a59ffcb48a05b06eeb2a"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page027 : Whom do you think {name} should see?  : Whom do you think {name} should see? ",
+            "pageid":"201a61c2b2dccba6d55f76e36b0824c9"
+         },
+         {
+            "type":"action",
+            "label":"C. Brighthub Technologies only.\n",
+            "decisionid":"9fe8747bdd82d049bc09e88f1a5163ee"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page101 : What do you think is the best way {name} can use to get to Brighthub Technologies? : What do you think is the best way {name} can use to get to Brighthub Technologies?",
+            "pageid":"4e735d3a52bd81adb22562fc5cfb5bb7"
+         },
+         {
+            "type":"action",
+            "label":"A. Call and book an appointment immediately",
+            "decisionid":"681c0633a8564c037d304f8a63bca9e9"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page112 : What do you think {name} should do now?\n\n\n\n : What do you think {name} should do now?\n\n\n\n",
+            "pageid":"ca6e922994bb0a64186c70c0a1258d45"
+         },
+         {
+            "type":"action",
+            "label":"A. Call back on Friday and book an appointment as soon as possible.",
+            "decisionid":"d03cdfd80ae38ec34a7ebfd789d547c9"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page061",
+            "pageid":"d197ad630340a59ffcb48a05b06eeb2a"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page027 : Whom do you think {name} should see?  : Whom do you think {name} should see? ",
+            "pageid":"201a61c2b2dccba6d55f76e36b0824c9"
+         },
+         {
+            "type":"action",
+            "label":"D. Mr. Vallas only.",
+            "decisionid":"108a7c499566880383b8a84fe6561761"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page066 : what advice can you give to {name} on the best way of reaching Mr. Vallas? : what advice can you give to {name} on the best way of reaching Mr. Vallas?",
+            "pageid":"49d0718abc22e10c880a3b37a0c54c59"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page063",
+            "pageid":"a3270f1ec303ada6089a950b873a2453"
+         },
+         {
+            "type":"action",
+            "label":"C. Use some other devious way. : what advice can you give to {name} on the best way of reaching Mr. Vallas? : what advice can you give to {name} on the best way of reaching Mr. Vallas?",
+            "decisionid":"66a09c6bad38da69cf0f0954525383c0"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page063",
+            "pageid":"a3270f1ec303ada6089a950b873a2453"
+         },
+         {
+            "type":"action",
+            "label":"C. Use some other devious way. : what advice can you give to {name} on the best way of reaching Mr. Vallas? : what advice can you give to {name} on the best way of reaching Mr. Vallas?",
+            "decisionid":"66a09c6bad38da69cf0f0954525383c0"
+         },
+         {
+            "type":"action",
+            "label":"A. Call and book an appointment immediately.",
+            "decisionid":"f39f6067e929386a5f64fc1742d9778d"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page136 : What do you think {name} should answer this question? : What do you think {name} should answer this question?",
+            "pageid":"c436904f1ce506eee0a4af242bee0747"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page094",
+            "pageid":"43b462a107c0b1cfe4924d83b1427a18"
+         },
+         {
+            "type":"action",
+            "label":"D. \"It is about new cost-effective ways of communication through the internet and fixed lines reliably in your offices.\"",
+            "decisionid":"fadea6a36c90a036c4eb450874b17f72"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page094",
+            "pageid":"43b462a107c0b1cfe4924d83b1427a18"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page095 : Please help him decide. : Please help him decide.",
+            "pageid":"f832d96c656c0ac2ad881b987d22d4f8"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page065",
+            "pageid":"28c09da9900f13c81f52313bbe954307"
+         },
+         {
+            "type":"action",
+            "label":"B. \"Allow me to show you some research reports that show that DT is the most reliable.\"\n",
+            "decisionid":"1ae19748e3b7cf0bbbe207e26f788f26"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page065 : What do you think {name} should do next? : What do you think {name} should do next?",
+            "pageid":"28c09da9900f13c81f52313bbe954307"
+         },
+         {
+            "type":"action",
+            "label":"D. \"With a network coverage of 60 percent in the United States, you can see how DT has maintained a leading position in the market compared to others.\"",
+            "decisionid":"2b55c041d60018487321e8e5dc1187ec"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page025",
+            "pageid":"03b168275d3a6587657f1f18c53ec6f6"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page014 : Please help {name} answer that question. : Please help {name} answer that question.",
+            "pageid":"c093e87782257f8e3bb601e418abf413"
+         },
+         {
+            "type":"action",
+            "label":"B. \"DT has been in the market for the last 30 years, so you should be confident with us, Mr. Vallas\"",
+            "decisionid":"0f8f9b118e08f39f562f6cc50298993e"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page131",
+            "pageid":"5c50187abf32c6be58690f9f6f277452"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page014 : Please help {name} answer that question. : Please help {name} answer that question.",
+            "pageid":"c093e87782257f8e3bb601e418abf413"
+         },
+         {
+            "type":"action",
+            "label":"A. \"DT has many years' experience in this region in what we do best - bringing people and businesses together through our telecommunication products and services.\"",
+            "decisionid":"35d4c4a6af57cbc8a919ccf58636559a"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page042 : What do you think he should say? : What do you think he should say?",
+            "pageid":"18837b775145e839260ee537898e3365"
+         },
+         {
+            "type":"action",
+            "label":"B. \"Because we have the strongest network coverage and internet connectivity, we are able to connect and keep you connected reliably with your customers while providing the highest data security and communication stability.\"",
+            "decisionid":"fad33223d54733720fa9a6cb655948b5"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page113 : What will be the is the best answer? : What will be the is the best answer?",
+            "pageid":"599c2c5d14e0e3584e9e9117c129c9cb"
+         },
+         {
+            "type":"action",
+            "label":"C. \"How much do you think it should be priced, Mr. Vallas?\"\n",
+            "decisionid":"b20eece9d41b4fd676855de47a9640cd"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page126 : What do you think he should say to recover the situation? : What do you think he should say to recover the situation?",
+            "pageid":"1200a6204ba8bb3c93c2c69b95045809"
+         },
+         {
+            "type":"action",
+            "label":"A. \"Mr. Vallas, at first the price may look high but I can explain this to you. Because our network is the strongest, as I had told you earlier, you get more data security, better reliability and flexibility around your needs. And that’s why this additional value attracts extra few coins per plan.\"        55 \n",
+            "decisionid":"e037ad33a508fcc7cd2cb3e9e005bd36"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page055 : What do you think? : What do you think?",
+            "pageid":"37805c20e1a9e1d01683679eb750f141"
+         },
+         {
+            "type":"action",
+            "label":"A. YES, it is time to close the deal.\n",
+            "decisionid":"a234cad5782ae662d6c652666f857c68"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page104 : Do you think {name} should accept? : Do you think {name} should accept?",
+            "pageid":"b25538fe7e6eae5f4cd18d86d09dfbbe"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page129",
+            "pageid":"0a23290cf2fe34dc8626974ec3ba5cce"
+         },
+         {
+            "type":"action",
+            "label":"B. No, he shouldn't accept",
+            "decisionid":"8265085f432a9c1e17f2b883acc0069c"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page129 : Please help him decide what to do next... : Please help him decide what to do next...",
+            "pageid":"0a23290cf2fe34dc8626974ec3ba5cce"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page146",
+            "pageid":"d71805a464bf1f0a0196d0ea6c091f33"
+         },
+         {
+            "type":"action",
+            "label":"B. Go back to DT office?\n\n",
+            "decisionid":"b13da76ae58b43fe067dc75449ad642f"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page146 : What do you think {name} should do now? : What do you think {name} should do now?",
+            "pageid":"d71805a464bf1f0a0196d0ea6c091f33"
+         },
+         {
+            "type":"action",
+            "label":"A. Call back on Friday and book an appointment as soon as possible.",
+            "decisionid":"507523aae69845bc8ca884da13482e7f"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page080",
+            "pageid":"3533042a9095a2cdfa6d327575abe196"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page121 : How should {name} respond? : How should {name} respond?",
+            "pageid":"e4cad01e85330dd4097ec65476fa2d4a"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page053",
+            "pageid":"5474977899084932b3ef52f53726b7a0"
+         },
+         {
+            "type":"action",
+            "label":"C. \"Sure, Mr. Blake. I think Mr. Vallas has made a wise choice that considers not only him, but you too.\"",
+            "decisionid":"577d6c10ef0730f5ff3ca6e36b0455e3"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page053 : What about you? \n : What about you? \n",
+            "pageid":"5474977899084932b3ef52f53726b7a0"
+         },
+         {
+            "type":"action",
+            "label":"A. Better value for your money.",
+            "decisionid":"29830fcb90b0dc51322eb7fd2f6980b6"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page115 : So, how should {name} recover the situation? : So, how should {name} recover the situation?",
+            "pageid":"7a0c9ea477a14aa14fb68384cc7c15ec"
+         },
+         {
+            "type":"action",
+            "label":"B.  \"Mr. Blake, it’s not only saving on your costs, but also we can supply you with special plans that come with unlimited data, texts and call services exclusive for our customers. We also have a variety of telephones that use the latest technology and can tap into our new spectrum to work 5 times faster inside buildings. I am sure this will give you peace of mind.\"",
+            "decisionid":"2c6a380e989c18776140511c7f770799"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page093 : What do you think? Is there anything else to say before leaving? : What do you think? Is there anything else to say before leaving?",
+            "pageid":"c8b3e9e600c12c9ab1961787affe38e4"
+         },
+         {
+            "type":"action",
+            "label":"A. No. He should get out of Mr. Blake's office with confidence.\n\n",
+            "decisionid":"26dc1527eb94bb9fa3234fc25231dd94"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page030",
+            "pageid":"77e0f8b171fb5191d240b169d203ea58"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page137",
+            "pageid":"1c7b697ba1c42836117dbf8a5eca7118"
+         },
+         {
+            "type":"event",
+            "label":"Exit Page : Do you want to exit Sharelook? : Do you want to exit Sharelook?",
+            "pageid":"4cec33d802594efcd754548a3ca150c3"
+         },
+         {
+            "type":"action",
+            "label":"Yes",
+            "decisionid":"334f00d53a9a700953339e5285ab0ee7"
+         },
+         {
+            "type":"exit",
+            "endstatus":"1"
+         }
+      ],
+      "b0af75f4334e9f2fa45fa625a9d44814":[
+         {
+            "type":"event",
+            "label":"Introduction : What would you like to do next? : What would you like to do next?",
+            "pageid":"1d1122d4d3b86a7927ba3053583482d6"
+         },
+         {
+            "type":"exit",
+            "endstatus":"2"
+         }
+      ],
+      "7f649cf13a916bd6711250a87764eb2d":[
+         {
+            "type":"event",
+            "label":"Introduction : What would you like to do next? : What would you like to do next?",
+            "pageid":"1d1122d4d3b86a7927ba3053583482d6"
+         },
+         {
+            "type":"action",
+            "label":"Let's expireance DONN TELECOMMUNICATION (DT) SALES TACTICS.",
+            "decisionid":"e3c3bae56052bed51865dee8d43961a3"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page000",
+            "pageid":"c749ab51e5a0396415058978b52073fc"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page001",
+            "pageid":"03a8289a32370d451d2b449300a298fe"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page002",
+            "pageid":"8ce05bea8507aa525e855c455cea73ff"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page003",
+            "pageid":"ae5dc258da15875f653ec54f7e68266a"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page004",
+            "pageid":"4134c99a89ea3d9c27e40afc70e9f7d8"
+         },
+         {
+            "type":"exit",
+            "endstatus":"2"
+         }
+      ],
+      "64cea76be94a6a4faaaf2846fefb88b2":[
+         {
+            "type":"event",
+            "label":"Introduction : What would you like to do next? : What would you like to do next?",
+            "pageid":"1d1122d4d3b86a7927ba3053583482d6"
+         },
+         {
+            "type":"action",
+            "label":"Let's expireance DONN TELECOMMUNICATION (DT) SALES TACTICS.",
+            "decisionid":"e3c3bae56052bed51865dee8d43961a3"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page000",
+            "pageid":"c749ab51e5a0396415058978b52073fc"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page001",
+            "pageid":"03a8289a32370d451d2b449300a298fe"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page002",
+            "pageid":"8ce05bea8507aa525e855c455cea73ff"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page003",
+            "pageid":"ae5dc258da15875f653ec54f7e68266a"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page004",
+            "pageid":"4134c99a89ea3d9c27e40afc70e9f7d8"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page005",
+            "pageid":"ac840016fa392b3ff2c57c921ad28ce8"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page006",
+            "pageid":"3f618bd8670cb4358bd27bb79286a551"
+         },
+         {
+            "type":"exit",
+            "endstatus":"2"
+         }
+      ],
+      "985a741e0902f2119476df7db039e281":[
+         {
+            "type":"event",
+            "label":"Introduction : What would you like to do next? : What would you like to do next?",
+            "pageid":"1d1122d4d3b86a7927ba3053583482d6"
+         },
+         {
+            "type":"action",
+            "label":"Let's expireance DONN TELECOMMUNICATION (DT) SALES TACTICS.",
+            "decisionid":"e3c3bae56052bed51865dee8d43961a3"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page000",
+            "pageid":"c749ab51e5a0396415058978b52073fc"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page001",
+            "pageid":"03a8289a32370d451d2b449300a298fe"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page002",
+            "pageid":"8ce05bea8507aa525e855c455cea73ff"
+         },
+         {
+            "type":"exit",
+            "endstatus":"2"
+         }
+      ],
+      "f03dec199ccc663b0cc25c773f986011":[
+         {
+            "type":"event",
+            "label":"Introduction : What would you like to do next? : What would you like to do next?",
+            "pageid":"1d1122d4d3b86a7927ba3053583482d6"
+         },
+         {
+            "type":"action",
+            "label":"Let's expireance DONN TELECOMMUNICATION (DT) SALES TACTICS.",
+            "decisionid":"e3c3bae56052bed51865dee8d43961a3"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page000",
+            "pageid":"c749ab51e5a0396415058978b52073fc"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page001",
+            "pageid":"03a8289a32370d451d2b449300a298fe"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page002",
+            "pageid":"8ce05bea8507aa525e855c455cea73ff"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page003",
+            "pageid":"ae5dc258da15875f653ec54f7e68266a"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page004",
+            "pageid":"4134c99a89ea3d9c27e40afc70e9f7d8"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page005",
+            "pageid":"ac840016fa392b3ff2c57c921ad28ce8"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page006",
+            "pageid":"3f618bd8670cb4358bd27bb79286a551"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page007",
+            "pageid":"cd898f6321efc728515c6be5b183c05d"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page008",
+            "pageid":"0b9298062a35216fe7100608fda458fb"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page041",
+            "pageid":"5d0980146763df0a7185d01d1731538b"
+         },
+         {
+            "type":"action",
+            "label":"B. Call Mr. Ryan to book an appointment immediately.",
+            "decisionid":"fa7e66276ac74845d309ad45de7929ea"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page041 : What do you think {name} should answer this question? : What do you think {name} should answer this question?",
+            "pageid":"5d0980146763df0a7185d01d1731538b"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page016",
+            "pageid":"7a9b8e852ceef0edc1543a3f0a991029"
+         },
+         {
+            "type":"action",
+            "label":"B. \"It's Something I need to discuss with Mr. Ryan at a personal level.\"\n",
+            "decisionid":"9b7b1bab95ab868f4bf8498a4abc1f06"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page016",
+            "pageid":"7a9b8e852ceef0edc1543a3f0a991029"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page041 : What do you think {name} should answer this question? : What do you think {name} should answer this question?",
+            "pageid":"5d0980146763df0a7185d01d1731538b"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page062",
+            "pageid":"65ab10f7cd28cca836911e9d7904fea8"
+         },
+         {
+            "type":"action",
+            "label":"C. \"It's in connection with a strong internet connection and reliable communication system.\"\n",
+            "decisionid":"b65d70e840039ac2104e34bb683ce25a"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page062 : What do you think he should do? : What do you think he should do?",
+            "pageid":"65ab10f7cd28cca836911e9d7904fea8"
+         },
+         {
+            "type":"action",
+            "label":"C. Do more research on California Pacific Airline.",
+            "decisionid":"2f3498a96373052ae1b7a9466f092262"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page027 : Whom do you think {name} should see?  : Whom do you think {name} should see? ",
+            "pageid":"201a61c2b2dccba6d55f76e36b0824c9"
+         },
+         {
+            "type":"action",
+            "label":"C. Brighthub Technologies only.\n",
+            "decisionid":"9fe8747bdd82d049bc09e88f1a5163ee"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page101 : What do you think is the best way {name} can use to get to Brighthub Technologies? : What do you think is the best way {name} can use to get to Brighthub Technologies?",
+            "pageid":"4e735d3a52bd81adb22562fc5cfb5bb7"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page082",
+            "pageid":"01d895b16da669ff2427d1bea972dacb"
+         },
+         {
+            "type":"action",
+            "label":"B. Make a cold call",
+            "decisionid":"143ff57066739651242415d9b738dea5"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page082",
+            "pageid":"01d895b16da669ff2427d1bea972dacb"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page116",
+            "pageid":"e2f89ec55a6c7195b1fad131a1baee3e"
+         },
+         {
+            "type":"action",
+            "label":"B. \"Good morning madam. Is Mr. Blake in today?\"\n\n",
+            "decisionid":"ab4e2f4f5256ed4ffd8a45a20ebb8a16"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page116 : What do you think {name} should do now?\n\n : What do you think {name} should do now?\n\n",
+            "pageid":"e2f89ec55a6c7195b1fad131a1baee3e"
+         },
+         {
+            "type":"action",
+            "label":"A. Call back on Friday and book an appointment as soon as possible.\n\n",
+            "decisionid":"1f90d1bd031a69fd66a4169db65099a1"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page061",
+            "pageid":"d197ad630340a59ffcb48a05b06eeb2a"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page027 : Whom do you think {name} should see?  : Whom do you think {name} should see? ",
+            "pageid":"201a61c2b2dccba6d55f76e36b0824c9"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page101",
+            "pageid":"4e735d3a52bd81adb22562fc5cfb5bb7"
+         },
+         {
+            "type":"action",
+            "label":"C. Brighthub Technologies only.\n",
+            "decisionid":"9fe8747bdd82d049bc09e88f1a5163ee"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page101",
+            "pageid":"4e735d3a52bd81adb22562fc5cfb5bb7"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page112",
+            "pageid":"ca6e922994bb0a64186c70c0a1258d45"
+         },
+         {
+            "type":"action",
+            "label":"A. Call and book an appointment immediately",
+            "decisionid":"681c0633a8564c037d304f8a63bca9e9"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page112 : What do you think {name} should do now?\n\n\n\n : What do you think {name} should do now?\n\n\n\n",
+            "pageid":"ca6e922994bb0a64186c70c0a1258d45"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page138",
+            "pageid":"8d0fea2d9d1fe41b41739ed7137542d0"
+         },
+         {
+            "type":"action",
+            "label":"B. Make a cold call to Mr. Blake on Friday?",
+            "decisionid":"d708221da85e4cd50a5b1b9181349511"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page138",
+            "pageid":"8d0fea2d9d1fe41b41739ed7137542d0"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page139",
+            "pageid":"d86df819436d662276e3686b43792d44"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page027 : Whom do you think {name} should see?  : Whom do you think {name} should see? ",
+            "pageid":"201a61c2b2dccba6d55f76e36b0824c9"
+         },
+         {
+            "type":"action",
+            "label":"A. Brighthub Technonologies then Mr. Vallas.\n\n",
+            "decisionid":"256f856894da953208435872d9b3579a"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page073 : Which way do you think is the best for {name} to gain way into Brighthub Technologies?  : Which way do you think is the best for {name} to gain way into Brighthub Technologies? ",
+            "pageid":"7ad5b8c3173bc19fc9d2fe5da4a236e4"
+         },
+         {
+            "type":"action",
+            "label":"B. Make a cold call.",
+            "decisionid":"05e61e32d8a0ab7610585b16eacb6782"
+         },
+         {
+            "type":"exit",
+            "endstatus":"2"
+         }
+      ],
+      "0f805914b0e5f59157209f915fd134a5":[
+         {
+            "type":"event",
+            "label":"Introduction : What would you like to do next? : What would you like to do next? : What would you like to do next? : What would you like to do next?",
+            "pageid":"1d1122d4d3b86a7927ba3053583482d6"
+         },
+         {
+            "type":"action",
+            "label":"Let's expireance DONN TELECOMMUNICATION (DT) SALES TACTICS.",
+            "decisionid":"e3c3bae56052bed51865dee8d43961a3"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page000",
+            "pageid":"c749ab51e5a0396415058978b52073fc"
+         },
+         {
+            "type":"exit",
+            "endstatus":0,
+            "highlight":false
+         }
+      ],
+      "fa710765fb7c410c539bf1ad4badfb67":[
+         {
+            "type":"event",
+            "label":"Introduction : What would you like to do next? : What would you like to do next?",
+            "pageid":"1d1122d4d3b86a7927ba3053583482d6"
+         },
+         {
+            "type":"action",
+            "label":"Let's expireance DONN TELECOMMUNICATION (DT) SALES TACTICS.",
+            "decisionid":"e3c3bae56052bed51865dee8d43961a3"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page000",
+            "pageid":"c749ab51e5a0396415058978b52073fc"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page001",
+            "pageid":"03a8289a32370d451d2b449300a298fe"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page002",
+            "pageid":"8ce05bea8507aa525e855c455cea73ff"
+         },
+         {
+            "type":"exit",
+            "endstatus":"2"
+         }
+      ],
+      "2de031b8b34806ca4c9f4c7db4358e1c":[
+         {
+            "type":"event",
+            "label":"Introduction",
+            "pageid":"1d1122d4d3b86a7927ba3053583482d6"
+         },
+         {
+            "type":"exit",
+            "endstatus":0,
+            "highlight":false
+         }
+      ],
+      "0ec23e70d4d972d0ea1f1f4707eccdbe":[
+         {
+            "type":"event",
+            "label":"Introduction",
+            "pageid":"1d1122d4d3b86a7927ba3053583482d6"
+         },
+         {
+            "type":"exit",
+            "endstatus":0,
+            "highlight":false
+         }
+      ]
+   }
+}

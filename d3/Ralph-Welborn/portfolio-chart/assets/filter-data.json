@@ -1,0 +1,30 @@
+{
+	"filters" : [
+		{
+			"name" : "Lenses",
+			"children": [{
+				"name" : "Parity",
+				"children":["Gap","Competitive","Differentiated","New 20%"]
+			},{
+				"name" : "Action",
+				"children":["Automate","Outsource","Invest","Leave"]
+			}]
+		},{
+			"name" : "Lens",
+			"children": [
+				{
+				"name" : "Focus",
+				"children":["Execution","Compliance","Revenue","Market Insight","Customer Cares"]
+			}
+			]
+		},{
+			"name" : "button",
+			"children": [
+				{
+				"name" : "Capabilities",
+				"children":["Infor ERP","CRM","EAM","Field Service","PLM","Supply Chain","Sales and Ops"]
+			}
+			]
+		}
+	]
+}

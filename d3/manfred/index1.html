@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<title>Depviz - Interactive Visualization</title>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:600" rel="stylesheet">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<meta charset="utf-8">
+<style>
+g.type-TK > rect {
+  fill: #00ffd0;
+}
+
+text {
+  font-weight: 300;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serf;
+  font-size: 14px;
+}
+
+.node rect {
+  stroke: #999;
+  fill: #fff;
+  stroke-width: 1.5px;
+}
+
+.edgePath path {
+  stroke: #333;
+  stroke-width: 1.5px;
+}
+.orphan1 span,.orphan2 span{
+    font-size: 15px;
+    text-align: center;
+    line-height: 16px;
+    display: block;
+}
+.orphan1,.orphan2{
+    background: #c0c0c0;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+#orphans_section{
+    padding:30px;
+    border:1px dotted black;
+    margin-top: 30px;
+}
+
+</style>
+</head>
+<body>
+        <div class="container-fluid">
+        <div class="row">
+    <div id="chart_container" class="col-md-9"><svg width="1000" height="800"></svg></div>
+    <div id="orphans_section" class="col-md-3">
+        <p>Orphans without links</p>
+        <div class='row'>
+            <div class="orphan1_wrapper col-md-6">
+            </div>
+            <div class="orphan2_wrapper col-md-6">
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="dagre.js"></script>
+    <script src="dagre-d3.min.js"></script>
+    <script>    
+
+d3.json("data.json", function(error, data) {
+    var g = new dagreD3.graphlib.Graph()
+      .setGraph({})
+      .setDefaultEdgeLabel(function() { return {}; });
+
+    g.graph().rankDir = 'LR';
+
+            var showData = data.filter(function(d){
+                if(d['is-hidden']==false){
+                    return d;
+                }
+            })
+            var orphansWithoutLinks = showData.filter(function(d){
+                if(d['is-linked-with-an-epic']==false && d['is-orphan']==true){
+                    return d;
+                }
+            })
+            var graphData = showData.filter(function(d){
+                if(d['is-linked-with-an-epic']==true || d['is-orphan']==false){
+                    return d;
+                }
+            })
+            
+            console.log(graphData);
+            var linksData = makeLinks(graphData);
+            graphData.forEach(function(graphDatum,i){    
+                console.log('here')
+                g.setNode(i,  { label: "URL:"+graphDatum['number'], class: "type-TOP" });
+            })
+
+            g.nodes().forEach(function(v) {                
+              var node = g.node(v);
+              // Round the corners of the nodes
+              node.rx = node.ry = 5;
+            });
+
+            console.log(linksData);
+            linksData.forEach(function(link){                          
+                g.setEdge(link.source, link.target);
+            })
+
+        console.log(g);
+            // Create the renderer
+        var render = new dagreD3.render();
+
+        // Set up an SVG group so that we can translate the final graph.
+        var svg = d3.select("svg"),
+            svgGroup = svg.append("g");
+
+        // Run the renderer. This is what draws the final graph.
+        render(d3.select("svg g"), g);
+
+        // Center the graph
+        var xCenterOffset = (svg.attr("width") - g.graph().width) / 2;
+        svgGroup.attr("transform", "translate(" + xCenterOffset + ", 20)");
+        svg.attr("height", g.graph().height + 40);
+
+                    var orphans_section1 = d3.select('#orphans_section .orphan1_wrapper');
+            orphans_section1.selectAll('.orphan1').data(orphansWithoutLinks.filter(function(d,i){
+                if(i<=orphansWithoutLinks.length / 2){
+                    return d;
+                }
+            })).enter().append('div').attr('class','orphan1').append('span').html(function(d){return d.title});
+
+            var orphans_section2 = d3.select('#orphans_section .orphan2_wrapper');
+            orphans_section2.selectAll('.orphan2').data(orphansWithoutLinks.filter(function(d,i){
+                if(i > orphansWithoutLinks.length / 2){
+                    return d;
+                }
+            })).enter().append('div').attr('class','orphan2').append('span').html(function(d){return d.title});
+
+});
+
+function makeLinks(showData){
+    var links = [];
+    showData.forEach(function(datum,i){
+        if(datum['children']!==null){                                    
+            datum['children'].forEach(function(child){
+                var link = new Object;
+                // link['source'] = datum['number'];
+                link['source'] = i;
+                link['target'] = getIndexByUrl(child,showData);                        
+                link['type'] = 'dotted';
+                links.push(link);
+            })                                    
+        }
+    })
+    return links;
+}
+
+function getIndexByUrl(url,data){
+    var number;
+    data.forEach(function(d,i){
+        if(d['url']==url){
+            number =  i;
+        }
+    })
+    console.log(number);
+    return number;
+}
+
+
+// Here we"re setting nodeclass, which is used by our custom drawNodes function
+// below.
+
+// g.setNode(1,  { label: "S",         class: "type-S" });
+// g.setNode(2,  { label: "NP",        class: "type-NP" });
+// g.setNode(3,  { label: "DT",        class: "type-DT" });
+// g.setNode(4,  { label: "This",      class: "type-TK" });
+// g.setNode(5,  { label: "VP",        class: "type-VP" });
+// g.setNode(6,  { label: "VBZ",       class: "type-VBZ" });
+// g.setNode(7,  { label: "is",        class: "type-TK" });
+// g.setNode(8,  { label: "NP",        class: "type-NP" });
+// g.setNode(9,  { label: "DT",        class: "type-DT" });
+// g.setNode(10, { label: "an",        class: "type-TK" });
+// g.setNode(11, { label: "NN",        class: "type-NN" });
+// g.setNode(12, { label: "example",   class: "type-TK" });
+// g.setNode(13, { label: ".",         class: "type-." });
+// g.setNode(14, { label: "sentence",  class: "type-TK" });
+
+
+
+// Set up edges, no special attributes.
+// g.setEdge(3, 4);
+// g.setEdge(2, 3);
+// g.setEdge(1, 2);
+// g.setEdge(6, 7);
+// g.setEdge(5, 6);
+// g.setEdge(9, 10);
+// g.setEdge(8, 9);
+// g.setEdge(11,12);
+// g.setEdge(8, 11);
+// g.setEdge(5, 8);
+// g.setEdge(1, 5);
+// g.setEdge(13,14);
+// g.setEdge(1, 13);
+// g.setEdge(0, 1)
+
+
+
+    </script>
+</body>
+</html>

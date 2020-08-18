@@ -1,0 +1,33 @@
+.arrow{
+	stroke-width:2;
+	stroke:#000;	
+}
+
+.wrapper{
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+.passage_rect{
+	fill: white;
+	stroke: black;
+}
+
+.passage_text{
+	text-anchor: middle;
+}
+
+.hide{
+	display: none;
+}
+
+input{
+	margin-left:30px;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+path.arrow{
+	fill:none;
+	stroke: black;
+}

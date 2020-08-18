@@ -1,0 +1,714 @@
+*{
+		box-sizing: border-box;
+	}
+	@font-face {
+    font-family: Ionicons;
+    src: url('ionicons.ttf');
+}
+body {
+    margin: 0;
+    -webkit-transition: background-color 1s linear;
+    -ms-transition: background-color 1s linear;
+    transition: background-color 1s linear;
+    background: -moz-linear-gradient(60deg,#3a435f 1%,#191d29 50%,#1d3e45 100%);
+    background: -webkit-linear-gradient(60deg,#3a435f 1%,#191d29 50%,#1d3e45);
+    background: linear-gradient(60deg,#3a435f 1%,#191d29 50%,#1d3e45);
+}
+.panel {
+    margin-bottom: 25px;
+    margin-top: 0;
+    background: linear-gradient(45deg,#ecf0f2,rgba(236,240,242,.97));
+    border: 1px solid transparent;
+    border-radius: 6px;
+    box-shadow: 0 0 30px rgba(0,0,0,.2);
+    position: relative;
+}
+.panel-body {
+    padding: 15px;
+}
+.desktop-form-component {
+    height: auto;
+    width: 30vw;
+    position: relative;
+}
+
+.desktop-form-component {
+    min-width: 425px;
+    max-width: 525px;
+}
+
+.poster-container .poster-wrap {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.desktop-component .background {
+    width: 0;
+    height: 0;
+    border-top: 3000px solid hsla(0,0%,100%,.08);
+    border-left: 2000px solid transparent;
+    position: fixed;
+    top: 0;
+    left: calc(30vw + 60px);
+    z-index: 1;
+    -webkit-transform: translate3d(250px,250px,250px) rotate3d(250px,250px,250px,-120deg) scale3d(.5,.5,.5);
+}
+.poster-container {
+    width: calc(70vw - 30px);
+    max-width: calc(100vw - 455px);
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 2;
+}
+.poster-component {
+    position: absolute;
+    height: auto;
+    width: auto;
+    max-width: calc(100% - 60px);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+}
+.theme-selector-component ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.flex{
+	display: flex;
+}
+.hide-fade, .show-fade {
+    transition: opacity .5s ease;
+}
+.show-fade {
+    opacity: 1!important;
+    z-index: 6;
+    position: relative;
+}
+.theme-selector-component ul.themes li.theme {
+    margin-right: 4px;
+    height: 100px;
+    border-radius: 8px;
+    border: 3px solid hsla(0,0%,100%,.9);
+    box-shadow: 0 0 30px hsla(0,0%,7%,.2);
+    transition: all .3s ease;
+}
+
+.theme-selector-component ul.themes li.black {
+    background: #111;
+}
+
+.theme-selector-component ul.themes li {
+    position: relative;
+}
+
+.theme-selector-component ul.themes li img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    max-width: 80px;
+    max-height: 90px;
+    height: auto;
+}
+
+.theme-selector-component ul.themes li.selected img {
+    opacity: 0;
+}
+
+.theme-selector-component ul.themes li.theme img {
+    opacity: 1;
+}
+
+.theme-selector-component ul.themes li.selected p {
+    color: hsla(0,0%,100%,.9);
+}
+.theme-selector-component ul.themes li.theme p {
+    color: transparent;
+    margin-left: -4px;
+}
+.theme-selector-component ul.themes li p {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 0 4px;
+    font-weight: 400;
+}
+
+.theme-selector-component ul.themes li.midnightblue {
+    background: #191d29;
+}
+
+.theme-selector-component ul.themes li.greyblue {
+    background: #384656;
+}
+
+.theme-selector-component ul.themes li.grey {
+    background: #bbbec1;
+}
+.dropdown div{	
+    display: flex;
+    flex-direction: row;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    min-width: 30px;
+}
+
+.dropDown text{
+
+}
+
+.hide{
+	display: none !important;
+}
+
+.theme-selector-component ul.toggles li {
+    border-bottom: 1px solid rgba(19,75,89,.15);
+}
+
+.theme-selector-component ul.toggles .label-toggle {
+    background: #fff;
+    align-items: center;
+}
+
+.label-toggle:first-child{
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.label-toggle:last-child{
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.toggleswitch-component .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin-bottom: 0;
+}
+.toggleswitch-component {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+.advanced-options-component .toggleswitch-component {
+    height: 50px;
+}
+.toggleswitch-component .switch input:checked+.slider {
+    background-color: #384656;
+}
+
+.toggleswitch-component .slider.round {
+    border-radius: 34px;
+}
+
+.toggleswitch-component .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.textDate{
+	text-align: center;
+    padding: 15px 0 0;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+.toggleswitch-component input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+.toggleswitch-component .slider.round:before {
+    border-radius: 50%;
+}
+
+.toggleswitch-component .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: #fff;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.padding-15{
+	padding:15px;
+}
+.panel-title{
+	padding-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.GeoLocator i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 15px;
+}
+
+.GeoLocator {
+    position: relative;
+    height: 55px;
+    z-index: 999;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    box-shadow: 0 0 25px rgba(43,93,105,.1);
+}
+.GeoLocator input {
+    display: inline-block!important;
+    width: 100%!important;
+    white-space: nowrap!important;
+    overflow: hidden!important;
+    text-overflow: ellipsis!important;    
+    text-indent: 38px!important;
+    outline: none;
+    margin: 0;
+    height: 55px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    box-shadow: 0 0 25px rgba(43,93,105,.1);
+    min-width: 1px;
+    color: #566c84;
+}
+.GeoLocator>div {
+    width: 100%;
+    background: transparent;
+}
+
+.ion-earth:before {
+    content: "\f276";
+}
+
+.ion-earth,.ion-android-arrow-dropdown,.ion-arrow-down-b{
+    display: inline-block;
+    font-family: "Ionicons";
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-rendering: auto;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+.tnsdatepicker-component .controls.date select {
+    width: 100%;
+    padding: 0 15px;
+    min-width: 63px;
+    font-size: 16px;
+}
+
+.tnsdatepicker-component .controls select {
+    outline: none;
+    position: relative;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 25px rgba(43,93,105,.1);
+    border: none;
+    padding: 0 20px;
+    height: 55px;
+    -webkit-appearance: none!important;
+}
+
+.tnsdatepicker-component .controls.date .month {
+    flex: 2;
+    margin: 0 15px;
+}
+
+.tnsdatepicker-component .day-input i {
+    font-size: 1.25em;
+    color: #999;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+}
+.tnsdatepicker-component .controls.date .year {
+    flex: 1;
+}
+.tnsdatepicker-component .controls.date {
+    display: flex;
+    font-size: 15px;
+    color: #384656;
+}
+.tnsdatepicker-component .day-input {
+    background-color: #fff;
+    height: 55px;
+    flex: 1;
+    border-radius: 5px;
+    border: none;    
+    font-size: 16px;
+    box-shadow: 0 0 25px rgba(43,93,105,.1);
+    color: #384656;
+    position: relative;
+}
+
+.tnsdatepicker-component .day-input span {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 15px;
+}
+
+.ion-android-arrow-dropdown:before {
+    content: "\f35f";
+}
+textarea{	
+    text-transform: uppercase;
+    resize: none;
+    width: 100%;
+    font-size: 15px;
+    border-radius: 5px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    padding: 15px;
+}
+
+textarea + span{
+	text-align: right;
+	display: block;
+}
+
+.advanced-options-component .panel-body .flex {
+    flex-direction: column;
+    flex: 1;
+    margin-bottom: 20px;
+}
+
+.tns-panel-input, .tns-panel-textarea {
+    width: 100%;
+    outline: none;
+    height: 55px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 15px;
+    font-size: 16px;
+    box-shadow: 0 0 25px rgba(43,93,105,.1);
+    min-width: 1px;
+    color: #566c84;
+}
+
+.advanced-options-component .input-group .dropdown button {
+    background-color: #fff!important;
+    border: none;
+    box-shadow: 0 0 40px rgba(0,0,0,.05);
+    height: 55px;
+    width: 50px;
+}
+
+.advanced-options-component .input-group .dropdown .dropdown-menu {
+    border: none;
+    padding: 0;
+    box-shadow: 0 0 25px rgba(43,93,105,.1);
+    width: 50px;
+    min-width: 50px;
+    text-align: center;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    margin-top: -3px;
+    margin-left: -1px;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    list-style: none;
+    font-size: 14px;
+    text-align: left;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    background-clip: padding-box;
+}
+
+.input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+}
+.input-group-addon, .input-group-btn, .input-group .form-control {
+    display: table-cell;
+}
+
+.advanced-options-component .input-group input {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.advanced-options-component .controls.time select {
+    height: 50px;
+    background-color: #fff;
+    box-shadow: 0 0 25px transparent;
+    width: 30%;
+    padding: 0 12px;
+}
+
+.advanced-options-component .controls select {
+    padding-left: 15px;
+    font-size: 16px;
+    color: #566c84;
+    outline: none;
+    position: relative;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 25px rgba(43,93,105,.1);
+    border: none;
+    margin-right: 3%;
+    padding: 0 20px;
+    height: 55px;
+    -webkit-appearance: none!important;
+}
+.advanced-options-component .controls.time .center {
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.advanced-options-component .controls.time .center .divider-wrap {
+    position: relative;
+    width: 1%;
+}
+
+.advanced-options-component .controls.time .center .divider-wrap .time-divider {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 1em;
+    color: grey;
+}
+.advanced-options-component .controls select.minute {
+    margin: 0 1.5% 0 3%;
+}
+.advanced-options-component .controls select.am-pm {
+    margin: 0 0 0 1.5%;
+}
+
+.advanced-options-component .controls.time .center i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5px;
+    font-size: 11px;
+    color: grey;
+}
+.advanced-options-component i {
+    float: right;
+    font-size: 23px;
+    color: #999a9a;
+}
+
+.row:after, .row:before {
+    content: " ";
+    display: table;
+}
+.row:after {
+    clear: both;
+}
+.advanced-options-component .panel-body .row {
+    margin-bottom: 10px;
+}
+
+.ion-arrow-down-b:before {
+    content: "\f104";
+}
+.advanced-options-component .toggleswitch-component .switch {
+    margin: auto 0;
+}
+.toggleswitch-component .switch input{
+	display: none;
+}
+.open>.dropdown-menu {
+    display: block;
+}
+.dropdown-menu>li>a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857;
+    color: #333;
+    white-space: nowrap;
+}
+.advanced-options-component .input-group .dropdown .dropdown-menu a {
+    padding: 12px;
+    outline: none;
+    width: 50px;
+}
+.subscribe input[type="email"]{
+    height: 55px;
+    width: 100%;
+    text-indent: 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+}
+
+.subscribe button{
+    background-color: rgb(54, 110, 122);
+    color: rgb(244, 246, 247);
+    text-transform: uppercase;
+    font-weight: 500;
+    width: 100%;
+    flex: 1 1 0%;
+    border-radius: 3px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(54, 110, 122);
+    border-image: initial;
+    padding: 10px;
+}
+.copyright-component span {
+    color: #49657e;
+}
+.parallaxtop-component {
+    display: flex;
+    padding: 20px 0 20px 10px;
+}
+.parallaxtop-component img {
+    width: 100px;
+    height: auto;
+    max-height: 100px;
+    align-self: center;
+    top: 0;
+}
+.parallaxtop-component .text {
+    display: flex;
+    width: calc(100% - 100px);
+    padding-left: 20px;
+    color: #fff;
+    position: relative;
+}
+.parallaxtop-component .text div h1 {
+    font-size: 23px;
+    margin: 0;
+    margin-bottom: 5px;
+}
+.parallaxtop-component .text div p {
+    margin: 0;
+    font-size: 12px;
+    padding-right: 15px;
+    color: #b8b8b8;
+}
+.parallaxtop-component .text div {
+    margin: auto 0;
+}
+.desktop-component {
+    padding: 15px 30px 50px;
+}
+.desktop-form-component vr {
+    display: block;
+    width: 3px;
+    background-color: hsla(0,0%,100%,.1);
+    position: absolute;
+    top: 120px;
+    bottom: 60px;
+    left: 59px;
+    z-index: -200;
+}
+.poster-component .dimension-indicators {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 3.5px 0 6.5px;
+    height: 35px;
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #848686;
+}
+.loader-component img {
+    height: 3em;
+    width: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.poster-component .loader-component {
+    z-index: 5;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.poster-component {
+    z-index: 3;
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 25px 25px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 50px rgba(0,0,0,.1);
+    background-color: hsla(0,0%,100%,.9);
+    margin-bottom: 56px;
+}
+
+@media (min-height: 80px) and (min-width: 1023px){
+.poster-component {
+    position: absolute;
+    height: auto;
+    width: auto;
+    max-width: calc(100% - 60px);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+}
+.poster-component canvas {
+    -webkit-transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    max-width: calc(100vw - 585px);
+    max-height: calc(100vh - 130px);
+    width: auto;
+    box-shadow: 0 0 50px rgba(0,0,0,.2);
+    margin: 0;
+}
+.poster-component .canvas-wrapper {
+    position: relative;
+    height: 100%;
+    width: auto;
+}
+}
+

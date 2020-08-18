@@ -1,0 +1,23 @@
+.slider-selection{
+	border-radius: 0px;
+}
+
+.tooltip{
+	opacity: 1;
+}
+
+.input_wrapper .tooltip{
+	top: 33px !important;
+}
+
+#age_wrapper{
+	padding-bottom: 40px;
+}
+
+.slider-selection{
+	background: transparent;
+}
+
+text.rest, polyline.rest{
+	display: none;
+}

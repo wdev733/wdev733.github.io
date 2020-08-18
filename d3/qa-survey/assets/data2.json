@@ -1,0 +1,442 @@
+{
+   "paths":{
+      "4e4efaaf6161504757e326c3b37ce78e":[
+         {
+            "type":"event",
+            "label":"Introduction : What would you like to do next? : What would you like to do next?",
+            "pageid":"9871796b64c6df389d0351e76b1862a5"
+         },
+         {
+            "type":"action",
+            "label":"let's go to the exit page.",
+            "decisionid":"cf27a99ae1071775eae278c25b302b80"
+         },
+         {
+            "type":"exit",
+            "endstatus":"3"
+         }
+      ],
+      "03361eef3aec96738996b31d1afbbbcf":[
+         {
+            "type":"event",
+            "label":"Introduction : What would you like to do next? : What would you like to do next?",
+            "pageid":"9871796b64c6df389d0351e76b1862a5"
+         },
+         {
+            "type":"action",
+            "label":"let's go to the exit page.",
+            "decisionid":"cf27a99ae1071775eae278c25b302b80"
+         },
+         {
+            "type":"exit",
+            "endstatus":"3"
+         }
+      ],
+      "2dd358cf25cbf4c6b878f72bdafeca9a":[
+         {
+            "type":"event",
+            "label":"Introduction",
+            "pageid":"9871796b64c6df389d0351e76b1862a5"
+         },
+         {
+            "type":"exit",
+            "endstatus":"2"
+         }
+      ],
+      "71ebc84835453bce1fa594dde8771cb2":[
+         {
+            "type":"event",
+            "label":"Introduction : What would you like to do next? : What would you like to do next?",
+            "pageid":"9871796b64c6df389d0351e76b1862a5"
+         },
+         {
+            "type":"action",
+            "label":"let's expireance DONN TELECOMMUNICATION (DT) SALES TACTICS.",
+            "decisionid":"e2e73329b197b06e23f900cf000528c6"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page000",
+            "pageid":"34b1653b4d8bb73c64b2571456bcaa07"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page001",
+            "pageid":"0ee68c23b7960b4c6a392fe32dc37417"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page002",
+            "pageid":"4375ee83a85b8c653bf2338e10f9883f"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page003",
+            "pageid":"c51380c8f222761018e1b612e603b6fc"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page004",
+            "pageid":"b6546a0741c680d863ffced77c2ac7a6"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page005",
+            "pageid":"5ba220b0f70efe5e143a6c765bcad24c"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page006",
+            "pageid":"5763cf920002ff5d83e980d28fa117c2"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page007",
+            "pageid":"47e8d25d9a8588520a8d5596f5b302d4"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page008",
+            "pageid":"4430a3155fffa8be851addadb1ee8a11"
+         },
+         {
+            "type":"action",
+            "label":"A. Do further research on California Pacific Airline ",
+            "decisionid":"fd535024f1667e999a3f4032cd7e55a9"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page027 : Whom do you think {name} should see?  : Whom do you think {name} should see? ",
+            "pageid":"0df3b7f05ff4e7d986b338113b26711f"
+         },
+         {
+            "type":"action",
+            "label":"D. Mr. Vallas only.",
+            "decisionid":"0504a40956b9c3f97269d2da5f520500"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page066 : what advice can you give to {name} on the best way of reaching Mr. Vallas? : what advice can you give to {name} on the best way of reaching Mr. Vallas?",
+            "pageid":"4fcdb661e248908e6a7cd376afa5085e"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page136",
+            "pageid":"0d9326b0cfc090f7159d2fec2543c32e"
+         },
+         {
+            "type":"action",
+            "label":"A. Call and book an appointment immediately.",
+            "decisionid":"b4e8662c679954b9a425cc22869d7e9d"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page136 : What do you think {name} should answer this question? : What do you think {name} should answer this question?",
+            "pageid":"0d9326b0cfc090f7159d2fec2543c32e"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page068",
+            "pageid":"557b094f67bb8264c8d47849a90fc9b2"
+         },
+         {
+            "type":"action",
+            "label":"C. \"Sorry Madam, but it's a very involving matter. It would be better if I talk to Mr. Vallas's secretary, please. Kindly, put me through.\"",
+            "decisionid":"9139d18628b522a95ee5a18bd8eae482"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page068 : What do you think {name} should say?  : What do you think {name} should say? ",
+            "pageid":"557b094f67bb8264c8d47849a90fc9b2"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page110",
+            "pageid":"a26ae8b0a5795ba87c36c490d51d5c91"
+         },
+         {
+            "type":"action",
+            "label":"B. \"It's Something I need to discuss with Mr. Vallas at a personal level.\"",
+            "decisionid":"1cf1feeae451c267d14947c4844e454a"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page110",
+            "pageid":"a26ae8b0a5795ba87c36c490d51d5c91"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page136 : What do you think {name} should answer this question? : What do you think {name} should answer this question?",
+            "pageid":"0d9326b0cfc090f7159d2fec2543c32e"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page021",
+            "pageid":"e95e7286ec55c9b831b70704a8db1bb8"
+         },
+         {
+            "type":"action",
+            "label":"A. \"It is about saving in his internet connectivity and communication costs.\"",
+            "decisionid":"acecf923712476f5c35bc53966d9c27b"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page021",
+            "pageid":"e95e7286ec55c9b831b70704a8db1bb8"
+         },
+         {
+            "type":"exit",
+            "endstatus":"2"
+         }
+      ],
+      "7650b79aabf4fcb2229cb01f88a03404":[
+         {
+            "type":"event",
+            "label":"Introduction : What would you like to do next? : What would you like to do next?",
+            "pageid":"9871796b64c6df389d0351e76b1862a5"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page000",
+            "pageid":"34b1653b4d8bb73c64b2571456bcaa07"
+         },
+         {
+            "type":"action",
+            "label":"let's expireance DONN TELECOMMUNICATION (DT) SALES TACTICS.",
+            "decisionid":"e2e73329b197b06e23f900cf000528c6"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page001",
+            "pageid":"0ee68c23b7960b4c6a392fe32dc37417"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page002",
+            "pageid":"4375ee83a85b8c653bf2338e10f9883f"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page003",
+            "pageid":"c51380c8f222761018e1b612e603b6fc"
+         },
+         {
+            "type":"exit",
+            "endstatus":"2"
+         }
+      ],
+      "43ec0d8fd8c862d6d4c658b319247ad6":[
+         {
+            "type":"event",
+            "label":"Introduction : What would you like to do next? : What would you like to do next?",
+            "pageid":"9871796b64c6df389d0351e76b1862a5"
+         },
+         {
+            "type":"exit",
+            "endstatus":"2"
+         }
+      ],
+      "0327b062832906bc022a438dda966165":[
+         {
+            "type":"event",
+            "label":"Introduction",
+            "pageid":"9871796b64c6df389d0351e76b1862a5"
+         },
+         {
+            "type":"exit",
+            "endstatus":"2"
+         }
+      ],
+      "02d2946a98ab98a277aff72d26138c62":[
+         {
+            "type":"event",
+            "label":"Introduction",
+            "pageid":"9871796b64c6df389d0351e76b1862a5"
+         },
+         {
+            "type":"exit",
+            "endstatus":"2"
+         }
+      ],
+      "66a82f277fac78a688952471ef2c3fc4":[
+         {
+            "type":"event",
+            "label":"Introduction : What would you like to do next? : What would you like to do next?",
+            "pageid":"9871796b64c6df389d0351e76b1862a5"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page000",
+            "pageid":"34b1653b4d8bb73c64b2571456bcaa07"
+         },
+         {
+            "type":"action",
+            "label":"let's expireance DONN TELECOMMUNICATION (DT) SALES TACTICS.",
+            "decisionid":"e2e73329b197b06e23f900cf000528c6"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page001",
+            "pageid":"0ee68c23b7960b4c6a392fe32dc37417"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page002",
+            "pageid":"4375ee83a85b8c653bf2338e10f9883f"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page003",
+            "pageid":"c51380c8f222761018e1b612e603b6fc"
+         },
+         {
+            "type":"exit",
+            "endstatus":"2"
+         }
+      ],
+      "92f083e1ad684a15e1fdf6e0c096fdfb":[
+         {
+            "type":"event",
+            "label":"Introduction : What would you like to do next? : What would you like to do next?",
+            "pageid":"9871796b64c6df389d0351e76b1862a5"
+         },
+         {
+            "type":"action",
+            "label":"let's expireance DONN TELECOMMUNICATION (DT) SALES TACTICS.",
+            "decisionid":"e2e73329b197b06e23f900cf000528c6"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page000",
+            "pageid":"34b1653b4d8bb73c64b2571456bcaa07"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page001",
+            "pageid":"0ee68c23b7960b4c6a392fe32dc37417"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page002",
+            "pageid":"4375ee83a85b8c653bf2338e10f9883f"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page003",
+            "pageid":"c51380c8f222761018e1b612e603b6fc"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page004",
+            "pageid":"b6546a0741c680d863ffced77c2ac7a6"
+         },
+         {
+            "type":"exit",
+            "endstatus":"2"
+         }
+      ],
+      "992eb6c0b655478d3b139ac4638284e7":[
+         {
+            "type":"event",
+            "label":"Introduction : What would you like to do next? : What would you like to do next?",
+            "pageid":"9871796b64c6df389d0351e76b1862a5"
+         },
+         {
+            "type":"exit",
+            "endstatus":"2"
+         }
+      ],
+      "85262ad36896a5c11792284d37bbc8e1":[
+         {
+            "type":"event",
+            "label":"Introduction : What would you like to do next? : What would you like to do next?",
+            "pageid":"9871796b64c6df389d0351e76b1862a5"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page000",
+            "pageid":"34b1653b4d8bb73c64b2571456bcaa07"
+         },
+         {
+            "type":"action",
+            "label":"let's expireance DONN TELECOMMUNICATION (DT) SALES TACTICS.",
+            "decisionid":"e2e73329b197b06e23f900cf000528c6"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page001",
+            "pageid":"0ee68c23b7960b4c6a392fe32dc37417"
+         },
+         {
+            "type":"exit",
+            "endstatus":"2"
+         }
+      ],
+      "d2f34f9f7cf7323a749dd38876c0ff86":[
+         {
+            "type":"event",
+            "label":"Introduction : What would you like to do next? : What would you like to do next?",
+            "pageid":"9871796b64c6df389d0351e76b1862a5"
+         },
+         {
+            "type":"exit",
+            "endstatus":"2"
+         }
+      ],
+      "b640286e7981259c4585636bc4f3f5f0":[
+         {
+            "type":"event",
+            "label":"Introduction : What would you like to do next? : What would you like to do next?",
+            "pageid":"9871796b64c6df389d0351e76b1862a5"
+         },
+         {
+            "type":"exit",
+            "endstatus":"2"
+         }
+      ],
+      "4eb91a6d1520ad5f6ece2133221a7f38":[
+         {
+            "type":"event",
+            "label":"Introduction : What would you like to do next? : What would you like to do next?",
+            "pageid":"9871796b64c6df389d0351e76b1862a5"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page000",
+            "pageid":"34b1653b4d8bb73c64b2571456bcaa07"
+         },
+         {
+            "type":"action",
+            "label":"let's expireance DONN TELECOMMUNICATION (DT) SALES TACTICS.",
+            "decisionid":"e2e73329b197b06e23f900cf000528c6"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page001",
+            "pageid":"0ee68c23b7960b4c6a392fe32dc37417"
+         },
+         {
+            "type":"event",
+            "label":"Donn Page002",
+            "pageid":"4375ee83a85b8c653bf2338e10f9883f"
+         },
+         {
+            "type":"exit",
+            "endstatus":0,
+            "highlight":false
+         }
+      ],
+      "d99f27d9353c217883adbba4cc54e687":[
+         {
+            "type":"event",
+            "label":"Introduction",
+            "pageid":"9871796b64c6df389d0351e76b1862a5"
+         },
+         {
+            "type":"exit",
+            "endstatus":0,
+            "highlight":false
+         }
+      ]
+   }
+}

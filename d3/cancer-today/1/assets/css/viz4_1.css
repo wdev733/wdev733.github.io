@@ -1,0 +1,27 @@
+/*.chart_div{
+	width: 70%;
+	height: 100%;
+	float: left;
+}
+
+.legend_div{
+	width: 30%;
+	height: 100%;
+	float: left;	
+}
+*/
+.legend_div{
+	text-transform: uppercase;
+}
+
+.human path{
+	fill: grey;
+}
+
+.red path{
+	fill: red;
+}
+
+.black path{
+	fill: black;
+}

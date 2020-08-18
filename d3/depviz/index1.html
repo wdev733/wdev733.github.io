@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<title>Depviz - Interactive Visualization</title>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:600" rel="stylesheet">
+<meta charset="utf-8">
+<style>
+    
+</style>
+</head>
+<body>
+    <div id="chart_container"></div>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script>    
+        d3.json("data.json", function(error, data) {
+            var orphansWithoutLinks = data.filter(function(d){
+                if(d['is-linked-with-an-epic']==false && d['is-orphan']==true){
+                    return d;
+                }
+            })
+            var graphData = data.filter(function(d){
+                if(d['is-linked-with-an-epic']==true || d['is-orphan']==false){
+                    return d;
+                }
+            })
+
+            console.log(graphData);
+            console.log(orphansWithoutLinks);
+            console.log(data);
+            var weightGroup = [];
+            graphData.map(function(d){
+                if(weightGroup.indexOf(d['weight'])==-1){
+                    weightGroup.push(d['weight'])
+                }
+            });
+
+            console.log(weightGroup.sort(d3.ascending));
+            var nested = d3.nest()
+            .key(function(d) {
+                return d['weight']
+            })
+            .entries(graphData);
+            
+            console.log(nested);
+            var m = nested.map(function(n){
+                return n['values'].length
+            })
+
+            var yDomain = [];
+            for(var i=0;i<d3.max(m);i++){
+                yDomain.push(i);
+            }
+            //Draw Graph
+            var margin = {top: 20, right: 20, bottom: 30, left: 40},
+                width = 960 - margin.left - margin.right,
+                height = 500 - margin.top - margin.bottom;
+
+            // set the ranges
+            var x = d3.scaleBand()
+                      .range([0, width])
+                      .padding(0.5);
+            var y = d3.scaleBand()
+                      .range([0,height])
+                      .padding(0.5);
+
+            var svg = d3.select("#chart_container").append("svg")
+                .attr("width", width + margin.left + margin.right)
+                .attr("height", height + margin.top + margin.bottom)
+                .append("g")
+                .attr("transform", 
+                      "translate(" + margin.left + "," + margin.top + ")");
+
+                x.domain(weightGroup);
+                y.domain(yDomain);
+            svg.append("g")
+                .attr("transform", "translate(0," + height + ")")
+                .call(d3.axisBottom(x));
+
+            // add the y Axis
+            svg.append("g")
+                .call(d3.axisLeft(y));
+
+            var weight_group = svg.selectAll('.weight_group').data(nested).enter().append('g').attr('class','weight_group').attr('transform',function(d){
+                return 'translate('+x(d.key)+',0)';
+            });
+
+            var g_item = weight_group.selectAll('.item').data(function(d){console.log(d);return d.values}).enter().append('g').attr('class','item').attr('transform',function(d,i){
+                return 'translate(0,'+y(i)+')';
+            });
+
+            g_item.append('rect').attr('x',0).attr('width',x.bandwidth()).attr('y',0).attr('height',y.bandwidth());
+
+        })
+
+        function wrap(text, width) {
+            text.each(function() {
+                var text = d3.select(this),
+                    words = text.text().split(/\s+/).reverse(),
+                    word,
+                    line = [],
+                    lineNumber = 0,
+                    lineHeight = 1.1, // ems
+                    y = text.attr("y"),
+                    x = 0,
+                    dy = parseFloat(text.attr("dy")),
+                    tspan = text.text(null).append("tspan").attr("x", x).attr("y", y).attr("dy", dy + "em");
+                while (word = words.pop()) {
+                    line.push(word);
+                    tspan.text(line.join(" "));
+                    if (tspan.node().getComputedTextLength() > width) {
+                        line.pop();
+                        tspan.text(line.join(" "));
+                        line = [word];
+                        console.log(word);
+                        tspan = text.append("tspan").attr("x", x).attr("y", y).attr("dy", ++lineNumber * lineHeight + dy + "em").text(word);
+                    }
+                }
+            });
+        }
+    </script>
+</body>
+</html>

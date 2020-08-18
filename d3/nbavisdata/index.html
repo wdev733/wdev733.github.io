@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="assets/js/dimple.v2.3.0.min.js"></script>
+    <meta charset="utf-8">
+    <title>NBA data visualization</title>
+  </head>
+<body>
+<div id="header">
+  <a href="#" class="logo"><img src="assets/images/logo.png" alt="NBA data visualization"/></a>
+</div>
+<div class="widget" id="player_selector">
+  <h5 class="widget_title"> Choose players to compare:</h5>
+</div>
+<div id="radarChart" class="widget">
+  <h5 class="widget_title">Overall Radar Chart</h5>
+</div>
+    <div id="gaugeContainer" class="widget">
+      <h5 class="widget_title">Player Details</h5>
+    </div>
+    
+    <div id="chartContainer" class="widget">
+      <h5 class="widget_title">Salary - PPG per year(All players):</h5>
+    </div>
+<div id="linechartContainer" class="widget">
+      <h5 class="widget_title">PER player rank for Each Season:</h5>
+    </div>
+
+        <script src="https://d3js.org/d3.v3.min.js"></script>
+        <script src="assets/js/viz.v1.0.0.min.js"></script>
+        <script src="https://d3js.org/d3.v4.min.js"></script>
+        <script src="assets/js/linechart-radarchart.js" type="text/javascript"></script> 
+        <script src="assets/js/overview-chart.js" type="text/javascript"></script> 
+
+  </body>
+    <script type="text/javascript">
+        d3.csv("assets/data/datanba.csv", draw);
+    </script>
+</html>

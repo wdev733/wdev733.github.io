@@ -1,0 +1,466 @@
+{  
+   "De Panne":{  
+      "1995":{  
+         "Huizen in gesloten bebouwing":"1357",
+         "Huizen in halfopen bebouwing":"934",
+         "Huizen in open bebouwing, hoeven en kastelen":"806",
+         "Buildings en flatgebouwen met appartementen":"478"
+      },
+      "1998":{  
+         "Huizen in gesloten bebouwing":"1360",
+         "Huizen in halfopen bebouwing":"932",
+         "Huizen in open bebouwing, hoeven en kastelen":"826",
+         "Buildings en flatgebouwen met appartementen":"522"
+      },
+      "2001":{  
+         "Huizen in gesloten bebouwing":"1351",
+         "Huizen in halfopen bebouwing":"925",
+         "Huizen in open bebouwing, hoeven en kastelen":"856",
+         "Buildings en flatgebouwen met appartementen":"562"
+      },
+      "2002":{  
+         "Huizen in gesloten bebouwing":"1349",
+         "Huizen in halfopen bebouwing":"928",
+         "Huizen in open bebouwing, hoeven en kastelen":"874",
+         "Buildings en flatgebouwen met appartementen":"573"
+      },
+      "2003":{  
+         "Huizen in gesloten bebouwing":"1340",
+         "Huizen in halfopen bebouwing":"926",
+         "Huizen in open bebouwing, hoeven en kastelen":"887",
+         "Buildings en flatgebouwen met appartementen":"586"
+      },
+      "2004":{  
+         "Huizen in gesloten bebouwing":"1337",
+         "Huizen in halfopen bebouwing":"927",
+         "Huizen in open bebouwing, hoeven en kastelen":"884",
+         "Buildings en flatgebouwen met appartementen":"592"
+      },
+      "2005":{  
+         "Huizen in gesloten bebouwing":"1332",
+         "Huizen in halfopen bebouwing":"927",
+         "Huizen in open bebouwing, hoeven en kastelen":"896",
+         "Buildings en flatgebouwen met appartementen":"612"
+      },
+      "2006":{  
+         "Huizen in gesloten bebouwing":"1342",
+         "Huizen in halfopen bebouwing":"932",
+         "Huizen in open bebouwing, hoeven en kastelen":"911",
+         "Buildings en flatgebouwen met appartementen":"639"
+      },
+      "2007":{  
+         "Huizen in gesloten bebouwing":"1343",
+         "Huizen in halfopen bebouwing":"949",
+         "Huizen in open bebouwing, hoeven en kastelen":"924",
+         "Buildings en flatgebouwen met appartementen":"652"
+      },
+      "2008":{  
+         "Huizen in gesloten bebouwing":"1339",
+         "Huizen in halfopen bebouwing":"958",
+         "Huizen in open bebouwing, hoeven en kastelen":"939",
+         "Buildings en flatgebouwen met appartementen":"662"
+      },
+      "2009":{  
+         "Huizen in gesloten bebouwing":"1345",
+         "Huizen in halfopen bebouwing":"985",
+         "Huizen in open bebouwing, hoeven en kastelen":"942",
+         "Buildings en flatgebouwen met appartementen":"679"
+      },
+      "2010":{  
+         "Huizen in gesloten bebouwing":"1348",
+         "Huizen in halfopen bebouwing":"985",
+         "Huizen in open bebouwing, hoeven en kastelen":"952",
+         "Buildings en flatgebouwen met appartementen":"697"
+      },
+      "2011":{  
+         "Huizen in gesloten bebouwing":"1357",
+         "Huizen in halfopen bebouwing":"986",
+         "Huizen in open bebouwing, hoeven en kastelen":"962",
+         "Buildings en flatgebouwen met appartementen":"717"
+      },
+      "2012":{  
+         "Huizen in gesloten bebouwing":"1362",
+         "Huizen in halfopen bebouwing":"993",
+         "Huizen in open bebouwing, hoeven en kastelen":"961",
+         "Buildings en flatgebouwen met appartementen":"730"
+      },
+      "2013":{  
+         "Huizen in gesloten bebouwing":"1364",
+         "Huizen in halfopen bebouwing":"995",
+         "Huizen in open bebouwing, hoeven en kastelen":"963",
+         "Buildings en flatgebouwen met appartementen":"752"
+      },
+      "2014":{  
+         "Huizen in gesloten bebouwing":"1368",
+         "Huizen in halfopen bebouwing":"1002",
+         "Huizen in open bebouwing, hoeven en kastelen":"968",
+         "Buildings en flatgebouwen met appartementen":"764"
+      },
+      "2015":{  
+         "Huizen in gesloten bebouwing":"1372",
+         "Huizen in halfopen bebouwing":"1003",
+         "Huizen in open bebouwing, hoeven en kastelen":"969",
+         "Buildings en flatgebouwen met appartementen":"774"
+      },
+      "2016":{  
+         "Huizen in gesloten bebouwing":"1368",
+         "Huizen in halfopen bebouwing":"1002",
+         "Huizen in open bebouwing, hoeven en kastelen":"973",
+         "Buildings en flatgebouwen met appartementen":"787"
+      },
+      "2017":{  
+         "Huizen in gesloten bebouwing":"1373",
+         "Huizen in halfopen bebouwing":"1010",
+         "Huizen in open bebouwing, hoeven en kastelen":"970",
+         "Buildings en flatgebouwen met appartementen":"806"
+      }
+   },
+   "Koksijde":{  
+      "1995":{  
+         "Huizen in gesloten bebouwing":"607",
+         "Huizen in halfopen bebouwing":"1758",
+         "Huizen in open bebouwing, hoeven en kastelen":"4833",
+         "Buildings en flatgebouwen met appartementen":"1159"
+      },
+      "1998":{  
+         "Huizen in gesloten bebouwing":"614",
+         "Huizen in halfopen bebouwing":"1775",
+         "Huizen in open bebouwing, hoeven en kastelen":"4992",
+         "Buildings en flatgebouwen met appartementen":"1239"
+      },
+      "2001":{  
+         "Huizen in gesloten bebouwing":"616",
+         "Huizen in halfopen bebouwing":"1783",
+         "Huizen in open bebouwing, hoeven en kastelen":"5133",
+         "Buildings en flatgebouwen met appartementen":"1296"
+      },
+      "2002":{  
+         "Huizen in gesloten bebouwing":"616",
+         "Huizen in halfopen bebouwing":"1790",
+         "Huizen in open bebouwing, hoeven en kastelen":"5159",
+         "Buildings en flatgebouwen met appartementen":"1323"
+      },
+      "2003":{  
+         "Huizen in gesloten bebouwing":"625",
+         "Huizen in halfopen bebouwing":"1801",
+         "Huizen in open bebouwing, hoeven en kastelen":"5194",
+         "Buildings en flatgebouwen met appartementen":"1342"
+      },
+      "2004":{  
+         "Huizen in gesloten bebouwing":"621",
+         "Huizen in halfopen bebouwing":"1798",
+         "Huizen in open bebouwing, hoeven en kastelen":"5221",
+         "Buildings en flatgebouwen met appartementen":"1365"
+      },
+      "2005":{  
+         "Huizen in gesloten bebouwing":"635",
+         "Huizen in halfopen bebouwing":"1814",
+         "Huizen in open bebouwing, hoeven en kastelen":"5230",
+         "Buildings en flatgebouwen met appartementen":"1375"
+      },
+      "2006":{  
+         "Huizen in gesloten bebouwing":"638",
+         "Huizen in halfopen bebouwing":"1815",
+         "Huizen in open bebouwing, hoeven en kastelen":"5248",
+         "Buildings en flatgebouwen met appartementen":"1401"
+      },
+      "2007":{  
+         "Huizen in gesloten bebouwing":"643",
+         "Huizen in halfopen bebouwing":"1822",
+         "Huizen in open bebouwing, hoeven en kastelen":"5267",
+         "Buildings en flatgebouwen met appartementen":"1418"
+      },
+      "2008":{  
+         "Huizen in gesloten bebouwing":"645",
+         "Huizen in halfopen bebouwing":"1821",
+         "Huizen in open bebouwing, hoeven en kastelen":"5285",
+         "Buildings en flatgebouwen met appartementen":"1459"
+      },
+      "2009":{  
+         "Huizen in gesloten bebouwing":"648",
+         "Huizen in halfopen bebouwing":"1819",
+         "Huizen in open bebouwing, hoeven en kastelen":"5303",
+         "Buildings en flatgebouwen met appartementen":"1488"
+      },
+      "2010":{  
+         "Huizen in gesloten bebouwing":"644",
+         "Huizen in halfopen bebouwing":"1819",
+         "Huizen in open bebouwing, hoeven en kastelen":"5327",
+         "Buildings en flatgebouwen met appartementen":"1510"
+      },
+      "2011":{  
+         "Huizen in gesloten bebouwing":"644",
+         "Huizen in halfopen bebouwing":"1820",
+         "Huizen in open bebouwing, hoeven en kastelen":"5344",
+         "Buildings en flatgebouwen met appartementen":"1525"
+      },
+      "2012":{  
+         "Huizen in gesloten bebouwing":"644",
+         "Huizen in halfopen bebouwing":"1826",
+         "Huizen in open bebouwing, hoeven en kastelen":"5361",
+         "Buildings en flatgebouwen met appartementen":"1542"
+      },
+      "2013":{  
+         "Huizen in gesloten bebouwing":"652",
+         "Huizen in halfopen bebouwing":"1833",
+         "Huizen in open bebouwing, hoeven en kastelen":"5359",
+         "Buildings en flatgebouwen met appartementen":"1555"
+      },
+      "2014":{  
+         "Huizen in gesloten bebouwing":"654",
+         "Huizen in halfopen bebouwing":"1824",
+         "Huizen in open bebouwing, hoeven en kastelen":"5379",
+         "Buildings en flatgebouwen met appartementen":"1575"
+      },
+      "2015":{  
+         "Huizen in gesloten bebouwing":"660",
+         "Huizen in halfopen bebouwing":"1828",
+         "Huizen in open bebouwing, hoeven en kastelen":"5380",
+         "Buildings en flatgebouwen met appartementen":"1588"
+      },
+      "2016":{  
+         "Huizen in gesloten bebouwing":"669",
+         "Huizen in halfopen bebouwing":"1837",
+         "Huizen in open bebouwing, hoeven en kastelen":"5389",
+         "Buildings en flatgebouwen met appartementen":"1608"
+      },
+      "2017":{  
+         "Huizen in gesloten bebouwing":"672",
+         "Huizen in halfopen bebouwing":"1854",
+         "Huizen in open bebouwing, hoeven en kastelen":"5400",
+         "Buildings en flatgebouwen met appartementen":"1636"
+      }
+   },
+   "Nieuwpoort":{  
+      "1995":{  
+         "Huizen in gesloten bebouwing":"1525",
+         "Huizen in halfopen bebouwing":"462",
+         "Huizen in open bebouwing, hoeven en kastelen":"941",
+         "Buildings en flatgebouwen met appartementen":"341"
+      },
+      "1998":{  
+         "Huizen in gesloten bebouwing":"1548",
+         "Huizen in halfopen bebouwing":"501",
+         "Huizen in open bebouwing, hoeven en kastelen":"989",
+         "Buildings en flatgebouwen met appartementen":"374"
+      },
+      "2001":{  
+         "Huizen in gesloten bebouwing":"1540",
+         "Huizen in halfopen bebouwing":"511",
+         "Huizen in open bebouwing, hoeven en kastelen":"1005",
+         "Buildings en flatgebouwen met appartementen":"400"
+      },
+      "2002":{  
+         "Huizen in gesloten bebouwing":"1547",
+         "Huizen in halfopen bebouwing":"512",
+         "Huizen in open bebouwing, hoeven en kastelen":"1009",
+         "Buildings en flatgebouwen met appartementen":"401"
+      },
+      "2003":{  
+         "Huizen in gesloten bebouwing":"1546",
+         "Huizen in halfopen bebouwing":"519",
+         "Huizen in open bebouwing, hoeven en kastelen":"1008",
+         "Buildings en flatgebouwen met appartementen":"407"
+      },
+      "2004":{  
+         "Huizen in gesloten bebouwing":"1543",
+         "Huizen in halfopen bebouwing":"519",
+         "Huizen in open bebouwing, hoeven en kastelen":"1007",
+         "Buildings en flatgebouwen met appartementen":"419"
+      },
+      "2005":{  
+         "Huizen in gesloten bebouwing":"1549",
+         "Huizen in halfopen bebouwing":"533",
+         "Huizen in open bebouwing, hoeven en kastelen":"1005",
+         "Buildings en flatgebouwen met appartementen":"428"
+      },
+      "2006":{  
+         "Huizen in gesloten bebouwing":"1548",
+         "Huizen in halfopen bebouwing":"536",
+         "Huizen in open bebouwing, hoeven en kastelen":"1009",
+         "Buildings en flatgebouwen met appartementen":"433"
+      },
+      "2007":{  
+         "Huizen in gesloten bebouwing":"1559",
+         "Huizen in halfopen bebouwing":"544",
+         "Huizen in open bebouwing, hoeven en kastelen":"1011",
+         "Buildings en flatgebouwen met appartementen":"445"
+      },
+      "2008":{  
+         "Huizen in gesloten bebouwing":"1563",
+         "Huizen in halfopen bebouwing":"550",
+         "Huizen in open bebouwing, hoeven en kastelen":"1021",
+         "Buildings en flatgebouwen met appartementen":"449"
+      },
+      "2009":{  
+         "Huizen in gesloten bebouwing":"1564",
+         "Huizen in halfopen bebouwing":"566",
+         "Huizen in open bebouwing, hoeven en kastelen":"1035",
+         "Buildings en flatgebouwen met appartementen":"470"
+      },
+      "2010":{  
+         "Huizen in gesloten bebouwing":"1549",
+         "Huizen in halfopen bebouwing":"571",
+         "Huizen in open bebouwing, hoeven en kastelen":"1038",
+         "Buildings en flatgebouwen met appartementen":"483"
+      },
+      "2011":{  
+         "Huizen in gesloten bebouwing":"1547",
+         "Huizen in halfopen bebouwing":"575",
+         "Huizen in open bebouwing, hoeven en kastelen":"1042",
+         "Buildings en flatgebouwen met appartementen":"494"
+      },
+      "2012":{  
+         "Huizen in gesloten bebouwing":"1559",
+         "Huizen in halfopen bebouwing":"586",
+         "Huizen in open bebouwing, hoeven en kastelen":"1044",
+         "Buildings en flatgebouwen met appartementen":"499"
+      },
+      "2013":{  
+         "Huizen in gesloten bebouwing":"1573",
+         "Huizen in halfopen bebouwing":"589",
+         "Huizen in open bebouwing, hoeven en kastelen":"1043",
+         "Buildings en flatgebouwen met appartementen":"504"
+      },
+      "2014":{  
+         "Huizen in gesloten bebouwing":"1587",
+         "Huizen in halfopen bebouwing":"592",
+         "Huizen in open bebouwing, hoeven en kastelen":"1045",
+         "Buildings en flatgebouwen met appartementen":"510"
+      },
+      "2015":{  
+         "Huizen in gesloten bebouwing":"1579",
+         "Huizen in halfopen bebouwing":"591",
+         "Huizen in open bebouwing, hoeven en kastelen":"1047",
+         "Buildings en flatgebouwen met appartementen":"514"
+      },
+      "2016":{  
+         "Huizen in gesloten bebouwing":"1574",
+         "Huizen in halfopen bebouwing":"590",
+         "Huizen in open bebouwing, hoeven en kastelen":"1048",
+         "Buildings en flatgebouwen met appartementen":"526"
+      },
+      "2017":{  
+         "Huizen in gesloten bebouwing":"1568",
+         "Huizen in halfopen bebouwing":"591",
+         "Huizen in open bebouwing, hoeven en kastelen":"1048",
+         "Buildings en flatgebouwen met appartementen":"549"
+      }
+   },
+   "Veurne":{  
+      "1995":{  
+         "Huizen in gesloten bebouwing":"1706",
+         "Huizen in halfopen bebouwing":"1052",
+         "Huizen in open bebouwing, hoeven en kastelen":"1195",
+         "Buildings en flatgebouwen met appartementen":"32"
+      },
+      "1998":{  
+         "Huizen in gesloten bebouwing":"1705",
+         "Huizen in halfopen bebouwing":"1068",
+         "Huizen in open bebouwing, hoeven en kastelen":"1289",
+         "Buildings en flatgebouwen met appartementen":"44"
+      },
+      "2001":{  
+         "Huizen in gesloten bebouwing":"1712",
+         "Huizen in halfopen bebouwing":"1092",
+         "Huizen in open bebouwing, hoeven en kastelen":"1372",
+         "Buildings en flatgebouwen met appartementen":"58"
+      },
+      "2002":{  
+         "Huizen in gesloten bebouwing":"1705",
+         "Huizen in halfopen bebouwing":"1101",
+         "Huizen in open bebouwing, hoeven en kastelen":"1393",
+         "Buildings en flatgebouwen met appartementen":"58"
+      },
+      "2003":{  
+         "Huizen in gesloten bebouwing":"1697",
+         "Huizen in halfopen bebouwing":"1097",
+         "Huizen in open bebouwing, hoeven en kastelen":"1409",
+         "Buildings en flatgebouwen met appartementen":"62"
+      },
+      "2004":{  
+         "Huizen in gesloten bebouwing":"1693",
+         "Huizen in halfopen bebouwing":"1100",
+         "Huizen in open bebouwing, hoeven en kastelen":"1416",
+         "Buildings en flatgebouwen met appartementen":"66"
+      },
+      "2005":{  
+         "Huizen in gesloten bebouwing":"1692",
+         "Huizen in halfopen bebouwing":"1099",
+         "Huizen in open bebouwing, hoeven en kastelen":"1427",
+         "Buildings en flatgebouwen met appartementen":"69"
+      },
+      "2006":{  
+         "Huizen in gesloten bebouwing":"1692",
+         "Huizen in halfopen bebouwing":"1097",
+         "Huizen in open bebouwing, hoeven en kastelen":"1438",
+         "Buildings en flatgebouwen met appartementen":"71"
+      },
+      "2007":{  
+         "Huizen in gesloten bebouwing":"1697",
+         "Huizen in halfopen bebouwing":"1099",
+         "Huizen in open bebouwing, hoeven en kastelen":"1447",
+         "Buildings en flatgebouwen met appartementen":"74"
+      },
+      "2008":{  
+         "Huizen in gesloten bebouwing":"1697",
+         "Huizen in halfopen bebouwing":"1099",
+         "Huizen in open bebouwing, hoeven en kastelen":"1457",
+         "Buildings en flatgebouwen met appartementen":"78"
+      },
+      "2009":{  
+         "Huizen in gesloten bebouwing":"1706",
+         "Huizen in halfopen bebouwing":"1105",
+         "Huizen in open bebouwing, hoeven en kastelen":"1462",
+         "Buildings en flatgebouwen met appartementen":"83"
+      },
+      "2010":{  
+         "Huizen in gesloten bebouwing":"1713",
+         "Huizen in halfopen bebouwing":"1106",
+         "Huizen in open bebouwing, hoeven en kastelen":"1475",
+         "Buildings en flatgebouwen met appartementen":"84"
+      },
+      "2011":{  
+         "Huizen in gesloten bebouwing":"1709",
+         "Huizen in halfopen bebouwing":"1107",
+         "Huizen in open bebouwing, hoeven en kastelen":"1483",
+         "Buildings en flatgebouwen met appartementen":"90"
+      },
+      "2012":{  
+         "Huizen in gesloten bebouwing":"1706",
+         "Huizen in halfopen bebouwing":"1110",
+         "Huizen in open bebouwing, hoeven en kastelen":"1485",
+         "Buildings en flatgebouwen met appartementen":"95"
+      },
+      "2013":{  
+         "Huizen in gesloten bebouwing":"1710",
+         "Huizen in halfopen bebouwing":"1107",
+         "Huizen in open bebouwing, hoeven en kastelen":"1483",
+         "Buildings en flatgebouwen met appartementen":"100"
+      },
+      "2014":{  
+         "Huizen in gesloten bebouwing":"1713",
+         "Huizen in halfopen bebouwing":"1123",
+         "Huizen in open bebouwing, hoeven en kastelen":"1488",
+         "Buildings en flatgebouwen met appartementen":"105"
+      },
+      "2015":{  
+         "Huizen in gesloten bebouwing":"1720",
+         "Huizen in halfopen bebouwing":"1130",
+         "Huizen in open bebouwing, hoeven en kastelen":"1498",
+         "Buildings en flatgebouwen met appartementen":"121"
+      },
+      "2016":{  
+         "Huizen in gesloten bebouwing":"1728",
+         "Huizen in halfopen bebouwing":"1145",
+         "Huizen in open bebouwing, hoeven en kastelen":"1500",
+         "Buildings en flatgebouwen met appartementen":"129"
+      },
+      "2017":{  
+         "Huizen in gesloten bebouwing":"1737",
+         "Huizen in halfopen bebouwing":"1150",
+         "Huizen in open bebouwing, hoeven en kastelen":"1514",
+         "Buildings en flatgebouwen met appartementen":"133"
+      }
+   }
+}

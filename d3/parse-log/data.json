@@ -1,0 +1,243 @@
+{
+    "name": "Factfind_V2",
+    "children": {
+        "Admin": {
+            "name": "Admin",
+            "children": {
+                "Dynamic_Qs_Editor": {
+                    "name": "Dynamic_Qs_Editor",
+                    "children": {
+                        "Groupings": {
+                            "name": "Groupings",
+                            "children": []
+                        },
+                        "Questions": {
+                            "name": "Questions",
+                            "children": {
+                                "Dynamic_Questions": {
+                                    "name": "Dynamic_Questions",
+                                    "children": [
+                                        "DynamicQuestion.feature",
+                                        "DynamicQuestion.feature.cs"
+                                    ]
+                                },
+                                "Multiple": {
+                                    "name": "Multiple",
+                                    "children": []
+                                },
+                                "Single": {
+                                    "name": "Single",
+                                    "children": []
+                                },
+                                "Text": {
+                                    "name": "Text",
+                                    "children": []
+                                }
+                            }
+                        }
+                    }
+                },
+                "Factfind_Editor": {
+                    "name": "Factfind_Editor",
+                    "children": {
+                        "Factfind_Template": {
+                            "name": "Factfind_Template",
+                            "children": {
+                                "Assignments": {
+                                    "name": "Assignments",
+                                    "children": []
+                                },
+                                "Fact_Find": {
+                                    "name": "Fact_Find",
+                                    "children": [
+                                        "FactFind.feature",
+                                        "FactFind.feature.cs"
+                                    ]
+                                },
+                                "Objectives": {
+                                    "name": "Objectives",
+                                    "children": []
+                                },
+                                "Template": {
+                                    "name": "Template",
+                                    "children": [
+                                        "Template.feature",
+                                        "Template.feature.cs"
+                                    ]
+                                }
+                            }
+                        },
+                        "Source": {
+                            "name": "Source",
+                            "children": []
+                        }
+                    }
+                }
+            }
+        },
+        "Capabilities": {
+            "name": "Capabilities",
+            "children": {
+                "RoleCapabilities": {
+                    "name": "RoleCapabilities",
+                    "children": [
+                        "RoleCapabilities.feature",
+                        "RoleCapabilities.feature.cs"
+                    ]
+                }
+            }
+        },
+        "Client": {
+            "name": "Client",
+            "children": {
+                "Add_Client": {
+                    "name": "Add_Client",
+                    "children": {
+                        "0": "AddNewClient.feature",
+                        "1": "AddNewClient.feature.cs",
+                        "Add_Partner": {
+                            "name": "Add_Partner",
+                            "children": [
+                                "LinkPartner.feature",
+                                "LinkPartner.feature.cs"
+                            ]
+                        }
+                    }
+                },
+                "Edit_Client": {
+                    "name": "Edit_Client",
+                    "children": [
+                        "ClientRelationships.feature",
+                        "ClientRelationships.feature.cs"
+                    ]
+                },
+                "FactFind": {
+                    "name": "FactFind",
+                    "children": {
+                        "AssessingClientRisk": {
+                            "name": "AssessingClientRisk",
+                            "children": [
+                                "AssessingClientRisk.feature",
+                                "AssessingClientRisk.feature.cs"
+                            ]
+                        },
+                        "Assets": {
+                            "name": "Assets",
+                            "children": [
+                                "Assets.feature",
+                                "Assets.feature.cs",
+                                "V2_Schroder_Assets.feature",
+                                "V2_Schroder_Assets.feature.cs"
+                            ]
+                        },
+                        "Business": {
+                            "name": "Business",
+                            "children": [
+                                "AddNewBusiness.feature",
+                                "AddNewBusiness.feature.cs"
+                            ]
+                        },
+                        "Changes": {
+                            "name": "Changes",
+                            "children": [
+                                "Changes.feature",
+                                "Changes.feature.cs"
+                            ]
+                        },
+                        "Estate": {
+                            "name": "Estate",
+                            "children": [
+                                "Estate.feature",
+                                "Estate.feature.cs"
+                            ]
+                        },
+                        "Expenditure": {
+                            "name": "Expenditure",
+                            "children": [
+                                "Expenditure.feature",
+                                "Expenditure.feature.cs"
+                            ]
+                        },
+                        "Income": {
+                            "name": "Income",
+                            "children": [
+                                "Income.feature",
+                                "Income.feature.cs"
+                            ]
+                        },
+                        "Liabilites": {
+                            "name": "Liabilites",
+                            "children": [
+                                "Liabilities.feature",
+                                "Liabilities.feature.cs"
+                            ]
+                        },
+                        "MeetingHistory": {
+                            "name": "MeetingHistory",
+                            "children": [
+                                "MeetingHistory.feature",
+                                "MeetingHistory.feature.cs"
+                            ]
+                        },
+                        "Objectives": {
+                            "name": "Objectives",
+                            "children": [
+                                "Objectives.feature",
+                                "Objectives.feature.cs"
+                            ]
+                        },
+                        "Pensions": {
+                            "name": "Pensions",
+                            "children": [
+                                "Pensions.feature",
+                                "Pensions.feature.cs"
+                            ]
+                        },
+                        "PersonalDetails": {
+                            "name": "PersonalDetails",
+                            "children": [
+                                "PersonalDetails.feature",
+                                "PersonalDetails.feature.cs"
+                            ]
+                        },
+                        "Protections": {
+                            "name": "Protections",
+                            "children": [
+                                "Protections.feature",
+                                "Protections.feature.cs"
+                            ]
+                        },
+                        "Retirement": {
+                            "name": "Retirement",
+                            "children": [
+                                "Retirement.feature",
+                                "Retirement.feature.cs"
+                            ]
+                        },
+                        "RiskProfile": {
+                            "name": "RiskProfile",
+                            "children": [
+                                "AddRiskProfile.feature",
+                                "AddRiskProfile.feature.cs"
+                            ]
+                        },
+                        "WillsProvisions": {
+                            "name": "WillsProvisions",
+                            "children": [
+                                "WillsProvisions.feature",
+                                "WillsProvisions.feature.cs"
+                            ]
+                        }
+                    }
+                },
+                "Search_Client": {
+                    "name": "Search_Client",
+                    "children": [
+                        "ClientSearch.feature",
+                        "ClientSearch.feature.cs"
+                    ]
+                }
+            }
+        }
+    }
+}

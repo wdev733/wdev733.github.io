@@ -1,0 +1,51 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Svg Editor</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">  
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link id="favicon" rel="shortcut icon" type="image/png" href="assets/img/favicon.png" />
+</head>
+<body>
+<div id="main_content">
+  <div class="topbar">
+    <a id="save-btn"><i class="far fa-save"></i></a>
+    <a id="load-btn"><i class="fas fa-folder-open"></i></a>
+    <a id="delete-btn" class="disabled"><i class="fas fa-trash-alt"></i></a>
+  </div>
+  <div id="svg_wrapper">
+    <svg id="svg" width="1200" height="800"></svg>
+  </div>
+  <div class="hide">
+    <input type="hidden" id="selected_id" />
+  </div>  
+</div>
+<div class="leftsidepannel">  
+  <a id="mouse-btn" class="active"><img src="assets/img/pointer.png" alt="Mouse Pointer"/></a>
+  <a id="rect-btn"><img src="assets/img/rect.png" alt="Rectangle" /></a>
+  <a id="polygon-btn"><img src="assets/img/polygon.png" alt="Polygon" /></a>
+  <a id="ellipse-btn"><img src="assets/img/circle.png" alt="Circle" /></a>
+  <a id="pencil-btn"><img src="assets/img/pencil.png" alt="Circle" /></a>
+  <a id="line-btn"><img src="assets/img/line.png" alt="Line" /></a>
+</div>
+<div class="rightsidepanel">
+  <div>
+    <span>Element Id</span>
+    <input id="element_id" value="">
+  </div>
+</div>
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<script src="assets/js/script.js"></script>
+<script src="assets/js/bootstrap-notify.js"></script>
+</body>
+</html>

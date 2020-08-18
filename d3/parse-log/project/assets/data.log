@@ -1,0 +1,2196 @@
+﻿2019-03-26T18:48:01.0517671+00:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-03-26T18:48:01.0527694+00:00;VSTestExecutionThread;Info;SpecFlow+Runner 1.8.2 execution started
+2019-03-26T18:48:01.0527694+00:00;VSTestExecutionThread;Info;TestAdapter Location: C:\ct.git\ui-automation\enable\Enable_UIAutomation\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-03-26T18:48:01.8528617+00:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\ct.git\ui-automation\enable\Enable_UIAutomation\bin\Debug\Enable_UIAutomation.dll
+2019-03-26T18:48:01.8538644+00:00;VSTestExecutionThread;Info;Profile: Enable_UIAutomation
+2019-03-26T18:48:01.9019921+00:00;Thread#11;Info;Discovering target: Default
+2019-03-26T18:48:01.9019921+00:00;Thread#11;Info;Discovering tests from assembly: C:\ct.git\ui-automation\enable\Enable_UIAutomation\bin\Debug\Enable_UIAutomation.dll
+Appdomain Disposed
+Test Suite Dump
+#0: Enable_UIAutomation/Enable_UIAutomation - 
+#1: Default - 
+#2: Enable_UIAutomation - 
+#111: V2_Template - 
+#115: V2_AddRiskProfile - 
+#118: V2_ViewRiskProfile - 
+#120: V2_Protections - 
+#126: V2_PersonalDetails - 
+#131: V2_AddPensionPlan - 
+#136: V2_ViewPensionPlan - 
+#138: V2_AddLiabilityToClient - 
+#141: V2_ViewLiabilities - 
+#161: V2_FactFind - 
+#174: V2_DynamicQuestion - 
+#194: V2_AddNewPartner - 
+#198: V2_ClientRelationships - 
+#201: V2_AddNewClient - 
+#204: V2_ClientSearch - 
+#212: V2_AddAssets - 
+#217: V2_ViewAssets - 
+#112: Open Fact Find Editor - TestAssembly:Enable_UIAutomation/Feature:V2_Template/Scenario:Open+Fact+Find+Editor
+#113: Collapse and Expand a Fact Find Folder - TestAssembly:Enable_UIAutomation/Feature:V2_Template/Scenario:Collapse+and+Expand+a+Fact+Find+Folder
+#114: Fact Find Breadcrumb - TestAssembly:Enable_UIAutomation/Feature:V2_Template/Scenario:Fact+Find+Breadcrumb
+#116: Start a new Risk Profile for a client - TestAssembly:Enable_UIAutomation/Feature:V2_AddRiskProfile/Scenario:Start+a+new+Risk+Profile+for+a+client
+#117: Mandatory Validation for Risk Profile - TestAssembly:Enable_UIAutomation/Feature:V2_AddRiskProfile/Scenario:Mandatory+Validation+for+Risk+Profile
+#119: View Risk Profiles of a client - TestAssembly:Enable_UIAutomation/Feature:V2_ViewRiskProfile/Scenario:View+Risk+Profiles+of+a+client
+#121: View existing protection plans, Bobson, Mr. Bob - TestAssembly:Enable_UIAutomation/Feature:V2_Protections/Scenario:View+existing+protection+plans%2c+Bobson%2c+Mr.+Bob
+#122: Add a protection plan, Endowment - TestAssembly:Enable_UIAutomation/Feature:V2_Protections/Scenario:Add+a+protection+plan%2c+Endowment
+#123: Add cover for a protection plan - TestAssembly:Enable_UIAutomation/Feature:V2_Protections/Scenario:Add+cover+for+a+protection+plan
+#124: Mandatory Validation for Protections - TestAssembly:Enable_UIAutomation/Feature:V2_Protections/Scenario:Mandatory+Validation+for+Protections
+#125: Data Integrity Validation for Protections - TestAssembly:Enable_UIAutomation/Feature:V2_Protections/Scenario:Data+Integrity+Validation+for+Protections
+#127: Add Personal details of a client, Bobson, Mr. Bob - TestAssembly:Enable_UIAutomation/Feature:V2_PersonalDetails/Scenario:Add+Personal+details+of+a+client%2c+Bobson%2c+Mr.+Bob
+#128: Edit Personal details of a client - TestAssembly:Enable_UIAutomation/Feature:V2_PersonalDetails/Scenario:Edit+Personal+details+of+a+client
+#129: Personal Details changes update Client Summary - TestAssembly:Enable_UIAutomation/Feature:V2_PersonalDetails/Scenario:Personal+Details+changes+update+Client+Summary
+#130: Client Summary changes update Personal Details - TestAssembly:Enable_UIAutomation/Feature:V2_PersonalDetails/Scenario:Client+Summary+changes+update+Personal+Details
+#132: Add an existing pension plan for a client - TestAssembly:Enable_UIAutomation/Feature:V2_AddPensionPlan/Scenario:Add+an+existing+pension+plan+for+a+client
+#133: Add a new Pension plan for a client, Type_01 - TestAssembly:Enable_UIAutomation/Feature:V2_AddPensionPlan/Scenario:Add+a+new+Pension+plan+for+a+client%2c+Type_01
+#134: Mandatory Field Validation - TestAssembly:Enable_UIAutomation/Feature:V2_AddPensionPlan/Scenario:Mandatory+Field+Validation
+#135: Data Integrity Validation - TestAssembly:Enable_UIAutomation/Feature:V2_AddPensionPlan/Scenario:Data+Integrity+Validation
+#137: View Pension plans of a client, Bobson, Mr. Bob - TestAssembly:Enable_UIAutomation/Feature:V2_ViewPensionPlan/Scenario:View+Pension+plans+of+a+client%2c+Bobson%2c+Mr.+Bob
+#139: Add existing Liability to client - TestAssembly:Enable_UIAutomation/Feature:V2_AddLiabilityToClient/Scenario:Add+existing+Liability+to+client
+#140: Add new Liability to client, Asset_02 - TestAssembly:Enable_UIAutomation/Feature:V2_AddLiabilityToClient/Scenario:Add+new+Liability+to+client%2c+Asset_02
+#142: View client liabilities, Bobson, Mr. Bob - TestAssembly:Enable_UIAutomation/Feature:V2_ViewLiabilities/Scenario:View+client+liabilities%2c+Bobson%2c+Mr.+Bob
+#162: New Fact Find Template Modal - TestAssembly:Enable_UIAutomation/Feature:V2_FactFind/Scenario:New+Fact+Find+Template+Modal
+#163: Add Fact Find Template, NewFactFind - TestAssembly:Enable_UIAutomation/Feature:V2_FactFind/Scenario:Add+Fact+Find+Template%2c+NewFactFind
+#164: Add Cancel Fact Find Template - TestAssembly:Enable_UIAutomation/Feature:V2_FactFind/Scenario:Add+Cancel+Fact+Find+Template
+#165: Edit Fact Find Template - TestAssembly:Enable_UIAutomation/Feature:V2_FactFind/Scenario:Edit+Fact+Find+Template
+#166: Mandatory Validation Fact Find Template - TestAssembly:Enable_UIAutomation/Feature:V2_FactFind/Scenario:Mandatory+Validation+Fact+Find+Template
+#167: Mandatory Validation for Fact Find Objectives - TestAssembly:Enable_UIAutomation/Feature:V2_FactFind/Scenario:Mandatory+Validation+for+Fact+Find+Objectives
+#168: Mandatory Validation for Fact Find Assignments - TestAssembly:Enable_UIAutomation/Feature:V2_FactFind/Scenario:Mandatory+Validation+for+Fact+Find+Assignments
+#169: Add Mandatory Objective in Fact Find - TestAssembly:Enable_UIAutomation/Feature:V2_FactFind/Scenario:Add+Mandatory+Objective+in+Fact+Find
+#170: Delete an Objective from Fact Find - TestAssembly:Enable_UIAutomation/Feature:V2_FactFind/Scenario:Delete+an+Objective+from+Fact+Find
+#171: Add live Network and Member assignment in Fact find, Variant 0 - TestAssembly:Enable_UIAutomation/Feature:V2_FactFind/Scenario:Add+live+Network+and+Member+assignment+in+Fact+find%2c+Variant+0
+#172: Add live Network and Member assignment in Fact find, Variant 1 - TestAssembly:Enable_UIAutomation/Feature:V2_FactFind/Scenario:Add+live+Network+and+Member+assignment+in+Fact+find%2c+Variant+1
+#173: Add live Network and Member assignment in Fact find, Variant 2 - TestAssembly:Enable_UIAutomation/Feature:V2_FactFind/Scenario:Add+live+Network+and+Member+assignment+in+Fact+find%2c+Variant+2
+#175: Create a new Question Grouping, DMA - TestAssembly:Enable_UIAutomation/Feature:V2_DynamicQuestion/Scenario:Create+a+new+Question+Grouping%2c+DMA
+#176: Add a new question of type Single answer in Questions editor with Internal source, Question1 - TestAssembly:Enable_UIAutomation/Feature:V2_DynamicQuestion/Scenario:Add+a+new+question+of+type+Single+answer+in+Questions+editor+with+Internal+source%2c+Question1
+#177: Add a question to an existing group, System - TestAssembly:Enable_UIAutomation/Feature:V2_DynamicQuestion/Scenario:Add+a+question+to+an+existing+group%2c+System
+#178: Delete a question from existing group - TestAssembly:Enable_UIAutomation/Feature:V2_DynamicQuestion/Scenario:Delete+a+question+from+existing+group
+#179: Add a dependant question - TestAssembly:Enable_UIAutomation/Feature:V2_DynamicQuestion/Scenario:Add+a+dependant+question
+#180: Add a new question of type Multiple answer, Question1 - TestAssembly:Enable_UIAutomation/Feature:V2_DynamicQuestion/Scenario:Add+a+new+question+of+type+Multiple+answer%2c+Question1
+#181: Add a new question of type Text answer, Question2 - TestAssembly:Enable_UIAutomation/Feature:V2_DynamicQuestion/Scenario:Add+a+new+question+of+type+Text+answer%2c+Question2
+#182: Make a question mandatory in the existing group - TestAssembly:Enable_UIAutomation/Feature:V2_DynamicQuestion/Scenario:Make+a+question+mandatory+in+the+existing+group
+#183: Make a question optional in the existing group - TestAssembly:Enable_UIAutomation/Feature:V2_DynamicQuestion/Scenario:Make+a+question+optional+in+the+existing+group
+#184: Show Prompt Message When Clicking on Add button without selecting a question - TestAssembly:Enable_UIAutomation/Feature:V2_DynamicQuestion/Scenario:Show+Prompt+Message+When+Clicking+on+Add+button+without+selecting+a+question
+#185: Open an existing question - TestAssembly:Enable_UIAutomation/Feature:V2_DynamicQuestion/Scenario:Open+an+existing+question
+#186: Rearrange the order of questions in the existing question - TestAssembly:Enable_UIAutomation/Feature:V2_DynamicQuestion/Scenario:Rearrange+the+order+of+questions+in+the+existing+question
+#187: Question groupings field in question editor - TestAssembly:Enable_UIAutomation/Feature:V2_DynamicQuestion/Scenario:Question+groupings+field+in+question+editor
+#188: Additional Text Fields in question editor, Question1 - TestAssembly:Enable_UIAutomation/Feature:V2_DynamicQuestion/Scenario:Additional+Text+Fields+in+question+editor%2c+Question1
+#189: Change Font Format to Bold in Additional Text Fields - TestAssembly:Enable_UIAutomation/Feature:V2_DynamicQuestion/Scenario:Change+Font+Format+to+Bold+in+Additional+Text+Fields
+#190: Change Font Format to Italics in Additional Text Fields - TestAssembly:Enable_UIAutomation/Feature:V2_DynamicQuestion/Scenario:Change+Font+Format+to+Italics+in+Additional+Text+Fields
+#191: Change Font Format to Headling in Additional Text Fields - TestAssembly:Enable_UIAutomation/Feature:V2_DynamicQuestion/Scenario:Change+Font+Format+to+Headling+in+Additional+Text+Fields
+#192: Dynamic Question Group - Mandatory Validaton - TestAssembly:Enable_UIAutomation/Feature:V2_DynamicQuestion/Scenario:Dynamic+Question+Group+-+Mandatory+Validaton
+#193: Dynamic Question - Mandatory Validaton - TestAssembly:Enable_UIAutomation/Feature:V2_DynamicQuestion/Scenario:Dynamic+Question+-+Mandatory+Validaton
+#195: Link new partner to client V2 - TestAssembly:Enable_UIAutomation/Feature:V2_AddNewPartner/Scenario:Link+new+partner+to+client+V2
+#196: Link Existing partner to client V2 - TestAssembly:Enable_UIAutomation/Feature:V2_AddNewPartner/Scenario:Link+Existing+partner+to+client+V2
+#197: Mandatory Validation - TestAssembly:Enable_UIAutomation/Feature:V2_AddNewPartner/Scenario:Mandatory+Validation
+#199: See client relationships V2 - TestAssembly:Enable_UIAutomation/Feature:V2_ClientRelationships/Scenario:See+client+relationships+V2
+#200: Mandatory Validation for Relationship - TestAssembly:Enable_UIAutomation/Feature:V2_ClientRelationships/Scenario:Mandatory+Validation+for+Relationship
+#202: Add New Client V2 - TestAssembly:Enable_UIAutomation/Feature:V2_AddNewClient/Scenario:Add+New+Client+V2
+#203: Mandatory Validation - TestAssembly:Enable_UIAutomation/Feature:V2_AddNewClient/Scenario:Mandatory+Validation
+#205: Select existing factfind V2 - TestAssembly:Enable_UIAutomation/Feature:V2_ClientSearch/Scenario:Select+existing+factfind+V2
+#206: Client search with attributes V2, Variant 0 - TestAssembly:Enable_UIAutomation/Feature:V2_ClientSearch/Scenario:Client+search+with+attributes+V2%2c+Variant+0
+#207: Client search with attributes V2, Variant 1 - TestAssembly:Enable_UIAutomation/Feature:V2_ClientSearch/Scenario:Client+search+with+attributes+V2%2c+Variant+1
+#208: Mandatory Validation - Client Summary - TestAssembly:Enable_UIAutomation/Feature:V2_ClientSearch/Scenario:Mandatory+Validation+-+Client+Summary
+#209: Data Integrity Validation - Client Summary - TestAssembly:Enable_UIAutomation/Feature:V2_ClientSearch/Scenario:Data+Integrity+Validation+-+Client+Summary
+#210: Mandatory Validation for Client Fact Find - TestAssembly:Enable_UIAutomation/Feature:V2_ClientSearch/Scenario:Mandatory+Validation+for+Client+Fact+Find
+#211: Mandatory Validation for Profile - TestAssembly:Enable_UIAutomation/Feature:V2_ClientSearch/Scenario:Mandatory+Validation+for+Profile
+#213: Add exiting asset to client - TestAssembly:Enable_UIAutomation/Feature:V2_AddAssets/Scenario:Add+exiting+asset+to+client
+#214: Add a new Asset to client, Asset_01 - TestAssembly:Enable_UIAutomation/Feature:V2_AddAssets/Scenario:Add+a+new+Asset+to+client%2c+Asset_01
+#215: Mandatory Field Validation - TestAssembly:Enable_UIAutomation/Feature:V2_AddAssets/Scenario:Mandatory+Field+Validation
+#216: Integrity Validation - TestAssembly:Enable_UIAutomation/Feature:V2_AddAssets/Scenario:Integrity+Validation
+#218: View client assets, Bobson, Mr. Bob - TestAssembly:Enable_UIAutomation/Feature:V2_ViewAssets/Scenario:View+client+assets%2c+Bobson%2c+Mr.+Bob
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #112 from normal test queue 
+Thread#0:Scheduler: considering testitem #112 for thread 0
+Thread#0:TestItem#112:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#112:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#112:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #112 for thread 0
+Thread#0:Scheduler: Test #112 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for Enable_UIAutomation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Thread#0: Test #112/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given I am logged in to Enable using automation.user and CPWSRD0@
+Thread#0:T:done: NavigationSteps.GivenIAmLoggedInToEnableUsingUsernameAndPasswordAndOnTheHomepage("automation.user", "CPWSRD0@") (16.3s)
+Thread#0:B:Given I am on Enable page
+Thread#0:T:done: TemplateStep.GivenIAmOnEnablePage() (0.0s)
+Thread#0:B:And I click on "Admin" menu
+Thread#0:T:done: TemplateStep.GivenIClickOnMenu("Admin") (0.7s)
+Thread#0:B:And I click on "Fact Find"
+Thread#0:T:done: TemplateStep.GivenIClickOn("Fact Find") (0.1s)
+Thread#0:B:When I choose "Fact Find Editor"
+Thread#0:T:done: TemplateStep.WhenIChoose("Fact Find Editor") (23.7s)
+Thread#0:B:Then I  see Fact Find Editor Page
+Thread#0:T:done: TemplateStep.ThenISeeFactFindEditorPage() (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #113 from normal test queue 
+Thread#0:Scheduler: considering testitem #113 for thread 0
+Thread#0:TestItem#113:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#113:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#113:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #113 for thread 0
+Thread#0:Scheduler: Test #113 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #112/0 is finished on thread #0 as Succeeded within 51.7791539 seconds
+Thread#0: Test #113/0 is started on thread #0
+Thread#0:B:Given I am logged in to Enable using automation.user and CPWSRD0@
+Thread#0:T:done: NavigationSteps.GivenIAmLoggedInToEnableUsingUsernameAndPasswordAndOnTheHomepage("automation.user", "CPWSRD0@") (14.5s)
+Thread#0:B:Given I am on the fact find admin page
+Thread#0:T:done: FactFindSteps.GivenIAmOnTheFactFindAdminPage() (12.3s)
+Thread#0:B:When I collapse the expanded folder
+Thread#0:T:done: TemplateStep.WhenICollapseTheExpandedFolder() (5.1s)
+Thread#0:B:Then It collapses
+Thread#0:T:done: TemplateStep.ThenItCollapses() (0.0s)
+Thread#0:B:When I expand a fact find folder
+Thread#0:T:done: TemplateStep.WhenIExpandAFactFindFolder() (5.0s)
+Thread#0:B:Then It expands
+Thread#0:T:done: TemplateStep.ThenItExpands() (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #114 from normal test queue 
+Thread#0:Scheduler: considering testitem #114 for thread 0
+Thread#0:TestItem#114:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#114:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#114:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #114 for thread 0
+Thread#0:Scheduler: Test #114 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #113/0 is finished on thread #0 as Succeeded within 47.7038049 seconds
+Thread#0: Test #114/0 is started on thread #0
+Thread#0:B:Given I am logged in to Enable using automation.user and CPWSRD0@
+Thread#0:T:done: NavigationSteps.GivenIAmLoggedInToEnableUsingUsernameAndPasswordAndOnTheHomepage("automation.user", "CPWSRD0@") (40.3s)
+Thread#0:B:Given I am on the fact find admin page
+Thread#0:T:done: FactFindSteps.GivenIAmOnTheFactFindAdminPage() (7.3s)
+Thread#0:B:Then I see You are in: Admin > Fact Find Editor > Fact Finds
+Thread#0:T:done: TemplateStep.ThenISeeYouAreInAdminFactFindEditorFactFinds() (0.2s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #116 from normal test queue 
+Thread#0:Scheduler: considering testitem #116 for thread 0
+Thread#0:TestItem#116:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#116:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#116:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #116 for thread 0
+Thread#0:Scheduler: Test #116 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #114/0 is finished on thread #0 as Succeeded within 57.208674 seconds
+Thread#0: Test #116/0 is started on thread #0
+Thread#0:B:Given I am logged in to Enable using automation.user and CPWSRD0@
+Thread#0:T:done: NavigationSteps.GivenIAmLoggedInToEnableUsingUsernameAndPasswordAndOnTheHomepage("automation.user", "CPWSRD0@") (15.5s)
+Thread#0:B:Given I am on Clients search page
+Thread#0:T:done: ClientSearchSteps.GivenIAmOnClientsSearchPage() (1.5s)
+Thread#0:B:And I select the "Bobson, Mr. Bob" client
+Thread#0:T:done: ClientSearchSteps.GivenISelectTheClient("Bobson, Mr. Bob") (1.0s)
+Thread#0:B:And I click on Fact Find button
+Thread#0:T:done: ClientSearchSteps.GivenIClickOnFactFindButton() (8.0s)
+Thread#0:B:And I select the existing "Full Fact Find"
+Thread#0:T:done: ClientSearchSteps.WhenISelectTheExisting("Full Fact Find") (13.6s)
+Thread#0:B:And I click the "Risk Profile" from left nav
+Thread#0:T:done: ClientSearchSteps.WhenIClickTheFromLeftNav("Risk Profile") (6.4s)
+Thread#0:B:And I choose to Start New Risk profile for that client
+Thread#0:T:done: RiskProfileStep.GivenIChooseToStartNewRiskProfileForThatClient() (0.1s)
+Thread#0:B:And I fill in the options for all the listed questions
+Thread#0:T:done: RiskProfileStep.GivenIFillInTheOptionsForAllTheListedQuestions() (6.2s)
+Thread#0:B:When I save the Risk Questionnaire
+Thread#0:T:done: RiskProfileStep.WhenISaveTheRiskQuestionnaire() (6.8s)
+Thread#0:B:Then I can see the Risk Level as "7" in Risk Questionnaire tab
+Thread#0:T:done: RiskProfileStep.ThenICanSeeTheRiskLevelAsInRiskQuestionnaireTab("7") (0.1s)
+Thread#0:B:And I can see the Risk Level as "7" in Risk Risk Report tab
+Thread#0:T:done: RiskProfileStep.ThenICanSeeTheRiskLevelAsInRiskRiskReportTab("7") (12.5s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #117 from normal test queue 
+Thread#0:Scheduler: considering testitem #117 for thread 0
+Thread#0:TestItem#117:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#117:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#117:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #117 for thread 0
+Thread#0:Scheduler: Test #117 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #116/0 is finished on thread #0 as Succeeded within 84.7774839 seconds
+Thread#0: Test #117/0 is started on thread #0
+Thread#0:B:Given I am logged in to Enable using automation.user and CPWSRD0@
+Thread#0:T:done: NavigationSteps.GivenIAmLoggedInToEnableUsingUsernameAndPasswordAndOnTheHomepage("automation.user", "CPWSRD0@") (16.1s)
+Thread#0:B:Given I am on Clients search page
+Thread#0:T:done: ClientSearchSteps.GivenIAmOnClientsSearchPage() (2.4s)
+Thread#0:B:And I select the "Bobson, Mr. Bob" client
+Thread#0:T:done: ClientSearchSteps.GivenISelectTheClient("Bobson, Mr. Bob") (5.4s)
+Thread#0:B:And I click on Fact Find button
+Thread#0:T:done: ClientSearchSteps.GivenIClickOnFactFindButton() (6.2s)
+Thread#0:B:And I select the existing "Full Fact Find"
+Thread#0:T:done: ClientSearchSteps.WhenISelectTheExisting("Full Fact Find") (13.7s)
+Thread#0:B:And I click the "Risk Profile" from left nav
+Thread#0:T:done: ClientSearchSteps.WhenIClickTheFromLeftNav("Risk Profile") (2.1s)
+Thread#0:B:And I choose to Start New Risk profile for that client
+Thread#0:T:done: RiskProfileStep.GivenIChooseToStartNewRiskProfileForThatClient() (0.2s)
+Thread#0:B:When I save the Risk Profile
+Thread#0:T:done: RiskProfileStep.GivenISaveTheRiskProfile() (5.1s)
+Thread#0:B:Then I can see the error message as "Error Please make sure that questions have been answered"
+Thread#0:T:done: QuestionGroupingStep.ThenICanSeeTheErrorMessageAs("Error Please make...") (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #119 from normal test queue 
+Thread#0:Scheduler: considering testitem #119 for thread 0
+Thread#0:TestItem#119:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#119:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#119:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #119 for thread 0
+Thread#0:Scheduler: Test #119 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #117/0 is finished on thread #0 as Succeeded within 63.4505523 seconds
+Thread#0: Test #119/0 is started on thread #0
+Thread#0:B:Given I am logged in to Enable using automation.user and CPWSRD0@
+Thread#0:T:done: NavigationSteps.GivenIAmLoggedInToEnableUsingUsernameAndPasswordAndOnTheHomepage("automation.user", "CPWSRD0@") (15.8s)
+Thread#0:B:Given I am on Clients search page
+Thread#0:T:done: ClientSearchSteps.GivenIAmOnClientsSearchPage() (2.0s)
+Thread#0:B:And I select the "Bobson, Mr. Bob" client
+Thread#0:T:done: ClientSearchSteps.GivenISelectTheClient("Bobson, Mr. Bob") (0.8s)
+Thread#0:B:And I click on Fact Find button
+Thread#0:T:done: ClientSearchSteps.GivenIClickOnFactFindButton() (6.5s)
+Thread#0:B:And I select the existing "Full Fact Find"
+Thread#0:T:done: ClientSearchSteps.WhenISelectTheExisting("Full Fact Find") (13.6s)
+Thread#0:B:And I click the "Risk Profile" from left nav
+Thread#0:T:done: ClientSearchSteps.WhenIClickTheFromLeftNav("Risk Profile") (2.8s)
+Thread#0:B:Then I see the list of Risk profiles of that client
+Thread#0:T:done: RiskProfileStep.ThenISeeTheListOfRiskProfilesOfThatClient() (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #121 from normal test queue 
+Thread#0:Scheduler: considering testitem #121 for thread 0
+Thread#0:TestItem#121:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#121:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#121:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #121 for thread 0
+Thread#0:Scheduler: Test #121 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #119/0 is finished on thread #0 as Succeeded within 52.8520494 seconds
+Thread#0: Test #121/0 is started on thread #0
+Thread#0:B:Given I am logged in to Enable using automation.user and CPWSRD0@
+Thread#0:T:done: NavigationSteps.GivenIAmLoggedInToEnableUsingUsernameAndPasswordAndOnTheHomepage("automation.user", "CPWSRD0@") (15.1s)
+Thread#0:B:Given I am on Clients search page
+Thread#0:T:done: ClientSearchSteps.GivenIAmOnClientsSearchPage() (1.4s)
+Thread#0:B:And I select the "Bobson, Mr. Bob" client
+Thread#0:T:done: ClientSearchSteps.GivenISelectTheClient("Bobson, Mr. Bob") (1.0s)
+Thread#0:B:And I click on Fact Find button
+Thread#0:T:done: ClientSearchSteps.GivenIClickOnFactFindButton() (5.8s)
+Thread#0:B:And I select the existing "Full Fact Find"
+Thread#0:T:done: ClientSearchSteps.WhenISelectTheExisting("Full Fact Find") (13.7s)
+Thread#0:B:When I click the "Protections" from left nav
+Thread#0:T:done: ClientSearchSteps.WhenIClickTheFromLeftNav("Protections") (1.7s)
+Thread#0:B:Then I see the clients protection plans
+Thread#0:T:done: ClientSearchSteps.ThenISeeTheClientsProtectionPlans() (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #122 from normal test queue 
+Thread#0:Scheduler: considering testitem #122 for thread 0
+Thread#0:TestItem#122:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#122:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#122:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #122 for thread 0
+Thread#0:Scheduler: Test #122 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #121/0 is finished on thread #0 as Succeeded within 49.9151017 seconds
+Thread#0: Test #122/0 is started on thread #0
+Thread#0:B:Given I am logged in to Enable using automation.user and CPWSRD0@
+Thread#0:T:done: NavigationSteps.GivenIAmLoggedInToEnableUsingUsernameAndPasswordAndOnTheHomepage("automation.user", "CPWSRD0@") (17.1s)
+Thread#0:B:Given I am on Protections page
+Thread#0:T:done: ProtectionStep.GivenIAmOnProtectionsPage() (25.7s)
+Thread#0:B:And I choose to Add new plan
+Thread#0:T:done: ProtectionStep.GivenIChooseToAddNewPlan() (10.9s)
+Thread#0:B:And I enter "Endowment","Elderstreet Investment Ltd","CT9864" and "25000"
+Thread#0:T:done: ProtectionStep.GivenIEnterAnd("Endowment", "Elderstreet Inves...", "CT9864", "25000") (5.8s)
+Thread#0:B:When I save the protection plan
+Thread#0:T:done: ProtectionStep.WhenISaveTheProtectionPlan() (0.1s)
+Thread#0:B:Then I can see "Saved Protection has been successfully saved."
+Thread#0:T:done: QuestionGroupingStep.ThenICanSee("Saved Protection ...") (0.2s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #123 from normal test queue 
+Thread#0:Scheduler: considering testitem #123 for thread 0
+Thread#0:TestItem#123:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#123:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#123:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #123 for thread 0
+Thread#-1:Scheduler: Test #123 is scheduled for thread
+Thread#-1: Test #123/0 is started on thread #-1
+Thread#-1: Test #123/0 is finished on thread #-1 as Ignored within 0 seconds
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #124 from normal test queue 
+Thread#0:Scheduler: considering testitem #124 for thread 0
+Thread#0:TestItem#124:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#124:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#124:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #124 for thread 0
+Thread#0:Scheduler: Test #124 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #122/0 is finished on thread #0 as Succeeded within 70.4871491 seconds
+Thread#0: Test #124/0 is started on thread #0
+Thread#0:B:Given I am logged in to Enable using automation.user and CPWSRD0@
+Thread#0:T:done: NavigationSteps.GivenIAmLoggedInToEnableUsingUsernameAndPasswordAndOnTheHomepage("automation.user", "CPWSRD0@") (15.5s)
+Thread#0:B:Given I am on Clients search page
+Thread#0:T:done: ClientSearchSteps.GivenIAmOnClientsSearchPage() (1.5s)
+Thread#0:B:And I select the "Bobson, Mr. Bob" client
+Thread#0:T:done: ClientSearchSteps.GivenISelectTheClient("Bobson, Mr. Bob") (0.8s)
+Thread#0:B:And I click on Fact Find button
+Thread#0:T:done: ClientSearchSteps.GivenIClickOnFactFindButton() (5.5s)
+Thread#0:B:And I select the existing "Full Fact Find"
+Thread#0:T:done: ClientSearchSteps.WhenISelectTheExisting("Full Fact Find") (13.7s)
+Thread#0:B:And I click the "Protections" from left nav
+Thread#0:T:done: ClientSearchSteps.WhenIClickTheFromLeftNav("Protections") (1.7s)
+Thread#0:B:And I choose to Add new plan
+Thread#0:T:done: ProtectionStep.GivenIChooseToAddNewPlan() (7.0s)
+Thread#0:B:And I save the protection plan
+Thread#0:T:done: ProtectionStep.WhenISaveTheProtectionPlan() (0.1s)
+Thread#0:B:And I can see the error message as "Cannot Save The Premium field is required.; The Product Type field is required.; A value is required.; The Reference field is required."
+Thread#0:T:done: QuestionGroupingStep.ThenICanSeeTheErrorMessageAs("Cannot Save The P...") (0.1s)
+Thread#0:B:And I enter "Endowment","Elderstreet Investment","CI1234" and "20000"
+Thread#0:T:done: ProtectionStep.GivenIEnterAnd("Endowment", "Elderstreet Inves...", "CI1234", "20000") (5.7s)
+Thread#0:B:When I save the protection plan
+Thread#0:T:done: ProtectionStep.WhenISaveTheProtectionPlan() (0.1s)
+Thread#0:B:Then I can see "Saved Protection has been successfully saved."
+Thread#0:T:done: QuestionGroupingStep.ThenICanSee("Saved Protection ...") (0.1s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #125 from normal test queue 
+Thread#0:Scheduler: considering testitem #125 for thread 0
+Thread#0:TestItem#125:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#125:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#125:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #125 for thread 0
+Thread#0:Scheduler: Test #125 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #124/0 is finished on thread #0 as Succeeded within 65.4735382 seconds
+Thread#0: Test #125/0 is started on thread #0
+Thread#0:B:Given I am logged in to Enable using automation.user and CPWSRD0@
+Thread#0:T:done: NavigationSteps.GivenIAmLoggedInToEnableUsingUsernameAndPasswordAndOnTheHomepage("automation.user", "CPWSRD0@") (15.5s)
+Thread#0:B:Given I am on Clients search page
+Thread#0:T:done: ClientSearchSteps.GivenIAmOnClientsSearchPage() (1.6s)
+Thread#0:B:And I select the "Bobson, Mr. Bob" client
+Thread#0:T:done: ClientSearchSteps.GivenISelectTheClient("Bobson, Mr. Bob") (1.0s)
+Thread#0:B:And I click on Fact Find button
+Thread#0:T:done: ClientSearchSteps.GivenIClickOnFactFindButton() (5.4s)
+Thread#0:B:And I select the existing "Full Fact Find"
+Thread#0:T:done: ClientSearchSteps.WhenISelectTheExisting("Full Fact Find") (13.7s)
+Thread#0:B:And I click the "Protections" from left nav
+Thread#0:T:done: ClientSearchSteps.WhenIClickTheFromLeftNav("Protections") (1.8s)
+Thread#0:B:And I choose to Add new plan
+Thread#0:T:done: ProtectionStep.GivenIChooseToAddNewPlan() (7.6s)
+Thread#0:B:And I enter "Endowment","Elderstreet Investment","CI1234" and "INVALID"
+Thread#0:T:done: ProtectionStep.GivenIEnterAnd("Endowment", "Elderstreet Inves...", "CI1234", "INVALID") (5.8s)
+Thread#0:B:When I save the protection plan
+Thread#0:T:done: ProtectionStep.WhenISaveTheProtectionPlan() (0.1s)
+Thread#0:B:And I can see the error message as "Cannot Save Please enter a valid premium amount."
+Thread#0:T:done: QuestionGroupingStep.ThenICanSeeTheErrorMessageAs("Cannot Save Pleas...") (0.1s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #127 from normal test queue 
+Thread#0:Scheduler: considering testitem #127 for thread 0
+Thread#0:TestItem#127:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#127:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#127:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #127 for thread 0
+Thread#0:Scheduler: Test #127 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #125/0 is finished on thread #0 as Succeeded within 65.3170483 seconds
+Thread#0: Test #127/0 is started on thread #0
+Thread#0:B:Given I am logged in to Enable using automation.user and CPWSRD0@
+Thread#0:T:done: NavigationSteps.GivenIAmLoggedInToEnableUsingUsernameAndPasswordAndOnTheHomepage("automation.user", "CPWSRD0@") (15.2s)
+Thread#0:B:Given I am on Clients search page
+Thread#0:T:done: ClientSearchSteps.GivenIAmOnClientsSearchPage() (2.0s)
+Thread#0:B:And I select the "Bobson, Mr. Bob" client
+Thread#0:T:done: ClientSearchSteps.GivenISelectTheClient("Bobson, Mr. Bob") (1.1s)
+Thread#0:B:And I click on Fact Find button
+Thread#0:T:done: ClientSearchSteps.GivenIClickOnFactFindButton() (5.6s)
+Thread#0:B:And I select the existing "Full Fact Find"
+Thread#0:T:done: ClientSearchSteps.WhenISelectTheExisting("Full Fact Find") (13.9s)
+Thread#0:B:And I click the "Personal Details" from left nav
+Thread#0:T:done: ClientSearchSteps.WhenIClickTheFromLeftNav("Personal Details") (5.9s)
+Thread#0:B:And I enter mandatory personal details
+Thread#0:T:done: PersonalDetailsStep.GivenIEnterMandatoryPersonalDetails() (0.0s)
+Thread#0:B:And I save the personal details
+Thread#0:T:done: PersonalDetailsStep.GivenISaveThePersonalDetails() (10.2s)
+Thread#0:B:And I navigate to FactFind via breadcrumb
+Thread#0:T:done: PersonalDetailsStep.GivenINavigateToFactFindViaBreadcrumb() (8.4s)
+Thread#0:B:And I select the existing "Full Fact Find"
+Thread#0:T:done: ClientSearchSteps.WhenISelectTheExisting("Full Fact Find") (14.0s)
+Thread#0:B:When I click the "Personal Details" from left nav
+Thread#0:T:done: ClientSearchSteps.WhenIClickTheFromLeftNav("Personal Details") (3.9s)
+Thread#0:B:Then I see the personal details saved
+Thread#0:T:done: PersonalDetailsStep.ThenISeeThePersonalDetailsSaved() (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #128 from normal test queue 
+Thread#0:Scheduler: considering testitem #128 for thread 0
+Thread#0:TestItem#128:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#128:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#128:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #128 for thread 0
+Thread#0:Scheduler: Test #128 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #127/0 is finished on thread #0 as Succeeded within 94.4163785 seconds
+Thread#0: Test #128/0 is started on thread #0
+Thread#0:B:Given I am logged in to Enable using automation.user and CPWSRD0@
+Thread#0:T:done: NavigationSteps.GivenIAmLoggedInToEnableUsingUsernameAndPasswordAndOnTheHomepage("automation.user", "CPWSRD0@") (13.7s)
+Thread#0:B:Given I am on Clients search page
+Thread#0:T:done: ClientSearchSteps.GivenIAmOnClientsSearchPage() (2.0s)
+Thread#0:B:And I select the "Bobson, Mr. Bob" client
+Thread#0:T:done: ClientSearchSteps.GivenISelectTheClient("Bobson, Mr. Bob") (1.1s)
+Thread#0:B:And I click on Fact Find button
+Thread#0:T:done: ClientSearchSteps.GivenIClickOnFactFindButton() (34.6s)
+Thread#0:B:And I exclude the partner
+Thread#0:T:done: ClientSearchSteps.GivenIExcludeThePartner() (5.2s)
+Thread#0:B:And I select the existing "Full Fact Find"
+Thread#0:T:done: ClientSearchSteps.WhenISelectTheExisting("Full Fact Find") (10.7s)
+Thread#0:B:And I click the "Personal Details" from left nav
+Thread#0:T:error: Timed out after 60 seconds
+Thread#0:T:An Error Occurred when attempting:TechTalk.SpecFlow.ScenarioStepContext
+Thread#0:T:An error ocurred:Timed out after 60 seconds
+Thread#0:T:It was of type:WebDriverTimeoutException
+Thread#0:B:And I edit the following personal details
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | Place of birth | UK Domiciled | UK resident for tax | State of Health | Smoker | Main occupation   | Employment Status | Employer/Business name | Time in current employment |
+Thread#0:B:  | Sussex barn    | Yes          | Yes                 | Excellent       | No     | refuse consultant | Employed          | Best practice IFA      | 7 Months                   |
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I save the personal details
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I navigate to "Fact Find" via breadcrumb
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I select the existing "Full Fact Find"
+Thread#0:T:skipped because of previous errors
+Thread#0:B:When I click the "Personal Details" from left nav
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I see the personal details updated
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #129 from normal test queue 
+Thread#0:Scheduler: considering testitem #129 for thread 0
+Thread#0:TestItem#129:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#129:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#129:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #129 for thread 0
+Thread#0:Scheduler: Test #129 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0:T:SCREENSHOT[ file:///C:\Screenshot\error_V2_PersonalDetails_EditPersonalDetailsOfAClient_20190326_190203_screenshot.png ]SCREENSHOT
+Thread#0: Test #128/0 is finished on thread #0 as Failed within 139.0400105 seconds
+Thread#0: Test #129/0 is started on thread #0
+Thread#0:B:Given I am logged in to Enable using automation.user and CPWSRD0@
+Thread#0:T:done: NavigationSteps.GivenIAmLoggedInToEnableUsingUsernameAndPasswordAndOnTheHomepage("automation.user", "CPWSRD0@") (15.3s)
+Thread#0:B:Given I am on Clients search page
+Thread#0:T:done: ClientSearchSteps.GivenIAmOnClientsSearchPage() (1.4s)
+Thread#0:B:And I select the "Bobson, Mr. Bob" client
+Thread#0:T:done: ClientSearchSteps.GivenISelectTheClient("Bobson, Mr. Bob") (1.0s)
+Thread#0:B:And I click on Fact Find button
+Thread#0:T:done: ClientSearchSteps.GivenIClickOnFactFindButton() (6.3s)
+Thread#0:B:And I select the existing "Full Fact Find"
+Thread#0:T:done: ClientSearchSteps.WhenISelectTheExisting("Full Fact Find") (14.0s)
+Thread#0:B:And I click the "Personal Details" from left nav
+Thread#0:T:done: ClientSearchSteps.WhenIClickTheFromLeftNav("Personal Details") (4.3s)
+Thread#0:B:And I edit the following client summary specific details
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | Address1        | Address2 | Address3 | Town   | County    | Postcode | Country        | Telephone | Mobile     | Email                           | Telephone Work | Fax      |
+Thread#0:B:  | 383 Eldon House | Wanstead | Norfolk  | 627814 | Hampshire | 765897   | United Kingdom | 364654677 | 7880664977 | a.b@creative-technologies.co.uk | 6465677        | 65656477 |
+Thread#0:T:done: PersonalDetailsStep.GivenIEditTheFollowingClientSummarySpecificDetails(<table>) (2.7s)
+Thread#0:B:And I save the personal details
+Thread#0:T:done: PersonalDetailsStep.GivenISaveThePersonalDetails() (10.2s)
+Thread#0:B:When I navigate to "Clients" via breadcrumb
+Thread#0:T:done: PersonalDetailsStep.GivenINavigateToViaBreadcrumb("Clients") (6.5s)
+Thread#0:B:And I select the "Bobson, Mr. Bob" client
+Thread#0:T:done: ClientSearchSteps.GivenISelectTheClient("Bobson, Mr. Bob") (1.1s)
+Thread#0:B:Then I see that field is updated in Client Summary
+Thread#0:T:done: PersonalDetailsStep.ThenISeeThatFieldIsUpdatedInClientSummary() (1.5s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #130 from normal test queue 
+Thread#0:Scheduler: considering testitem #130 for thread 0
+Thread#0:TestItem#130:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#130:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#130:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #130 for thread 0
+Thread#0:Scheduler: Test #130 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #129/0 is finished on thread #0 as Succeeded within 77.0263836 seconds
+Thread#0: Test #130/0 is started on thread #0
+Thread#0:B:Given I am logged in to Enable using automation.user and CPWSRD0@
+Thread#0:T:done: NavigationSteps.GivenIAmLoggedInToEnableUsingUsernameAndPasswordAndOnTheHomepage("automation.user", "CPWSRD0@") (15.3s)
+Thread#0:B:Given I am on Clients search page
+Thread#0:T:done: ClientSearchSteps.GivenIAmOnClientsSearchPage() (1.8s)
+Thread#0:B:And I select the "Bobson, Mr. Bob" client
+Thread#0:T:done: ClientSearchSteps.GivenISelectTheClient("Bobson, Mr. Bob") (1.6s)
+Thread#0:B:And I edit the following client details
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | Address1        | Address2 | Address3 | Town  | County    | Postcode | Country        | Telephone | Mobile     | Email                           | Telephone Work | Fax      |
+Thread#0:B:  | 383 Eldon House | Wanstead | Norfolk  | 23657 | Hampshire | 8765467  | United Kingdom | 364654677 | 7880664977 | a.b@creative-technologies.co.uk | 6465677        | 65656477 |
+Thread#0:T:done: ClientSummaryStep.GivenIEditTheFollowingClientDetails(<table>) (2.1s)
+Thread#0:B:And I save the client details
+Thread#0:T:done: ClientSummaryStep.GivenISaveTheClientDetails() (10.1s)
+Thread#0:B:And I click on Fact Find button
+Thread#0:T:done: ClientSearchSteps.GivenIClickOnFactFindButton() (6.0s)
+Thread#0:B:And I select the existing "Full Fact Find"
+Thread#0:T:done: ClientSearchSteps.WhenISelectTheExisting("Full Fact Find") (13.9s)
+Thread#0:B:When I click the "Personal Details" from left nav
+Thread#0:T:done: ClientSearchSteps.WhenIClickTheFromLeftNav("Personal Details") (8.9s)
+Thread#0:B:Then I see that field is updated in Personal Details
+Thread#0:T:done: ClientSummaryStep.ThenISeeThatFieldIsUpdatedInPersonalDetails() (1.4s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #132 from normal test queue 
+Thread#0:Scheduler: considering testitem #132 for thread 0
+Thread#0:TestItem#132:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#132:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#132:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #132 for thread 0
+Thread#0:Scheduler: Test #132 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #130/0 is finished on thread #0 as Succeeded within 73.1782864 seconds
+Thread#0: Test #132/0 is started on thread #0
+Thread#0:B:Given I am logged in to Enable using automation.user and CPWSRD0@
+Thread#0:T:done: NavigationSteps.GivenIAmLoggedInToEnableUsingUsernameAndPasswordAndOnTheHomepage("automation.user", "CPWSRD0@") (14.7s)
+Thread#0:B:Given I am on Clients search page
+Thread#0:T:done: ClientSearchSteps.GivenIAmOnClientsSearchPage() (2.3s)
+Thread#0:B:And I select the "Bobson, Mr. Bob" client
+Thread#0:T:done: ClientSearchSteps.GivenISelectTheClient("Bobson, Mr. Bob") (1.0s)
+Thread#0:B:And I click on Fact Find button
+Thread#0:T:done: ClientSearchSteps.GivenIClickOnFactFindButton() (5.8s)
+Thread#0:B:And I select the existing "Full Fact Find"
+Thread#0:T:done: ClientSearchSteps.WhenISelectTheExisting("Full Fact Find") (14.2s)
+Thread#0:B:And I click the "Pensions" from left nav
+Thread#0:T:done: ClientSearchSteps.WhenIClickTheFromLeftNav("Pensions") (1.7s)
+Thread#0:B:And I choose to Add a Pension plan from the existing plans
+Thread#0:T:done: PensionsStep.GivenIChooseToAddAPensionPlanFromTheExistingPlans() (1.7s)
+Thread#0:B:When I select a pension plan
+Thread#0:T:done: PensionsStep.WhenISelectAPensionPlan() (0.1s)
+Thread#0:B:And I save the existing pension plan
+Thread#0:T:done: PensionsStep.WhenISaveTheExistingPensionPlan() (0.1s)
+Thread#0:B:Then I can see "Saved Successfully saved."
+Thread#0:T:done: QuestionGroupingStep.ThenICanSee("Saved Successfull...") (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #133 from normal test queue 
+Thread#0:Scheduler: considering testitem #133 for thread 0
+Thread#0:TestItem#133:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#133:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#133:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #133 for thread 0
+Thread#0:Scheduler: Test #133 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #132/0 is finished on thread #0 as Succeeded within 53.8442715 seconds
+Thread#0: Test #133/0 is started on thread #0
+Thread#0:B:Given I am logged in to Enable using automation.user and CPWSRD0@
+Thread#0:T:done: NavigationSteps.GivenIAmLoggedInToEnableUsingUsernameAndPasswordAndOnTheHomepage("automation.user", "CPWSRD0@") (14.7s)
+Thread#0:B:Given I am on Clients search page
+Thread#0:T:done: ClientSearchSteps.GivenIAmOnClientsSearchPage() (1.3s)
+Thread#0:B:And I select the "Bobson, Mr. Bob" client
+Thread#0:T:done: ClientSearchSteps.GivenISelectTheClient("Bobson, Mr. Bob") (0.9s)
+Thread#0:B:And I click on Fact Find button
+Thread#0:T:done: ClientSearchSteps.GivenIClickOnFactFindButton() (6.2s)
+Thread#0:B:And I select the existing "Full Fact Find"
+Thread#0:T:done: ClientSearchSteps.WhenISelectTheExisting("Full Fact Find") (14.1s)
+Thread#0:B:And I click the "Pensions" from left nav
+Thread#0:T:done: ClientSearchSteps.WhenIClickTheFromLeftNav("Pensions") (2.9s)
+Thread#0:B:And I choose to a Add New Pension plan with new details
+Thread#0:T:done: PensionsStep.GivenIChooseToAAddNewPensionPlanWithNewDetails() (1.8s)
+Thread#0:B:And I enter pension details "Type_01" and "Self"
+Thread#0:T:done: PensionsStep.GivenIEnterPensionDetailsAnd("Type_01", "Self") (0.2s)
+Thread#0:B:When I save the pension
+Thread#0:T:done: PensionsStep.WhenISaveThePension() (0.1s)
+Thread#0:B:Then I can see "Saved Pension has been successfully saved."
+Thread#0:T:done: QuestionGroupingStep.ThenICanSee("Saved Pension has...") (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #134 from normal test queue 
+Thread#0:Scheduler: considering testitem #134 for thread 0
+Thread#0:TestItem#134:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#134:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#134:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #134 for thread 0
+Thread#0:Scheduler: Test #134 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #133/0 is finished on thread #0 as Succeeded within 54.3550606 seconds
+Thread#0: Test #134/0 is started on thread #0
+Thread#0:B:Given I am logged in to Enable using automation.user and CPWSRD0@
+Thread#0:T:done: NavigationSteps.GivenIAmLoggedInToEnableUsingUsernameAndPasswordAndOnTheHomepage("automation.user", "CPWSRD0@") (74.6s)
+Thread#0:B:Given I am on Clients search page
+Thread#0:T:done: ClientSearchSteps.GivenIAmOnClientsSearchPage() (1.3s)
+Thread#0:B:And I select the "Bobson, Mr. Bob" client
+Thread#0:T:done: ClientSearchSteps.GivenISelectTheClient("Bobson, Mr. Bob") (0.9s)
+Thread#0:B:And I click on Fact Find button
+Thread#0:T:done: ClientSearchSteps.GivenIClickOnFactFindButton() (5.3s)
+Thread#0:B:And I select the existing "Full Fact Find"
+Thread#0:T:done: ClientSearchSteps.WhenISelectTheExisting("Full Fact Find") (13.6s)
+Thread#0:B:And I click the "Pensions" from left nav
+Thread#0:T:done: ClientSearchSteps.WhenIClickTheFromLeftNav("Pensions") (2.7s)
+Thread#0:B:And I choose to a Add New Pension plan with new details
+Thread#0:T:done: PensionsStep.GivenIChooseToAAddNewPensionPlanWithNewDetails() (2.3s)
+Thread#0:B:And I save the pension
+Thread#0:T:done: PensionsStep.WhenISaveThePension() (0.1s)
+Thread#0:B:And I can see the error message as "Cannot Save The Life field is required.; The Type field is required."
+Thread#0:T:done: QuestionGroupingStep.ThenICanSeeTheErrorMessageAs("Cannot Save The L...") (0.0s)
+Thread#0:B:And I enter pension details "Type_02" and "Self"
+Thread#0:T:done: PensionsStep.GivenIEnterPensionDetailsAnd("Type_02", "Self") (0.2s)
+Thread#0:B:When I save the pension
+Thread#0:T:done: PensionsStep.WhenISaveThePension() (0.1s)
+Thread#0:B:Then I can see "Saved Pension has been successfully saved."
+Thread#0:T:done: QuestionGroupingStep.ThenICanSee("Saved Pension has...") (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #135 from normal test queue 
+Thread#0:Scheduler: considering testitem #135 for thread 0
+Thread#0:TestItem#135:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#135:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#135:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #135 for thread 0
+Thread#0:Scheduler: Test #135 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #134/0 is finished on thread #0 as Succeeded within 114.4210003 seconds
+Thread#0: Test #135/0 is started on thread #0
+Thread#0:B:Given I am logged in to Enable using automation.user and CPWSRD0@
+Thread#0:T:done: NavigationSteps.GivenIAmLoggedInToEnableUsingUsernameAndPasswordAndOnTheHomepage("automation.user", "CPWSRD0@") (13.9s)
+Thread#0:B:Given I am on Clients search page
+Thread#0:T:done: ClientSearchSteps.GivenIAmOnClientsSearchPage() (2.3s)
+Thread#0:B:And I select the "Bobson, Mr. Bob" client
+Thread#0:T:done: ClientSearchSteps.GivenISelectTheClient("Bobson, Mr. Bob") (0.8s)
+Thread#0:B:And I click on Fact Find button
+Thread#0:T:done: ClientSearchSteps.GivenIClickOnFactFindButton() (5.3s)
+Thread#0:B:And I select the existing "Full Fact Find"
+Thread#0:T:done: ClientSearchSteps.WhenISelectTheExisting("Full Fact Find") (13.7s)
+Thread#0:B:And I click the "Pensions" from left nav
+Thread#0:T:done: ClientSearchSteps.WhenIClickTheFromLeftNav("Pensions") (1.7s)
+Thread#0:B:And I choose to a Add New Pension plan with new details
+Thread#0:T:done: PensionsStep.GivenIChooseToAAddNewPensionPlanWithNewDetails() (1.6s)
+Thread#0:B:And I enter pension details "Type_03" and "Self"
+Thread#0:T:done: PensionsStep.GivenIEnterPensionDetailsAnd("Type_03", "Self") (0.2s)
+Thread#0:B:And I enter the Personal Contribution value as "INVALID"
+Thread#0:T:done: PensionsStep.GivenIEnterThePersonalContributionValueAs("INVALID") (0.1s)
+Thread#0:B:And I save the pension
+Thread#0:T:done: PensionsStep.WhenISaveThePension() (0.1s)
+Thread#0:B:And I can see the error message as "Cannot Save The value 'INVALID' is not valid for Personal Contribution."
+Thread#0:T:done: QuestionGroupingStep.ThenICanSeeTheErrorMessageAs("Cannot Save The v...") (0.5s)
+Thread#0:B:And I remove the Personal Contribution value
+Thread#0:T:done: PensionsStep.GivenIRemoveThePersonalContributionValue() (0.1s)
+Thread#0:B:And I enter the Company Contribution value as "INVALID"
+Thread#0:T:done: PensionsStep.GivenIEnterTheCompanyContributionValueAs("INVALID") (0.1s)
+Thread#0:B:And I save the pension
+Thread#0:T:done: PensionsStep.WhenISaveThePension() (0.1s)
+Thread#0:B:And I can see the error message as "Cannot Save The value 'INVALID' is not valid for Company Contribution."
+Thread#0:T:done: QuestionGroupingStep.ThenICanSeeTheErrorMessageAs("Cannot Save The v...") (0.0s)
+Thread#0:B:And I remove the Company Contribution value
+Thread#0:T:done: PensionsStep.GivenIRemoveTheCompanyContributionValue() (0.1s)
+Thread#0:B:And I enter the value field as "INVALID"
+Thread#0:T:done: PensionsStep.GivenIEnterTheValueFieldAs("INVALID") (0.1s)
+Thread#0:B:And I save the pension
+Thread#0:T:done: PensionsStep.WhenISaveThePension() (0.1s)
+Thread#0:B:And I can see the error message as "Cannot Save The value 'INVALID' is not valid for Value."
+Thread#0:T:done: QuestionGroupingStep.ThenICanSeeTheErrorMessageAs("Cannot Save The v...") (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #137 from normal test queue 
+Thread#0:Scheduler: considering testitem #137 for thread 0
+Thread#0:TestItem#137:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#137:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#137:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #137 for thread 0
+Thread#0:Scheduler: Test #137 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #135/0 is finished on thread #0 as Succeeded within 57.5926284 seconds
+Thread#0: Test #137/0 is started on thread #0
+Thread#0:B:Given I am logged in to Enable using automation.user and CPWSRD0@
+Thread#0:T:done: NavigationSteps.GivenIAmLoggedInToEnableUsingUsernameAndPasswordAndOnTheHomepage("automation.user", "CPWSRD0@") (74.7s)
+Thread#0:B:Given I am on Clients search page
+Thread#0:T:done: ClientSearchSteps.GivenIAmOnClientsSearchPage() (1.3s)
+Thread#0:B:And I select the "Bobson, Mr. Bob" client
+Thread#0:T:done: ClientSearchSteps.GivenISelectTheClient("Bobson, Mr. Bob") (1.0s)
+Thread#0:B:And I click on Fact Find button
+Thread#0:T:done: ClientSearchSteps.GivenIClickOnFactFindButton() (35.8s)
+Thread#0:B:And I select the existing "Full Fact Find"
+Thread#0:T:done: ClientSearchSteps.WhenISelectTheExisting("Full Fact Find") (14.3s)
+Thread#0:B:And I click the "Pensions" from left nav
+Thread#0:T:done: ClientSearchSteps.WhenIClickTheFromLeftNav("Pensions") (1.7s)
+Thread#0:B:When I choose the "yes"  pension option
+Thread#0:T:done: PensionsStep.WhenIChooseThePensionOption("yes") (0.1s)
+Thread#0:B:Then I see all the Pension plans listed for that client
+Thread#0:T:done: PensionsStep.ThenISeeAllThePensionPlansListedForThatClient() (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #139 from normal test queue 
+Thread#0:Scheduler: considering testitem #139 for thread 0
+Thread#0:TestItem#139:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#139:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#139:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #139 for thread 0
+Thread#0:Scheduler: Test #139 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #137/0 is finished on thread #0 as Succeeded within 140.0491826 seconds
+Thread#0: Test #139/0 is started on thread #0
+Thread#0:B:Given I am logged in to Enable using automation.user and CPWSRD0@
+Thread#0:T:done: NavigationSteps.GivenIAmLoggedInToEnableUsingUsernameAndPasswordAndOnTheHomepage("automation.user", "CPWSRD0@") (14.9s)
+Thread#0:B:Given I am on Clients search page
+Thread#0:T:done: ClientSearchSteps.GivenIAmOnClientsSearchPage() (1.3s)
+Thread#0:B:And I select the "Bobson, Mr. Bob" client
+Thread#0:T:done: ClientSearchSteps.GivenISelectTheClient("Bobson, Mr. Bob") (0.8s)
+Thread#0:B:And I click on Fact Find button
+Thread#0:T:done: ClientSearchSteps.GivenIClickOnFactFindButton() (5.7s)
+Thread#0:B:And I select the existing "Full Fact Find"
+Thread#0:T:done: ClientSearchSteps.WhenISelectTheExisting("Full Fact Find") (13.6s)
+Thread#0:B:And I click the "Liabilities" from left nav
+Thread#0:T:done: ClientSearchSteps.WhenIClickTheFromLeftNav("Liabilities") (1.7s)
+Thread#0:B:And I choose to Add New Liability from the existing Liabilities
+Thread#0:T:done: ClientLiabilitiesStep.GivenIChooseToAddNewAssetFromTheExistingLiabilities() (1.6s)
+Thread#0:B:When I select a Liability
+Thread#0:T:done: ClientLiabilitiesStep.WhenISelectALiability() (0.1s)
+Thread#0:B:And I save the existing asset
+Thread#0:T:done: ClientAssetsStep.WhenISaveTheExistingAsset() (0.1s)
+Thread#0:B:Then I can see "Saved Successfully saved."
+Thread#0:T:done: QuestionGroupingStep.ThenICanSee("Saved Successfull...") (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #140 from normal test queue 
+Thread#0:Scheduler: considering testitem #140 for thread 0
+Thread#0:TestItem#140:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#140:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#140:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #140 for thread 0
+Thread#0:Scheduler: Test #140 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #139/0 is finished on thread #0 as Succeeded within 52.1078335 seconds
+Thread#0: Test #140/0 is started on thread #0
+Thread#0:B:Given I am logged in to Enable using automation.user and CPWSRD0@
+Thread#0:T:done: NavigationSteps.GivenIAmLoggedInToEnableUsingUsernameAndPasswordAndOnTheHomepage("automation.user", "CPWSRD0@") (13.5s)
+Thread#0:B:Given I am on Clients search page
+Thread#0:T:done: ClientSearchSteps.GivenIAmOnClientsSearchPage() (1.3s)
+Thread#0:B:And I select the "Bobson, Mr. Bob" client
+Thread#0:T:done: ClientSearchSteps.GivenISelectTheClient("Bobson, Mr. Bob") (0.8s)
+Thread#0:B:And I click on Fact Find button
+Thread#0:T:done: ClientSearchSteps.GivenIClickOnFactFindButton() (5.2s)
+Thread#0:B:And I select the existing "Full Fact Find"
+Thread#0:T:done: ClientSearchSteps.WhenISelectTheExisting("Full Fact Find") (14.4s)
+Thread#0:B:And I click the "Liabilities" from left nav
+Thread#0:T:done: ClientSearchSteps.WhenIClickTheFromLeftNav("Liabilities") (1.7s)
+Thread#0:B:And I choose to a Add New Liability with new details
+Thread#0:T:done: ClientLiabilitiesStep.GivenIChooseToAAddNewAssetWithNewDetails() (1.9s)
+Thread#0:B:And I enter liability details "Asset_02","5000" and "20"
+Thread#0:T:done: ClientLiabilitiesStep.GivenIEnterLiabilityDetailsAnd("Asset_02", "5000", "20") (0.4s)
+Thread#0:B:When I save the asset
+Thread#0:T:done: ClientAssetsStep.WhenISaveTheAsset() (5.1s)
+Thread#0:B:Then I can see "Saved Liability has been successfully saved."
+Thread#0:T:done: QuestionGroupingStep.ThenICanSee("Saved Liability h...") (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #142 from normal test queue 
+Thread#0:Scheduler: considering testitem #142 for thread 0
+Thread#0:TestItem#142:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#142:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#142:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #142 for thread 0
+Thread#0:Scheduler: Test #142 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #140/0 is finished on thread #0 as Succeeded within 56.4076256 seconds
+Thread#0: Test #142/0 is started on thread #0
+Thread#0:B:Given I am logged in to Enable using automation.user and CPWSRD0@
+Thread#0:T:done: NavigationSteps.GivenIAmLoggedInToEnableUsingUsernameAndPasswordAndOnTheHomepage("automation.user", "CPWSRD0@") (13.7s)
+Thread#0:B:Given I am on Clients search page
+Thread#0:T:done: ClientSearchSteps.GivenIAmOnClientsSearchPage() (1.8s)
+Thread#0:B:And I select the "Bobson, Mr. Bob" client
+Thread#0:T:done: ClientSearchSteps.GivenISelectTheClient("Bobson, Mr. Bob") (0.8s)
+Thread#0:B:And I click on Fact Find button
+Thread#0:T:done: ClientSearchSteps.GivenIClickOnFactFindButton() (5.0s)
+Thread#0:B:And I select the existing "Full Fact Find"
+Thread#0:T:done: ClientSearchSteps.WhenISelectTheExisting("Full Fact Find") (13.6s)
+Thread#0:B:And I click the "Liabilities" from left nav
+Thread#0:T:done: ClientSearchSteps.WhenIClickTheFromLeftNav("Liabilities") (1.6s)
+Thread#0:B:When I choose the "yes" option
+Thread#0:T:done: ClientAssetsStep.WhenIChooseTheOption("yes") (5.1s)
+Thread#0:B:Then I see all the Liabilities listed for that client
+Thread#0:T:done: ClientLiabilitiesStep.ThenISeeAllTheLiabilitiesListedForThatClient() (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #162 from normal test queue 
+Thread#0:Scheduler: considering testitem #162 for thread 0
+Thread#0:TestItem#162:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#162:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#162:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #162 for thread 0
+Thread#0:Scheduler: Test #162 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #142/0 is finished on thread #0 as Succeeded within 52.9222194 seconds
+Thread#0: Test #162/0 is started on thread #0
+Thread#0:B:Given I am logged in to Enable using automation.user and CPWSRD0@
+Thread#0:T:done: NavigationSteps.GivenIAmLoggedInToEnableUsingUsernameAndPasswordAndOnTheHomepage("automation.user", "CPWSRD0@") (74.3s)
+Thread#0:B:Given I am on the fact find admin page
+Thread#0:T:done: FactFindSteps.GivenIAmOnTheFactFindAdminPage() (8.0s)
+Thread#0:B:When I click on add new fact find
+Thread#0:T:done: FactFindSteps.WhenIClickOnAddNewFactFind() (0.1s)
+Thread#0:B:Then the Fact Find entry modal dialog displays
+Thread#0:T:Expected: Fact Find
+Thread#0:T:Actual: Fact Find
+Thread#0:T:done: FactFindSteps.ThenTheFactFindEntryModalDialogDisplays() (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #163 from normal test queue 
+Thread#0:Scheduler: considering testitem #163 for thread 0
+Thread#0:TestItem#163:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#163:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#163:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #163 for thread 0
+Thread#0:Scheduler: Test #163 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #162/0 is finished on thread #0 as Succeeded within 91.7032578 seconds
+Thread#0: Test #163/0 is started on thread #0
+Thread#0:B:Given I am logged in to Enable using automation.user and CPWSRD0@
+Thread#0:T:done: NavigationSteps.GivenIAmLoggedInToEnableUsingUsernameAndPasswordAndOnTheHomepage("automation.user", "CPWSRD0@") (14.7s)
+Thread#0:B:Given I am on the fact find admin page
+Thread#0:T:done: FactFindSteps.GivenIAmOnTheFactFindAdminPage() (8.0s)
+Thread#0:B:When I add a new Fact Find with "NewFactFind", "NewFactFindDesc" and "NewFactFindNotes"
+Thread#0:T:done: FactFindSteps.GivenIAddANewFactFindWithNewFactFindNewFactFindDescAndNewFactFindNotes("NewFactFind", "NewFactFindDesc", "NewFactFindNotes") (11.3s)
+Thread#0:B:Then I see my new Fact Find in the Fact finds area
+Thread#0:T:done: FactFindSteps.ThenISeeMyNewFactFindInTheFactFindsArea() (1.6s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #164 from normal test queue 
+Thread#0:Scheduler: considering testitem #164 for thread 0
+Thread#0:TestItem#164:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#164:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#164:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #164 for thread 0
+Thread#0:Scheduler: Test #164 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #163/0 is finished on thread #0 as Succeeded within 45.1850246 seconds
+Thread#0: Test #164/0 is started on thread #0
+Thread#0:B:Given I am logged in to Enable using automation.user and CPWSRD0@
+Thread#0:T:done: NavigationSteps.GivenIAmLoggedInToEnableUsingUsernameAndPasswordAndOnTheHomepage("automation.user", "CPWSRD0@") (14.5s)
+Thread#0:B:Given I am on the fact find admin page
+Thread#0:T:done: FactFindSteps.GivenIAmOnTheFactFindAdminPage() (8.4s)
+Thread#0:B:And I click on add new fact find
+Thread#0:T:done: FactFindSteps.WhenIClickOnAddNewFactFind() (0.1s)
+Thread#0:B:And I enter "Title", "Description" and "Notes" for the Fact Find
+Thread#0:T:done: FactFindSteps.GivenIEnterAndForTheFactFind("Title", "Description", "Notes") (0.4s)
+Thread#0:B:When I cancel on the FactFind modal
+Thread#0:T:done: FactFindSteps.WhenICancelOnTheFactFindModal() (0.1s)
+Thread#0:B:Then dont see the Fact Find entry modal
+Thread#0:T:done: FactFindSteps.ThenDontSeeTheFactFindEntryModal() (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #165 from normal test queue 
+Thread#0:Scheduler: considering testitem #165 for thread 0
+Thread#0:TestItem#165:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#165:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#165:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #165 for thread 0
+Thread#0:Scheduler: Test #165 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #164/0 is finished on thread #0 as Succeeded within 33.7317458 seconds
+Thread#0: Test #165/0 is started on thread #0
+Thread#0:B:Given I am logged in to Enable using automation.user and CPWSRD0@
+Thread#0:T:done: NavigationSteps.GivenIAmLoggedInToEnableUsingUsernameAndPasswordAndOnTheHomepage("automation.user", "CPWSRD0@") (13.4s)
+Thread#0:B:Given I am on the fact find admin page
+Thread#0:T:done: FactFindSteps.GivenIAmOnTheFactFindAdminPage() (7.7s)
+Thread#0:B:And I create a Fact Find modal with title as "NewFactFind_02", description as "NewFactFind_02 Desc" and notes as "NewFactFind_02 Notes"
+Thread#0:T:done: FactFindSteps.GivenICreateAFactFindModalWithTitleAsDescriptionAsAndNotesAs("NewFactFind_02", "NewFactFind_02 Desc", "NewFactFind_02 Notes") (11.3s)
+Thread#0:B:And I select the current Fact Find
+Thread#0:T:done: FactFindSteps.GivenISelectTheCurrentFactFind() (0.1s)
+Thread#0:B:And I change the Fact Find title as "NewFactFind_02 Modified", description as "NewFactFind_02 Desc updated" and notes as "notes3 updated"
+Thread#0:T:done: FactFindSteps.GivenIChangeTheFactFindTitleAsDescriptionAsAndNotesAs("NewFactFind_02 Mo...", "NewFactFind_02 De...", "notes3 updated") (0.5s)
+Thread#0:B:When I save the Fact Find
+Thread#0:T:done: FactFindSteps.WhenISaveTheFactFind() (0.1s)
+Thread#0:B:Then I can see the notification as "Saved The fact find has been saved"
+Thread#0:T:done: FactFindSteps.ThenICanSeeTheNotificationAs("Saved The fact fi...") (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #166 from normal test queue 
+Thread#0:Scheduler: considering testitem #166 for thread 0
+Thread#0:TestItem#166:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#166:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#166:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #166 for thread 0
+Thread#0:Scheduler: Test #166 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #165/0 is finished on thread #0 as Succeeded within 43.9698992 seconds
+Thread#0: Test #166/0 is started on thread #0
+Thread#0:B:Given I am logged in to Enable using automation.user and CPWSRD0@
+Thread#0:T:done: NavigationSteps.GivenIAmLoggedInToEnableUsingUsernameAndPasswordAndOnTheHomepage("automation.user", "CPWSRD0@") (14.2s)
+Thread#0:B:Given I am on the fact find admin page
+Thread#0:T:done: FactFindSteps.GivenIAmOnTheFactFindAdminPage() (38.2s)
+Thread#0:B:And I click on New Fact Find button
+Thread#0:T:done: FactFindSteps.GivenIClickOnNewFactFindButton() (0.1s)
+Thread#0:B:And I save the Fact Find
+Thread#0:T:done: FactFindSteps.WhenISaveTheFactFind() (0.1s)
+Thread#0:B:And I can see "Title" with highlight
+Thread#0:T:Visible Color rgba(169, 68, 66, 1)
+Thread#0:T:done: FactFindSteps.ThenICanSeeWithHighlight("Title") (0.0s)
+Thread#0:B:And I can see "Description" with highlight
+Thread#0:T:Visible Color rgba(169, 68, 66, 1)
+Thread#0:T:done: FactFindSteps.ThenICanSeeWithHighlight("Description") (0.0s)
+Thread#0:B:And I can see "Notes" with highlight
+Thread#0:T:Visible Color rgba(169, 68, 66, 1)
+Thread#0:T:done: FactFindSteps.ThenICanSeeWithHighlight("Notes") (0.0s)
+Thread#0:B:And I enter "NewFactFind_03", "NewFactFind_03_Desc" and "Notes" for the Fact Find
+Thread#0:T:done: FactFindSteps.GivenIEnterAndForTheFactFind("NewFactFind_03", "NewFactFind_03_Desc", "Notes") (0.5s)
+Thread#0:B:When I save the Fact Find
+Thread#0:T:done: FactFindSteps.WhenISaveTheFactFind() (0.1s)
+Thread#0:B:Then I can see the Objectives and Assignments section
+Thread#0:T:done: FactFindSteps.ThenICanSeeTheObjectivesAndAssignmentsSection() (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #167 from normal test queue 
+Thread#0:Scheduler: considering testitem #167 for thread 0
+Thread#0:TestItem#167:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#167:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#167:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #167 for thread 0
+Thread#0:Scheduler: Test #167 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #166/0 is finished on thread #0 as Succeeded within 65.649871 seconds
+Thread#0: Test #167/0 is started on thread #0
+Thread#0:B:Given I am logged in to Enable using automation.user and CPWSRD0@
+Thread#0:T:error: Object reference not set to an instance of an object.
+Thread#0:T:An Error Occurred when attempting:TechTalk.SpecFlow.ScenarioStepContext
+Thread#0:T:An error ocurred:Object reference not set to an instance of an object.
+Thread#0:T:It was of type:NullReferenceException
+Thread#0:B:Given I am on the fact find admin page
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I click on add new fact find
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter "NewFactFind_04", "NewFactFind_04_Desc" and "Notes" for the Fact Find
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I save the Fact Find
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I save the objectives
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I can see the highlight for Objective Field
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I enter the objectives as "Asset"
+Thread#0:T:skipped because of previous errors
+Thread#0:B:When I save the objectives
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I can see the saved objectives
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #168 from normal test queue 
+Thread#0:Scheduler: considering testitem #168 for thread 0
+Thread#0:TestItem#168:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#168:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#168:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #168 for thread 0
+Thread#0:Scheduler: Test #168 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0:T:Error while taking screenshot: OpenQA.Selenium.NoSuchWindowException: no such window: target window already closed
+Thread#0:T:from unknown error: web view not found
+Thread#0:T:  (Session info: chrome=72.0.3626.121)
+Thread#0:T:  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.16299 x86_64)
+Thread#0:T:   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+Thread#0:T:   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+Thread#0:T:   at OpenQA.Selenium.Remote.RemoteWebDriver.get_PageSource()
+Thread#0:T:   at Enable_UIAutomation.Hooks.ScenarioHooks.TakeScreenShot(IWebDriver driver) in C:\ct.git\ui-automation\enable\Enable_UIAutomation\Hooks\ScenarioHooks.cs:line 135
+Thread#0: Test #167/0 is finished on thread #0 as Failed within 20.7694487 seconds
+Thread#0: Test #168/0 is started on thread #0
+Thread#0:B:Given I am logged in to Enable using automation.user and CPWSRD0@
+Thread#0:T:done: NavigationSteps.GivenIAmLoggedInToEnableUsingUsernameAndPasswordAndOnTheHomepage("automation.user", "CPWSRD0@") (14.5s)
+Thread#0:B:Given I am on the fact find admin page
+Thread#0:T:done: FactFindSteps.GivenIAmOnTheFactFindAdminPage() (8.5s)
+Thread#0:B:And I click on add new fact find
+Thread#0:T:done: FactFindSteps.WhenIClickOnAddNewFactFind() (0.1s)
+Thread#0:B:And I enter "NewFactFind_05", "NewFactFind_05_Desc" and "Notes" for the Fact Find
+Thread#0:T:done: FactFindSteps.GivenIEnterAndForTheFactFind("NewFactFind_05", "NewFactFind_05_Desc", "Notes") (0.5s)
+Thread#0:B:And I save the Fact Find
+Thread#0:T:done: FactFindSteps.WhenISaveTheFactFind() (0.1s)
+Thread#0:B:And I save the Assignments
+Thread#0:T:done: FactFindSteps.WhenISaveTheAssignments() (5.1s)
+Thread#0:B:And I can see the highlight for Client Type
+Thread#0:T:done: FactFindSteps.ThenICanSeeTheHighlightForClientType() (0.0s)
+Thread#0:B:And I select the client type as "Pension"
+Thread#0:T:done: FactFindSteps.GivenISelectTheClientTypeAs("Pension") (0.2s)
+Thread#0:B:When I save the Assignments
+Thread#0:T:done: FactFindSteps.WhenISaveTheAssignments() (5.1s)
+Thread#0:B:Then I can see the saved Assignments
+Thread#0:T:done: FactFindSteps.ThenICanSeeTheSavedAssignments() (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #169 from normal test queue 
+Thread#0:Scheduler: considering testitem #169 for thread 0
+Thread#0:TestItem#169:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#169:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#169:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #169 for thread 0
+Thread#0:Scheduler: Test #169 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #168/0 is finished on thread #0 as Succeeded within 46.478124 seconds
+Thread#0: Test #169/0 is started on thread #0
+Thread#0:B:Given I am on the fact find admin page
+Thread#0:T:done: FactFindSteps.GivenIAmOnTheFactFindAdminPage() (5.6s)
+Thread#0:B:And I open an existing fact find record
+Thread#0:T:done: FactFindSteps.GivenIOpenAnExistingFactFindRecord() (5.1s)
+Thread#0:B:And I create a new objective with objective as "Personal Details" and description as "Personal Details"
+Thread#0:T:done: FactFindSteps.GivenICreateANewObjectiveWithObjectiveAsAndDescriptionAs("Personal Details", "Personal Details") (0.6s)
+Thread#0:B:When I save the objectives
+Thread#0:T:done: FactFindSteps.WhenISaveTheObjectives() (5.1s)
+Thread#0:B:Then I can see the mandatory objective as a new row
+Thread#0:T:done: FactFindSteps.ThenICanSeeTheMandatoryObjectiveAsANewRow() (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #170 from normal test queue 
+Thread#0:Scheduler: considering testitem #170 for thread 0
+Thread#0:TestItem#170:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#170:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#170:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #170 for thread 0
+Thread#0:Scheduler: Test #170 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #169/0 is finished on thread #0 as Succeeded within 59.7508908 seconds
+Thread#0: Test #170/0 is started on thread #0
+Thread#0:B:Given I am on the fact find admin page
+Thread#0:T:done: FactFindSteps.GivenIAmOnTheFactFindAdminPage() (5.7s)
+Thread#0:B:And I open an existing fact find record
+Thread#0:T:done: FactFindSteps.GivenIOpenAnExistingFactFindRecord() (5.1s)
+Thread#0:B:And I create a new objective with objective as "Personal Details" and description as "Personal Details"
+Thread#0:T:done: FactFindSteps.GivenICreateANewObjectiveWithObjectiveAsAndDescriptionAs("Personal Details", "Personal Details") (0.6s)
+Thread#0:B:And I save the objectives
+Thread#0:T:done: FactFindSteps.WhenISaveTheObjectives() (5.1s)
+Thread#0:B:And I can see the mandatory objective as a new row
+Thread#0:T:done: FactFindSteps.ThenICanSeeTheMandatoryObjectiveAsANewRow() (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #171 from normal test queue 
+Thread#0:Scheduler: considering testitem #171 for thread 0
+Thread#0:TestItem#171:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#171:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#171:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #171 for thread 0
+Thread#0:Scheduler: Test #171 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #170/0 is finished on thread #0 as Succeeded within 59.494306 seconds
+Thread#0: Test #171/0 is started on thread #0
+Thread#0:B:Given I am on the fact find admin page
+Thread#0:T:done: FactFindSteps.GivenIAmOnTheFactFindAdminPage() (5.6s)
+Thread#0:B:And I open an existing fact find record
+Thread#0:T:done: FactFindSteps.GivenIOpenAnExistingFactFindRecord() (5.1s)
+Thread#0:B:And I create a new "Member" for "Advisa Financial Services Ltd" of "Individual"
+Thread#0:T:error: Timed out after 20 seconds
+Thread#0:T:An Error Occurred when attempting:TechTalk.SpecFlow.ScenarioStepContext
+Thread#0:T:An error ocurred:Timed out after 20 seconds
+Thread#0:T:It was of type:WebDriverTimeoutException
+Thread#0:B:And I opt to make it live
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I save
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I see my new live "Member" Assignment created as a new row
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #172 from normal test queue 
+Thread#0:Scheduler: considering testitem #172 for thread 0
+Thread#0:TestItem#172:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#172:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#172:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #172 for thread 0
+Thread#0:Scheduler: Test #172 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0:T:SCREENSHOT[ file:///C:\Screenshot\error_V2_FactFind_AddLiveNetworkAndMemberAssignmentInFactFind_20190326_192321_screenshot.png ]SCREENSHOT
+Thread#0: Test #171/0 is finished on thread #0 as Failed within 78.6683692 seconds
+Thread#0: Test #172/0 is started on thread #0
+Thread#0:B:Given I am on the fact find admin page
+Thread#0:T:done: FactFindSteps.GivenIAmOnTheFactFindAdminPage() (5.6s)
+Thread#0:B:And I open an existing fact find record
+Thread#0:T:done: FactFindSteps.GivenIOpenAnExistingFactFindRecord() (5.1s)
+Thread#0:B:And I create a new "Member" for "DMA" of "Trust"
+Thread#0:T:error: Timed out after 20 seconds
+Thread#0:T:An Error Occurred when attempting:TechTalk.SpecFlow.ScenarioStepContext
+Thread#0:T:An error ocurred:Timed out after 20 seconds
+Thread#0:T:It was of type:WebDriverTimeoutException
+Thread#0:B:And I opt to make it live
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I save
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I see my new live "Member" Assignment created as a new row
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #173 from normal test queue 
+Thread#0:Scheduler: considering testitem #173 for thread 0
+Thread#0:TestItem#173:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#173:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#173:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #173 for thread 0
+Thread#0:Scheduler: Test #173 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0:T:SCREENSHOT[ file:///C:\Screenshot\error_V2_FactFind_AddLiveNetworkAndMemberAssignmentInFactFind_20190326_192439_screenshot.png ]SCREENSHOT
+Thread#0: Test #172/0 is finished on thread #0 as Failed within 78.3331214 seconds
+Thread#0: Test #173/0 is started on thread #0
+Thread#0:B:Given I am on the fact find admin page
+Thread#0:T:done: FactFindSteps.GivenIAmOnTheFactFindAdminPage() (5.6s)
+Thread#0:B:And I open an existing fact find record
+Thread#0:T:done: FactFindSteps.GivenIOpenAnExistingFactFindRecord() (5.1s)
+Thread#0:B:And I create a new "Network" for "Quantum IMS" of "Pension"
+Thread#0:T:error: Timed out after 20 seconds
+Thread#0:T:An Error Occurred when attempting:TechTalk.SpecFlow.ScenarioStepContext
+Thread#0:T:An error ocurred:Timed out after 20 seconds
+Thread#0:T:It was of type:WebDriverTimeoutException
+Thread#0:B:And I opt to make it live
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I save
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I see my new live "Network" Assignment created as a new row
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #175 from normal test queue 
+Thread#0:Scheduler: considering testitem #175 for thread 0
+Thread#0:TestItem#175:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#175:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#175:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #175 for thread 0
+Thread#0:Scheduler: Test #175 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0:T:SCREENSHOT[ file:///C:\Screenshot\error_V2_FactFind_AddLiveNetworkAndMemberAssignmentInFactFind_20190326_192556_screenshot.png ]SCREENSHOT
+Thread#0: Test #173/0 is finished on thread #0 as Failed within 77.399069 seconds
+Thread#0: Test #175/0 is started on thread #0
+Thread#0:B:Given I am logged in to Enable using automation.user and CPWSRD0@
+Thread#0:T:done: NavigationSteps.GivenIAmLoggedInToEnableUsingUsernameAndPasswordAndOnTheHomepage("automation.user", "CPWSRD0@") (54.5s)
+Thread#0:B:Given I am in Dynamic Questions Editor page
+Thread#0:T:done: QuestionGroupingStep.GivenIAmInDynamicQuestionsEditorPage() (3.6s)
+Thread#0:B:And I am on "Groupings" tab
+Thread#0:T:done: QuestionGroupingStep.GivenIAmOnTab("Groupings") (0.0s)
+Thread#0:B:And I select an "DMA"
+Thread#0:T:done: QuestionGroupingStep.GivenISelectAn("DMA") (0.5s)
+Thread#0:B:And I choose to create a new group
+Thread#0:T:done: QuestionGroupingStep.GivenIChooseToCreateANewGroup() (0.2s)
+Thread#0:B:And I create a new question group with "DAM Orange" and "Orange Description"
+Thread#0:T:done: QuestionGroupingStep.GivenICreateANewQuestionGroupWith("DAM Orange", "Orange Description") (0.3s)
+Thread#0:B:When I save
+Thread#0:T:done: QuestionGroupingStep.WhenISave() (5.1s)
+Thread#0:B:Then I can see "Saved Question grouping has been created"
+Thread#0:T:done: QuestionGroupingStep.ThenICanSee("Saved Question gr...") (1.6s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #176 from normal test queue 
+Thread#0:Scheduler: considering testitem #176 for thread 0
+Thread#0:TestItem#176:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#176:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#176:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #176 for thread 0
+Thread#0:Scheduler: Test #176 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #175/0 is finished on thread #0 as Succeeded within 77.2644627 seconds
+Thread#0: Test #176/0 is started on thread #0
+Thread#0:B:Given I am logged in to Enable using automation.user and CPWSRD0@
+Thread#0:T:done: NavigationSteps.GivenIAmLoggedInToEnableUsingUsernameAndPasswordAndOnTheHomepage("automation.user", "CPWSRD0@") (13.7s)
+Thread#0:B:Given I am in Dynamic Questions Editor page
+Thread#0:T:done: QuestionGroupingStep.GivenIAmInDynamicQuestionsEditorPage() (2.7s)
+Thread#0:B:And I am on "Questions" tab
+Thread#0:T:done: QuestionGroupingStep.GivenIAmOnTab("Questions") (1.0s)
+Thread#0:B:And I create a new question "Single Answer" with "Question1" and "What goes on this pizza?"
+Thread#0:T:done: DynamicQuestionStep.GivenICreateANewQuestionWithAnd("Single Answer", "Question1", "What goes on this...") (1.1s)
+Thread#0:B:And I click on screen
+Thread#0:T:done: DynamicQuestionStep.GivenIClickOnScreen() (0.0s)
+Thread#0:B:And I see "What goes on this pizza?" in preview panel
+Thread#0:T:done: DynamicQuestionStep.GivenISeeInPreviewPanel("What goes on this...") (0.0s)
+Thread#0:B:And I create Internal source options
+Thread#0:T:done: DynamicQuestionStep.GivenICreateInternalSourceOptions() (0.4s)
+Thread#0:B:And I provide "PreText", "PostText", and "HelpText" additional text fields
+Thread#0:T:done: DynamicQuestionStep.GivenIProvideAndAdditionalTextFields("PreText", "PostText", "HelpText") (0.4s)
+Thread#0:B:When I save
+Thread#0:T:done: QuestionGroupingStep.WhenISave() (5.1s)
+Thread#0:B:Then I can see "Question has been created."
+Thread#0:T:done: QuestionGroupingStep.ThenICanSee("Question has been...") (1.1s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #177 from normal test queue 
+Thread#0:Scheduler: considering testitem #177 for thread 0
+Thread#0:TestItem#177:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#177:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#177:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #177 for thread 0
+Thread#0:Scheduler: Test #177 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #176/0 is finished on thread #0 as Succeeded within 37.8379707 seconds
+Thread#0: Test #177/0 is started on thread #0
+Thread#0:B:Given I am logged in to Enable using automation.user and CPWSRD0@
+Thread#0:T:done: NavigationSteps.GivenIAmLoggedInToEnableUsingUsernameAndPasswordAndOnTheHomepage("automation.user", "CPWSRD0@") (13.4s)
+Thread#0:B:Given I am in Dynamic Questions Editor page
+Thread#0:T:done: QuestionGroupingStep.GivenIAmInDynamicQuestionsEditorPage() (30.5s)
+Thread#0:B:And I select an "System"
+Thread#0:T:error: Timed out after 10 seconds
+Thread#0:T:An Error Occurred when attempting:TechTalk.SpecFlow.ScenarioStepContext
+Thread#0:T:An error ocurred:Timed out after 10 seconds
+Thread#0:T:It was of type:WebDriverTimeoutException
+Thread#0:B:And I choose to open an existing group "Zorlak"
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I choose to add a question "Question1" into the group
+Thread#0:T:skipped because of previous errors
+Thread#0:B:When I save
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I can see "Saved Question grouping has been updated."
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #178 from normal test queue 
+Thread#0:Scheduler: considering testitem #178 for thread 0
+Thread#0:TestItem#178:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#178:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#178:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #178 for thread 0
+Thread#0:Scheduler: Test #178 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0:T:SCREENSHOT[ file:///C:\Screenshot\error_V2_DynamicQuestion_AddAQuestionToAnExistingGroup_20190326_192855_screenshot.png ]SCREENSHOT
+Thread#0: Test #177/0 is finished on thread #0 as Failed within 63.0284356 seconds
+Thread#0: Test #178/0 is started on thread #0
+Thread#0:B:Given I am in Dynamic Questions Editor page
+Thread#0:T:done: QuestionGroupingStep.GivenIAmInDynamicQuestionsEditorPage() (0.5s)
+Thread#0:B:And I am on "Groupings" tab
+Thread#0:T:done: QuestionGroupingStep.GivenIAmOnTab("Groupings") (0.1s)
+Thread#0:B:And I select an existing Owner and Grouping
+Thread#0:T:done: DynamicQuestionStep.GivenISelectAnExistingOwnerAndGrouping() (0.1s)
+Thread#0:B:And I choose to remove a question in preview panel
+Thread#0:T:done: DynamicQuestionStep.GivenIChooseToRemoveAQuestionInPreviewPanel() (5.1s)
+Thread#0:B:When I save
+Thread#0:T:done: QuestionGroupingStep.WhenISave() (5.1s)
+Thread#0:B:Then I can see "Saved Question grouping has been updated"
+Thread#0:T:done: QuestionGroupingStep.ThenICanSee("Saved Question gr...") (0.8s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #179 from normal test queue 
+Thread#0:Scheduler: considering testitem #179 for thread 0
+Thread#0:TestItem#179:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#179:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#179:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #179 for thread 0
+Thread#0:Scheduler: Test #179 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #178/0 is finished on thread #0 as Succeeded within 64.2691738 seconds
+Thread#0: Test #179/0 is started on thread #0
+Thread#0:B:Given I am in Dynamic Questions Editor page
+Thread#0:T:done: QuestionGroupingStep.GivenIAmInDynamicQuestionsEditorPage() (0.5s)
+Thread#0:B:And I am on "Groupings" tab
+Thread#0:T:done: QuestionGroupingStep.GivenIAmOnTab("Groupings") (0.1s)
+Thread#0:B:And I select an existing Owner and Grouping
+Thread#0:T:done: DynamicQuestionStep.GivenISelectAnExistingOwnerAndGrouping() (0.1s)
+Thread#0:B:And I see a preview of question in the group
+Thread#0:T:done: DynamicQuestionStep.GivenISeeAPreviewOfQuestionInTheGroup() (0.7s)
+Thread#0:B:And I see Add dependant question icons next to the options
+Thread#0:T:done: DynamicQuestionStep.GivenISeeAddDependantQuestionIconsNextToTheOptions() (0.0s)
+Thread#0:B:When I click on the dependant question icon
+Thread#0:T:done: DynamicQuestionStep.WhenIClickOnTheDependantQuestionIcon() (0.1s)
+Thread#0:B:Then I should be able to add a dependant question
+Thread#0:T:done: DynamicQuestionStep.ThenIShouldBeAbleToAddADependantQuestion() (0.1s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #180 from normal test queue 
+Thread#0:Scheduler: considering testitem #180 for thread 0
+Thread#0:TestItem#180:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#180:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#180:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #180 for thread 0
+Thread#0:Scheduler: Test #180 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #179/0 is finished on thread #0 as Succeeded within 50.439277 seconds
+Thread#0: Test #180/0 is started on thread #0
+Thread#0:B:Given I am logged in to Enable using automation.user and CPWSRD0@
+Thread#0:T:done: NavigationSteps.GivenIAmLoggedInToEnableUsingUsernameAndPasswordAndOnTheHomepage("automation.user", "CPWSRD0@") (13.9s)
+Thread#0:B:Given I am in Dynamic Questions Editor page
+Thread#0:T:done: QuestionGroupingStep.GivenIAmInDynamicQuestionsEditorPage() (2.8s)
+Thread#0:B:And I am on "Questions" tab
+Thread#0:T:done: QuestionGroupingStep.GivenIAmOnTab("Questions") (1.1s)
+Thread#0:B:And I create a new question "Multiple Answer" with "Question1" and "Question1"
+Thread#0:T:done: DynamicQuestionStep.GivenICreateANewQuestionWithAnd("Multiple Answer", "Question1", "Question1") (1.1s)
+Thread#0:B:And I click on screen
+Thread#0:T:done: DynamicQuestionStep.GivenIClickOnScreen() (0.0s)
+Thread#0:B:And I see it in preview panel
+Thread#0:T:done: DynamicQuestionStep.GivenISeeItInPreviewPanel() (0.0s)
+Thread#0:B:And I create Internal source options
+Thread#0:T:done: DynamicQuestionStep.GivenICreateInternalSourceOptions() (0.4s)
+Thread#0:B:And I give Input and validation
+Thread#0:T:done: DynamicQuestionStep.GivenIGiveInputAndValidation() (0.0s)
+Thread#0:B:And I provide "PreText", "PostText", and "HelpText" additional text fields
+Thread#0:T:done: DynamicQuestionStep.GivenIProvideAndAdditionalTextFields("PreText", "PostText", "HelpText") (0.4s)
+Thread#0:B:When I save
+Thread#0:T:done: QuestionGroupingStep.WhenISave() (5.1s)
+Thread#0:B:Then I can see "Saved Question has been created."
+Thread#0:T:done: QuestionGroupingStep.ThenICanSee("Saved Question ha...") (0.6s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #181 from normal test queue 
+Thread#0:Scheduler: considering testitem #181 for thread 0
+Thread#0:TestItem#181:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#181:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#181:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #181 for thread 0
+Thread#0:Scheduler: Test #181 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #180/0 is finished on thread #0 as Succeeded within 38.2519516 seconds
+Thread#0: Test #181/0 is started on thread #0
+Thread#0:B:Given I am logged in to Enable using automation.user and CPWSRD0@
+Thread#0:T:done: NavigationSteps.GivenIAmLoggedInToEnableUsingUsernameAndPasswordAndOnTheHomepage("automation.user", "CPWSRD0@") (73.9s)
+Thread#0:B:Given I am in Dynamic Questions Editor page
+Thread#0:T:done: QuestionGroupingStep.GivenIAmInDynamicQuestionsEditorPage() (3.5s)
+Thread#0:B:And I am on "Questions" tab
+Thread#0:T:done: QuestionGroupingStep.GivenIAmOnTab("Questions") (1.0s)
+Thread#0:B:And I create a new question "Text Answer" with "Question2" and "Question2"
+Thread#0:T:done: DynamicQuestionStep.GivenICreateANewQuestionWithAnd("Text Answer", "Question2", "Question2") (1.1s)
+Thread#0:B:And I click on screen
+Thread#0:T:done: DynamicQuestionStep.GivenIClickOnScreen() (0.0s)
+Thread#0:B:And I see it in question preview panel
+Thread#0:T:done: DynamicQuestionStep.GivenISeeItInQuestionPreviewPanel() (0.0s)
+Thread#0:B:And I give Input and validation
+Thread#0:T:done: DynamicQuestionStep.GivenIGiveInputAndValidation() (0.0s)
+Thread#0:B:And I provide "PreText", "PostText", and "HelpText" additional text fields
+Thread#0:T:done: DynamicQuestionStep.GivenIProvideAndAdditionalTextFields("PreText", "PostText", "HelpText") (0.4s)
+Thread#0:B:When I save
+Thread#0:T:done: QuestionGroupingStep.WhenISave() (5.1s)
+Thread#0:B:Then I can see "Saved Question has been created."
+Thread#0:T:done: QuestionGroupingStep.ThenICanSee("Saved Question ha...") (1.1s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #182 from normal test queue 
+Thread#0:Scheduler: considering testitem #182 for thread 0
+Thread#0:TestItem#182:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#182:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#182:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #182 for thread 0
+Thread#0:Scheduler: Test #182 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #181/0 is finished on thread #0 as Succeeded within 98.1775066 seconds
+Thread#0: Test #182/0 is started on thread #0
+Thread#0:B:Given I am in Dynamic Questions Editor page
+Thread#0:T:done: QuestionGroupingStep.GivenIAmInDynamicQuestionsEditorPage() (0.9s)
+Thread#0:B:And I am on "Groupings" tab
+Thread#0:T:done: QuestionGroupingStep.GivenIAmOnTab("Groupings") (0.1s)
+Thread#0:B:And I select an existing Owner and Grouping
+Thread#0:T:done: DynamicQuestionStep.GivenISelectAnExistingOwnerAndGrouping() (0.1s)
+Thread#0:B:And I choose to add a question "Question1" into the group
+Thread#0:T:done: QuestionGroupingStep.GivenIChooseToAddAQuestionIntoTheGroup("Question1") (3.7s)
+Thread#0:B:And I choose to make an question mandatory in preview panel
+Thread#0:T:done: DynamicQuestionStep.GivenIChooseToMakeAnQuestionMandatoryInPreviewPanel() (0.1s)
+Thread#0:B:When I save
+Thread#0:T:done: QuestionGroupingStep.WhenISave() (5.1s)
+Thread#0:B:Then I can see "Saved Question grouping has been updated"
+Thread#0:T:done: QuestionGroupingStep.ThenICanSee("Saved Question gr...") (0.6s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #183 from normal test queue 
+Thread#0:Scheduler: considering testitem #183 for thread 0
+Thread#0:TestItem#183:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#183:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#183:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #183 for thread 0
+Thread#0:Scheduler: Test #183 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #182/0 is finished on thread #0 as Succeeded within 152.6023126 seconds
+Thread#0: Test #183/0 is started on thread #0
+Thread#0:B:Given I am in Dynamic Questions Editor page
+Thread#0:T:done: QuestionGroupingStep.GivenIAmInDynamicQuestionsEditorPage() (1.5s)
+Thread#0:B:And I am on "Groupings" tab
+Thread#0:T:done: QuestionGroupingStep.GivenIAmOnTab("Groupings") (0.1s)
+Thread#0:B:And I select an existing Owner and Grouping
+Thread#0:T:done: DynamicQuestionStep.GivenISelectAnExistingOwnerAndGrouping() (0.1s)
+Thread#0:B:And I choose to add a question "Question1" into the group
+Thread#0:T:done: QuestionGroupingStep.GivenIChooseToAddAQuestionIntoTheGroup("Question1") (3.6s)
+Thread#0:B:And I choose to make a mandatory question to optional in preview panel
+Thread#0:T:done: DynamicQuestionStep.GivenIChooseToMakeAMandatoryQuestionToOptionalInPreviewPanel() (0.1s)
+Thread#0:B:When I save
+Thread#0:T:done: QuestionGroupingStep.WhenISave() (5.1s)
+Thread#0:B:Then I can see "Saved Question grouping has been updated"
+Thread#0:T:done: QuestionGroupingStep.ThenICanSee("Saved Question gr...") (0.6s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #184 from normal test queue 
+Thread#0:Scheduler: considering testitem #184 for thread 0
+Thread#0:TestItem#184:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#184:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#184:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #184 for thread 0
+Thread#-1:Scheduler: Test #184 is scheduled for thread
+Thread#-1: Test #184/0 is started on thread #-1
+Thread#-1: Test #184/0 is finished on thread #-1 as Ignored within 0 seconds
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #185 from normal test queue 
+Thread#0:Scheduler: considering testitem #185 for thread 0
+Thread#0:TestItem#185:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#185:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#185:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #185 for thread 0
+Thread#0:Scheduler: Test #185 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #183/0 is finished on thread #0 as Succeeded within 63.0364162 seconds
+Thread#0: Test #185/0 is started on thread #0
+Thread#0:B:Given I am in Dynamic Questions Editor page
+Thread#0:T:done: QuestionGroupingStep.GivenIAmInDynamicQuestionsEditorPage() (0.6s)
+Thread#0:B:And I am on "Groupings" tab
+Thread#0:T:done: QuestionGroupingStep.GivenIAmOnTab("Groupings") (0.0s)
+Thread#0:B:And I select an existing Owner and Grouping
+Thread#0:T:done: DynamicQuestionStep.GivenISelectAnExistingOwnerAndGrouping() (0.1s)
+Thread#0:B:Then I see all the fields of the question
+Thread#0:T:done: DynamicQuestionStep.ThenISeeAllTheFieldsOfTheQuestion() (0.2s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #186 from normal test queue 
+Thread#0:Scheduler: considering testitem #186 for thread 0
+Thread#0:TestItem#186:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#186:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#186:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #186 for thread 0
+Thread#-1:Scheduler: Test #186 is scheduled for thread
+Thread#-1: Test #186/0 is started on thread #-1
+Thread#-1: Test #186/0 is finished on thread #-1 as Ignored within 0 seconds
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #187 from normal test queue 
+Thread#0:Scheduler: considering testitem #187 for thread 0
+Thread#0:TestItem#187:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#187:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#187:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #187 for thread 0
+Thread#0:Scheduler: Test #187 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #185/0 is finished on thread #0 as Succeeded within 110.9611471 seconds
+Thread#0: Test #187/0 is started on thread #0
+Thread#0:B:Given I am in Dynamic Questions Editor page
+Thread#0:T:done: QuestionGroupingStep.GivenIAmInDynamicQuestionsEditorPage() (1.5s)
+Thread#0:B:And I am on "Groupings" tab
+Thread#0:T:done: QuestionGroupingStep.GivenIAmOnTab("Groupings") (0.1s)
+Thread#0:B:And I select an existing Owner and Grouping
+Thread#0:T:done: DynamicQuestionStep.GivenISelectAnExistingOwnerAndGrouping() (0.1s)
+Thread#0:B:And I choose to add a question into the group
+Thread#0:T:done: QuestionGroupingStep.GivenIChooseToAddAQuestionIntoTheGroup() (0.4s)
+Thread#0:B:And I see question added to preview panel
+Thread#0:T:done: DynamicQuestionStep.GivenISeeQuestionAddedToPreviewPanel() (0.0s)
+Thread#0:B:And I save
+Thread#0:T:done: QuestionGroupingStep.WhenISave() (5.1s)
+Thread#0:B:And I navigate to "Questions" tab
+Thread#0:T:done: QuestionGroupingStep.GivenIAmOnTab("Questions") (1.1s)
+Thread#0:B:When I open the question
+Thread#0:T:done: DynamicQuestionStep.WhenIOpenTheQuestion() (0.2s)
+Thread#0:B:Then I see the group name in question grouping field
+Thread#0:T:done: DynamicQuestionStep.ThenISeeTheGroupNameInQuestionGroupingField() (0.6s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #188 from normal test queue 
+Thread#0:Scheduler: considering testitem #188 for thread 0
+Thread#0:TestItem#188:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#188:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#188:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #188 for thread 0
+Thread#0:Scheduler: Test #188 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #187/0 is finished on thread #0 as Succeeded within 54.4428918 seconds
+Thread#0: Test #188/0 is started on thread #0
+Thread#0:B:Given I am logged in to Enable using automation.user and CPWSRD0@
+Thread#0:T:done: NavigationSteps.GivenIAmLoggedInToEnableUsingUsernameAndPasswordAndOnTheHomepage("automation.user", "CPWSRD0@") (14.9s)
+Thread#0:B:Given I am in Dynamic Questions Editor page
+Thread#0:T:done: QuestionGroupingStep.GivenIAmInDynamicQuestionsEditorPage() (3.0s)
+Thread#0:B:And I am on "Questions" tab
+Thread#0:T:done: QuestionGroupingStep.GivenIAmOnTab("Questions") (1.0s)
+Thread#0:B:And I create a new question "Single Answer" with "Question1" and "What goes on this pizza?"
+Thread#0:T:done: DynamicQuestionStep.GivenICreateANewQuestionWithAnd("Single Answer", "Question1", "What goes on this...") (1.1s)
+Thread#0:B:And I click on screen
+Thread#0:T:done: DynamicQuestionStep.GivenIClickOnScreen() (0.0s)
+Thread#0:B:And I see "What goes on this pizza?" in preview panel
+Thread#0:T:done: DynamicQuestionStep.GivenISeeInPreviewPanel("What goes on this...") (0.0s)
+Thread#0:B:And I create Internal source options
+Thread#0:T:done: DynamicQuestionStep.GivenICreateInternalSourceOptions() (0.4s)
+Thread#0:B:And I provide "PreText", "PostText", and "HelpText" additional text fields
+Thread#0:T:done: DynamicQuestionStep.GivenIProvideAndAdditionalTextFields("PreText", "PostText", "HelpText") (0.4s)
+Thread#0:B:When I save
+Thread#0:T:done: QuestionGroupingStep.WhenISave() (5.1s)
+Thread#0:B:Then I see "PreText" before the options
+Thread#0:T:done: DynamicQuestionStep.ThenISeeBeforeTheOptions("PreText") (0.0s)
+Thread#0:B:And I see "PostText" after the options
+Thread#0:T:done: DynamicQuestionStep.ThenISeeAfterTheOptions("PostText") (0.1s)
+Thread#0:B:And I see "HelpText" adjacent to the question text
+Thread#0:T:done: DynamicQuestionStep.ThenISeeAdjacentToTheQuestionText("HelpText") (0.1s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #189 from normal test queue 
+Thread#0:Scheduler: considering testitem #189 for thread 0
+Thread#0:TestItem#189:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#189:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#189:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #189 for thread 0
+Thread#0:Scheduler: Test #189 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #188/0 is finished on thread #0 as Succeeded within 39.2183762 seconds
+Thread#0: Test #189/0 is started on thread #0
+Thread#0:B:Given I am in Dynamic Questions Editor page
+Thread#0:T:done: QuestionGroupingStep.GivenIAmInDynamicQuestionsEditorPage() (1.0s)
+Thread#0:B:And I am on "Questions" tab
+Thread#0:T:done: QuestionGroupingStep.GivenIAmOnTab("Questions") (1.0s)
+Thread#0:B:And I open an existing question
+Thread#0:T:done: DynamicQuestionStep.WhenIOpenTheQuestion() (0.2s)
+Thread#0:B:When I choose the text in the additional text fields to be bold
+Thread#0:T:done: DynamicQuestionStep.WhenIChooseTheTextInTheAdditionalTextFieldsToBeBold() (0.9s)
+Thread#0:B:Then I see the text change to bold in the preview
+Thread#0:T:done: DynamicQuestionStep.ThenISeeTheTextChangeToBoldInThePreview() (0.1s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #190 from normal test queue 
+Thread#0:Scheduler: considering testitem #190 for thread 0
+Thread#0:TestItem#190:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#190:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#190:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #190 for thread 0
+Thread#0:Scheduler: Test #190 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #189/0 is finished on thread #0 as Succeeded within 39.7397605 seconds
+Thread#0: Test #190/0 is started on thread #0
+Thread#0:B:Given I am in Dynamic Questions Editor page
+Thread#0:T:done: QuestionGroupingStep.GivenIAmInDynamicQuestionsEditorPage() (1.0s)
+Thread#0:B:And I am on "Questions" tab
+Thread#0:T:done: QuestionGroupingStep.GivenIAmOnTab("Questions") (1.0s)
+Thread#0:B:And I open an existing question
+Thread#0:T:error: Cannot locate element with text: ZorlakQ_3trsiyxlweu
+Thread#0:T:An Error Occurred when attempting:TechTalk.SpecFlow.ScenarioStepContext
+Thread#0:T:An error ocurred:Cannot locate element with text: ZorlakQ_3trsiyxlweu
+Thread#0:T:It was of type:NoSuchElementException
+Thread#0:B:When I choose the text in the additional text fields to be Italic
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I see the text change to Italic in the preview
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #191 from normal test queue 
+Thread#0:Scheduler: considering testitem #191 for thread 0
+Thread#0:TestItem#191:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#191:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#191:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #191 for thread 0
+Thread#0:Scheduler: Test #191 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0:T:SCREENSHOT[ file:///C:\Screenshot\error_V2_DynamicQuestion_ChangeFontFormatToItalicsInAdditionalTextFields_20190326_194223_screenshot.png ]SCREENSHOT
+Thread#0: Test #190/0 is finished on thread #0 as Failed within 97.0623317 seconds
+Thread#0: Test #191/0 is started on thread #0
+Thread#0:B:Given I am in Dynamic Questions Editor page
+Thread#0:T:done: QuestionGroupingStep.GivenIAmInDynamicQuestionsEditorPage() (0.5s)
+Thread#0:B:And I am on "Questions" tab
+Thread#0:T:done: QuestionGroupingStep.GivenIAmOnTab("Questions") (1.1s)
+Thread#0:B:And I open an existing question
+Thread#0:T:done: DynamicQuestionStep.WhenIOpenTheQuestion() (0.3s)
+Thread#0:B:When I choose the text in the additional text fields to be a Heading
+Thread#0:T:done: DynamicQuestionStep.WhenIChooseTheTextInTheAdditionalTextFieldsToBeAHeading() (1.0s)
+Thread#0:B:Then I see the text change to a Heading in the preview
+Thread#0:T:done: DynamicQuestionStep.ThenISeeTheTextChangeToAHeadingInThePreview() (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #192 from normal test queue 
+Thread#0:Scheduler: considering testitem #192 for thread 0
+Thread#0:TestItem#192:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#192:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#192:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #192 for thread 0
+Thread#0:Scheduler: Test #192 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #191/0 is finished on thread #0 as Succeeded within 38.7069504 seconds
+Thread#0: Test #192/0 is started on thread #0
+Thread#0:B:Given I am logged in to Enable using automation.user and CPWSRD0@
+Thread#0:T:done: NavigationSteps.GivenIAmLoggedInToEnableUsingUsernameAndPasswordAndOnTheHomepage("automation.user", "CPWSRD0@") (14.8s)
+Thread#0:B:Given I am in Dynamic Questions Editor page
+Thread#0:T:done: QuestionGroupingStep.GivenIAmInDynamicQuestionsEditorPage() (33.0s)
+Thread#0:B:And I am on "Groupings" tab
+Thread#0:T:done: QuestionGroupingStep.GivenIAmOnTab("Groupings") (0.0s)
+Thread#0:B:And I choose to create a new group
+Thread#0:T:done: QuestionGroupingStep.GivenIChooseToCreateANewGroup() (0.3s)
+Thread#0:B:And I remove the question group title
+Thread#0:T:done: QuestionGroupingStep.GivenIRemoveTheQuestionGroupTitle() (0.1s)
+Thread#0:B:And I save
+Thread#0:T:done: QuestionGroupingStep.WhenISave() (5.1s)
+Thread#0:B:And I can see the error message as "The Title field is required."
+Thread#0:T:done: QuestionGroupingStep.ThenICanSeeTheErrorMessageAs("The Title field i...") (0.0s)
+Thread#0:B:And I enter the question group title as "Group_02"
+Thread#0:T:done: QuestionGroupingStep.GivenIEnterTheQuestionGroupTitleAs("Group_02") (0.1s)
+Thread#0:B:When I save
+Thread#0:T:done: QuestionGroupingStep.WhenISave() (5.1s)
+Thread#0:B:Then I can see "Saved Question grouping has been created."
+Thread#0:T:done: QuestionGroupingStep.ThenICanSee("Saved Question gr...") (0.4s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #193 from normal test queue 
+Thread#0:Scheduler: considering testitem #193 for thread 0
+Thread#0:TestItem#193:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#193:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#193:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #193 for thread 0
+Thread#0:Scheduler: Test #193 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #192/0 is finished on thread #0 as Succeeded within 71.805445 seconds
+Thread#0: Test #193/0 is started on thread #0
+Thread#0:B:Given I am logged in to Enable using automation.user and CPWSRD0@
+Thread#0:T:done: NavigationSteps.GivenIAmLoggedInToEnableUsingUsernameAndPasswordAndOnTheHomepage("automation.user", "CPWSRD0@") (14.7s)
+Thread#0:B:Given I am in Dynamic Questions Editor page
+Thread#0:T:done: QuestionGroupingStep.GivenIAmInDynamicQuestionsEditorPage() (2.7s)
+Thread#0:B:And I am on "Questions" tab
+Thread#0:T:done: QuestionGroupingStep.GivenIAmOnTab("Questions") (1.5s)
+Thread#0:B:And I create a question "Single Answer"
+Thread#0:T:done: DynamicQuestionStep.GivenICreateAQuestion("Single Answer") (0.3s)
+Thread#0:B:And I save
+Thread#0:T:done: QuestionGroupingStep.WhenISave() (5.1s)
+Thread#0:B:And I can see the error message as " Option Text is required.; Option Value is required.; The Text field is required.; The Title field is required."
+Thread#0:T:done: QuestionGroupingStep.ThenICanSeeTheErrorMessageAs(" Option Text is r...") (0.6s)
+Thread#0:B:And I create a new question with title as "Question_02" and text as "What goes on this pizza?"
+Thread#0:T:done: DynamicQuestionStep.GivenICreateANewQuestionWithTitleAsAndTextAs("Question_02", "What goes on this...") (0.4s)
+Thread#0:B:And I create Internal source options
+Thread#0:T:done: DynamicQuestionStep.GivenICreateInternalSourceOptions() (0.4s)
+Thread#0:B:When I save
+Thread#0:T:done: QuestionGroupingStep.WhenISave() (5.1s)
+Thread#0:B:Then I can see "Saved Question has been created."
+Thread#0:T:done: QuestionGroupingStep.ThenICanSee("Saved Question ha...") (0.6s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #195 from normal test queue 
+Thread#0:Scheduler: considering testitem #195 for thread 0
+Thread#0:TestItem#195:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#195:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#195:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #195 for thread 0
+Thread#0:Scheduler: Test #195 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #193/0 is finished on thread #0 as Succeeded within 43.7126645 seconds
+Thread#0: Test #195/0 is started on thread #0
+Thread#0:B:Given I am logged in to Enable using automation.user and CPWSRD0@
+Thread#0:T:done: NavigationSteps.GivenIAmLoggedInToEnableUsingUsernameAndPasswordAndOnTheHomepage("automation.user", "CPWSRD0@") (13.9s)
+Thread#0:B:Given I am on Clients search page
+Thread#0:T:done: ClientSearchSteps.GivenIAmOnClientsSearchPage() (1.2s)
+Thread#0:B:And I select the existing client
+Thread#0:T:done: ClientSearchSteps.GivenISelectTheExistingClient() (1.0s)
+Thread#0:B:And I choose to Add a partner to the client
+Thread#0:T:done: ClientSearchSteps.GivenIChooseToAddAPartnerToTheClient() (0.1s)
+Thread#0:B:And I choose New Person
+Thread#0:T:done: ClientSearchSteps.GivenIChooseNewPerson() (0.2s)
+Thread#0:B:And I fill mandatory fields for the new person
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | ClientType | Member                    | Title | Consultant   | Forename | Surname | Team | CompanyName | PoliticalExposed | Vulnerable | Attorney |
+Thread#0:B:  | Individual | Creative Technologies Ltd | Mrs.  | Training, CT | Hurst    | stephen |      |             | No               | No         | No       |
+Thread#0:T:done: AddNewClientSteps.GivenIEnterTheFollowingDetails(<table>) (0.7s)
+Thread#0:B:When I save the partner
+Thread#0:T:done: ClientSearchSteps.WhenISaveThePartner() (1.3s)
+Thread#0:B:Then I see a profile created for this new person
+Thread#0:T:done: ClientSearchSteps.ThenISeeAProfileCreatedForThisNewPerson() (0.0s)
+Thread#0:B:And I see that our client is listed as a partner for this new person
+Thread#0:T:done: ClientSearchSteps.ThenISeeThatOurClientIsListedAsAPartnerForThisNewPerson() (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #196 from normal test queue 
+Thread#0:Scheduler: considering testitem #196 for thread 0
+Thread#0:TestItem#196:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#196:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#196:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #196 for thread 0
+Thread#0:Scheduler: Test #196 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #195/0 is finished on thread #0 as Succeeded within 41.4907813 seconds
+Thread#0: Test #196/0 is started on thread #0
+Thread#0:B:Given I am logged in to Enable using automation.user and CPWSRD0@
+Thread#0:T:done: NavigationSteps.GivenIAmLoggedInToEnableUsingUsernameAndPasswordAndOnTheHomepage("automation.user", "CPWSRD0@") (13.9s)
+Thread#0:B:Given I am on Clients search page
+Thread#0:T:done: ClientSearchSteps.GivenIAmOnClientsSearchPage() (2.2s)
+Thread#0:B:And I select the existing client
+Thread#0:T:done: ClientSearchSteps.GivenISelectTheExistingClient() (1.8s)
+Thread#0:B:And I choose to Add a partner to the client
+Thread#0:T:done: ClientSearchSteps.GivenIChooseToAddAPartnerToTheClient() (0.1s)
+Thread#0:B:And I choose an existing Person
+Thread#0:T:done: ClientSearchSteps.GivenIChooseAnExistingPerson() (1.5s)
+Thread#0:B:And I fill mandatory fields for the existing person
+Thread#0:T:done: ClientSearchSteps.GivenIFillMandatoryFieldsForTheExistingPerson() (0.1s)
+Thread#0:B:When I save the partner
+Thread#0:T:done: ClientSearchSteps.WhenISaveThePartner() (2.0s)
+Thread#0:B:Then I see that our client is listed as a partner for this new person
+Thread#0:T:done: ClientSearchSteps.ThenISeeThatOurClientIsListedAsAPartnerForThisNewPerson() (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #197 from normal test queue 
+Thread#0:Scheduler: considering testitem #197 for thread 0
+Thread#0:TestItem#197:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#197:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#197:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #197 for thread 0
+Thread#-1:Scheduler: Test #197 is scheduled for thread
+Thread#-1: Test #197/0 is started on thread #-1
+Thread#-1: Test #197/0 is finished on thread #-1 as Ignored within 0 seconds
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #199 from normal test queue 
+Thread#0:Scheduler: considering testitem #199 for thread 0
+Thread#0:TestItem#199:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#199:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#199:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #199 for thread 0
+Thread#0:Scheduler: Test #199 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #196/0 is finished on thread #0 as Succeeded within 53.1776855 seconds
+Thread#0: Test #199/0 is started on thread #0
+Thread#0:B:Given I am logged in to Enable using automation.user and CPWSRD0@
+Thread#0:T:done: NavigationSteps.GivenIAmLoggedInToEnableUsingUsernameAndPasswordAndOnTheHomepage("automation.user", "CPWSRD0@") (74.3s)
+Thread#0:B:Given I am on Clients search page
+Thread#0:T:done: ClientSearchSteps.GivenIAmOnClientsSearchPage() (1.2s)
+Thread#0:B:And I select the "Bobson, Mr. Bob" client
+Thread#0:T:done: ClientSearchSteps.GivenISelectTheClient("Bobson, Mr. Bob") (1.5s)
+Thread#0:B:When I select Relationships on the Client profile
+Thread#0:T:done: ClientSearchSteps.WhenISelectRelationshipsOnTheClientProfile() (5.1s)
+Thread#0:B:Then I see all the relationships linked to the current client
+Thread#0:T:done: ClientSearchSteps.ThenISeeAllTheRelationshipsLinkedToTheCurrentClient() (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #200 from normal test queue 
+Thread#0:Scheduler: considering testitem #200 for thread 0
+Thread#0:TestItem#200:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#200:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#200:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #200 for thread 0
+Thread#0:Scheduler: Test #200 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #199/0 is finished on thread #0 as Succeeded within 92.0535282 seconds
+Thread#0: Test #200/0 is started on thread #0
+Thread#0:B:Given I am logged in to Enable using automation.user and CPWSRD0@
+Thread#0:T:done: NavigationSteps.GivenIAmLoggedInToEnableUsingUsernameAndPasswordAndOnTheHomepage("automation.user", "CPWSRD0@") (16.5s)
+Thread#0:B:Given I am on Clients search page
+Thread#0:T:done: ClientSearchSteps.GivenIAmOnClientsSearchPage() (1.3s)
+Thread#0:B:And I select the "Bobson, Mr. Bob" client
+Thread#0:T:done: ClientSearchSteps.GivenISelectTheClient("Bobson, Mr. Bob") (1.0s)
+Thread#0:B:And I click on the Relationship button
+Thread#0:T:done: RelationshipStep.GivenIClickOnTheRelationshipButton() (5.1s)
+Thread#0:B:And I click on Add New
+Thread#0:T:done: RelationshipStep.GivenIClickOnAddNew() (6.7s)
+Thread#0:B:And I click on Continue
+Thread#0:T:done: RelationshipStep.GivenIClickOnContinue() (7.0s)
+Thread#0:B:And I save the Relationship
+Thread#0:T:done: RelationshipStep.GivenISaveTheRelationship() (5.9s)
+Thread#0:B:And I can see the validation message as "Please enter a surname"
+Thread#0:T:done: AddNewClientSteps.GivenICanSeeTheValidationMessageAs("Please enter a su...") (5.0s)
+Thread#0:B:And I enter surname as "XYZ"
+Thread#0:T:done: RelationshipStep.GivenIEnterSurnameAs("XYZ") (0.1s)
+Thread#0:B:And I save the Relationship
+Thread#0:T:done: RelationshipStep.GivenISaveTheRelationship() (5.8s)
+Thread#0:B:And I can see the validation message as "Please select a relationship"
+Thread#0:T:done: AddNewClientSteps.GivenICanSeeTheValidationMessageAs("Please select a r...") (5.0s)
+Thread#0:B:And I select Relationship as "Brother"
+Thread#0:T:done: RelationshipStep.GivenISelectRelationshipAs("Brother") (5.1s)
+Thread#0:B:When I save the Relationship
+Thread#0:T:done: RelationshipStep.GivenISaveTheRelationship() (6.4s)
+Thread#0:B:Then I can see the Relationship Summary Page
+Thread#0:T:done: RelationshipStep.ThenICanSeeTheRelationshipSummaryPage() (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #202 from normal test queue 
+Thread#0:Scheduler: considering testitem #202 for thread 0
+Thread#0:TestItem#202:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#202:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#202:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #202 for thread 0
+Thread#0:Scheduler: Test #202 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #200/0 is finished on thread #0 as Succeeded within 85.3926991 seconds
+Thread#0: Test #202/0 is started on thread #0
+Thread#0:B:Given I am logged in to Enable using automation.user and CPWSRD0@
+Thread#0:T:done: NavigationSteps.GivenIAmLoggedInToEnableUsingUsernameAndPasswordAndOnTheHomepage("automation.user", "CPWSRD0@") (16.6s)
+Thread#0:B:Given I am on Add New Client page
+Thread#0:T:done: AddNewClientSteps.GivenIAmOnAddNewClientPage() (2.7s)
+Thread#0:B:And I enter the following details
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | ClientType | Member                    | Title | Consultant   | Forename | Surname | Team | CompanyName | PoliticalExposed | Vulnerable | Attorney |
+Thread#0:B:  | Individual | Creative Technologies Ltd | Ms.   | Training, CT | Bobson   | Barbera |      | XXXXXX      | No               | No         | No       |
+Thread#0:T:done: AddNewClientSteps.GivenIEnterTheFollowingDetails(<table>) (1.8s)
+Thread#0:B:And I save the client
+Thread#0:T:done: AddNewClientSteps.GivenISaveTheClient() (6.5s)
+Thread#0:B:And I see Contact details page for that client
+Thread#0:T:done: AddNewClientSteps.GivenISeeContactDetailsPageForThatClient() (0.0s)
+Thread#0:B:And I fill in all the required fields
+Thread#0:T:done: AddNewClientSteps.GivenIFillInAllTheRequiredFields() (0.0s)
+Thread#0:B:And I save the new client
+Thread#0:T:done: AddNewClientSteps.GivenISaveTheNewClient() (0.1s)
+Thread#0:B:When I go back to Clients page
+Thread#0:T:done: AddNewClientSteps.WhenIGoBackToClientsPage() (2.9s)
+Thread#0:B:Then I see the new client added to the list
+Thread#0:T:done: AddNewClientSteps.ThenISeeTheNewClientAddedToTheList() (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #203 from normal test queue 
+Thread#0:Scheduler: considering testitem #203 for thread 0
+Thread#0:TestItem#203:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#203:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#203:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #203 for thread 0
+Thread#0:Scheduler: Test #203 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #202/0 is finished on thread #0 as Succeeded within 42.5319985 seconds
+Thread#0: Test #203/0 is started on thread #0
+Thread#0:B:Given I am logged in to Enable using automation.user and CPWSRD0@
+Thread#0:T:done: NavigationSteps.GivenIAmLoggedInToEnableUsingUsernameAndPasswordAndOnTheHomepage("automation.user", "CPWSRD0@") (14.3s)
+Thread#0:B:Given I am on Add New Client page
+Thread#0:T:done: AddNewClientSteps.GivenIAmOnAddNewClientPage() (1.7s)
+Thread#0:B:And I save the client
+Thread#0:T:done: AddNewClientSteps.GivenISaveTheClient() (5.4s)
+Thread#0:B:And I can see the validation message as "Please enter a surname for this client"
+Thread#0:T:done: AddNewClientSteps.GivenICanSeeTheValidationMessageAs("Please enter a su...") (5.0s)
+Thread#0:B:And I enter the surname
+Thread#0:T:done: AddNewClientSteps.GivenIEnterTheSurname() (0.1s)
+Thread#0:B:And I remove the consultant value
+Thread#0:T:done: AddNewClientSteps.GivenIRemoveTheConsultantValue() (0.5s)
+Thread#0:B:And I save the client
+Thread#0:T:done: AddNewClientSteps.GivenISaveTheClient() (5.5s)
+Thread#0:B:And I can see the validation message as "Please choose the consultant for this client"
+Thread#0:T:done: AddNewClientSteps.GivenICanSeeTheValidationMessageAs("Please choose the...") (5.0s)
+Thread#0:B:And I select the consultant as "Training, CT"
+Thread#0:T:done: AddNewClientSteps.GivenISelectTheConsultantAs("Training, CT") (1.2s)
+Thread#0:B:And I save the client
+Thread#0:T:done: AddNewClientSteps.GivenISaveTheClient() (5.4s)
+Thread#0:B:And I can see the validation message as "Please choose whether this client is Politically Exposed"
+Thread#0:T:done: AddNewClientSteps.GivenICanSeeTheValidationMessageAs("Please choose whe...") (5.0s)
+Thread#0:B:And I select the Political Exposed value as "No"
+Thread#0:T:done: AddNewClientSteps.GivenISelectThePoliticalExposedValueAs("No") (0.1s)
+Thread#0:B:And I save the client
+Thread#0:T:done: AddNewClientSteps.GivenISaveTheClient() (5.5s)
+Thread#0:B:And I can see the validation message as "Please choose whether the client is Vulnerable"
+Thread#0:T:done: AddNewClientSteps.GivenICanSeeTheValidationMessageAs("Please choose whe...") (5.0s)
+Thread#0:B:And I select the Vulnerable Client value as "No"
+Thread#0:T:done: AddNewClientSteps.GivenISelectTheVulnerableClientValueAs("No") (0.1s)
+Thread#0:B:And I save the client
+Thread#0:T:done: AddNewClientSteps.GivenISaveTheClient() (5.5s)
+Thread#0:B:And I can see the validation message as "Please choose whether the client has Power of Attorney set up"
+Thread#0:T:done: AddNewClientSteps.GivenICanSeeTheValidationMessageAs("Please choose whe...") (5.0s)
+Thread#0:B:And I select the Power of Attorney value as "No"
+Thread#0:T:done: AddNewClientSteps.ThenISelectThePowerOfAttorneyValueAs("No") (0.1s)
+Thread#0:B:And I remove the title value
+Thread#0:T:done: AddNewClientSteps.ThenIRemoveTheTitleValue() (0.1s)
+Thread#0:B:And I save the client
+Thread#0:T:done: AddNewClientSteps.GivenISaveTheClient() (5.5s)
+Thread#0:B:And I can see the validation message as "Please select a title for the client"
+Thread#0:T:done: AddNewClientSteps.GivenICanSeeTheValidationMessageAs("Please select a t...") (5.0s)
+Thread#0:B:And I select the title value as "Mr."
+Thread#0:T:done: AddNewClientSteps.GivenISelectTheTitleValueAs("Mr.") (0.1s)
+Thread#0:B:When I save the client
+Thread#0:T:done: AddNewClientSteps.GivenISaveTheClient() (5.5s)
+Thread#0:B:Then I can the continue button
+Thread#0:T:done: AddNewClientSteps.ThenICanTheContinueButton() (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #205 from normal test queue 
+Thread#0:Scheduler: considering testitem #205 for thread 0
+Thread#0:TestItem#205:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#205:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#205:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #205 for thread 0
+Thread#0:Scheduler: Test #205 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #203/0 is finished on thread #0 as Succeeded within 106.0839074 seconds
+Thread#0: Test #205/0 is started on thread #0
+Thread#0:B:Given I am logged in to Enable using automation.user and CPWSRD0@
+Thread#0:T:done: NavigationSteps.GivenIAmLoggedInToEnableUsingUsernameAndPasswordAndOnTheHomepage("automation.user", "CPWSRD0@") (15.0s)
+Thread#0:B:And I am on Clients search page
+Thread#0:T:done: ClientSearchSteps.GivenIAmOnClientsSearchPage() (2.2s)
+Thread#0:B:And I select the "Bobson, Mr. Bob" client
+Thread#0:T:done: ClientSearchSteps.GivenISelectTheClient("Bobson, Mr. Bob") (1.1s)
+Thread#0:B:And I click on Fact Find button
+Thread#0:T:done: ClientSearchSteps.GivenIClickOnFactFindButton() (7.4s)
+Thread#0:B:When I select the existing "Full Fact Find"
+Thread#0:T:done: ClientSearchSteps.WhenISelectTheExisting("Full Fact Find") (13.9s)
+Thread#0:B:And I update
+Thread#0:T:done: ClientSearchSteps.WhenIUpdate() (0.1s)
+Thread#0:B:Then I can see the message as "Saved Fact Find Updated"
+Thread#0:T:done: ClientSearchSteps.ThenICanSeeTheMessageAs("Saved Fact Find U...") (2.1s)
+Thread#0:B:And I can see the left navigation menu in the order of "Fact Find,Objectives,Income,Personal Details,Assets,Liabilities,Pensions,Protections,Relationships,Risk Profile,Vulnerable Client"
+Thread#0:T:done: ClientSearchSteps.ThenICanSeeTheLeftNavigationMenuInTheOrderOf(System.Collection...) (0.1s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #206 from normal test queue 
+Thread#0:Scheduler: considering testitem #206 for thread 0
+Thread#0:TestItem#206:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#206:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#206:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #206 for thread 0
+Thread#0:Scheduler: Test #206 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #205/0 is finished on thread #0 as Succeeded within 53.3876726 seconds
+Thread#0: Test #206/0 is started on thread #0
+Thread#0:B:Given I am logged in to Enable using automation.user and CPWSRD0@
+Thread#0:T:done: NavigationSteps.GivenIAmLoggedInToEnableUsingUsernameAndPasswordAndOnTheHomepage("automation.user", "CPWSRD0@") (76.6s)
+Thread#0:B:And I am on Clients search page
+Thread#0:T:done: ClientSearchSteps.GivenIAmOnClientsSearchPage() (1.8s)
+Thread#0:B:And I enter "Bobson", "Bob" and "Individual"
+Thread#0:T:done: ClientSearchSteps.GivenIEnterAnd("Bobson", "Bob", "Individual") (0.4s)
+Thread#0:B:And I select "Simpson, Chris" and "Creative Technologies Ltd"
+Thread#0:T:done: ClientSearchSteps.GivenISelectAnd("Simpson, Chris", "Creative Technolo...") (0.1s)
+Thread#0:B:When I search
+Thread#0:T:done: ClientSearchSteps.WhenISearch() (1.7s)
+Thread#0:B:Then I can see the matched records with an attributes as Bobson, Bob, Individual and Creative Technologies Ltd
+Thread#0:T:done: ClientSearchSteps.ThenICanSeeTheMatchedRecordsWithAnAttributesAsAnd("Bobson", "Bob", "Individual", "Creative Technolo...") (0.1s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #207 from normal test queue 
+Thread#0:Scheduler: considering testitem #207 for thread 0
+Thread#0:TestItem#207:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#207:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#207:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #207 for thread 0
+Thread#0:Scheduler: Test #207 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #206/0 is finished on thread #0 as Succeeded within 90.9274149 seconds
+Thread#0: Test #207/0 is started on thread #0
+Thread#0:B:Given I am logged in to Enable using automation.user and CPWSRD0@
+Thread#0:T:done: NavigationSteps.GivenIAmLoggedInToEnableUsingUsernameAndPasswordAndOnTheHomepage("automation.user", "CPWSRD0@") (14.1s)
+Thread#0:B:And I am on Clients search page
+Thread#0:T:done: ClientSearchSteps.GivenIAmOnClientsSearchPage() (1.3s)
+Thread#0:B:And I enter "Bobson", "" and "Individual"
+Thread#0:T:done: ClientSearchSteps.GivenIEnterAnd("Bobson", "", "Individual") (0.4s)
+Thread#0:B:And I select "" and "Creative Technologies Ltd"
+Thread#0:T:done: ClientSearchSteps.GivenISelectAnd("", "Creative Technolo...") (0.1s)
+Thread#0:B:When I search
+Thread#0:T:done: ClientSearchSteps.WhenISearch() (1.7s)
+Thread#0:B:Then I can see the matched records with an attributes as Bobson, , Individual and Creative Technologies Ltd
+Thread#0:T:done: ClientSearchSteps.ThenICanSeeTheMatchedRecordsWithAnAttributesAsAnd("Bobson", "", "Individual", "Creative Technolo...") (0.1s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #208 from normal test queue 
+Thread#0:Scheduler: considering testitem #208 for thread 0
+Thread#0:TestItem#208:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#208:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#208:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #208 for thread 0
+Thread#0:Scheduler: Test #208 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #207/0 is finished on thread #0 as Succeeded within 28.4142457 seconds
+Thread#0: Test #208/0 is started on thread #0
+Thread#0:B:Given I am logged in to Enable using automation.user and CPWSRD0@
+Thread#0:T:done: NavigationSteps.GivenIAmLoggedInToEnableUsingUsernameAndPasswordAndOnTheHomepage("automation.user", "CPWSRD0@") (15.7s)
+Thread#0:B:Given I am on Clients search page
+Thread#0:T:done: ClientSearchSteps.GivenIAmOnClientsSearchPage() (1.3s)
+Thread#0:B:And I select the "Bobson, Mr. Bob" client
+Thread#0:T:done: ClientSearchSteps.GivenISelectTheClient("Bobson, Mr. Bob") (1.0s)
+Thread#0:B:And I remove the title value
+Thread#0:T:done: AddNewClientSteps.ThenIRemoveTheTitleValue() (0.1s)
+Thread#0:B:And I save the client
+Thread#0:T:done: AddNewClientSteps.GivenISaveTheClient() (5.1s)
+Thread#0:B:And I can see the validation message as "Please select a title for the client"
+Thread#0:T:done: AddNewClientSteps.GivenICanSeeTheValidationMessageAs("Please select a t...") (5.0s)
+Thread#0:B:And I enter title as "Mr."
+Thread#0:T:done: ClientSummaryStep.GivenIEnterTitleAs("Mr.") (0.1s)
+Thread#0:B:And I remove the surname
+Thread#0:T:done: ClientSummaryStep.GivenIRemoveTheSurname() (0.1s)
+Thread#0:B:And I save the client
+Thread#0:T:done: AddNewClientSteps.GivenISaveTheClient() (5.1s)
+Thread#0:B:And I can see the validation message as "Please enter a surname for this client"
+Thread#0:T:done: AddNewClientSteps.GivenICanSeeTheValidationMessageAs("Please enter a su...") (5.0s)
+Thread#0:B:And I enter the existing surname
+Thread#0:T:done: ClientSummaryStep.GivenIEnterTheExistingSurname() (0.2s)
+Thread#0:B:When I save the client
+Thread#0:T:done: AddNewClientSteps.GivenISaveTheClient() (5.1s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #209 from normal test queue 
+Thread#0:Scheduler: considering testitem #209 for thread 0
+Thread#0:TestItem#209:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#209:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#209:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #209 for thread 0
+Thread#0:Scheduler: Test #209 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #208/0 is finished on thread #0 as Succeeded within 56.7567804 seconds
+Thread#0: Test #209/0 is started on thread #0
+Thread#0:B:Given I am logged in to Enable using automation.user and CPWSRD0@
+Thread#0:T:done: NavigationSteps.GivenIAmLoggedInToEnableUsingUsernameAndPasswordAndOnTheHomepage("automation.user", "CPWSRD0@") (74.9s)
+Thread#0:B:Given I am on Clients search page
+Thread#0:T:done: ClientSearchSteps.GivenIAmOnClientsSearchPage() (1.3s)
+Thread#0:B:And I select the "Bobson, Mr. Bob" client
+Thread#0:T:done: ClientSearchSteps.GivenISelectTheClient("Bobson, Mr. Bob") (1.9s)
+Thread#0:B:And I enter the mobile no as "Invalid"
+Thread#0:T:done: ClientSummaryStep.GivenIEnterTheMobileNoAs("Invalid") (0.2s)
+Thread#0:B:And I save the client
+Thread#0:T:done: AddNewClientSteps.GivenISaveTheClient() (5.1s)
+Thread#0:B:And I can see the validation message as "Mobile number is not in valid format. Please select a country from the dropdown list, then enter the rest of the number in the box without the initial zero"
+Thread#0:T:done: AddNewClientSteps.GivenICanSeeTheValidationMessageAs("Mobile number is ...") (5.0s)
+Thread#0:B:And I remove the mobile no
+Thread#0:T:done: ClientSummaryStep.GivenIRemoveTheMobileNo() (0.1s)
+Thread#0:B:And I enter the Primary Email as "Invalid"
+Thread#0:T:done: ClientSummaryStep.GivenIEnterThePrimaryEmailAs("Invalid") (0.2s)
+Thread#0:B:And I save the client
+Thread#0:T:done: AddNewClientSteps.GivenISaveTheClient() (5.1s)
+Thread#0:B:And I can see the validation message as "Please ensure the email entered is valid"
+Thread#0:T:done: AddNewClientSteps.GivenICanSeeTheValidationMessageAs("Please ensure the...") (5.0s)
+Thread#0:B:And I remove the Primary Email
+Thread#0:T:done: ClientSummaryStep.GivenIRemoveThePrimaryEmail() (0.1s)
+Thread#0:B:And I enter the Other Email as "Invalid"
+Thread#0:T:done: ClientSummaryStep.GivenIEnterTheOtherEmailAs("Invalid") (0.2s)
+Thread#0:B:When I save the client
+Thread#0:T:done: AddNewClientSteps.GivenISaveTheClient() (5.1s)
+Thread#0:B:Then I can see the validation message as "Please ensure the other email entered is valid"
+Thread#0:T:done: AddNewClientSteps.GivenICanSeeTheValidationMessageAs("Please ensure the...") (5.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #210 from normal test queue 
+Thread#0:Scheduler: considering testitem #210 for thread 0
+Thread#0:TestItem#210:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#210:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#210:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #210 for thread 0
+Thread#0:Scheduler: Test #210 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #209/0 is finished on thread #0 as Succeeded within 123.4421412 seconds
+Thread#0: Test #210/0 is started on thread #0
+Thread#0:B:Given I am logged in to Enable using automation.user and CPWSRD0@
+Thread#0:T:done: NavigationSteps.GivenIAmLoggedInToEnableUsingUsernameAndPasswordAndOnTheHomepage("automation.user", "CPWSRD0@") (18.9s)
+Thread#0:B:Given I am on Clients search page
+Thread#0:T:done: ClientSearchSteps.GivenIAmOnClientsSearchPage() (2.0s)
+Thread#0:B:And I select the "Bobson, Mr. Bob" client
+Thread#0:T:done: ClientSearchSteps.GivenISelectTheClient("Bobson, Mr. Bob") (1.0s)
+Thread#0:B:And I click on Fact Find button
+Thread#0:T:done: ClientSearchSteps.GivenIClickOnFactFindButton() (5.8s)
+Thread#0:B:And I remove the Date
+Thread#0:T:done: ClientSearchSteps.GivenIRemoveTheDate() (0.1s)
+Thread#0:B:When I update
+Thread#0:T:done: ClientSearchSteps.WhenIUpdate() (0.1s)
+Thread#0:B:Then I can see the error message as "Error The Date field is required."
+Thread#0:T:done: QuestionGroupingStep.ThenICanSeeTheErrorMessageAs("Error The Date fi...") (1.1s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #211 from normal test queue 
+Thread#0:Scheduler: considering testitem #211 for thread 0
+Thread#0:TestItem#211:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#211:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#211:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #211 for thread 0
+Thread#-1:Scheduler: Test #211 is scheduled for thread
+Thread#-1: Test #211/0 is started on thread #-1
+Thread#-1: Test #211/0 is finished on thread #-1 as Ignored within 0 seconds
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #213 from normal test queue 
+Thread#0:Scheduler: considering testitem #213 for thread 0
+Thread#0:TestItem#213:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#213:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#213:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #213 for thread 0
+Thread#0:Scheduler: Test #213 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #210/0 is finished on thread #0 as Succeeded within 39.8857618 seconds
+Thread#0: Test #213/0 is started on thread #0
+Thread#0:B:Given I am logged in to Enable using automation.user and CPWSRD0@
+Thread#0:T:done: NavigationSteps.GivenIAmLoggedInToEnableUsingUsernameAndPasswordAndOnTheHomepage("automation.user", "CPWSRD0@") (74.6s)
+Thread#0:B:Given I am on Clients search page
+Thread#0:T:done: ClientSearchSteps.GivenIAmOnClientsSearchPage() (1.5s)
+Thread#0:B:And I select the "Bobson, Mr. Bob" client
+Thread#0:T:done: ClientSearchSteps.GivenISelectTheClient("Bobson, Mr. Bob") (1.0s)
+Thread#0:B:And I click on Fact Find button
+Thread#0:T:done: ClientSearchSteps.GivenIClickOnFactFindButton() (6.6s)
+Thread#0:B:And I select the existing "Full Fact Find"
+Thread#0:T:done: ClientSearchSteps.WhenISelectTheExisting("Full Fact Find") (13.8s)
+Thread#0:B:And I click the "Assets" from left nav
+Thread#0:T:done: ClientSearchSteps.WhenIClickTheFromLeftNav("Assets") (2.6s)
+Thread#0:B:And I choose to Add New Asset from the existing assets
+Thread#0:T:done: ClientAssetsStep.GivenIChooseToAddNewAssetFromTheExistingAssets() (1.7s)
+Thread#0:B:When I select an asset
+Thread#0:T:done: ClientAssetsStep.WhenISelectAnAsset() (0.1s)
+Thread#0:B:And I save the existing asset
+Thread#0:T:done: ClientAssetsStep.WhenISaveTheExistingAsset() (0.1s)
+Thread#0:B:Then I can see "Saved Successfully saved."
+Thread#0:T:done: QuestionGroupingStep.ThenICanSee("Saved Successfull...") (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #214 from normal test queue 
+Thread#0:Scheduler: considering testitem #214 for thread 0
+Thread#0:TestItem#214:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#214:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#214:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #214 for thread 0
+Thread#0:Scheduler: Test #214 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #213/0 is finished on thread #0 as Succeeded within 115.3403264 seconds
+Thread#0: Test #214/0 is started on thread #0
+Thread#0:B:Given I am logged in to Enable using automation.user and CPWSRD0@
+Thread#0:T:done: NavigationSteps.GivenIAmLoggedInToEnableUsingUsernameAndPasswordAndOnTheHomepage("automation.user", "CPWSRD0@") (74.4s)
+Thread#0:B:Given I am on Clients search page
+Thread#0:T:done: ClientSearchSteps.GivenIAmOnClientsSearchPage() (1.4s)
+Thread#0:B:And I select the "Bobson, Mr. Bob" client
+Thread#0:T:done: ClientSearchSteps.GivenISelectTheClient("Bobson, Mr. Bob") (1.4s)
+Thread#0:B:And I click on Fact Find button
+Thread#0:T:done: ClientSearchSteps.GivenIClickOnFactFindButton() (6.1s)
+Thread#0:B:And I select the existing "Full Fact Find"
+Thread#0:T:done: ClientSearchSteps.WhenISelectTheExisting("Full Fact Find") (14.7s)
+Thread#0:B:And I click the "Assets" from left nav
+Thread#0:T:done: ClientSearchSteps.WhenIClickTheFromLeftNav("Assets") (1.7s)
+Thread#0:B:And I choose to a Add New Asset with new details
+Thread#0:T:done: ClientAssetsStep.GivenIChooseToAAddNewAssetWithNewDetails() (2.4s)
+Thread#0:B:And I enter asset details "Asset_01","Property","Residential Property - Investment Property","5000" and "20"
+Thread#0:T:done: ClientAssetsStep.GivenIEnterAssetDetailsAnd("Asset_01", "Property", "Residential Prope...", "5000", "20") (5.6s)
+Thread#0:B:When I save the asset
+Thread#0:T:done: ClientAssetsStep.WhenISaveTheAsset() (5.1s)
+Thread#0:B:Then I can see "Saved Asset has been successfully saved."
+Thread#0:T:done: QuestionGroupingStep.ThenICanSee("Saved Asset has b...") (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #215 from normal test queue 
+Thread#0:Scheduler: considering testitem #215 for thread 0
+Thread#0:TestItem#215:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#215:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#215:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #215 for thread 0
+Thread#0:Scheduler: Test #215 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #214/0 is finished on thread #0 as Succeeded within 124.9835217 seconds
+Thread#0: Test #215/0 is started on thread #0
+Thread#0:B:Given I am logged in to Enable using automation.user and CPWSRD0@
+Thread#0:T:done: NavigationSteps.GivenIAmLoggedInToEnableUsingUsernameAndPasswordAndOnTheHomepage("automation.user", "CPWSRD0@") (75.9s)
+Thread#0:B:Given I am on Clients search page
+Thread#0:T:done: ClientSearchSteps.GivenIAmOnClientsSearchPage() (1.4s)
+Thread#0:B:And I select the "Bobson, Mr. Bob" client
+Thread#0:T:done: ClientSearchSteps.GivenISelectTheClient("Bobson, Mr. Bob") (1.0s)
+Thread#0:B:And I click on Fact Find button
+Thread#0:T:done: ClientSearchSteps.GivenIClickOnFactFindButton() (5.0s)
+Thread#0:B:And I select the existing "Full Fact Find"
+Thread#0:T:done: ClientSearchSteps.WhenISelectTheExisting("Full Fact Find") (13.5s)
+Thread#0:B:And I click the "Assets" from left nav
+Thread#0:T:done: ClientSearchSteps.WhenIClickTheFromLeftNav("Assets") (1.7s)
+Thread#0:B:And I choose to a Add New Asset with new details
+Thread#0:T:done: ClientAssetsStep.GivenIChooseToAAddNewAssetWithNewDetails() (3.0s)
+Thread#0:B:And I save the asset
+Thread#0:T:done: ClientAssetsStep.WhenISaveTheAsset() (5.1s)
+Thread#0:B:And I can see the error message as "Cannot Save The Description field is required.; The Last Known Value field is required.; The GrowthRateValueAsPercentage field is required."
+Thread#0:T:done: QuestionGroupingStep.ThenICanSeeTheErrorMessageAs("Cannot Save The D...") (0.0s)
+Thread#0:B:And I enter the asset Description
+Thread#0:T:done: ClientAssetsStep.GivenIEnterTheAssetDescription() (0.1s)
+Thread#0:B:And I enter the Last Known Value as "1000"
+Thread#0:T:done: ClientAssetsStep.GivenIEnterTheLastKnownValueAs("1000") (0.1s)
+Thread#0:B:And I enter the Growth Rate Value As Percentage value as "20"
+Thread#0:T:done: ClientAssetsStep.GivenIEnterTheGrowthRateValueAsPercentageValueAs("20") (0.2s)
+Thread#0:B:And I remove the whose name
+Thread#0:T:done: ClientAssetsStep.GivenIRemoveTheWhoseName() (0.1s)
+Thread#0:B:And I save the asset
+Thread#0:T:done: ClientAssetsStep.WhenISaveTheAsset() (5.1s)
+Thread#0:B:And I can see the error message as "Cannot Save The Whose Name field is required."
+Thread#0:T:done: QuestionGroupingStep.ThenICanSeeTheErrorMessageAs("Cannot Save The W...") (0.0s)
+Thread#0:B:And I select the whose name as "Client"
+Thread#0:T:done: ClientAssetsStep.GivenISelectTheWhoseNameAs("Client") (0.0s)
+Thread#0:B:And I save the asset
+Thread#0:T:done: ClientAssetsStep.WhenISaveTheAsset() (5.1s)
+Thread#0:B:And I can see the error message as "Cannot Save The Type field is required.; The Sub Classification field is required."
+Thread#0:T:done: QuestionGroupingStep.ThenICanSeeTheErrorMessageAs("Cannot Save The T...") (0.0s)
+Thread#0:B:And I select the Type as "Property"
+Thread#0:T:done: ClientAssetsStep.GivenISelectTheTypeAs("Property") (0.1s)
+Thread#0:B:And I save the asset
+Thread#0:T:done: ClientAssetsStep.WhenISaveTheAsset() (5.1s)
+Thread#0:B:Then I can see "Saved Asset has been successfully saved."
+Thread#0:T:done: QuestionGroupingStep.ThenICanSee("Saved Asset has b...") (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #216 from normal test queue 
+Thread#0:Scheduler: considering testitem #216 for thread 0
+Thread#0:TestItem#216:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#216:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#216:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #216 for thread 0
+Thread#0:Scheduler: Test #216 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #215/0 is finished on thread #0 as Succeeded within 140.5001833 seconds
+Thread#0: Test #216/0 is started on thread #0
+Thread#0:B:Given I am logged in to Enable using automation.user and CPWSRD0@
+Thread#0:T:done: NavigationSteps.GivenIAmLoggedInToEnableUsingUsernameAndPasswordAndOnTheHomepage("automation.user", "CPWSRD0@") (13.7s)
+Thread#0:B:Given I am on Clients search page
+Thread#0:T:done: ClientSearchSteps.GivenIAmOnClientsSearchPage() (2.4s)
+Thread#0:B:And I select the "Bobson, Mr. Bob" client
+Thread#0:T:done: ClientSearchSteps.GivenISelectTheClient("Bobson, Mr. Bob") (0.9s)
+Thread#0:B:And I click on Fact Find button
+Thread#0:T:done: ClientSearchSteps.GivenIClickOnFactFindButton() (5.7s)
+Thread#0:B:And I select the existing "Full Fact Find"
+Thread#0:T:done: ClientSearchSteps.WhenISelectTheExisting("Full Fact Find") (14.1s)
+Thread#0:B:And I click the "Assets" from left nav
+Thread#0:T:done: ClientSearchSteps.WhenIClickTheFromLeftNav("Assets") (2.2s)
+Thread#0:B:And I choose to a Add New Asset with new details
+Thread#0:T:done: ClientAssetsStep.GivenIChooseToAAddNewAssetWithNewDetails() (1.6s)
+Thread#0:B:And I enter the asset Description
+Thread#0:T:done: ClientAssetsStep.GivenIEnterTheAssetDescription() (0.1s)
+Thread#0:B:And I select the Type as "Property"
+Thread#0:T:done: ClientAssetsStep.GivenISelectTheTypeAs("Property") (0.1s)
+Thread#0:B:And I enter the Last Known Value as "HUNDRED"
+Thread#0:T:done: ClientAssetsStep.GivenIEnterTheLastKnownValueAs("HUNDRED") (0.1s)
+Thread#0:B:And I save the asset
+Thread#0:T:done: ClientAssetsStep.WhenISaveTheAsset() (5.1s)
+Thread#0:B:And I can see the error message as "Cannot Save The Last Known Value field is not a valid number."
+Thread#0:T:done: QuestionGroupingStep.ThenICanSeeTheErrorMessageAs("Cannot Save The L...") (0.0s)
+Thread#0:B:And I enter the Last Known Value as "1000"
+Thread#0:T:done: ClientAssetsStep.GivenIEnterTheLastKnownValueAs("1000") (0.1s)
+Thread#0:B:And I enter the Growth Rate Value As Percentage value as "HUNDRED"
+Thread#0:T:done: ClientAssetsStep.GivenIEnterTheGrowthRateValueAsPercentageValueAs("HUNDRED") (0.2s)
+Thread#0:B:And I save the asset
+Thread#0:T:done: ClientAssetsStep.WhenISaveTheAsset() (5.1s)
+Thread#0:B:And I can see the error message as "Cannot Save The Estimated Annual Revaluation % field is not a valid number."
+Thread#0:T:done: QuestionGroupingStep.ThenICanSeeTheErrorMessageAs("Cannot Save The E...") (0.0s)
+Thread#0:B:And I enter the Growth Rate Value As Percentage value as "200"
+Thread#0:T:done: ClientAssetsStep.GivenIEnterTheGrowthRateValueAsPercentageValueAs("200") (0.1s)
+Thread#0:B:And I enter the start purchase value as "HUNDRED"
+Thread#0:T:done: ClientAssetsStep.GivenIEnterTheStartPurchaseValueAs("HUNDRED") (0.1s)
+Thread#0:B:When I save the asset
+Thread#0:T:done: ClientAssetsStep.WhenISaveTheAsset() (5.1s)
+Thread#0:B:Then I can see the error message as "Cannot Save The Start/Purchase Value field is not a valid number."
+Thread#0:T:done: QuestionGroupingStep.ThenICanSeeTheErrorMessageAs("Cannot Save The S...") (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #218 from normal test queue 
+Thread#0:Scheduler: considering testitem #218 for thread 0
+Thread#0:TestItem#218:testItemMatchesCurrentTestThread:NoMatch
+Thread#0:TestItem#218:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#218:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #218 for thread 0
+Thread#0:Scheduler: Test #218 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #216/0 is finished on thread #0 as Succeeded within 75.6608181 seconds
+Thread#0: Test #218/0 is started on thread #0
+Thread#0:B:Given I am logged in to Enable using automation.user and CPWSRD0@
+Thread#0:T:done: NavigationSteps.GivenIAmLoggedInToEnableUsingUsernameAndPasswordAndOnTheHomepage("automation.user", "CPWSRD0@") (15.2s)
+Thread#0:B:Given I am on Clients search page
+Thread#0:T:done: ClientSearchSteps.GivenIAmOnClientsSearchPage() (1.3s)
+Thread#0:B:And I select the "Bobson, Mr. Bob" client
+Thread#0:T:done: ClientSearchSteps.GivenISelectTheClient("Bobson, Mr. Bob") (0.9s)
+Thread#0:B:And I click on Fact Find button
+Thread#0:T:done: ClientSearchSteps.GivenIClickOnFactFindButton() (5.4s)
+Thread#0:B:And I select the existing "Full Fact Find"
+Thread#0:T:done: ClientSearchSteps.WhenISelectTheExisting("Full Fact Find") (15.1s)
+Thread#0:B:And I click the "Assets" from left nav
+Thread#0:T:done: ClientSearchSteps.WhenIClickTheFromLeftNav("Assets") (1.7s)
+Thread#0:B:When I choose the "yes" option
+Thread#0:T:done: ClientAssetsStep.WhenIChooseTheOption("yes") (5.1s)
+Thread#0:B:Then I see the assets listed for that client
+Thread#0:T:done: ClientAssetsStep.ThenISeeTheAssetsListedForThatClient() (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #218/0 is finished on thread #0 as Succeeded within 60.4116228 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 73
+Succeeded: 61
+Ignored: 5
+Pending: 0
+Skipped: 0
+Failed: 7

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">   
+    
+    <title>Alpha vs Coorelation / Dispersion Chart | Ralph Welborn</title>
+    <style>
+    body{
+        font-family: calibri;
+    }
+        h2{
+            text-align: center;
+        }
+
+        #chart_wrapper svg{
+            margin: 0 auto;
+            display: block;
+        }
+        #chart_wrapper{
+            min-height: 800px;
+            width: 100%;
+            position: relative;
+        }        
+
+        .description{
+            position: absolute;
+            top: 30px;
+            left: 70px;
+            width: 300px;
+        }
+
+        .place_title{
+            font-size: 20px;
+        }
+        path.link{
+            fill: none;
+        }
+
+        circle,text{
+            cursor: pointer;
+        }
+
+        circle{
+            fill-opacity:0.8;
+        }
+
+        .hide{
+            display: none;
+        }
+
+        .yoption_span, .roption_span{
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        button{
+            margin-right: 30px;
+        }
+
+        .y.axis path.domain{
+            display: none;
+        }
+        .line_path{
+            fill: none;
+            stroke-width:2px;
+        }
+
+        .bar, .circle{
+            opacity: 0.8;
+        }
+
+        .bar.active, .circle.active,.dispersion_circle.active,.correlation_circle.active{
+            opacity: 1;
+            stroke: black;
+        }
+
+        .dispersion_circle,.correlation_circle{
+            opacity: 0.3;
+        }
+
+        .tick text{
+            font-size: 13px;
+        }
+
+        .legend_wrapper text{
+            font-size: 18px;
+        }
+
+        .row{
+            display: flex;
+        }
+        #chart_wrapper{
+            width: 85%;
+        }
+        #sidebar_wrapper{
+            width:15%;
+            padding-right: 30px;
+        }
+
+        #sidebar_wrapper label{
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        select{
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .form-group{
+            margin-bottom: 15px;
+        }
+        .tag{
+            display: inline-block;
+            padding:5px;
+            background: lightgray;
+            margin: 5px;
+        }
+    </style>    
+</head>
+
+<body>
+    <h2>Portfolio View</h2>    
+    <div class="row">
+    <div id="chart_wrapper">    
+
+    </div>
+    <div id="sidebar_wrapper">
+        <div class="form-group">
+            <label>View By Percentage of:</label>
+            <input type="radio" name="viewby" checked="checked" value="Business Unit" /> Business Unit
+            <input type="radio" name="viewby" value="Department" /> Department
+            <select id="viewBySelect"></select>
+            <input type="radio" name="sizeby" value="Time" /> Time
+            <input type="radio" name="sizeby" checked="checked" value="Cost" /> Cost
+        </div>
+        <div class="form-group">
+            <label>Filters</label>
+            <select id="filterbySelect"></select>
+            <div id="filter_radio_section">
+            </div>
+        </div>
+        <div class="form-group">
+            <label>Tags</label>
+            <select id="tagsSelect"><option selected="selected" value='Capability'>Capabilities</option></select>
+            <div id="tags_section">
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    </center>
+</body>
+
+</html>

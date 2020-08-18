@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style> /* set the CSS */
+
+.bar { fill: steelblue; }
+.toolTip {
+  position: absolute;
+  display: none;
+  min-width: 80px;
+  height: auto;
+  background: none repeat scroll 0 0 #ffffff;
+  border: 1px solid #6F257F;
+  padding: 14px;
+  text-align: center;
+}
+svg{
+  overflow: visible;
+}
+rect{
+  stroke:black;
+}
+</style>
+<body>
+Select District: <select id="districtSelector"></select>
+<div id="chart"></div>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+<script src="//d3js.org/d3.v4.min.js"></script>
+<script src="//d3js.org/d3-scale-chromatic.v0.3.min.js"></script>
+<script>
+var tooltip = d3.select("body").append("div").attr("class", "toolTip");
+var selectedDistrict;
+var jsonData;
+var rectWidth = 50, rectHeight = 50;
+var padding = 10;
+
+var numberFormat = d3.format(",.0f");
+
+var color= d3.scaleSequential(d3["interpolateBlues"])
+        .domain([0, width]);
+// set the dimensions and margins of the graph
+var margin = {top: 50, right: 20, bottom: 30, left: 40},
+    width = 960 - margin.left - margin.right,
+    height = 800 - margin.top - margin.bottom;
+          
+// append the svg object to the body of the page
+// append a 'group' element to 'svg'
+// moves the 'group' element to the top left margin
+var svg = d3.select("#chart").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", 
+          "translate(" + margin.left + "," + margin.top + ")");
+
+var accountRectYScale = d3.scaleLinear().range([0,height]);
+
+var rectYScale = d3.scaleLinear().range([0, rectHeight]).domain([0,1]);
+// get the data
+d3.json("data.json", function(error, data) {
+  if (error) throw error;
+  jsonData = data;
+
+  //delete all rows which Object field is "900"
+  jsonData = jsonData.filter(function(d){return d.Object!='900'});
+
+  var expensesByName = d3.nest()
+  .key(function(d) { return d.DistNum; })
+  .entries(data);
+
+  var districts = expensesByName.map(function(d){return d.key});  
+
+  //initalize selectedDistrict as first district
+  selectedDistrict = districts[0];
+  districts.forEach(function(district){    
+    $('#districtSelector').append('<option value="'+district+'">'+district+'</option>');
+  })
+  
+  drawChart(selectedDistrict);
+});
+
+function drawChart(selectedDistrict){
+  var chartData = jsonData.filter(function(d){return d.DistNum == selectedDistrict});
+
+  //Account Block
+  var acctData = d3.nest()
+  .key(function(d) { return d.Acct; })
+  .rollup(function(v) { return d3.sum(v, function(d) { return d.Amount; }); })
+  .entries(chartData);
+  
+  acctData.sort(function(x,y){ return d3.ascending(x.key,y.key)});
+
+  var total = d3.sum(acctData.map(function(d){return d.value}));
+  acctData.forEach(function(data,i){
+    if(i==0){
+      data.per0 = 0;
+      data.per = data.value / total;
+    }else{
+      data.per0 = acctData[i-1].per;
+      data.per = data.per0 + data.value / total;
+    }
+  })
+  
+  console.log(acctData);
+
+  accountRectYScale.domain([0, 1]);
+
+  color.domain([0, d3.max(acctData.map(function(d){return d.value}))]);
+  
+  var rows = svg.selectAll('.row').data(acctData).enter().append('g').attr('class','row')
+  .attr('transform',function(d,i){return "translate("+margin.left + ',' + (accountRectYScale(d.per0) + (i-1)*padding) + ')'})
+  .attr('rect-height',(d)=>accountRectYScale(d.per-d.per0))
+  .attr('data-account',(d)=>d.key)
+  
+
+  var accounts = rows.selectAll('.account_rect')
+    .data(function(d){
+      var acctKey = d.key;
+      return acctData.filter(function(datum){return d.key==datum.key})
+    }).enter().append('rect').attr('x',0).attr('width',rectWidth).attr('y',0)
+    .attr('height',function(d){return accountRectYScale(d.per-d.per0)})
+    .attr('class','account_rect')
+    .attr('fill',(d)=>color(d.value))
+    .on("mousemove", function(d){        
+      tooltip
+        .style("left", d3.event.pageX - 50 + "px")
+        .style("top", d3.event.pageY - 70 + "px")
+        .style("display", "inline-block")
+        .html("Account:"+(d.key) + "<br>" + "Amount:" + numberFormat(d.value));
+    })
+    .on("mouseout", function(d){ tooltip.style("display", "none");}); 
+
+  // Object Block
+  var objData = d3.nest().key(function(d){return d.Acct;}).key(function(d) { return d.Object; }).rollup(function(v){return d3.sum(v,function(d){return d.Amount;})}).entries(chartData);
+  
+  objData.sort(function(x,y){ return d3.ascending(x.key,y.key)});
+
+  objData.forEach(function(obj){
+    var sum = d3.sum(obj.values.map(function(val){return val.value;}));
+    obj.values.forEach(function(val,i){      
+      if(i==0){
+        val.per0 = 0;
+        val.sum = sum;
+        val.per = val.value / sum;
+      }else{        
+        val.per0 = obj.values[i-1].per;
+        val.sum = sum;
+        val.per = val.per0 + val.value / sum;
+      }      
+      if(sum == 0){
+        val.per = 1;
+      }
+    })
+  })
+    
+  var object_g = rows.selectAll('.object_g').data(function(d){    
+    return objData.filter(function(obj){return d.key == obj.key})
+  }).enter().append('g').attr('class','object_g').attr('transform',function(d,i){
+    return 'translate(' + (rectWidth + padding) +',0)';
+  })
+
+  color.domain([0, 1]);
+
+  object_g.selectAll('.object_rect').data(function(d){return d.values}).enter().append('rect').attr('class',function(d){return 'object_rect'})
+  .attr('x',0)
+  .attr('y',function(datum){
+    var maxHeight = $(this).parents('.row').attr('rect-height');    
+    rectYScale.range([0,maxHeight]);
+    return rectYScale(datum.per0)
+  })
+  .attr('width',rectWidth)
+  .attr('height',function(datum){
+    var maxHeight = $(this).parents('.row').attr('rect-height');    
+    rectYScale.range([0,maxHeight]);
+    return rectYScale(datum.per)-rectYScale(datum.per0)}
+  ).attr('fill',function(d){return color(d.per - d.per0)})
+  .on("mousemove", function(d){            
+      tooltip
+        .style("left", d3.event.pageX - 50 + "px")
+        .style("top", d3.event.pageY - 90 + "px")
+        .style("display", "inline-block")
+        .html("Object:"+(d.key) + "<br>" + "Amount:" + numberFormat(d.value) + '<br>' + "Percent:" + ((d.per - d.per0) * 100).toFixed(2) +'%');
+    })
+    .on("mouseout", function(d){ tooltip.style("display", "none");
+  }); 
+
+  // Description Block
+  var descData = d3.nest().key(function(d){return d.Acct;}).key(function(d){return d.Object}).entries(chartData);
+  
+  descData.sort(function(x,y){
+    return d3.ascending(x.Object, y.Object);
+  })
+  
+  var descValueData = [];
+  var sum = 0;
+  descData.forEach(function(obj){      
+    var accSum = d3.sum(obj.values.map(function(v){return d3.sum(v.values.map(function(val){return val.Amount}))}));
+    obj.values.forEach(function(val,i){            
+      sum = d3.sum(val.values.map(function(v){return v.Amount}));     
+      if(i==0){
+        val.per0 = 0        
+        val.per = sum / accSum;  
+        if(accSum==0){
+          val.per = 1;
+        }
+      }else{
+        val.per0 = obj.values[i-1].per;
+        val.per = val.per0 + sum/accSum;
+      }
+      
+
+      val.values.forEach(function(v,j){
+        if(j==0){
+          v.per0 = val.per0;
+          v.sum = accSum;
+          v.per = v.per0 + v.Amount / accSum;
+        }else{        
+          v.per0 = val.values[j-1].per;
+          v.sum = accSum;
+          v.per = v.per0 + v.Amount / accSum;
+        }      
+        if(sum == 0){
+          v.per = 1;
+        }
+      })      
+    })
+  })
+    
+  descData.forEach((data)=>{
+    var tmp = new Object;
+    tmp['key'] = data.key;  
+    tmp['values'] = [];
+    data.values.forEach(function(val){
+      val.values.forEach(function(v){        
+        tmp['values'].push(v);
+      })
+    })
+    descValueData.push(tmp);
+  })
+  
+  var desc_g = rows.selectAll('.desc_g').data(function(d){    
+    return descValueData.filter(function(val){
+      return d.key==val.key      
+    })
+  }).enter().append('g').attr('class','desc_g').attr('transform',function(d,i){
+    return 'translate(' + 2*(rectWidth + padding) +',' + i*(rectHeight+padding) +')';
+  });
+
+  color.domain([0, 1]);
+
+  desc_g.selectAll('.desc_rect').data(function(d){return d.values}).enter().append('rect').attr('class',function(d){return 'desc_rect'})
+  .attr('x',0).attr('y',function(datum){
+    var maxHeight = $(this).parents('.row').attr('rect-height');    
+    rectYScale.range([0,maxHeight]);  
+    return rectYScale(datum.per0)
+  })
+  .attr('width',rectWidth).attr('height',function(datum){
+      var maxHeight = $(this).parents('.row').attr('rect-height');    
+      rectYScale.range([0,maxHeight]);    
+    return rectYScale(datum.per)-rectYScale(datum.per0)}
+    ).attr('fill',function(d){return color(d.per - d.per0)})
+  .on("mousemove", function(d){            
+      tooltip
+        .style("left", d3.event.pageX - 50 + "px")
+        .style("top", d3.event.pageY - 90 + "px")
+        .style("display", "inline-block")
+        .html("Desc:"+(d.Desc) + "<br>" + "Amount:" + numberFormat(d.Amount) + '<br>' + "Percent:" + ((d.per - d.per0) * 100).toFixed(2) +'%');
+    })
+    .on("mouseout", function(d){ tooltip.style("display", "none");
+  }); 
+}
+
+$('#districtSelector').change(function(){
+  selectedDistrict = this.value;
+  svg.selectAll('*').remove();
+  drawChart(selectedDistrict);  
+})
+</script>
+</body>

@@ -1,0 +1,17 @@
+svg text{
+	pointer-events: none;
+}
+
+div.tooltip {   
+    position: absolute;                     
+    text-align: left;
+    width: 100px;
+    height: 70px;
+    padding: 10px;            
+    font: 12px sans-serif;      
+    background: black; 
+    border: 0px;        
+    border-radius: 8px;         
+    pointer-events: none;    
+    color: white;       
+}

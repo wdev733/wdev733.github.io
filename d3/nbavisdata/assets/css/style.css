@@ -1,0 +1,141 @@
+h2 {
+    color: black;
+    text-align: left;
+}
+
+body {
+    background: #f4f6f9;
+    font-family: "Exo 2", "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;    
+}
+
+select{
+    width: 150px;
+    padding: 8px;
+    display: block;
+    margin: 10px 0px;
+}
+
+#player_selector{
+    position: relative;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+select#one{
+    position: absolute;
+    top: 100px;
+}
+
+select#two{
+    position: absolute;
+    top: 150px;
+}
+#header{
+    width: 100%;
+    height: 80px;    
+    background: white;
+    margin-bottom: 40px;    
+    border-bottom: 1px solid #d1d1d1;   
+}            
+
+#header img{
+    width:300px;        
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+img{
+    max-width: 100%;
+}
+div.tooltip {
+    position: absolute;
+    text-align: center;
+    width: 200px;    
+    padding: 15px;
+    font: 12px sans-serif;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+    background:rgba(0,0,0,0.9) !important;
+}
+#radarChart {
+    width: 430px;
+    margin-right: 20px;
+}
+
+#chartContainer{
+        width: 900px;
+        height: 560px;     
+        margin-left: 30px;
+        margin-right: 20px;   
+}
+#radarChart .widget_title{
+    padding-left: 30px;
+    position: absolute;
+}
+
+#radarChart.widget{
+    padding: 0;    
+}
+
+#linechartContainer svg{
+    margin-top: 70px;
+    margin-left: 26px;
+    margin-right: 26px;
+}
+#radarChart,#player_selector,#gaugeContainer{
+    height: 440px;
+    margin-bottom: 30px;
+}
+
+#linechartContainer,#chartContainer{
+    height: 560px;
+}
+.widget{
+    background: white;
+    border:1px solid #d1d1d1;
+    padding: 0px 30px 30px;    
+    display: inline-block;
+    float: left;
+}
+
+.widget_title{
+    margin-bottom: 20px;
+}
+/*img {
+    position: absolute;
+    top: 0px;
+    right: -50;
+}*/
+
+.label{
+	font-size:12.5px;
+	fill:#ffffff;
+	text-anchor:middle;
+	alignment-baseline:middle;
+}
+.face{
+	stroke:#c8c8c8;
+	stroke-width:2;
+}
+.minorTicks{
+	stroke-width:2;
+	stroke:white;
+}
+.majorTicks{
+	stroke:white;
+	stroke-width:3;
+}
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Point on a map D3</title>
+
+
+<style type="text/css">
+  .node{
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+  }
+</style>
+</head>
+<body>
+  <ul>
+    <li onclick="changeColor('red')">Red</li>
+    <li onclick="changeColor('green')">Green</li>
+    <li onclick="changeColor('blue')">Blue</li>        
+  </ul>
+  <button onclick="addNode()">Add Node</button>  
+  <div id="nodes_wrapper"></div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script type="text/javascript">
+  var i=0;
+  function addNode(){
+    i++;
+    var html = '<div class="node"><textarea id="text_'+i+'"></textarea><button onclick="edit('+i+')">Edit</button><button onclick="delete()">delete</button></div>';
+    $('#nodes_wrapper').append(html);
+  }
+
+  function edit(){
+    $("")
+  }
+
+</script>
+    
+</body>
+</html>

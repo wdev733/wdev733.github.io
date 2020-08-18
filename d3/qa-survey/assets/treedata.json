@@ -1,0 +1,2083 @@
+{
+	"children" : [
+		{
+			"colorCode" : "Exploration Actions",
+			"children" : [
+				{
+					"colorCode" : "Exploration Actions",
+					"children" : [
+						{
+							"colorCode" : "Exploration Actions",
+							"name" : [
+								"Query",
+								"Query",
+								"Query"
+							],
+							"key" : "Query-Query-Query",
+							"size" : 19
+						},
+						{
+							"colorCode" : "Exploration Actions",
+							"name" : [
+								"Query",
+								"Query",
+								"Undo"
+							],
+							"key" : "Query-Query-Undo",
+							"size" : 3
+						},
+						{
+							"colorCode" : "Exploration Actions",
+							"name" : [
+								"Query",
+								"Query",
+								"Calculate"
+							],
+							"key" : "Query-Query-Calculate",
+							"size" : 3
+						},
+						{
+							"colorCode" : "Exploration Actions",
+							"name" : [
+								"Query",
+								"Query",
+								"Connect"
+							],
+							"key" : "Query-Query-Connect",
+							"size" : 1
+						},
+						{
+							"colorCode" : "Exploration Actions",
+							"name" : [
+								"Query",
+								"Query",
+								"Bookmark"
+							],
+							"key" : "Query-Query-Bookmark",
+							"size" : 1
+						},
+						{
+							"colorCode" : "Exploration Actions",
+							"name" : [
+								"Query",
+								"Query",
+								"Remove"
+							],
+							"key" : "Query-Query-Remove",
+							"size" : 1
+						},
+						{
+							"colorCode" : "Exploration Actions",
+							"name" : [
+								"Query",
+								"Query",
+								"hide"
+							],
+							"key" : "Query-Query-hide",
+							"size" : 1
+						},
+						{
+							"colorCode" : "Exploration Actions",
+							"name" : [
+								"Query",
+								"Query",
+								"Annotate"
+							],
+							"key" : "Query-Query-Annotate",
+							"size" : 1
+						}
+					],
+					"name" : [
+						"Query",
+						"Query"
+					],
+					"key" : "Query-Query",
+					"size" : 30
+				},
+				{
+					"colorCode" : "Exploration Actions",
+					"children" : [
+						{
+							"colorCode" : "Exploration Actions",
+							"name" : [
+								"Query",
+								"Calculate",
+								"Query"
+							],
+							"key" : "Query-Calculate-Query",
+							"size" : 4
+						},
+						{
+							"colorCode" : "Exploration Actions",
+							"name" : [
+								"Query",
+								"Calculate",
+								"Change-Metaphor"
+							],
+							"key" : "Query-Calculate-Change-Metaphor",
+							"size" : 1
+						}
+					],
+					"name" : [
+						"Query",
+						"Calculate"
+					],
+					"key" : "Query-Calculate",
+					"size" : 5
+				},
+				{
+					"colorCode" : "Exploration Actions",
+					"children" : [
+						{
+							"colorCode" : "Exploration Actions",
+							"name" : [
+								"Query",
+								"Undo",
+								"Undo"
+							],
+							"key" : "Query-Undo-Undo",
+							"size" : 2
+						},
+						{
+							"colorCode" : "Exploration Actions",
+							"name" : [
+								"Query",
+								"Undo",
+								"New"
+							],
+							"key" : "Query-Undo-New",
+							"size" : 1
+						},
+						{
+							"colorCode" : "Exploration Actions",
+							"name" : [
+								"Query",
+								"Undo",
+								"Calculate"
+							],
+							"key" : "Query-Undo-Calculate",
+							"size" : 1
+						}
+					],
+					"name" : [
+						"Query",
+						"Undo"
+					],
+					"key" : "Query-Undo",
+					"size" : 4
+				},
+				{
+					"colorCode" : "Exploration Actions",
+					"children" : [
+						{
+							"colorCode" : "Exploration Actions",
+							"name" : [
+								"Query",
+								"Show",
+								"Query"
+							],
+							"key" : "Query-Show-Query",
+							"size" : 1
+						},
+						{
+							"colorCode" : "Exploration Actions",
+							"name" : [
+								"Query",
+								"Show",
+								"Edit"
+							],
+							"key" : "Query-Show-Edit",
+							"size" : 1
+						}
+					],
+					"name" : [
+						"Query",
+						"Show"
+					],
+					"key" : "Query-Show",
+					"size" : 2
+				},
+				{
+					"colorCode" : "Exploration Actions",
+					"children" : [
+						{
+							"colorCode" : "Exploration Actions",
+							"name" : [
+								"Query",
+								"Filter",
+								"Filter"
+							],
+							"key" : "Query-Filter-Filter",
+							"size" : 2
+						}
+					],
+					"name" : [
+						"Query",
+						"Filter"
+					],
+					"key" : "Query-Filter",
+					"size" : 2
+				},
+				{
+					"colorCode" : "Exploration Actions",
+					"children" : [
+						{
+							"colorCode" : "Exploration Actions",
+							"name" : [
+								"Query",
+								"View",
+								"View"
+							],
+							"key" : "Query-View-View",
+							"size" : 1
+						},
+						{
+							"colorCode" : "Exploration Actions",
+							"name" : [
+								"Query",
+								"View",
+								"Filter"
+							],
+							"key" : "Query-View-Filter",
+							"size" : 1
+						}
+					],
+					"name" : [
+						"Query",
+						"View"
+					],
+					"key" : "Query-View",
+					"size" : 2
+				},
+				{
+					"colorCode" : "Exploration Actions",
+					"children" : [
+						{
+							"colorCode" : "Exploration Actions",
+							"name" : [
+								"Query",
+								"New",
+								"Query"
+							],
+							"key" : "Query-New-Query",
+							"size" : 2
+						}
+					],
+					"name" : [
+						"Query",
+						"New"
+					],
+					"key" : "Query-New",
+					"size" : 2
+				},
+				{
+					"colorCode" : "Exploration Actions",
+					"children" : [
+						{
+							"colorCode" : "Exploration Actions",
+							"name" : [
+								"Query",
+								"Bookmark",
+								"Query"
+							],
+							"key" : "Query-Bookmark-Query",
+							"size" : 1
+						},
+						{
+							"colorCode" : "Exploration Actions",
+							"name" : [
+								"Query",
+								"Bookmark",
+								"Edit"
+							],
+							"key" : "Query-Bookmark-Edit",
+							"size" : 1
+						}
+					],
+					"name" : [
+						"Query",
+						"Bookmark"
+					],
+					"key" : "Query-Bookmark",
+					"size" : 2
+				},
+				{
+					"colorCode" : "Exploration Actions",
+					"children" : [
+						{
+							"colorCode" : "Exploration Actions",
+							"name" : [
+								"Query",
+								"Remove",
+								"Query"
+							],
+							"key" : "Query-Remove-Query",
+							"size" : 1
+						},
+						{
+							"colorCode" : "Exploration Actions",
+							"name" : [
+								"Query",
+								"Remove",
+								"Calculate"
+							],
+							"key" : "Query-Remove-Calculate",
+							"size" : 1
+						}
+					],
+					"name" : [
+						"Query",
+						"Remove"
+					],
+					"key" : "Query-Remove",
+					"size" : 2
+				},
+				{
+					"colorCode" : "Exploration Actions",
+					"children" : [
+						{
+							"colorCode" : "Exploration Actions",
+							"name" : [
+								"Query",
+								"Move",
+								"Modify"
+							],
+							"key" : "Query-Move-Modify",
+							"size" : 1
+						}
+					],
+					"name" : [
+						"Query",
+						"Move"
+					],
+					"key" : "Query-Move",
+					"size" : 1
+				},
+				{
+					"colorCode" : "Exploration Actions",
+					"children" : [
+						{
+							"colorCode" : "Exploration Actions",
+							"name" : [
+								"Query",
+								"Connect",
+								"Connect"
+							],
+							"key" : "Query-Connect-Connect",
+							"size" : 1
+						}
+					],
+					"name" : [
+						"Query",
+						"Connect"
+					],
+					"key" : "Query-Connect",
+					"size" : 1
+				},
+				{
+					"colorCode" : "Exploration Actions",
+					"children" : [
+						{
+							"colorCode" : "Exploration Actions",
+							"name" : [
+								"Query",
+								"hide",
+								"Query"
+							],
+							"key" : "Query-hide-Query",
+							"size" : 1
+						}
+					],
+					"name" : [
+						"Query",
+						"hide"
+					],
+					"key" : "Query-hide",
+					"size" : 1
+				},
+				{
+					"colorCode" : "Exploration Actions",
+					"children" : [
+						{
+							"colorCode" : "Exploration Actions",
+							"name" : [
+								"Query",
+								"Annotate",
+								"Annotate"
+							],
+							"key" : "Query-Annotate-Annotate",
+							"size" : 1
+						}
+					],
+					"name" : [
+						"Query",
+						"Annotate"
+					],
+					"key" : "Query-Annotate",
+					"size" : 1
+				}
+			],
+			"name" : [
+				"Query"
+			],
+			"key" : "Query",
+			"size" : 55
+		},
+		{
+			"colorCode" : "Exploration Actions",
+			"children" : [
+				{
+					"colorCode" : "Exploration Actions",
+					"children" : [
+						{
+							"colorCode" : "Exploration Actions",
+							"name" : [
+								"Filter",
+								"Filter",
+								"Filter"
+							],
+							"key" : "Filter-Filter-Filter",
+							"size" : 28
+						},
+						{
+							"colorCode" : "Exploration Actions",
+							"name" : [
+								"Filter",
+								"Filter",
+								"Save"
+							],
+							"key" : "Filter-Filter-Save",
+							"size" : 1
+						},
+						{
+							"colorCode" : "Exploration Actions",
+							"name" : [
+								"Filter",
+								"Filter",
+								"Undo"
+							],
+							"key" : "Filter-Filter-Undo",
+							"size" : 1
+						},
+						{
+							"colorCode" : "Exploration Actions",
+							"name" : [
+								"Filter",
+								"Filter",
+								"New"
+							],
+							"key" : "Filter-Filter-New",
+							"size" : 1
+						},
+						{
+							"colorCode" : "Exploration Actions",
+							"name" : [
+								"Filter",
+								"Filter",
+								"hide"
+							],
+							"key" : "Filter-Filter-hide",
+							"size" : 1
+						}
+					],
+					"name" : [
+						"Filter",
+						"Filter"
+					],
+					"key" : "Filter-Filter",
+					"size" : 32
+				},
+				{
+					"colorCode" : "Exploration Actions",
+					"children" : [
+						{
+							"colorCode" : "Exploration Actions",
+							"name" : [
+								"Filter",
+								"Save",
+								"Query"
+							],
+							"key" : "Filter-Save-Query",
+							"size" : 1
+						}
+					],
+					"name" : [
+						"Filter",
+						"Save"
+					],
+					"key" : "Filter-Save",
+					"size" : 1
+				},
+				{
+					"colorCode" : "Exploration Actions",
+					"children" : [
+						{
+							"colorCode" : "Exploration Actions",
+							"name" : [
+								"Filter",
+								"Undo",
+								"Undo"
+							],
+							"key" : "Filter-Undo-Undo",
+							"size" : 1
+						}
+					],
+					"name" : [
+						"Filter",
+						"Undo"
+					],
+					"key" : "Filter-Undo",
+					"size" : 1
+				},
+				{
+					"colorCode" : "Exploration Actions",
+					"children" : [
+						{
+							"colorCode" : "Exploration Actions",
+							"name" : [
+								"Filter",
+								"hide",
+								"Remove"
+							],
+							"key" : "Filter-hide-Remove",
+							"size" : 1
+						}
+					],
+					"name" : [
+						"Filter",
+						"hide"
+					],
+					"key" : "Filter-hide",
+					"size" : 1
+				},
+				{
+					"colorCode" : "Exploration Actions",
+					"children" : [
+						{
+							"colorCode" : "Exploration Actions",
+							"name" : [
+								"Filter",
+								"New",
+								"Query"
+							],
+							"key" : "Filter-New-Query",
+							"size" : 1
+						}
+					],
+					"name" : [
+						"Filter",
+						"New"
+					],
+					"key" : "Filter-New",
+					"size" : 1
+				}
+			],
+			"name" : [
+				"Filter"
+			],
+			"key" : "Filter",
+			"size" : 36
+		},
+		{
+			"colorCode" : "Insight Actions",
+			"children" : [
+				{
+					"colorCode" : "Insight Actions",
+					"children" : [
+						{
+							"colorCode" : "Insight Actions",
+							"name" : [
+								"Annotate",
+								"Annotate",
+								"Annotate"
+							],
+							"key" : "Annotate-Annotate-Annotate",
+							"size" : 15
+						},
+						{
+							"colorCode" : "Insight Actions",
+							"name" : [
+								"Annotate",
+								"Annotate",
+								"Resize"
+							],
+							"key" : "Annotate-Annotate-Resize",
+							"size" : 3
+						},
+						{
+							"colorCode" : "Insight Actions",
+							"name" : [
+								"Annotate",
+								"Annotate",
+								"Bookmark"
+							],
+							"key" : "Annotate-Annotate-Bookmark",
+							"size" : 1
+						},
+						{
+							"colorCode" : "Insight Actions",
+							"name" : [
+								"Annotate",
+								"Annotate",
+								"Move"
+							],
+							"key" : "Annotate-Annotate-Move",
+							"size" : 1
+						}
+					],
+					"name" : [
+						"Annotate",
+						"Annotate"
+					],
+					"key" : "Annotate-Annotate",
+					"size" : 20
+				},
+				{
+					"colorCode" : "Insight Actions",
+					"children" : [
+						{
+							"colorCode" : "Insight Actions",
+							"name" : [
+								"Annotate",
+								"Resize",
+								"Resize"
+							],
+							"key" : "Annotate-Resize-Resize",
+							"size" : 1
+						},
+						{
+							"colorCode" : "Insight Actions",
+							"name" : [
+								"Annotate",
+								"Resize",
+								"Undo"
+							],
+							"key" : "Annotate-Resize-Undo",
+							"size" : 1
+						},
+						{
+							"colorCode" : "Insight Actions",
+							"name" : [
+								"Annotate",
+								"Resize",
+								"Move"
+							],
+							"key" : "Annotate-Resize-Move",
+							"size" : 1
+						}
+					],
+					"name" : [
+						"Annotate",
+						"Resize"
+					],
+					"key" : "Annotate-Resize",
+					"size" : 3
+				},
+				{
+					"colorCode" : "Insight Actions",
+					"children" : [
+						{
+							"colorCode" : "Insight Actions",
+							"name" : [
+								"Annotate",
+								"Move",
+								"Annotate"
+							],
+							"key" : "Annotate-Move-Annotate",
+							"size" : 1
+						},
+						{
+							"colorCode" : "Insight Actions",
+							"name" : [
+								"Annotate",
+								"Move",
+								"Move"
+							],
+							"key" : "Annotate-Move-Move",
+							"size" : 1
+						}
+					],
+					"name" : [
+						"Annotate",
+						"Move"
+					],
+					"key" : "Annotate-Move",
+					"size" : 2
+				},
+				{
+					"colorCode" : "Insight Actions",
+					"children" : [
+						{
+							"colorCode" : "Insight Actions",
+							"name" : [
+								"Annotate",
+								"Bookmark",
+								"Save"
+							],
+							"key" : "Annotate-Bookmark-Save",
+							"size" : 1
+						},
+						{
+							"colorCode" : "Insight Actions",
+							"name" : [
+								"Annotate",
+								"Bookmark",
+								"New"
+							],
+							"key" : "Annotate-Bookmark-New",
+							"size" : 1
+						}
+					],
+					"name" : [
+						"Annotate",
+						"Bookmark"
+					],
+					"key" : "Annotate-Bookmark",
+					"size" : 2
+				}
+			],
+			"name" : [
+				"Annotate"
+			],
+			"key" : "Annotate",
+			"size" : 27
+		},
+		{
+			"colorCode" : "Meta Actions",
+			"children" : [
+				{
+					"colorCode" : "Meta Actions",
+					"children" : [
+						{
+							"colorCode" : "Meta Actions",
+							"name" : [
+								"Undo",
+								"Undo",
+								"Undo"
+							],
+							"key" : "Undo-Undo-Undo",
+							"size" : 3
+						},
+						{
+							"colorCode" : "Meta Actions",
+							"name" : [
+								"Undo",
+								"Undo",
+								"Query"
+							],
+							"key" : "Undo-Undo-Query",
+							"size" : 2
+						},
+						{
+							"colorCode" : "Meta Actions",
+							"name" : [
+								"Undo",
+								"Undo",
+								"Save"
+							],
+							"key" : "Undo-Undo-Save",
+							"size" : 1
+						}
+					],
+					"name" : [
+						"Undo",
+						"Undo"
+					],
+					"key" : "Undo-Undo",
+					"size" : 6
+				},
+				{
+					"colorCode" : "Meta Actions",
+					"children" : [
+						{
+							"colorCode" : "Meta Actions",
+							"name" : [
+								"Undo",
+								"Annotate",
+								"Annotate"
+							],
+							"key" : "Undo-Annotate-Annotate",
+							"size" : 2
+						}
+					],
+					"name" : [
+						"Undo",
+						"Annotate"
+					],
+					"key" : "Undo-Annotate",
+					"size" : 2
+				},
+				{
+					"colorCode" : "Meta Actions",
+					"children" : [
+						{
+							"colorCode" : "Meta Actions",
+							"name" : [
+								"Undo",
+								"Query",
+								"Query"
+							],
+							"key" : "Undo-Query-Query",
+							"size" : 1
+						},
+						{
+							"colorCode" : "Meta Actions",
+							"name" : [
+								"Undo",
+								"Query",
+								"View"
+							],
+							"key" : "Undo-Query-View",
+							"size" : 1
+						}
+					],
+					"name" : [
+						"Undo",
+						"Query"
+					],
+					"key" : "Undo-Query",
+					"size" : 2
+				},
+				{
+					"colorCode" : "Meta Actions",
+					"children" : [
+						{
+							"colorCode" : "Meta Actions",
+							"name" : [
+								"Undo",
+								"New",
+								"Query"
+							],
+							"key" : "Undo-New-Query",
+							"size" : 1
+						}
+					],
+					"name" : [
+						"Undo",
+						"New"
+					],
+					"key" : "Undo-New",
+					"size" : 1
+				},
+				{
+					"colorCode" : "Meta Actions",
+					"children" : [
+						{
+							"colorCode" : "Meta Actions",
+							"name" : [
+								"Undo",
+								"Calculate",
+								"Query"
+							],
+							"key" : "Undo-Calculate-Query",
+							"size" : 1
+						}
+					],
+					"name" : [
+						"Undo",
+						"Calculate"
+					],
+					"key" : "Undo-Calculate",
+					"size" : 1
+				},
+				{
+					"colorCode" : "Meta Actions",
+					"name" : [
+						"Undo",
+						"Save"
+					],
+					"key" : "Undo-Save",
+					"size" : 1
+				}
+			],
+			"name" : [
+				"Undo"
+			],
+			"key" : "Undo",
+			"size" : 13
+		},
+		{
+			"colorCode" : "App Actions",
+			"children" : [
+				{
+					"colorCode" : "App Actions",
+					"children" : [
+						{
+							"colorCode" : "App Actions",
+							"name" : [
+								"Move",
+								"Move",
+								"Move"
+							],
+							"key" : "Move-Move-Move",
+							"size" : 2
+						},
+						{
+							"colorCode" : "App Actions",
+							"name" : [
+								"Move",
+								"Move",
+								"Restore"
+							],
+							"key" : "Move-Move-Restore",
+							"size" : 1
+						},
+						{
+							"colorCode" : "App Actions",
+							"name" : [
+								"Move",
+								"Move",
+								"Resize"
+							],
+							"key" : "Move-Move-Resize",
+							"size" : 1
+						}
+					],
+					"name" : [
+						"Move",
+						"Move"
+					],
+					"key" : "Move-Move",
+					"size" : 4
+				},
+				{
+					"colorCode" : "App Actions",
+					"children" : [
+						{
+							"colorCode" : "App Actions",
+							"name" : [
+								"Move",
+								"Annotate",
+								"Bookmark"
+							],
+							"key" : "Move-Annotate-Bookmark",
+							"size" : 1
+						},
+						{
+							"colorCode" : "App Actions",
+							"name" : [
+								"Move",
+								"Annotate",
+								"Move"
+							],
+							"key" : "Move-Annotate-Move",
+							"size" : 1
+						}
+					],
+					"name" : [
+						"Move",
+						"Annotate"
+					],
+					"key" : "Move-Annotate",
+					"size" : 2
+				},
+				{
+					"colorCode" : "App Actions",
+					"children" : [
+						{
+							"colorCode" : "App Actions",
+							"name" : [
+								"Move",
+								"Resize",
+								"Resize"
+							],
+							"key" : "Move-Resize-Resize",
+							"size" : 1
+						}
+					],
+					"name" : [
+						"Move",
+						"Resize"
+					],
+					"key" : "Move-Resize",
+					"size" : 1
+				},
+				{
+					"colorCode" : "App Actions",
+					"children" : [
+						{
+							"colorCode" : "App Actions",
+							"name" : [
+								"Move",
+								"Restore",
+								"Bookmark"
+							],
+							"key" : "Move-Restore-Bookmark",
+							"size" : 1
+						}
+					],
+					"name" : [
+						"Move",
+						"Restore"
+					],
+					"key" : "Move-Restore",
+					"size" : 1
+				},
+				{
+					"colorCode" : "App Actions",
+					"children" : [
+						{
+							"colorCode" : "App Actions",
+							"name" : [
+								"Move",
+								"Modify",
+								"Modify"
+							],
+							"key" : "Move-Modify-Modify",
+							"size" : 1
+						}
+					],
+					"name" : [
+						"Move",
+						"Modify"
+					],
+					"key" : "Move-Modify",
+					"size" : 1
+				}
+			],
+			"name" : [
+				"Move"
+			],
+			"key" : "Move",
+			"size" : 9
+		},
+		{
+			"colorCode" : "App Actions",
+			"children" : [
+				{
+					"colorCode" : "App Actions",
+					"children" : [
+						{
+							"colorCode" : "App Actions",
+							"name" : [
+								"Resize",
+								"Resize",
+								"Annotate"
+							],
+							"key" : "Resize-Resize-Annotate",
+							"size" : 2
+						},
+						{
+							"colorCode" : "App Actions",
+							"name" : [
+								"Resize",
+								"Resize",
+								"Resize"
+							],
+							"key" : "Resize-Resize-Resize",
+							"size" : 2
+						}
+					],
+					"name" : [
+						"Resize",
+						"Resize"
+					],
+					"key" : "Resize-Resize",
+					"size" : 4
+				},
+				{
+					"colorCode" : "App Actions",
+					"children" : [
+						{
+							"colorCode" : "App Actions",
+							"name" : [
+								"Resize",
+								"Annotate",
+								"Annotate"
+							],
+							"key" : "Resize-Annotate-Annotate",
+							"size" : 2
+						}
+					],
+					"name" : [
+						"Resize",
+						"Annotate"
+					],
+					"key" : "Resize-Annotate",
+					"size" : 2
+				},
+				{
+					"colorCode" : "App Actions",
+					"children" : [
+						{
+							"colorCode" : "App Actions",
+							"name" : [
+								"Resize",
+								"Undo",
+								"Annotate"
+							],
+							"key" : "Resize-Undo-Annotate",
+							"size" : 1
+						}
+					],
+					"name" : [
+						"Resize",
+						"Undo"
+					],
+					"key" : "Resize-Undo",
+					"size" : 1
+				},
+				{
+					"colorCode" : "App Actions",
+					"children" : [
+						{
+							"colorCode" : "App Actions",
+							"name" : [
+								"Resize",
+								"Move",
+								"Annotate"
+							],
+							"key" : "Resize-Move-Annotate",
+							"size" : 1
+						}
+					],
+					"name" : [
+						"Resize",
+						"Move"
+					],
+					"key" : "Resize-Move",
+					"size" : 1
+				}
+			],
+			"name" : [
+				"Resize"
+			],
+			"key" : "Resize",
+			"size" : 8
+		},
+		{
+			"colorCode" : "Insight Actions",
+			"children" : [
+				{
+					"colorCode" : "Insight Actions",
+					"children" : [
+						{
+							"colorCode" : "Insight Actions",
+							"name" : [
+								"Bookmark",
+								"Query",
+								"Move"
+							],
+							"key" : "Bookmark-Query-Move",
+							"size" : 1
+						},
+						{
+							"colorCode" : "Insight Actions",
+							"name" : [
+								"Bookmark",
+								"Query",
+								"Filter"
+							],
+							"key" : "Bookmark-Query-Filter",
+							"size" : 1
+						}
+					],
+					"name" : [
+						"Bookmark",
+						"Query"
+					],
+					"key" : "Bookmark-Query",
+					"size" : 2
+				},
+				{
+					"colorCode" : "Insight Actions",
+					"children" : [
+						{
+							"colorCode" : "Insight Actions",
+							"name" : [
+								"Bookmark",
+								"Bookmark",
+								"Bookmark"
+							],
+							"key" : "Bookmark-Bookmark-Bookmark",
+							"size" : 1
+						},
+						{
+							"colorCode" : "Insight Actions",
+							"name" : [
+								"Bookmark",
+								"Bookmark",
+								"Query"
+							],
+							"key" : "Bookmark-Bookmark-Query",
+							"size" : 1
+						}
+					],
+					"name" : [
+						"Bookmark",
+						"Bookmark"
+					],
+					"key" : "Bookmark-Bookmark",
+					"size" : 2
+				},
+				{
+					"colorCode" : "Insight Actions",
+					"children" : [
+						{
+							"colorCode" : "Insight Actions",
+							"name" : [
+								"Bookmark",
+								"Edit",
+								"Query"
+							],
+							"key" : "Bookmark-Edit-Query",
+							"size" : 1
+						}
+					],
+					"name" : [
+						"Bookmark",
+						"Edit"
+					],
+					"key" : "Bookmark-Edit",
+					"size" : 1
+				},
+				{
+					"colorCode" : "Insight Actions",
+					"children" : [
+						{
+							"colorCode" : "Insight Actions",
+							"name" : [
+								"Bookmark",
+								"New",
+								"Query"
+							],
+							"key" : "Bookmark-New-Query",
+							"size" : 1
+						}
+					],
+					"name" : [
+						"Bookmark",
+						"New"
+					],
+					"key" : "Bookmark-New",
+					"size" : 1
+				},
+				{
+					"colorCode" : "Insight Actions",
+					"children" : [
+						{
+							"colorCode" : "Insight Actions",
+							"name" : [
+								"Bookmark",
+								"Save",
+								"New"
+							],
+							"key" : "Bookmark-Save-New",
+							"size" : 1
+						}
+					],
+					"name" : [
+						"Bookmark",
+						"Save"
+					],
+					"key" : "Bookmark-Save",
+					"size" : 1
+				}
+			],
+			"name" : [
+				"Bookmark"
+			],
+			"key" : "Bookmark",
+			"size" : 7
+		},
+		{
+			"colorCode" : "Exploration Actions",
+			"children" : [
+				{
+					"colorCode" : "Exploration Actions",
+					"children" : [
+						{
+							"colorCode" : "Exploration Actions",
+							"name" : [
+								"Calculate",
+								"Query",
+								"Query"
+							],
+							"key" : "Calculate-Query-Query",
+							"size" : 3
+						},
+						{
+							"colorCode" : "Exploration Actions",
+							"name" : [
+								"Calculate",
+								"Query",
+								"Show"
+							],
+							"key" : "Calculate-Query-Show",
+							"size" : 1
+						},
+						{
+							"colorCode" : "Exploration Actions",
+							"name" : [
+								"Calculate",
+								"Query",
+								"Undo"
+							],
+							"key" : "Calculate-Query-Undo",
+							"size" : 1
+						},
+						{
+							"colorCode" : "Exploration Actions",
+							"name" : [
+								"Calculate",
+								"Query",
+								"Remove"
+							],
+							"key" : "Calculate-Query-Remove",
+							"size" : 1
+						}
+					],
+					"name" : [
+						"Calculate",
+						"Query"
+					],
+					"key" : "Calculate-Query",
+					"size" : 6
+				},
+				{
+					"colorCode" : "Exploration Actions",
+					"children" : [
+						{
+							"colorCode" : "Exploration Actions",
+							"name" : [
+								"Calculate",
+								"Change-Metaphor",
+								"Undo"
+							],
+							"key" : "Calculate-Change-Metaphor-Undo",
+							"size" : 1
+						}
+					],
+					"name" : [
+						"Calculate",
+						"Change-Metaphor"
+					],
+					"key" : "Calculate-Change-Metaphor",
+					"size" : 1
+				}
+			],
+			"name" : [
+				"Calculate"
+			],
+			"key" : "Calculate",
+			"size" : 7
+		},
+		{
+			"colorCode" : "Task Actions",
+			"children" : [
+				{
+					"colorCode" : "Task Actions",
+					"children" : [
+						{
+							"colorCode" : "Task Actions",
+							"name" : [
+								"New",
+								"Query",
+								"Query"
+							],
+							"key" : "New-Query-Query",
+							"size" : 4
+						},
+						{
+							"colorCode" : "Task Actions",
+							"name" : [
+								"New",
+								"Query",
+								"Calculate"
+							],
+							"key" : "New-Query-Calculate",
+							"size" : 1
+						},
+						{
+							"colorCode" : "Task Actions",
+							"name" : [
+								"New",
+								"Query",
+								"Show"
+							],
+							"key" : "New-Query-Show",
+							"size" : 1
+						},
+						{
+							"colorCode" : "Task Actions",
+							"name" : [
+								"New",
+								"Query",
+								"Bookmark"
+							],
+							"key" : "New-Query-Bookmark",
+							"size" : 1
+						}
+					],
+					"name" : [
+						"New",
+						"Query"
+					],
+					"key" : "New-Query",
+					"size" : 7
+				}
+			],
+			"name" : [
+				"New"
+			],
+			"key" : "New",
+			"size" : 7
+		},
+		{
+			"colorCode" : "App Actions",
+			"children" : [
+				{
+					"colorCode" : "App Actions",
+					"children" : [
+						{
+							"colorCode" : "App Actions",
+							"name" : [
+								"Connect",
+								"Connect",
+								"Query"
+							],
+							"key" : "Connect-Connect-Query",
+							"size" : 1
+						},
+						{
+							"colorCode" : "App Actions",
+							"name" : [
+								"Connect",
+								"Connect",
+								"Connect"
+							],
+							"key" : "Connect-Connect-Connect",
+							"size" : 1
+						},
+						{
+							"colorCode" : "App Actions",
+							"name" : [
+								"Connect",
+								"Connect",
+								"Analyze"
+							],
+							"key" : "Connect-Connect-Analyze",
+							"size" : 1
+						}
+					],
+					"name" : [
+						"Connect",
+						"Connect"
+					],
+					"key" : "Connect-Connect",
+					"size" : 3
+				},
+				{
+					"colorCode" : "App Actions",
+					"children" : [
+						{
+							"colorCode" : "App Actions",
+							"name" : [
+								"Connect",
+								"Analyze",
+								"Extract"
+							],
+							"key" : "Connect-Analyze-Extract",
+							"size" : 1
+						}
+					],
+					"name" : [
+						"Connect",
+						"Analyze"
+					],
+					"key" : "Connect-Analyze",
+					"size" : 1
+				},
+				{
+					"colorCode" : "App Actions",
+					"children" : [
+						{
+							"colorCode" : "App Actions",
+							"name" : [
+								"Connect",
+								"Query",
+								"Query"
+							],
+							"key" : "Connect-Query-Query",
+							"size" : 1
+						}
+					],
+					"name" : [
+						"Connect",
+						"Query"
+					],
+					"key" : "Connect-Query",
+					"size" : 1
+				}
+			],
+			"name" : [
+				"Connect"
+			],
+			"key" : "Connect",
+			"size" : 5
+		},
+		{
+			"colorCode" : "Insight Actions",
+			"children" : [
+				{
+					"colorCode" : "Insight Actions",
+					"children" : [
+						{
+							"colorCode" : "Insight Actions",
+							"name" : [
+								"Remove",
+								"Remove",
+								"Remove"
+							],
+							"key" : "Remove-Remove-Remove",
+							"size" : 1
+						},
+						{
+							"colorCode" : "Insight Actions",
+							"name" : [
+								"Remove",
+								"Remove",
+								"Move"
+							],
+							"key" : "Remove-Remove-Move",
+							"size" : 1
+						}
+					],
+					"name" : [
+						"Remove",
+						"Remove"
+					],
+					"key" : "Remove-Remove",
+					"size" : 2
+				},
+				{
+					"colorCode" : "Insight Actions",
+					"children" : [
+						{
+							"colorCode" : "Insight Actions",
+							"name" : [
+								"Remove",
+								"Move",
+								"Move"
+							],
+							"key" : "Remove-Move-Move",
+							"size" : 1
+						}
+					],
+					"name" : [
+						"Remove",
+						"Move"
+					],
+					"key" : "Remove-Move",
+					"size" : 1
+				},
+				{
+					"colorCode" : "Insight Actions",
+					"children" : [
+						{
+							"colorCode" : "Insight Actions",
+							"name" : [
+								"Remove",
+								"Query",
+								"Calculate"
+							],
+							"key" : "Remove-Query-Calculate",
+							"size" : 1
+						}
+					],
+					"name" : [
+						"Remove",
+						"Query"
+					],
+					"key" : "Remove-Query",
+					"size" : 1
+				},
+				{
+					"colorCode" : "Insight Actions",
+					"children" : [
+						{
+							"colorCode" : "Insight Actions",
+							"name" : [
+								"Remove",
+								"Calculate",
+								"Query"
+							],
+							"key" : "Remove-Calculate-Query",
+							"size" : 1
+						}
+					],
+					"name" : [
+						"Remove",
+						"Calculate"
+					],
+					"key" : "Remove-Calculate",
+					"size" : 1
+				}
+			],
+			"name" : [
+				"Remove"
+			],
+			"key" : "Remove",
+			"size" : 5
+		},
+		{
+			"colorCode" : "App Actions",
+			"children" : [
+				{
+					"colorCode" : "App Actions",
+					"children" : [
+						{
+							"colorCode" : "App Actions",
+							"name" : [
+								"View",
+								"Filter",
+								"Filter"
+							],
+							"key" : "View-Filter-Filter",
+							"size" : 1
+						}
+					],
+					"name" : [
+						"View",
+						"Filter"
+					],
+					"key" : "View-Filter",
+					"size" : 1
+				},
+				{
+					"colorCode" : "App Actions",
+					"children" : [
+						{
+							"colorCode" : "App Actions",
+							"name" : [
+								"View",
+								"View",
+								"Restore"
+							],
+							"key" : "View-View-Restore",
+							"size" : 1
+						}
+					],
+					"name" : [
+						"View",
+						"View"
+					],
+					"key" : "View-View",
+					"size" : 1
+				},
+				{
+					"colorCode" : "App Actions",
+					"children" : [
+						{
+							"colorCode" : "App Actions",
+							"name" : [
+								"View",
+								"Restore",
+								"Query"
+							],
+							"key" : "View-Restore-Query",
+							"size" : 1
+						}
+					],
+					"name" : [
+						"View",
+						"Restore"
+					],
+					"key" : "View-Restore",
+					"size" : 1
+				}
+			],
+			"name" : [
+				"View"
+			],
+			"key" : "View",
+			"size" : 3
+		},
+		{
+			"colorCode" : "App Actions",
+			"children" : [
+				{
+					"colorCode" : "App Actions",
+					"children" : [
+						{
+							"colorCode" : "App Actions",
+							"name" : [
+								"Save",
+								"New",
+								"Query"
+							],
+							"key" : "Save-New-Query",
+							"size" : 1
+						}
+					],
+					"name" : [
+						"Save",
+						"New"
+					],
+					"key" : "Save-New",
+					"size" : 1
+				},
+				{
+					"colorCode" : "App Actions",
+					"children" : [
+						{
+							"colorCode" : "App Actions",
+							"name" : [
+								"Save",
+								"Query",
+								"Filter"
+							],
+							"key" : "Save-Query-Filter",
+							"size" : 1
+						}
+					],
+					"name" : [
+						"Save",
+						"Query"
+					],
+					"key" : "Save-Query",
+					"size" : 1
+				}
+			],
+			"name" : [
+				"Save"
+			],
+			"key" : "Save",
+			"size" : 3
+		},
+		{
+			"colorCode" : "Meta Actions",
+			"children" : [
+				{
+					"colorCode" : "Meta Actions",
+					"children" : [
+						{
+							"colorCode" : "Meta Actions",
+							"name" : [
+								"Edit",
+								"Query",
+								"New"
+							],
+							"key" : "Edit-Query-New",
+							"size" : 2
+						}
+					],
+					"name" : [
+						"Edit",
+						"Query"
+					],
+					"key" : "Edit-Query",
+					"size" : 2
+				}
+			],
+			"name" : [
+				"Edit"
+			],
+			"key" : "Edit",
+			"size" : 2
+		},
+		{
+			"colorCode" : "Exploration Actions",
+			"children" : [
+				{
+					"colorCode" : "Exploration Actions",
+					"children" : [
+						{
+							"colorCode" : "Exploration Actions",
+							"name" : [
+								"Restore",
+								"Bookmark",
+								"Bookmark"
+							],
+							"key" : "Restore-Bookmark-Bookmark",
+							"size" : 1
+						}
+					],
+					"name" : [
+						"Restore",
+						"Bookmark"
+					],
+					"key" : "Restore-Bookmark",
+					"size" : 1
+				},
+				{
+					"colorCode" : "Exploration Actions",
+					"children" : [
+						{
+							"colorCode" : "Exploration Actions",
+							"name" : [
+								"Restore",
+								"Query",
+								"Query"
+							],
+							"key" : "Restore-Query-Query",
+							"size" : 1
+						}
+					],
+					"name" : [
+						"Restore",
+						"Query"
+					],
+					"key" : "Restore-Query",
+					"size" : 1
+				}
+			],
+			"name" : [
+				"Restore"
+			],
+			"key" : "Restore",
+			"size" : 2
+		},
+		{
+			"colorCode" : "Insight Actions",
+			"children" : [
+				{
+					"colorCode" : "Insight Actions",
+					"children" : [
+						{
+							"colorCode" : "Insight Actions",
+							"name" : [
+								"Modify",
+								"Modify",
+								"Filter"
+							],
+							"key" : "Modify-Modify-Filter",
+							"size" : 1
+						}
+					],
+					"name" : [
+						"Modify",
+						"Modify"
+					],
+					"key" : "Modify-Modify",
+					"size" : 1
+				},
+				{
+					"colorCode" : "Insight Actions",
+					"children" : [
+						{
+							"colorCode" : "Insight Actions",
+							"name" : [
+								"Modify",
+								"Filter",
+								"Filter"
+							],
+							"key" : "Modify-Filter-Filter",
+							"size" : 1
+						}
+					],
+					"name" : [
+						"Modify",
+						"Filter"
+					],
+					"key" : "Modify-Filter",
+					"size" : 1
+				}
+			],
+			"name" : [
+				"Modify"
+			],
+			"key" : "Modify",
+			"size" : 2
+		},
+		{
+			"colorCode" : "App Actions",
+			"children" : [
+				{
+					"colorCode" : "App Actions",
+					"children" : [
+						{
+							"colorCode" : "App Actions",
+							"name" : [
+								"Show",
+								"Edit",
+								"Query"
+							],
+							"key" : "Show-Edit-Query",
+							"size" : 1
+						}
+					],
+					"name" : [
+						"Show",
+						"Edit"
+					],
+					"key" : "Show-Edit",
+					"size" : 1
+				},
+				{
+					"colorCode" : "App Actions",
+					"children" : [
+						{
+							"colorCode" : "App Actions",
+							"name" : [
+								"Show",
+								"Query",
+								"Query"
+							],
+							"key" : "Show-Query-Query",
+							"size" : 1
+						}
+					],
+					"name" : [
+						"Show",
+						"Query"
+					],
+					"key" : "Show-Query",
+					"size" : 1
+				}
+			],
+			"name" : [
+				"Show"
+			],
+			"key" : "Show",
+			"size" : 2
+		},
+		{
+			"colorCode" : "Insight Actions",
+			"children" : [
+				{
+					"colorCode" : "Insight Actions",
+					"children" : [
+						{
+							"colorCode" : "Insight Actions",
+							"name" : [
+								"hide",
+								"Remove",
+								"Remove"
+							],
+							"key" : "hide-Remove-Remove",
+							"size" : 1
+						}
+					],
+					"name" : [
+						"hide",
+						"Remove"
+					],
+					"key" : "hide-Remove",
+					"size" : 1
+				},
+				{
+					"colorCode" : "Insight Actions",
+					"children" : [
+						{
+							"colorCode" : "Insight Actions",
+							"name" : [
+								"hide",
+								"Query",
+								"View"
+							],
+							"key" : "hide-Query-View",
+							"size" : 1
+						}
+					],
+					"name" : [
+						"hide",
+						"Query"
+					],
+					"key" : "hide-Query",
+					"size" : 1
+				}
+			],
+			"name" : [
+				"hide"
+			],
+			"key" : "hide",
+			"size" : 2
+		},
+		{
+			"colorCode" : "App Actions",
+			"children" : [
+				{
+					"colorCode" : "App Actions",
+					"children" : [
+						{
+							"colorCode" : "App Actions",
+							"name" : [
+								"Analyze",
+								"Extract",
+								"New"
+							],
+							"key" : "Analyze-Extract-New",
+							"size" : 1
+						}
+					],
+					"name" : [
+						"Analyze",
+						"Extract"
+					],
+					"key" : "Analyze-Extract",
+					"size" : 1
+				}
+			],
+			"name" : [
+				"Analyze"
+			],
+			"key" : "Analyze",
+			"size" : 1
+		},
+		{
+			"colorCode" : "App Actions",
+			"children" : [
+				{
+					"colorCode" : "App Actions",
+					"children" : [
+						{
+							"colorCode" : "App Actions",
+							"name" : [
+								"Extract",
+								"New",
+								"Query"
+							],
+							"key" : "Extract-New-Query",
+							"size" : 1
+						}
+					],
+					"name" : [
+						"Extract",
+						"New"
+					],
+					"key" : "Extract-New",
+					"size" : 1
+				}
+			],
+			"name" : [
+				"Extract"
+			],
+			"key" : "Extract",
+			"size" : 1
+		},
+		{
+			"colorCode" : "Exploration Actions",
+			"children" : [
+				{
+					"colorCode" : "Exploration Actions",
+					"children" : [
+						{
+							"colorCode" : "Exploration Actions",
+							"name" : [
+								"Change-Metaphor",
+								"Undo",
+								"Annotate"
+							],
+							"key" : "Change-Metaphor-Undo-Annotate",
+							"size" : 1
+						}
+					],
+					"name" : [
+						"Change-Metaphor",
+						"Undo"
+					],
+					"key" : "Change-Metaphor-Undo",
+					"size" : 1
+				}
+			],
+			"name" : [
+				"Change-Metaphor"
+			],
+			"key" : "Change-Metaphor",
+			"size" : 1
+		}
+	],
+	"name" : "assignment/ass1-anna-activities",
+	"size" : 198
+}

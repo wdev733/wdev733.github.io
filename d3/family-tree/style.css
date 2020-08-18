@@ -1,0 +1,28 @@
+path {
+     stroke: #fff;
+}
+
+#vis{
+	text-align: center;
+}
+
+.hidden-arc{
+    fill: none;
+    stroke: none;
+}
+
+.hidden-married-arc{
+	fill: none;
+	stroke: none;
+}
+text{
+	text-anchor: middle;
+}
+
+.depth_0 text{
+	display: none;
+}
+
+.depth_0 text.root,.depth_0 .married-info-text{
+	display: block;
+}

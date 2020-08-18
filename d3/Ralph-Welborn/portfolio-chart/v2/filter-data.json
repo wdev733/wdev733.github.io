@@ -1,0 +1,14 @@
+{
+	"filters" : [
+		{
+			"name" : "Lenses",
+			"children": [{
+				"name" : "Industry",
+				"children":["Industry - Banking","Industry - Biotech","Industry - Distrbution","Industry - Healthcare","Industry - Manufacturing", "Industry - Pharma"]
+			},{
+				"name" : "Financials",
+				"children":["Financials - Cost of Capital >5%","Financials - Cost of Capital >10%","Financials - RoC > 5%","Financials - RoC > 10%"]
+			}]
+		}
+	]
+}

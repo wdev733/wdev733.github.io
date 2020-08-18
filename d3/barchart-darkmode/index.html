@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style> 
+
+.title {
+	font: 15px sans-serif;
+}
+
+.legend {
+	font: 10px sans-serif;
+}
+.axis path,
+.axis line {
+	fill: none;
+	stroke: #000;
+	shape-rendering: crispEdges;
+}
+
+.x.axis.path {
+	display: none;
+}
+
+.line {
+  fill: none;
+  stroke: black;
+  stroke-width: 1.2px;
+}
+
+.bar.positive {
+  fill: #6dce2c;
+}
+
+.bar.negative {
+  fill: #b70d0d;			  
+}
+svg{
+	background: black;
+}
+
+g text{
+	font-size: 15px;
+	fill: white;
+}
+</style>
+<body>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+
+<script> 
+
+	var margin = {top: 20, right: 80, bottom: 30, left: 40};
+	var width = 1660 - margin.left - margin.right;
+	var height = 500 - margin.top - margin.bottom;
+
+	var timeFormat = d3.timeFormat("%b");
+	var parseDate = d3.timeParse("%Y:%m");
+
+	var x = d3.scaleTime()
+		.range([0, width]);
+
+	var y = d3.scaleLinear()
+		.range([height, margin.top]);
+
+	var center = d3.scaleLinear()
+		.range([0, width]);
+
+	var color = d3.scaleOrdinal()
+		.range(["#BBCDA3", "#055C81", "#B13C3D", "#CCB40C"]);
+
+	// var labels = ["Production and Income", "Employment, Unemployment, and Hours", "Consumption and Housing", "Sales, Orders, and Inventories"];
+
+	var xAxis = d3.axisBottom(x).ticks(0);
+	// var yAxis = d3.axisLeft(y).ticks(10);
+
+	var centerLine = d3.axisTop(center).ticks(0);
+
+	d3.json("data.json", function(error, data) {				
+	var datestart = d3.min(data, function(d) { return parseDate(d.date); });
+	var dateend = d3.max(data, function(d) { return parseDate(d.date); });
+
+
+    y.domain(d3.extent(data, function(d) {
+        return d.p_i;
+    })).nice();
+		x.domain([datestart, dateend]);		
+		// color.domain(keys);
+
+
+		var svg = d3.select("body").append("svg")
+									.attr("width", width + margin.left + margin.right)
+									.attr("height", height + margin.top + margin.bottom)
+									.append("g")
+									.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+		svg.append("g")
+			.attr("class", "x axis")
+			.attr("transform", "translate(0," + height + ")")
+			.call(xAxis);
+		
+		svg.append("g")
+			.attr("class", "centerline")
+			.attr("transform", "translate(0," + y(0) + ")")
+			.call(centerLine);
+
+
+		var ele_g = svg.selectAll(".bar")
+        .data(data)
+        .enter().append('g');
+        
+        ele_g.append("rect")
+        .attr("class", function(d) {
+            if (d.p_i < 0){
+                return "bar negative";
+            } else {
+                return "bar positive";
+            }
+
+        })
+        .attr("data-yr", function(d){
+            return d.date;
+        })
+        .attr("data-c", function(d){
+            return d.p_i;
+        })
+        .attr("title", function(d){
+            return (d.date + ": " + d.p_i + "%")
+        })
+        .attr("y", function(d) {
+            if (d.p_i > 0){
+                return y(d.p_i);
+            } else {
+                return y(0);
+            }
+
+        })
+        .attr("x", function(d) {
+            return x(parseDate(d.date));
+        })
+        .attr("rx",5)
+        .attr("ry",5)
+        .attr("width", 40)
+        .attr("height", function(d) {
+            return Math.abs(y(d.p_i) - y(0));
+        })
+            
+    ele_g.append('text')
+        .attr("text-anchor","middle")
+        .attr("x",function(d){return x(parseDate(d.date)) + 20})
+        .attr("y",function(d){
+            if(d.p_i>0) {
+                return y(d.p_i) - 10;
+            }else{
+                return y(0) - 10;
+            }
+        })
+        .text((d)=>d.p_i.toFixed(2)+" %")
+        .style("color","white");
+
+    ele_g.append('text')
+        .attr("text-anchor","middle")
+        .attr("x",function(d){return x(parseDate(d.date)) + 20})
+        .attr("y",function(d){
+            if(d.p_i>0) {
+                return y(0) + 15;
+            }else{
+                return y(d.p_i) + 15;
+            }
+        })
+        .text((d)=>timeFormat(parseDate(d.date)))
+        .style("color","white");
+	})
+
+</script>

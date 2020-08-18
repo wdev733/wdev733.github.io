@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Sunburst Visualization</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src='https://d3js.org/d3.v4.min.js'></script>
+    <!-- <script type="text/javascript" src='chart.js'></script> -->
+</head>
+<body>
+    <div id="main">
+        <div id="sequence"></div>
+        <div id="chart">
+        </div>
+      </div>
+      <div id="sidebar">
+        <div id="data-selection-widget">
+            <h3>Data Selection</h3>     
+            <div class="selection-rowcounts">
+                <input type="checkbox" id="checkbox-rowcount" name="selection[]" value="RowCount"/> Row Count
+                <select id="select-rowcount" class="hide">
+                    <option value="length">Length</option>
+                    <option value="color">Color</option>
+                </select>
+            </div>
+            <div class="selection-sensitivity">
+                <input type="checkbox" id="checkbox-sensitivity" name="selection[]" value="Sensitivity" checked="checked"/> Sensitivity
+            </div>
+            <div class="selection-redundancy">
+                <input type="checkbox" id="checkbox-redundancy" name="selection[]" value="Redundancy" checked="checked"/> Redundancy
+                <select id="select-redundancy" class="hide">
+                    <option value="length" selected>Length</option>
+                    <option value="color">Color</option>
+                </select>
+            </div>
+            <p class="error-msg hide">Sorry, you can't select all of them. Please deselect one first</p>
+        </div>
+        <div id="aggregate-widget">
+            <h3>Aggregate  Data</h3>
+            <select id="aggregate-select"><option value="sum">Sum</option><option value="average" selected>Average</option></select>
+        </div>
+        <div id="filter-widget">            
+            <h3> Filter by Sensitivity</h3>
+            <input type="checkbox" name="sensitivity[]" value="0" /> 0
+            <input type="checkbox" name="sensitivity[]" value="1" checked="checked"/> 1
+            <input type="checkbox" name="sensitivity[]" value="2" checked="checked"/> 2
+            <input type="checkbox" name="sensitivity[]" value="3" checked="checked"/> 3
+            <input type="checkbox" name="sensitivity[]" value="4" checked="checked"/> 4
+            <input type="checkbox" name="sensitivity[]" value="5" checked="checked"/> 5
+
+            <h3>Row Counts</h3>
+            <input type="checkbox" name="include-zero-rowcount" value="0" />Include tables with 0 rows
+        </div>    
+        <div id="filter-rings">
+            <h3>Filter Rings</h3>
+            <input type="checkbox" name="rings[]" value="DataStoreName" checked="checked" /> Data Store <br/>
+            <input type="checkbox" name="rings[]" value="TableName" checked="checked" /> Data Collection <br/>
+            <input type="checkbox" name="rings[]" value="DataElementName" checked="checked" /> Data Element <br/>
+            <p class="ring-error-msg hide">Sorry, but you must select at least one.</p>
+        </div>
+
+        <div id="legend-widget">
+            <h3>Legend</h3>
+            <p>Length: <span id="length_span">Entity Count</span></p>
+            <p>Color: <span id="color_span"></span></p>
+            <div class="color-legend hide">
+            <svg width="200" height="50" id="legend-svg">
+                <defs>
+                    <linearGradient id="gradient">         <!--gradientTransform="rotate(45)"-->
+                        <stop offset="0.0%" stop-color="#EEEEEE"></stop>  
+                        <stop offset="50.0%" stop-color="#B928BB"></stop>  
+                        <stop offset="100%" stop-color="#FC0E36"></stop>
+                    </linearGradient>
+                </defs>
+                <rect x="15" y="0" width="170" height="30" fill="url(#gradient)" />
+                <text id="color-min" x="15" y="40" text-anchor="middle">30.00</text>
+                <text id="color-max" x="185" y="40" text-anchor="middle">30.00</text>
+            </svg>
+        </div>
+        </div>
+      </div>
+      <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

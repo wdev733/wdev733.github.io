@@ -1,0 +1,6 @@
+
+- Click folder nodes (hollow coloured ones) to expand and contract
+
+- HREF from every feature node (solid coloured) -> Applicable row within 'Feature Summary' section. A feature node represents a feature file which normally contains more than one test.
+
+- Tooltip on hover over a feature node to see success % for the execution of that feature file.

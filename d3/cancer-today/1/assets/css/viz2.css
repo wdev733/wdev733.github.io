@@ -1,0 +1,20 @@
+text.label{
+	font-size:12px;
+}
+
+path {    
+    stroke-width: 2;
+    fill: none;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+
+.hide{
+	display: none;
+}

@@ -1,0 +1,70 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>QA Survey</title>
+  <style>
+  path{
+    fill: none;
+  }
+  div.tooltip { 
+    position: absolute;     
+    text-align: center;     
+    width: 100px;                  
+    padding: 5px;       
+    font: 12px sans-serif;    
+    background: black; 
+    border: 0px;        
+    color:white;
+    pointer-events: none;     
+  }
+
+  path{
+    stroke: grey;
+    opacity: 0.3;
+  }
+
+  path.highlight{
+    stroke: #0268fb;
+    opacity: 0.8;
+  }
+
+  path.dehighlight{
+    stroke: grey;    
+  }
+
+  .node_exit_0{
+    fill: yellow;
+  }
+
+  .node_exit_1{
+    fill: green;
+  }
+
+  .node_exit_2{
+    fill: orange;
+  }
+
+  .node_exit_3{
+    fill: red;
+  }
+path.link{
+  fill: none;
+}
+  .event{
+      fill: blue;
+    } 
+    .action{
+    fill: lightsteelblue;
+  }
+  </style>
+</head>
+<body>
+<div id="main_content">
+</div>
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="assets/js/script.js"></script>
+</body>
+</html>

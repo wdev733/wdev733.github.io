@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <title>Portfolio Bubble Chart | Ralph Welborn</title>
+        <style>
+            body{
+            font-family: calibri;
+            padding-top: 30px;
+            }
+            h2{
+            text-align: center;
+            }
+            #chart_wrapper svg{
+            margin: 0 auto;
+            display: block;
+            }
+            #chart_wrapper{
+            min-height: 800px;
+            width: 100%;
+            position: relative;
+            }        
+            .description{
+            position: absolute;
+            top: 30px;
+            left: 70px;
+            width: 300px;
+            }
+            .place_title{
+            font-size: 20px;
+            }
+            path.link{
+            fill: none;
+            }
+            circle,text{
+            cursor: pointer;
+            }
+            circle{
+            fill-opacity:0.8;
+            }
+            .hide{
+            display: none;
+            }
+            .yoption_span, .roption_span{
+            font-weight: bold;
+            font-size: 20px;
+            }
+            div.tooltip {
+            color: white;
+            position: absolute;
+            text-align: center;
+            min-width: 60px;
+            min-height: 28px;
+            padding: 10px;
+            font: 12px sans-serif;
+            background: rgba(0,0,0,.8);
+            border: 2px solid black;
+            pointer-events: none;
+            }
+            .detaillevel{
+            margin: 0 auto;
+            }
+            .detaillevel input{
+            display: none;
+            }
+            circle{
+            cursor: pointer;
+            }
+            .hide{
+            opacity: 0;
+            }
+            .indicator_g rect{
+            fill: white;
+            }
+            .indicator_g line{
+            stroke: black;            
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <h2>Distribution of Asset Capabilities</h2>
+            <div id="chart_wrapper">    
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="btn-group detaillevel" data-toggle="buttons">
+                    <label class="btn btn-primary active">
+                    <input type="radio" name="options" value="1" autocomplete="off" checked> Detail 1
+                    </label>
+                    <label class="btn btn-primary">
+                    <input type="radio" name="options" value="2" autocomplete="off"> Detail 2
+                    </label>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://d3js.org/d3.v5.min.js"></script>    
+        <script src="assets/js/script.js"></script>
+        </center>
+    </body>
+</html>

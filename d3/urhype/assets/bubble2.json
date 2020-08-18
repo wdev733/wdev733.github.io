@@ -1,0 +1,42 @@
+[
+  {
+    "__metadata": {
+      "id": "6fa8f3ea-6263-4f06-b7b9-0ed48f8c9cbb",
+      "uri": "https://xxxx/_api/Web/Lists(guid'49dceecd-ada5-4ae7-8d24-0a6b8db1dce7')/Items(14308)",
+      "etag": "5",
+      "type": "SP.Data.SitesListItem"
+    },
+    "xxxLead": {
+      "__deferred": {
+        "uri": "https://xxxx/_api/Web/Lists(guid'49dceecd-ada5-4ae7-8d24-0a6b8db1dce7')/Items(14308)/xxxLead"
+      }
+    },
+    "CustomerLead": {
+      "__deferred": {
+        "uri": "https://xxxx/_api/Web/Lists(guid'49dceecd-ada5-4ae7-8d24-0a6b8db1dce7')/Items(14308)/CustomerLead"
+      }
+    },
+    "Title": "https://xxxxx/weekly",
+    "Storage": 157.98
+  },
+  {
+    "__metadata": {
+      "id": "1ca6611a-82e6-478c-9a4b-baafc27eb72d",
+      "uri": "https://xxxx/_api/Web/Lists(guid'49dceecd-ada5-4ae7-8d24-0a6b8db1dce7')/Items(14309)",
+      "etag": "5",
+      "type": "SP.Data.SitesListItem"
+    },
+    "xxxLead": {
+      "__deferred": {
+        "uri": "https://xxxx/_api/Web/Lists(guid'49dceecd-ada5-4ae7-8d24-0a6b8db1dce7')/Items(14309)/xxxLead"
+      }
+    },
+    "CustomerLead": {
+      "__deferred": {
+        "uri": "https://xxxx/_api/Web/Lists(guid'49dceecd-ada5-4ae7-8d24-0a6b8db1dce7')/Items(14309)/CustomerLead"
+      }
+    },
+    "Title": "https://xxxx/VOIP",
+    "Storage": 157.98
+  }
+]

@@ -1,0 +1,107 @@
+.content{
+  width: 75%;
+  margin: 0 auto;
+}
+svg {
+  font: 10px sans-serif;
+}
+
+.rightAxis path,
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.brush .extent {
+  stroke: #aaa;
+  fill-opacity: .5;
+  shape-rendering: crispEdges;
+  clip-path: url(#clip);
+}
+
+rect.pane {
+  cursor: move;
+  fill: none;
+  pointer-events: all;
+}
+
+rect.bar.clicked{
+  fill: #aaa;
+}
+.g_wrapper{
+  clip-path:url(#clip);
+}
+body{
+  padding-top: 20px;
+}
+#total_rev_by_date_chart_wrapper svg, #totalrev_chart_wrapper svg{
+  width: 70%;  
+}
+
+#eventlength_chart_wrapper svg,#projectid_chart_wrapper svg{
+  width: 80%;
+}
+
+#totalrev_chart_wrapper, #total_rev_by_date_chart_wrapper{
+  width: 100%;
+  text-align: center;
+}
+#eventlength_chart_wrapper text,#projectid_chart_wrapper text{
+  font-size: 20px;
+}
+#eventlength_chart_wrapper,#projectid_chart_wrapper{
+  width: 50%;
+  float: left;  
+}
+#eventlength_chart_wrapper{
+  text-align: right;
+}
+#projectid_chart_wrapper{
+  text-align: left;
+}
+#xaxis .domain {
+  fill:none;
+  stroke:#000;
+}
+#xaxis text, #yaxis text {
+  font-size: 12px;
+}
+
+rect{
+  fill:#5f89ad;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+rect{
+  cursor: pointer;
+}

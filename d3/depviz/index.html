@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+<title>Depviz - Interactive Visualization</title>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:600" rel="stylesheet">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<meta charset="utf-8">
+<style>
+    ellipse{
+        fill:#ffa500;
+    }
+    .item rect,.ritem rect{
+        fill:#ffc0cb;
+    }
+    svg text{
+        font-size: 10px;
+    }
+    svg{
+        width:100%;
+        height:100%;
+    }
+    .orphan1 span,.orphan2 span{
+        font-size: 15px;
+        text-align: center;
+        line-height: 16px;
+        display: block;
+    }
+    .orphan1,.orphan2{
+        background: #c0c0c0;
+        border-radius: 8px;
+        overflow: hidden;
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+    #orphans_section{
+        padding:30px;
+        border:1px dotted black;
+        margin-top: 30px;
+    }
+    .axis{
+        display: none;
+    }
+
+    line{
+        stroke-dasharray: 4;
+        stroke: red;
+    }
+    .div_item{
+        position: absolute;
+    }
+    #chart_container{
+        position: relative;
+    }
+</style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+    <div id="chart_container" class="col-md-9"></div>
+    <div id="orphans_section" class="col-md-3">
+        <p>Orphans without links</p>
+        <div class='row'>
+            <div class="orphan1_wrapper col-md-6">
+            </div>
+            <div class="orphan2_wrapper col-md-6">
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script>    
+        d3.json("data.json", function(error, data) {
+            var showData = data.filter(function(d){
+                if(d['is-hidden']==false){
+                    return d;
+                }
+            })
+            var orphansWithoutLinks = showData.filter(function(d){
+                if(d['is-linked-with-an-epic']==false && d['is-orphan']==true){
+                    return d;
+                }
+            })
+            var graphData = showData.filter(function(d){
+                if(d['is-linked-with-an-epic']==true || d['is-orphan']==false){
+                    return d;
+                }
+            })
+            
+            var linksData = makeLinks(graphData);
+            console.log(linksData);
+            var weightGroup = [];
+            graphData.map(function(d){
+                if(weightGroup.indexOf(d['weight'])==-1){
+                    weightGroup.push(d['weight'])
+                }
+            });
+            
+            weightGroup.sort(d3.ascending);
+            var nestedData = d3.nest()
+            .key(function(d) {
+                return d['weight']
+            })
+            .entries(graphData);
+                        
+            var m = nestedData.map(function(n){
+                return n['values'].length
+            })
+
+            var yDomain = [];
+            for(var i=0;i<d3.max(m);i++){
+                yDomain.push(i);
+            }
+            //Draw Graph
+            var margin = {top: 40, right: 0, bottom: 0, left: 40},
+                width = 1560 - margin.left - margin.right,
+                height = 800 - margin.top - margin.bottom;
+
+            // set the ranges
+            var x = d3.scaleBand()
+                      .range([0, width])
+                      .padding(0.5)
+                      .paddingOuter(0);
+            var y = d3.scaleBand()
+                      .range([0,height])
+                      .padding(0.5)
+                      .paddingOuter(0);
+
+            var svg = d3.select("#chart_container").append("svg").attr('viewBox','0 0 1560 800').attr( 'preserveAspectRatio',"xMinYMin meet")
+                .append("g")
+                .attr("transform", 
+                      "translate(" + margin.left + "," + margin.top + ")");
+
+                x.domain(weightGroup);
+                y.domain(yDomain);
+            svg.append("g")
+                .attr('class','xaxis axis')
+                .attr("transform", "translate(0," + height + ")")
+                .call(d3.axisBottom(x));
+
+            // add the y Axis
+            svg.append("g")
+                .attr('class','yaxis axis')
+                .call(d3.axisLeft(y));
+
+            var weight_group = svg.selectAll('.weight_group').data(nestedData).enter().append('g').attr('class','weight_group').attr('transform',function(d){
+                return 'translate('+x(d.key)+',0)';
+            });
+
+            var g_epic_item = weight_group.selectAll('.epic_item')
+                .data(function(d){
+                    d.values.map(function(value,i){value['yIndex']=i});                    
+                    var epics = d.values.filter(function(value){
+                    if(value['labels']!==null){
+                        var labelIDs = value['labels'].map(function(label){
+                            return label['ID'];
+                        });
+                        if(labelIDs.indexOf('epic')!==-1){
+                            return value;
+                        }                        
+                    };
+                });                
+                return epics;
+                }).enter().append('g').attr('class',function(d){return 'epic_item item_'+d['number']}).attr('transform',function(d,i){
+                    return 'translate(0,'+y(d['yIndex'])+')';
+                }).attr('pos_X',function(d){return x(d['weight'])+x.bandwidth()/2}).attr('pos_Y',function(d){return y(d['yIndex'])+y.bandwidth()/2;});
+
+            g_epic_item.append('ellipse').attr('cx',x.bandwidth()/2).attr('cy',y.bandwidth()/2).attr('rx',x.bandwidth()*0.9).attr('ry',y.bandwidth()*0.9);
+
+            // g_epic_item.append('text').attr('text-anchor','middle').attr('x',x.bandwidth()/2).text(function(d){return d.title}).call(wrap,x.bandwidth());
+            var g_item = weight_group.selectAll('.item')
+                .data(function(d){
+                    var epics = d.values.filter(function(value){
+                    if(value['labels']==null){
+                        return value;                       
+                    }else{
+                        var labelIDs = value['labels'].map(function(label){
+                            return label['ID'];
+                        });
+                        if(labelIDs.indexOf('epic')==-1){
+                            return value;
+                        } 
+                }});                
+                return epics;
+                }).enter().append('g').attr('class',function(d){return 'item item_'+d['number']}).attr('transform',function(d,i){
+                    return 'translate(0,'+y(d['yIndex'])+')';
+                }).attr('pos_X',function(d){return x(d['weight'])+x.bandwidth()/2}).attr('pos_Y',function(d){return y(d['yIndex'])+y.bandwidth()/2;});
+
+            g_item.append('rect').attr('x',0).attr('width',x.bandwidth()).attr('y',0).attr('height',y.bandwidth()).attr('rx',2).attr('ry',2);
+            // g_item.append('text').attr('text-anchor','middle').attr('x',x.bandwidth()/2).attr('y',y.bandwidth()/2-10).text(function(d){return d.title}).call(wrap,x.bandwidth());
+
+            svg.selectAll('.item_link').data(linksData).enter().append('line').attr('class',function(d){return 'item_link link_'+d['source']+'_to_'+d['target']})
+            .attr('x1',function(d){return d3.select('.item_'+d['source']).attr('pos_X')})
+            .attr('y1',function(d){return d3.select('.item_'+d['source']).attr('pos_Y')})
+            .attr('x2',function(d){return d3.select('.item_'+d['target']).attr('pos_X')})
+            .attr('y2',function(d){return d3.select('.item_'+d['target']).attr('pos_Y')});
+
+            var divContainer = d3.select('#chart_container');
+            divContainer.selectAll('.div_item').data(graphData).enter().append('div').attr('class','div_item')
+            .style('left',function(d){
+                var s = '.item_'+d['number']; 
+                return $(s).offset().left+'px';})         
+            .style('top',function(d){var s = '.item_'+d['number'];                 
+                return $(s).offset().top+'px';})
+            .style('width',function(d){var s = '.item_'+d['number'];                 
+                console.log($(s).width());
+                return $(s).width()+'px';})
+            .style('height',function(d){var s = '.item_'+d['number'];                 
+                return $(s).height()+'px';})
+
+
+            var weight_group1 = svg.selectAll('.weight_group1').data(nestedData).enter().append('g').attr('class','weight_group1').attr('transform',function(d){
+                return 'translate('+x(d.key)+',0)';
+            });
+
+            var g_epic_real_item = weight_group1.selectAll('.epic_real_item')
+                .data(function(d){
+                    d.values.map(function(value,i){value['yIndex']=i});                    
+                    var epics = d.values.filter(function(value){
+                    if(value['labels']!==null){
+                        var labelIDs = value['labels'].map(function(label){
+                            return label['ID'];
+                        });
+                        if(labelIDs.indexOf('epic')!==-1){
+                            return value;
+                        }                        
+                    };
+                });                
+                return epics;
+                }).enter().append('g').attr('class',function(d){return 'epic_real_item item_'+d['number']}).attr('transform',function(d,i){
+                    return 'translate(0,'+y(d['yIndex'])+')';
+                }).attr('pos_X',function(d){return x(d['weight'])+x.bandwidth()/2}).attr('pos_Y',function(d){return y(d['yIndex'])+y.bandwidth()/2;});
+
+            g_epic_real_item.append('ellipse').attr('cx',x.bandwidth()/2).attr('cy',y.bandwidth()/2).attr('rx',x.bandwidth()*0.9).attr('ry',y.bandwidth()*0.9);
+
+            // g_epic_real_item.append('text').attr('text-anchor','middle').attr('x',x.bandwidth()/2).text(function(d){return d.title}).call(wrap,x.bandwidth());
+            var g_ritem = weight_group1.selectAll('.ritem')
+                .data(function(d){
+                    var epics = d.values.filter(function(value){
+                    if(value['labels']==null){
+                        return value;                       
+                    }else{
+                        var labelIDs = value['labels'].map(function(label){
+                            return label['ID'];
+                        });
+                        if(labelIDs.indexOf('epic')==-1){
+                            return value;
+                        } 
+                }});                
+                return epics;
+                }).enter().append('g').attr('class',function(d){return 'ritem item_'+d['number']}).attr('transform',function(d,i){
+                    return 'translate(0,'+y(d['yIndex'])+')';
+                }).attr('pos_X',function(d){return x(d['weight'])+x.bandwidth()/2}).attr('pos_Y',function(d){return y(d['yIndex'])+y.bandwidth()/2;});
+
+            g_ritem.append('rect').attr('x',0).attr('width',x.bandwidth()).attr('y',0).attr('height',y.bandwidth()).attr('rx',2).attr('ry',2);
+            // g_ritem.append('text').attr('text-anchor','middle').attr('x',x.bandwidth()/2).attr('y',y.bandwidth()/2-10).text(function(d){return d.number}).call(wrap,x.bandwidth());
+
+            var orphans_section1 = d3.select('#orphans_section .orphan1_wrapper');
+            orphans_section1.selectAll('.orphan1').data(orphansWithoutLinks.filter(function(d,i){
+                if(i<=orphansWithoutLinks.length / 2){
+                    return d;
+                }
+            })).enter().append('div').attr('class','orphan1').append('span').html(function(d){return d.number});
+
+            var orphans_section2 = d3.select('#orphans_section .orphan2_wrapper');
+            orphans_section2.selectAll('.orphan2').data(orphansWithoutLinks.filter(function(d,i){
+                if(i > orphansWithoutLinks.length / 2){
+                    return d;
+                }
+            })).enter().append('div').attr('class','orphan2').append('span').html(function(d){return d.title});
+
+            svg.append('text').text('DepViz has "cool" features').call(wrap,60);
+        })
+
+        function makeLinks(showData){
+            var links = [];
+            showData.forEach(function(datum){
+                if(datum['children']!==null){                                    
+                    datum['children'].forEach(function(child){
+                        var link = new Object;
+                        link['source'] = datum['number'];
+                        link['target'] = getIndexByUrl(child,showData);                        
+                        link['type'] = 'dotted';
+                        links.push(link);
+                    })                                    
+                }
+            })
+            return links;
+        }
+
+        function getIndexByUrl(url,data){
+            var number;
+            data.forEach(function(d){
+                if(d['url']==url){
+                    number =  d['number'];
+                }
+            })
+            return number;
+        }
+
+        function wrap(text, width) {
+            text.each(function() {
+                var text = d3.select(this),
+                    words = text.text().split(/\s+/).reverse(),
+                    word,
+                    line = [],
+                    lineNumber = 0,
+                    lineHeight = 1.1, // ems
+                    y = text.attr("y")?text.attr('y'):0,
+                    x = text.attr('x')?text.attr('x'):0,
+                    dy = text.attr('dy')? parseFloat(text.attr("dy")):0,
+                    tspan = text.text(null).append("tspan").attr("x", x).attr("dy", dy + "em");
+                    console.log(words);
+                while (word = words.pop()) {
+                    line.push(word);
+                    tspan.text(line.join(" "));
+                    console.log(line);
+                    if (tspan.node().getComputedTextLength() > width) {
+                        line.pop();
+                        tspan.text(line.join(" "));
+                        line = [word];
+                        console.log(word);
+                        console.log(line);
+                        tspan = text.append("tspan").attr("x", x).attr("dy", lineHeight + dy + "em").text(word);
+                    }
+                }
+            });
+        }
+    </script>
+</body>
+</html>

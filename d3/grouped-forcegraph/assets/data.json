@@ -1,0 +1,150 @@
+{
+  "nodes": [
+    {
+      "name": "Peter",
+      "label": "Person",
+	  "place": 1,
+      "id": 1
+    },
+    {
+      "name": "Michael",
+      "label": "Person",
+	  "place": 1,
+      "id": 2
+    },
+    {
+      "name": "Neo4j",
+      "label": "Database",
+	  "place": 3,
+      "id": 3
+    },
+        {
+      "name": "Neo4j",
+      "label": "Database",
+    "place": 3,
+      "id": 5
+    },
+        {
+      "name": "Neo4j",
+      "label": "Database",
+    "place": 3,
+      "id": 6
+    },
+    {
+      "name": "Neo4j",
+      "label": "Database",
+    "place": 3,
+      "id": 7
+    },    {
+      "name": "Neo4j",
+      "label": "Database",
+    "place": 1,
+      "id": 8
+    },    {
+      "name": "Neo4j",
+      "label": "Database",
+    "place": 2,
+      "id": 9
+    },    {
+      "name": "Neo4j",
+      "label": "Database",
+    "place": 1,
+      "id": 10
+    },    {
+      "name": "Neo4j",
+      "label": "Database",
+    "place": 2,
+      "id": 11
+    },    {
+      "name": "Neo4j",
+      "label": "Database",
+    "place": 3,
+      "id": 12
+    },    {
+      "name": "Neo4j",
+      "label": "Database",
+    "place": 3,
+      "id": 13
+    },
+    {
+      "name": "Graph Database",
+      "label": "Database",
+	  "place": 2,
+      "id": 4
+    },
+    {
+      "name": "Neo4j",
+      "label": "Database",
+    "place": 4,
+      "id": 14
+    }
+  ],
+  "links": [
+    {
+      "source": 1,
+      "target": 2,
+      "type": "KNOWS",
+      "since": 2010
+    },
+    {
+      "source": 1,
+      "target": 3,
+      "type": "FOUNDED"
+    },
+        {
+      "source": 8,
+      "target": 14,
+      "type": "FOUNDED"
+    },
+    {
+      "source": 2,
+      "target": 3,
+      "type": "WORKS_ON"
+    },
+    {
+      "source": 3,
+      "target": 4,
+      "type": "IS_A"
+    },
+    {
+      "source": 2,
+      "target": 4,
+      "type": "IS_A"
+    },
+    {
+      "source": 1,
+      "target": 6,
+      "type": "IS_A"
+    },
+    {
+      "source": 1,
+      "target": 5,
+      "type": "IS_A"
+    },
+    {
+      "source": 5,
+      "target": 6,
+      "type": "IS_A"
+    },
+        {
+      "source": 11,
+      "target": 8,
+      "type": "IS_A"
+    },
+        {
+      "source": 1,
+      "target": 6,
+      "type": "IS_A"
+    },
+        {
+      "source": 3,
+      "target": 9,
+      "type": "IS_A"
+    },
+    {
+      "source": 2,
+      "target": 7,
+      "type": "IS_A"
+    }
+  ]
+}
